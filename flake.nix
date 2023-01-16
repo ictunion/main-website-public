@@ -15,5 +15,17 @@
           name = "itc-union-website";
           buildInputs = [ hugo ];
         };
+      defaultPackage = with pkgs;
+        stdenv.mkDerivation {
+          name = "itc-union-website";
+          src = self;
+          buildPhase = ''
+            ${hugo}/bin/hugo
+          '';
+          installPhase = ''
+            mkdir $out
+            mv public $out
+          '';
+        };
   });
 }

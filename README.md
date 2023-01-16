@@ -1,5 +1,7 @@
 # Main Website
 
+![](https://github.com/ictunion/main-website/workflows/build.yaml/badge.svg?branch=main&event=push)
+
 Source of the public union website. More info TBA.
 
 ## Developing
@@ -58,3 +60,9 @@ nix develop
 
 This will jump into shell environment where with all the necessary dependecies like hugo available
 on a pined version that were previously tested.
+
+To build html files using nix:
+
+```
+nix build '.?submodules=1'
+```
