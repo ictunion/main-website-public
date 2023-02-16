@@ -21,20 +21,14 @@ Skip to [Nix](#nix) section if you want to use it.
 
 ### Setup
 
-This project is (probably temporarily) using submodules so requires recursive clone:
+Preferred method of working with this repository is to have local git clone:
 
 ```
 # GIT+SSH clone
-git clone --recursive git@github.com:ictunion/main-website.git
+git clone git@github.com:ictunion/main-website.git
 
 # GIT+HTTPS clone
-git clone --recursive https://github.com/ictunion/main-website.git
-```
-
-To update (pull) whole repository including submodules run:
-
-```
-git submodule update --init
+git clonehttps://github.com/ictunion/main-website.git
 ```
 
 
@@ -64,5 +58,5 @@ on a pined version that were previously tested.
 To build html files using nix:
 
 ```
-nix build '.?submodules=1'
+nix build
 ```

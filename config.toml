@@ -1,4 +1,21 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+languageCode = 'cz'
+theme = 'ictunion'
+
+[languages]
+  [languages.cz]
+    weight = 2
+    [languages.cz.params]
+      linkedin = 'https://linkedin.com/whoever'
+      tag_line = 'Sektorové odbory pracujících v <br> IT a komunikacích.'
+      join_cta = 'přidej se'
+
+  [languages.en]
+    languagedirection = 'rtl'
+    weight = 1
+
+[params]
+    title = 'ICT'
+    sub_title = 'Union'
+    tag_line = 'Trade union of workers in <br> IT & communications.'
+    join_cta = 'join us'

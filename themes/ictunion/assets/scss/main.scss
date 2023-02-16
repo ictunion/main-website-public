@@ -1,0 +1,383 @@
+/**
+We follow rule of least surprise.
+
+* we don't use very general selectors,
+* we don't reuse classes
+* we don't use overly specific selectors
+
+This might mean a bit more things need to be done to add new thing
+but it makes long term maintainanece much simpler.
+*/
+@import "reset";
+
+$dark-color: #000000;
+$mutted-color: #2a3439;
+$more-mutted-color: #3d3d41;
+$very-mutted-color: #dcdcdc;
+$light-color: #ffffff;
+$primary-color: #1e7e8e;
+$secondary-color: #ffc832;
+$darken-secondary-color: #E8B322;
+$ternary-color: #00dbff;
+
+@mixin pharagraph {
+    line-height: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+@mixin has-links {
+    a, a:visited, a:active {
+        color: $ternary-color;
+    }
+
+    a:hover {
+        color: $light-color;
+        background: $ternary-color;
+    }
+}
+
+@mixin has-strong {
+    strong {
+        font-weight: 600;
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: 1000px) {
+        @content;
+    }
+}
+
+body, html {
+    font-family: 'Fira Sans', sans-serif;
+    eight: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.page-body {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    line-height: 72px;
+
+    @include tablet {
+        display: block;
+    }
+}
+
+.site-title, .site-title:visited, .site-title:active {
+    font-size: 24px;
+    font-weight: 400;
+    color: $dark-color;
+    text-decoration: none;
+    white-space: nowrap;
+
+    @include tablet {
+        display: block;
+        text-align: center;
+    }
+}
+
+.site-title:hover {
+    color: $dark-color;
+    background: transparent;
+}
+
+.site-title strong {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 600;
+}
+
+.page-nav {
+    line-height: 1.6em;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    gap: 48px;
+
+    a {
+        color: $mutted-color;
+        text-decoration: underline;
+        padding-bottom: -12px;
+        white-space: nowrap;
+
+        &:hover {
+            border-bottom: 5px solid $ternary-color;
+            background: transparent;
+            color: $mutted-color;
+            text-decoration: none;
+        }
+    }
+
+
+    @include tablet {
+        display: block;
+        text-align: center;
+    }
+}
+
+.page-nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+
+    @include tablet {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        line-height: 1.5em;
+        align-items: center;
+        gap: 6px;
+    }
+}
+
+.site-intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 0 48px 0;
+
+    @include tablet {
+        display: block;
+    }
+}
+
+.join-us-cta {
+    padding-top: 48px;
+    font-size: 24px;
+    max-width: 300px;
+    color: $mutted-color;
+
+    @include tablet {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.join-us-text {
+    @include pharagraph;
+    @include has-links;
+}
+
+.join-us-cta-btn {
+    position: relative;
+    border-radius: 3px;
+    background: $secondary-color;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 28px;
+    border: none;
+    padding: 24px 82px;
+    font-weight: 800;
+    cursor: pointer;
+
+    &:hover {
+        background: $darken-secondary-color;
+    }
+
+    @include tablet {
+        display: block;
+        width: 100%;
+    }
+}
+
+.site-tag {
+    padding: 32px 0;
+}
+
+.page-headline {
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 52px;
+    padding: 0;
+    margin: 0;
+
+    @include tablet {
+        text-align: center;
+    }
+}
+
+.site-tag-line {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.1em;
+    margin: 12px 0;
+
+    @include tablet {
+        text-align: center;
+    }
+}
+
+.page-headline {
+    strong {
+        font-family: 'Abril Fatface', cursive;
+        font-weight: 900;
+        display: block;
+    }
+
+    small {
+        font-weight: 300;
+        font-size: 36px;
+        color: $mutted-color;
+        letter-spacing: 6px;
+    }
+}
+
+.next-section {
+    background: $primary-color;
+    color: $light-color;
+    padding: 48px 0;
+}
+
+.section-title-next {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 0.9em;
+    border-bottom: solid 10px $secondary-color;
+    padding: 0;
+    margin: 0;
+}
+
+.coll-container {
+    display: flex;
+    gap: 84px;
+
+    @include tablet {
+        display: block;
+    }
+}
+
+.section-description {
+    @include pharagraph;
+    @include has-links;
+    @include has-strong;
+    font-size: 20px;
+}
+
+.homepage-item {
+    p {
+        line-height: 1.5em;
+        font-size: 18px;
+    }
+}
+
+.event-item {
+    padding-bottom: 32px;
+    border-bottom: 2px solid $very-mutted-color;
+}
+
+.event-item:last-child {
+    border-bottom: none;
+}
+
+.participate-title {
+    margin: 64px 0 32px 0;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.participate-pharagraph {
+    @include pharagraph;
+}
+
+.join-title {
+    margin: 68px 0 52px 0;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.third-section {
+    background: $secondary-color;
+    padding: 48px 0 64px 0;
+}
+
+.section-title {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 0.9em;
+    border-bottom: solid 10px $dark-color;
+    padding: 0;
+    margin: 0;
+}
+
+.forth-section {
+    padding: 48px 0;
+}
+
+.forth-section-title {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 0.9em;
+    border-bottom: solid 10px $secondary-color;
+    padding: 0;
+    margin: 0;
+}
+
+.page-footer {
+    background: $more-mutted-color;
+    padding: 32px 0;
+    color: $light-color;
+    line-height: 2em;
+
+    a {
+        color: $light-color;
+    }
+}
+
+.column {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.event-title {
+    margin: 64px 0 18px 0;
+    font-weight: 600;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.event-date {
+    background: $mutted-color;
+    color: $secondary-color;
+    font-weight: 600;
+    padding: 0 4px;
+    border-radius: 2px;
+}
+
+.event-place {
+    font-weight: 600;
+    font-style: italic;
+    color: $mutted-color;
+}
+
+.event-description {
+    @include pharagraph;
+}
+
+.foot-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 24px 0;
+}
+
+.page-foot-nav-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 2em;
+    font-weight: 400;
+}
