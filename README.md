@@ -16,8 +16,9 @@ the publically available website.
 This project defines  reproducible evironment using [nix](https://nixos.org/).
 Skip to [Nix](#nix) section if you want to use it.
 
-- [hugo](https://gohugo.io/) side generator
 - [git](https://git-scm.com/)
+- [hugo](https://gohugo.io/) side generator
+- [dart-sass-embedded](https://github.com/sass/dart-sass-embedded)
 
 ### Setup
 

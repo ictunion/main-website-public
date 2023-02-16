@@ -11,6 +11,7 @@ but it makes long term maintainanece much simpler.
 @import "reset";
 
 $main-font: 'Merriweather Sans', sans-serif;
+$secondary-font: 'Abril Fatface', cursive;
 
 $dark-color: #000000;
 $mutted-color: #2a3439;
@@ -118,7 +119,7 @@ body, html {
 }
 
 .site-title strong {
-    font-family: 'Abril Fatface', cursive;
+    font-family: $secondary-font;
     font-weight: 600;
 }
 
@@ -145,7 +146,9 @@ body, html {
 
 
     @include tablet {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
         text-align: center;
     }
 }
@@ -158,7 +161,7 @@ body, html {
     padding: 0;
 
     @include tablet {
-        justify-content: space-around;
+        justify-content: center;
         flex-wrap: wrap;
         line-height: 1.5em;
         align-items: center;
@@ -232,7 +235,7 @@ body, html {
     }
 
     strong {
-        font-family: 'Abril Fatface', cursive;
+        font-family: $secondary-font;
         font-weight: 900;
         display: block;
     }
