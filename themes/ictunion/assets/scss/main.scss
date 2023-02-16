@@ -10,15 +10,18 @@ but it makes long term maintainanece much simpler.
 */
 @import "reset";
 
+$main-font: 'Merriweather Sans', sans-serif;
+
 $dark-color: #000000;
 $mutted-color: #2a3439;
 $more-mutted-color: #3d3d41;
 $very-mutted-color: #dcdcdc;
 $light-color: #ffffff;
-$primary-color: #1e7e8e;
+$primary-color: #237fa8;
 $secondary-color: #ffc832;
 $darken-secondary-color: #E8B322;
-$ternary-color: #00dbff;
+$ternary-color: #237FA8;
+$ternary-color: #43C5FF;
 
 @mixin pharagraph {
     line-height: 1.5em;
@@ -43,6 +46,23 @@ $ternary-color: #00dbff;
     }
 }
 
+@mixin section-title {
+    display: inline-block;
+    font-size: 48px;
+    letter-spacing: -2px;
+    font-weight: 800;
+    line-height: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin title {
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: -1px;
+}
+
 @mixin tablet {
     @media screen and (max-width: 1000px) {
         @content;
@@ -50,7 +70,7 @@ $ternary-color: #00dbff;
 }
 
 body, html {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: $main-font;
     eight: 100%;
     padding: 0;
     margin: 0;
@@ -76,11 +96,15 @@ body, html {
 }
 
 .site-title, .site-title:visited, .site-title:active {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 22px;
+    font-weight: 300;
     color: $dark-color;
     text-decoration: none;
     white-space: nowrap;
+
+    strong {
+        font-size: 24px;
+    }
 
     @include tablet {
         display: block;
@@ -100,7 +124,7 @@ body, html {
 
 .page-nav {
     line-height: 1.6em;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     display: flex;
     gap: 48px;
@@ -112,7 +136,7 @@ body, html {
         white-space: nowrap;
 
         &:hover {
-            border-bottom: 5px solid $ternary-color;
+            border-bottom: 5px solid $primary-color;
             background: transparent;
             color: $mutted-color;
             text-decoration: none;
@@ -167,6 +191,7 @@ body, html {
 .join-us-text {
     @include pharagraph;
     @include has-links;
+    font-size: 22px;
 }
 
 .join-us-cta-btn {
@@ -177,8 +202,9 @@ body, html {
     font-size: 28px;
     border: none;
     padding: 24px 82px;
-    font-weight: 800;
+    font-weight: 700;
     cursor: pointer;
+    text-transform: uppercase;
 
     &:hover {
         background: $darken-secondary-color;
@@ -204,20 +230,7 @@ body, html {
     @include tablet {
         text-align: center;
     }
-}
 
-.site-tag-line {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 1.1em;
-    margin: 12px 0;
-
-    @include tablet {
-        text-align: center;
-    }
-}
-
-.page-headline {
     strong {
         font-family: 'Abril Fatface', cursive;
         font-weight: 900;
@@ -226,9 +239,20 @@ body, html {
 
     small {
         font-weight: 300;
-        font-size: 36px;
+        font-size: 32px;
         color: $mutted-color;
         letter-spacing: 6px;
+    }
+}
+
+.site-tag-line {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.1em;
+    margin: 12px 0;
+
+    @include tablet {
+        text-align: center;
     }
 }
 
@@ -239,13 +263,8 @@ body, html {
 }
 
 .section-title-next {
-    display: inline-block;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 0.9em;
+    @include section-title;
     border-bottom: solid 10px $secondary-color;
-    padding: 0;
-    margin: 0;
 }
 
 .coll-container {
@@ -257,17 +276,47 @@ body, html {
     }
 }
 
-.section-description {
+.third-section-description {
     @include pharagraph;
-    @include has-links;
     @include has-strong;
     font-size: 20px;
+
+    a, a:visited, a:active {
+        color: $primary-color;
+    }
+
+    a:hover {
+        color: $light-color;
+        background: $primary-color;
+    }
 }
 
-.homepage-item {
+.forth-section-description {
+    @include pharagraph;
+    @include has-strong;
+    font-size: 19px;
+
+    a, a:visited, a:active {
+        color: $primary-color;
+    }
+
+    a:hover {
+        color: $light-color;
+        background: $primary-color;
+    }
+}
+
+.next-section-item {
     p {
-        line-height: 1.5em;
-        font-size: 18px;
+        font-size: 17px;
+        line-height: 1.6em;;
+    }
+}
+
+.third-section-item {
+    p {
+        font-size: 17px;
+        line-height: 1.6em;
     }
 }
 
@@ -281,21 +330,18 @@ body, html {
 }
 
 .participate-title {
+    @include title;
     margin: 64px 0 32px 0;
-    font-size: 32px;
-    font-weight: 600;
-    display: inline-block;
 }
 
 .participate-pharagraph {
     @include pharagraph;
+    font-size: 18px;
 }
 
 .join-title {
+    @include title;
     margin: 68px 0 52px 0;
-    font-size: 32px;
-    font-weight: 600;
-    display: inline-block;
 }
 
 .third-section {
@@ -304,13 +350,8 @@ body, html {
 }
 
 .section-title {
-    display: inline-block;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 0.9em;
+    @include section-title;
     border-bottom: solid 10px $dark-color;
-    padding: 0;
-    margin: 0;
 }
 
 .forth-section {
@@ -318,13 +359,8 @@ body, html {
 }
 
 .forth-section-title {
-    display: inline-block;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 0.9em;
+    @include section-title;
     border-bottom: solid 10px $secondary-color;
-    padding: 0;
-    margin: 0;
 }
 
 .page-footer {
@@ -335,6 +371,7 @@ body, html {
 
     a {
         color: $light-color;
+        font-size: 16px;
     }
 }
 
@@ -366,6 +403,8 @@ body, html {
 
 .event-description {
     @include pharagraph;
+    font-size: 17px;
+    line-height: 1.6em;
 }
 
 .foot-title {
