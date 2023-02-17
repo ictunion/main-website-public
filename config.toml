@@ -1,21 +1,64 @@
 baseURL = '/'
-languageCode = 'cz'
-theme = 'ictunion'
+defaultContentLanguage = 'cs'
+defaultContentLanguageInSubdir = true
 
 [languages]
-  [languages.cz]
+  [languages.cs]
+    languageName = "Česky"
+    languageFlag = "🇨🇿"
     languagedirection = 'ltr'
-    weight = 2
-    [languages.cz.params]
-      tag_line = 'Sektorové odbory pracujících v <br> IT a komunikacích.'
-      join_cta = 'přidej se'
+    weight = 1
+    [languages.cs.params]
+      lang = 'cs'
+      tagLine = 'Odborová organizace pracujících v <br> IT a komunikacích.'
+      joinCta = 'přidej se'
+      [languages.cs.params.navigation]
+        home = "Domů"
+        aboutUs = "O nás"
+        statutes = "Stanovy"
+        register = "Registrace"
+        events = "Události"
+        faq = "Časté Dotazy"
+      [languages.cs.params.home]
+        participateTitle = "Jak se zapojit?"
+        membershipTitle = "Členství ti přinese..."
+        eventsTitle = "Plánované Události:"
+      [langauges.cs.params.footer]
+        learnMore = "Poznat Více"
+        socials = "Sítě"
+        languages = "Jazyky"
+        legal = "Právní info"
+        legalNote = "registered in ..."
+        legalLink = "Registrační Záznam"
 
   [languages.en]
     languagedirection = 'ltr'
-    weight = 1
+    languageName = "English"
+    languageFlag = "🇬🇧"
+    weight = 2
+    [languages.en.params]
+      lang = "en"
 
 [params]
-    title = 'ICT'
-    sub_title = 'Union'
-    tag_line = 'Trade union of workers in <br> IT & communications.'
-    join_cta = 'join us'
+  title = 'ICT'
+  subTitle = 'Union'
+  tagLine = 'Trade union of workers in <br> IT & communications.'
+  joinCta = 'join us'
+  [params.navigation]
+    home = "Home"
+    aboutUs = "About Us"
+    statutes = "Statutes"
+    register = "Register"
+    events = "Events"
+    faq = "FAQ"
+  [params.home]
+    participateTitle = "How to participate?"
+    membershipTitle = "Membership means..."
+    eventsTitle = "Upcoming Events:"
+  [params.footer]
+    learnMore = "Learn More"
+    socials = "Socials"
+    languages = "Languages"
+    legal = "Leagal"
+    legalNote = "registered in ..."
+    legalLink = "Leagal Record"

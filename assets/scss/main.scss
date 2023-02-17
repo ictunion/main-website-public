@@ -72,7 +72,7 @@ $ternary-color: #43C5FF;
 
 body, html {
     font-family: $main-font;
-    eight: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
     font-size: 18px;
@@ -84,7 +84,7 @@ body, html {
     padding: 0 24px;
 }
 
-.page-header {
+.site-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -123,7 +123,7 @@ body, html {
     font-weight: 600;
 }
 
-.page-nav {
+.site-nav {
     line-height: 1.6em;
     font-size: 17px;
     font-weight: 400;
@@ -153,7 +153,7 @@ body, html {
     }
 }
 
-.page-nav-ul {
+.site-nav-ul {
     list-style: none;
     display: flex;
     gap: 48px;
@@ -169,7 +169,7 @@ body, html {
     }
 }
 
-.site-intro {
+.home-header {
     display: flex;
     justify-content: space-between;
     padding: 72px 0 48px 0;
@@ -179,51 +179,11 @@ body, html {
     }
 }
 
-.join-us-cta {
-    padding-top: 48px;
-    font-size: 24px;
-    max-width: 300px;
-    color: $mutted-color;
-
-    @include tablet {
-        display: block;
-        max-width: 100%;
-    }
-}
-
-.join-us-text {
-    @include pharagraph;
-    @include has-links;
-    font-size: 22px;
-}
-
-.join-us-cta-btn {
-    position: relative;
-    border-radius: 3px;
-    background: $secondary-color;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 28px;
-    border: none;
-    padding: 24px 82px;
-    font-weight: 700;
-    cursor: pointer;
-    text-transform: uppercase;
-
-    &:hover {
-        background: $darken-secondary-color;
-    }
-
-    @include tablet {
-        display: block;
-        width: 100%;
-    }
-}
-
-.site-tag {
+.home-header-tag {
     padding: 32px 0;
 }
 
-.page-headline {
+.home-header-headline {
     font-size: 120px;
     font-weight: 300;
     line-height: 52px;
@@ -248,7 +208,7 @@ body, html {
     }
 }
 
-.site-tag-line {
+.home-header-tag-line {
     font-size: 30px;
     font-weight: 400;
     line-height: 1.1em;
@@ -259,18 +219,59 @@ body, html {
     }
 }
 
-.next-section {
+.home-header-join-us-cta {
+    padding-top: 48px;
+    font-size: 24px;
+    max-width: 300px;
+    color: $mutted-color;
+
+    @include tablet {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.home-header-join-us-text {
+    @include pharagraph;
+    @include has-links;
+    font-size: 22px;
+}
+
+.home-header-join-us-cta-btn {
+    position: relative;
+    border-radius: 3px;
+    background: $secondary-color;
+    color: $dark-color;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 28px;
+    border: none;
+    padding: 24px 82px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    &:hover {
+        background: $darken-secondary-color;
+    }
+
+    @include tablet {
+        display: block;
+        width: 100%;
+    }
+}
+
+.home-participate {
     background: $primary-color;
     color: $light-color;
     padding: 48px 0;
 }
 
-.section-title-next {
+.home-participate-title {
     @include section-title;
     border-bottom: solid 10px $secondary-color;
 }
 
-.coll-container {
+.col-container {
     display: flex;
     gap: 84px;
 
@@ -279,7 +280,29 @@ body, html {
     }
 }
 
-.third-section-description {
+.home-participate-item {
+    p {
+        font-size: 17px;
+        line-height: 1.6em;;
+    }
+}
+
+.home-participate-content {
+    @include pharagraph;
+    font-size: 18px;
+}
+
+.home-participate-item-title {
+    @include title;
+    margin: 64px 0 32px 0;
+}
+
+.home-membership {
+    background: $secondary-color;
+    padding: 48px 0 64px 0;
+}
+
+.home-membership-description {
     @include pharagraph;
     @include has-strong;
     font-size: 20px;
@@ -294,7 +317,44 @@ body, html {
     }
 }
 
-.forth-section-description {
+.home-membership-title {
+    @include section-title;
+    border-bottom: solid 10px $dark-color;
+}
+
+.home-membership-item {
+    p {
+        font-size: 17px;
+        line-height: 1.6em;
+    }
+}
+
+.home-membership-item-title {
+    @include title;
+    margin: 68px 0 52px 0;
+}
+
+
+.event-item {
+    padding-bottom: 32px;
+    border-bottom: 2px solid $very-mutted-color;
+}
+
+.event-item:last-child {
+    border-bottom: none;
+}
+
+
+.home-events {
+    padding: 48px 0;
+}
+
+.home-events-title {
+    @include section-title;
+    border-bottom: solid 10px $secondary-color;
+}
+
+.home-events-description {
     @include pharagraph;
     @include has-strong;
     font-size: 19px;
@@ -309,64 +369,20 @@ body, html {
     }
 }
 
-.next-section-item {
-    p {
-        font-size: 17px;
-        line-height: 1.6em;;
-    }
+.home-event-title {
+    margin: 64px 0 18px 0;
+    font-weight: 600;
+    font-size: 32px;
+    display: inline-block;
 }
 
-.third-section-item {
-    p {
-        font-size: 17px;
-        line-height: 1.6em;
-    }
-}
-
-.event-item {
-    padding-bottom: 32px;
-    border-bottom: 2px solid $very-mutted-color;
-}
-
-.event-item:last-child {
-    border-bottom: none;
-}
-
-.participate-title {
-    @include title;
-    margin: 64px 0 32px 0;
-}
-
-.participate-pharagraph {
+.home-event-description {
     @include pharagraph;
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 1.6em;
 }
 
-.join-title {
-    @include title;
-    margin: 68px 0 52px 0;
-}
-
-.third-section {
-    background: $secondary-color;
-    padding: 48px 0 64px 0;
-}
-
-.section-title {
-    @include section-title;
-    border-bottom: solid 10px $dark-color;
-}
-
-.forth-section {
-    padding: 48px 0;
-}
-
-.forth-section-title {
-    @include section-title;
-    border-bottom: solid 10px $secondary-color;
-}
-
-.page-footer {
+.site-footer {
     background: $more-mutted-color;
     padding: 32px 0;
     color: $light-color;
@@ -383,13 +399,6 @@ body, html {
     flex-shrink: 0;
 }
 
-.event-title {
-    margin: 64px 0 18px 0;
-    font-weight: 600;
-    font-size: 32px;
-    display: inline-block;
-}
-
 .event-date {
     background: $mutted-color;
     color: $secondary-color;
@@ -404,11 +413,6 @@ body, html {
     color: $mutted-color;
 }
 
-.event-description {
-    @include pharagraph;
-    font-size: 17px;
-    line-height: 1.6em;
-}
 
 .foot-title {
     font-size: 20px;

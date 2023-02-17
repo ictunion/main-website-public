@@ -1,6 +1,0 @@
-author = "Marek Fajkus"
-description = "Hugo template for ictuinion.cz"
-license = "BSD-3-Clause"
-name = "ictunion"
-source_repo = "https://github.com/ictunion/main-website"
-tags = ["organization", "union"]

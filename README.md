@@ -1,6 +1,6 @@
 # Main Website
 
-![](https://github.com/ictunion/main-website/workflows/build.yaml/badge.svg?branch=main&event=push)
+![https://github.com/ictunion/main-website/actions/workflows/build.yaml/badge.svg?branch=main&event=push](https://github.com/ictunion/main-website/actions/workflows/build.yaml)
 
 Source of the public union website. More info TBA.
 
@@ -38,10 +38,10 @@ git clonehttps://github.com/ictunion/main-website.git
 Hugo provides build in http server:
 
 ```
-hugo server
+hugo server --watch
 ```
 
-open [http://localhost:]
+open [http://localhost:1313](http://localhost:1313)
 
 ### Nix
 
