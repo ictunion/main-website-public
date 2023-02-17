@@ -96,6 +96,15 @@ body, html {
     }
 }
 
+/** To fix footer at the bottom of the page
+    which is something most pages donesn't do
+    we flex display body and flex-end the footer
+*/
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .site-title, .site-title:visited, .site-title:active {
     font-size: 22px;
     font-weight: 300;
@@ -460,6 +469,7 @@ body, html {
 .single-page-body {
     padding-top: 32px;
     padding-bottom: 32px;
+    flex-grow: 1;
 
     p {
         @include pharagraph;
