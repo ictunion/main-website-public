@@ -1,15 +1,15 @@
 <header class="site-header">
-  <a class="site-title" href="#">
-    <strong>{{ .Param "title" }}</strong>
+  <a class="site-title" href="{{ ref . "/" }}">
+    <strong>{{ .Site.Title }}</strong>
     {{ .Param "subTitle" }}
   </a>
   <nav class="site-nav">
     <ul class="site-nav-ul">
       <li>
-        <a href="#">{{ .Param "navigation.home" }}</a>
+        <a href="{{ ref . "/" }}">{{ .Param "navigation.home" }}</a>
       </li>
       <li>
-        <a href="#">{{ .Param "navigation.aboutUs" }}</a>
+        <a href="{{ ref . "about" }}">{{ .Param "navigation.aboutUs" }}</a>
       </li>
       <li>
         <a href="#">{{ .Param "navigation.statutes" }}</a>

@@ -169,6 +169,12 @@ body, html {
     }
 }
 
+.langauge-selector {
+    @include tablet {
+        margin-bottom: 24px;
+    }
+}
+
 .home-header {
     display: flex;
     justify-content: space-between;
@@ -426,4 +432,48 @@ body, html {
     margin: 0;
     line-height: 2em;
     font-weight: 400;
+}
+
+.single-page-intro {
+    background: $primary-color;
+    color: $light-color;
+    padding: 48px 0;
+}
+
+.single-page-title {
+    @include title;
+    font-weight: 800;
+    letter-spacing: -2px;
+    font-size: 38px;
+    border-bottom: solid 10px $secondary-color;
+}
+
+.single-page-description {
+    padding-top: 24px;
+    line-height: 1.7em;
+
+    p {
+        margin: 12px 0;
+    }
+}
+
+.single-page-body {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    p {
+        @include pharagraph;
+        margin: 20px 0;
+    }
+
+    h2 {
+        @include title;
+        padding: 24px 0;
+    }
+
+    ul {
+        list-style-type: square;
+        line-height: 2em;
+        padding: 12px 0 12px 52px;
+    }
 }

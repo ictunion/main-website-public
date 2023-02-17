@@ -1,6 +1,7 @@
-baseURL = '/'
-defaultContentLanguage = 'cs'
+baseURL = "/"
+defaultContentLanguage = "cs"
 defaultContentLanguageInSubdir = true
+title = "ICT"
 
 [languages]
   [languages.cs]

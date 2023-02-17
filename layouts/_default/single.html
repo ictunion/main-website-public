@@ -1,0 +1,17 @@
+{{ define "title" }}
+  {{ .Param "title" }} {{ .Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="single-page-intro">
+    <div class="page-body single-page">
+      <h1 class="single-page-title">{{ .Title }}</h1>
+      <div class="single-page-description">
+        {{ .Param "description" | markdownify }}
+      </div>
+    </div>
+  </section>
+  <main class="page-body single-page-body">
+    {{ .Content }}
+  </main>
+{{ end }}
