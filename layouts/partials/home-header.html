@@ -1,16 +1,18 @@
-<main class="page-body">
-  <section class="home-header">
+<section class="home-header">
+  <main class="page-body">
     <div class="home-header-tag">
-      <h1 class="home-header-headline"><strong>{{ .Param "title" }}</strong> <small>{{ .Param "subTitle" }}</small></h1>
+      <h1 class="home-header-headline">
+        <strong>{{ .Param "title" }}</strong> <small>{{ .Param "subTitle" }}</small>
+      </h1>
       <p class="home-header-tag-line">
         {{ .Param "tagLine" | safeHTML }}
       </p>
     </div>
     <div class="home-header-join-us-cta">
-      <button class="home-header-join-us-cta-btn">{{ .Param "joinCta" }}</button>
+      <a href="{{ ref . "register" }}" class="home-header-join-us-cta-btn">{{ .Param "joinCta" }}</a>
       <p class="home-header-join-us-text">
-        <a href="#">{{ i18n "become member" }}</a> {{ i18n "or join some of our" }} <a href="#">{{ i18n "events" }}</a>.
+        <a href="{{ ref . "register" }}">{{ i18n "become member" }}</a> {{ i18n "or join some of our" }} <a href="#">{{ i18n "events" }}</a>.
       </p>
     </div>
-  </section>
-</main>
+  </main>
+</section>

@@ -185,9 +185,11 @@ body {
 }
 
 .home-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 72px 0 48px 0;
+    .page-body {
+        display: flex;
+        justify-content: space-between;
+        padding: 72px 0 48px 0;
+    }
 
     @include tablet {
         display: block;
@@ -253,6 +255,7 @@ body {
 }
 
 .home-header-join-us-cta-btn {
+    display: block;
     position: relative;
     border-radius: 3px;
     background: $secondary-color;
@@ -264,6 +267,7 @@ body {
     font-weight: 700;
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
 
     &:hover {
         background: $darken-secondary-color;
