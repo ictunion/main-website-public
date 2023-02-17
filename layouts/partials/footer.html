@@ -5,13 +5,13 @@
         <h4 class="foot-title">{{ .Param "footer.learnMore" }}</h4>
         <ul class="page-foot-nav-ul">
           <li>
-            <a href="#">{{ .Param "navigation.home" }}</a>
+            <a href="{{ ref . "/" }}">{{ .Param "navigation.home" }}</a>
           </li>
           <li>
-            <a href="#">{{ .Param "navigation.aboutUs" }}</a>
+            <a href="{{ ref . "about" }}">{{ .Param "navigation.aboutUs" }}</a>
           </li>
           <li>
-            <a href="#">{{ .Param "navigation.statutes" }}</a>
+            <a href="{{ ref . "statutes" }}">{{ .Param "navigation.statutes" }}</a>
           </li>
           <li>
             <a href="#">{{ .Param "navigation.register" }}</a>
