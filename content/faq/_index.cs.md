@@ -1,7 +1,6 @@
 ---
-title: "Faq"
-date: 2023-02-15T12:47:46+01:00
-draft: true
+title: "FAQ"
+subTitle: "Frequently Asked Questions"
 ---
 **Q: What is a sectoral union?**
 
@@ -9,22 +8,22 @@ A: A sectoral union is a trade union of workers that are employed in a specific 
 
 **Q: Why a sectoral union?**
 
-A: For the workers in this sector, it makes sense, because this arrangement can cover employees hired with unconventional employment relationships (such as self-employment, freelancing, gig.economy and others) and cover the high mobility rate of workers between companies which is typical for our sector. So, even if you may change your employer, you can still be a member of the same union. 
+A: For the workers in this sector, it makes sense, because this arrangement can cover employees hired with unconventional employment relationships (such as self-employment, freelancing, gig.economy and others) and cover the high mobility rate of workers between companies which is typical for our sector. So, even if you may change your employer, you can still be a member of the same union.
 
 **Q: Why is there a need for a union in our sector?**
 
-A: Our sector is new, rapidly growing, and versatile (companies of all shapes and sizes, from small startups to big international corporations) and utilizes non-standard contracts and unconventional employment relationships (freelancing/internships and others) and therefore profits from outsourcing and cheap labor. It is moreover a sector with a high mobility rate of employees, not only between companies inside the Czech Republic but also with a large incoming flow of foreign employees, who are easier to be taken advantage of due to the language barrier and differences in corporate culture and the Labor code. Basically, there is a need to improve the working conditions in the ICT sector as well, and we want to be part of that change. 
+A: Our sector is new, rapidly growing, and versatile (companies of all shapes and sizes, from small startups to big international corporations) and utilizes non-standard contracts and unconventional employment relationships (freelancing/internships and others) and therefore profits from outsourcing and cheap labor. It is moreover a sector with a high mobility rate of employees, not only between companies inside the Czech Republic but also with a large incoming flow of foreign employees, who are easier to be taken advantage of due to the language barrier and differences in corporate culture and the Labor code. Basically, there is a need to improve the working conditions in the ICT sector as well, and we want to be part of that change.
 
 **Q: What is our goal?**
 
 A: Našimi cíli jsou:
 
-- propojit všechny pracovníky\*ice v našem sektoru a vytvořit komunitu, 
-- hájit naše ekonomické, profesní, sociální a fyzická práva, 
+- propojit všechny pracovníky\*ice v našem sektoru a vytvořit komunitu,
+- hájit naše ekonomické, profesní, sociální a fyzická práva,
 - dosažení lepších pracovních podmínek (vyšší mzdy, lepší pracovní doba...),
-- bojovat proti jakékoliv formě útlaku na pracovišti. 
+- bojovat proti jakékoliv formě útlaku na pracovišti.
 
-Snažíme se také spolupracovat s jinými organizacemi v rámci snah o společenskou změnu (například spolupráce s organizacemi, co se zasazují o klimatickou spravedlnost). 
+Snažíme se také spolupracovat s jinými organizacemi v rámci snah o společenskou změnu (například spolupráce s organizacemi, co se zasazují o klimatickou spravedlnost).
 
 Abychom byli součástí odborových struktur, vstoupili jsme do Odborového svazu pracovníků a pojišťovnictví OSPPP
 
@@ -43,7 +42,7 @@ A: As members, we:
 
 **Q: How much time should I dedicate to the union?**
 
-A: A union is only as strong as the number if it's members, most importantly it's active members. We are a young union with a lot of ideas on how to make ourselves and our environment better and our desire is to have as many members involved in the decision making and the co-creation of actions as possible. 
+A: A union is only as strong as the number if it's members, most importantly it's active members. We are a young union with a lot of ideas on how to make ourselves and our environment better and our desire is to have as many members involved in the decision making and the co-creation of actions as possible.
 
 But of course, it is also more than okay to attend our online members meetings once a month or become a passive member and support us in our efforts.
 
@@ -57,7 +56,7 @@ A: Fill out the online registration form on our website: **link** . Before your 
 
 **Q: Why should I pay union dues and where does this money go?**
 
-A: 
+A:
 
 The union dues are what makes the union independent and sustainable - from the union dues we pay things such as leaflets for collective actions or organizing of union events to raise awareness, gain more members, and create change. We make all the decisions about the money collectively.
 
@@ -66,5 +65,3 @@ The union dues are collected by the elected treasurer of the union. There is als
 **Q: Some sensitive data are required in the registration form. Who has access to these?**
 
 A: Only our elected union board has access to the full data set that you provide us upon registration. No one else and also no one can request the data.
-
-

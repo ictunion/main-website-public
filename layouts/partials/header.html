@@ -1,27 +1,27 @@
 <header class="site-header">
   <a class="site-title" href="{{ ref . "/" }}">
     <strong>{{ .Site.Title }}</strong>
-    {{ .Param "subTitle" }}
+    {{ .Site.Param "subTitle" }}
   </a>
   <nav class="site-nav">
     <ul class="site-nav-ul">
       <li>
-        <a href="{{ ref . "/" }}">{{ .Param "navigation.home" }}</a>
+        <a href="{{ ref . "/" }}">{{ .Site.Param "navigation.home" }}</a>
       </li>
       <li>
-        <a href="{{ ref . "about" }}">{{ .Param "navigation.aboutUs" }}</a>
+        <a href="{{ ref . "about" }}">{{ .Site.Param "navigation.aboutUs" }}</a>
       </li>
       <li>
-        <a href="{{ ref . "statutes" }}">{{ .Param "navigation.statutes" }}</a>
+        <a href="{{ ref . "statutes" }}">{{ .Site.Param "navigation.statutes" }}</a>
       </li>
       <li>
-        <a href="{{ ref . "register" }}">{{ .Param "navigation.register" }}</a>
+        <a href="{{ ref . "register" }}">{{ .Site.Param "navigation.register" }}</a>
       </li>
       <li>
-        <a href="#">{{ .Param "navigation.events" }}</a>
+        <a href="{{ ref . "events" }}">{{ .Site.Param "navigation.events" }}</a>
       </li>
       <li>
-        <a href="#">{{ .Param "navigation.faq" }}</a>
+        <a href="{{ ref . "faq" }}">{{ .Site.Param "navigation.faq" }}</a>
       </li>
     </ul>
     <select class="langauge-selector" onchange="switchLanguage(this.value)">

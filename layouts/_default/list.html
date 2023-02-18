@@ -1,0 +1,35 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="faq-header">
+    <h1 class="faq-title">{{ .Title }}</h1>
+    <h2 class="faq-sub-title">{{ .Page.Param "subTitle" }}</h2>
+    <div class="faq-meta-content">{{ .Content }}</div>
+  </section>
+  <main class="faq-content">
+    {{ range $i, $page := sort .Pages "File.Path" }}
+      {{ $item_id := strings.TrimRight "/" (slicestr $page.RelPermalink 8) }}
+      <article id="{{ $item_id }}" class="faq-item
+            {{ $remainder := mod $i 3 }}
+            {{ if eq $remainder 0 }}
+              first
+            {{ else if eq $remainder 1 }}
+              second
+            {{ else }}
+              third
+            {{ end }}
+        ">
+        <header class="faq-question ">
+          <h2 class="faq-question-text">
+            <a href="#{{ $item_id }}" class="faq-question-link">{{ $page.Title }}</a>
+          </h2>
+        </header>
+        <div class="faq-answer">
+          {{ $page.Content }}
+        </div>
+      </article>
+    {{ end }}
+  </main>
+{{ end }}
