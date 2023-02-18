@@ -10,7 +10,6 @@
       <h2 class="home-participate-title">{{ .Param "home.participateTitle" }}</h2>
       <div class="col-container">
 
-
         {{ range (where .Site.RegularPages "Section" "home-participate") }}
           <div class="home-participate-item">
             <h3 class="home-participate-item-title">{{ .Title }}</h3>

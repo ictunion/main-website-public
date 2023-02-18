@@ -1,7 +1,7 @@
 ---
 title: Klimathon
 eventDate: 2023-06-03
-place: Kumns Brno
+place: Kumst Brno
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -3,15 +3,15 @@
 {{ end }}
 
 {{ define "content" }}
-  <section class="single-page-intro">
-    <div class="page-body single-page">
+  <section class="single-page-header">
+    <div class="single-page-header-content">
       <h1 class="single-page-title">{{ .Title }}</h1>
       <div class="single-page-description">
         {{ .Param "description" | markdownify }}
       </div>
     </div>
   </section>
-  <main class="page-body single-page-body">
+  <main class="single-page-body">
     {{ .Content }}
   </main>
 {{ end }}
