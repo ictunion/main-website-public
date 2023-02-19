@@ -4,5 +4,50 @@
 ["or join some of our"]
   other = 'a nebo se zůčasni některé naší'
 
-["events"]
+[events]
   other = 'akce'
+
+[register]
+  other = "registrovat"
+
+[When]
+  other = "Kdy"
+
+[Date]
+  other = "Datum"
+
+[Start]
+  other = "Začátek"
+
+[Duration]
+  other = "Trvání"
+
+[Where]
+  other = "Kde"
+
+[Place]
+  other = "Místo"
+
+[Address]
+  other = "Adresa"
+
+[Website]
+  other = "Web"
+
+[Share]
+  other = "Sdílet"
+
+[Map]
+  other = "Mapa"
+
+["share on FaceBook"]
+  other = "sdílet na Facebooku"
+
+["Share on Twitter"]
+  other = "sdílet na Twitteru"
+
+["share on LinkedIn"]
+  other = "sdílet na LinkedInu"
+
+["open in"]
+  other = "otevři v"

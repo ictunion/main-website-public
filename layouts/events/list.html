@@ -1,0 +1,31 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "Title" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="events-header">
+    <div class="events-header-content">
+      <h1 class="events-title">{{ .Title }}</h1>
+      <h2 class="events-sub-title">{{ .Page.Param "subTitle" }}</h2>
+      <div class="events-meta-content">{{ .Content }}</div>
+    </div>
+  </section>
+  <main class="events-content">
+    {{ range sort .Pages "File.Path" }}
+      <article class="events-event-item">
+        <header class="event-header">
+          <h2 class="events-event-title">
+            <a href="{{ .Permalink }}" class="events-event-link">{{ .Title }}</a>
+          </h2>
+          <div class="events-event-info">
+            <span class="events-event-date">{{ .Params.EventDate | time.Format ":date_short" }}</span>
+            <span class="events-event-place">{{ .Params.Place }}</span>
+          </div>
+        </header>
+        <div class="events-event-description">
+          {{ .Summary }}
+        </div>
+      </article>
+    {{ end }}
+  </main>
+{{ end }}

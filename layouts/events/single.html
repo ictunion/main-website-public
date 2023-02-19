@@ -1,0 +1,112 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="events-header">
+    <div class="event-detail-header-content">
+      <div class="event-detail-header-left">
+        <h1 class="events-title">{{ .Title }}</h1>
+        <h2 class="event-detail-sub-title">{{ .Page.Param "subTitle" }}</h2>
+        <a class="event-detail-header-register-cta" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
+      </div>
+      <div class="event-detail-header-info">
+        <h3 class="event-detail-header-date">{{ .Params.EventDate | time.Format ":date_long" }}</h3>
+        <h3 class="event-detail-header-place">{{ .Params.Place }}</h3>
+      </div>
+    </div>
+  </section>
+  <div class="event-detail-page-body">
+    <main class="event-detail-content">
+      {{ .Content }}
+    </main>
+
+    <aside class="event-detail-info">
+      <h3 class="event-detail-info-title">{{ i18n "When" }}?</h3>
+
+      <table class="event-detail-info-table">
+        <tbody>
+          <tr>
+            <td>{{ i18n "Date" }}:</td>
+            <td>{{ .Params.EventDate | time.Format ":date_long" }}</td>
+          </tr>
+          <tr>
+            <td>{{ i18n "Start" }}:</td>
+            <td>{{ .Params.EventDate | time.Format ":time_medium" }}</td>
+          </tr>
+          <tr>
+            <td>{{ i18n "Duration" }}:</td>
+            <td>{{ .Params.Duration }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="event-detail-info-title">{{ i18n "Where"}}?</h3>
+      <table class="event-detail-info-table">
+        <tbody>
+          <tr>
+            <td>{{ i18n "Place" }}:</td>
+            <td>{{ .Params.Place }}</td>
+          </tr>
+          <tr>
+            <td>{{ i18n "Address" }}:</td>
+            <td>{{ .Params.PlaceAddress }}</td>
+          </tr>
+          <tr>
+            <td>{{ i18n "Website" }}:</td>
+            <td><a href="//{{ .Params.placeUrl }}">{{ .Params.placeUrl }}</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <a class="event-detail-register-cta" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
+
+      <h3 class="event-detail-info-title">{{ i18n "Share" }}:</h3>
+
+      <div class="event-detail-info-share">
+        <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}">
+          {{ i18n "share on FaceBook" }}
+        </a>
+        <a href="//twitter.com/share?url={{ .Permalink | urlquery }}">
+          {{ i18n "share on Twitter" }}
+        </a>
+        <a href="//linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}">
+          {{ i18n "share on LinkedIn" }}
+        </a>
+      </div>
+
+      <h3 class="event-detail-info-title">{{ i18n "Map" }}:</h3>
+      <div class="event-detail-info-map">
+        <div id="map"></div>
+        <div class="event-detail-info-coords">
+          latitude: {{ .Page.Param "lat" }}</br>
+          longitude: {{ .Page.Param "lon" }}
+        </div>
+
+        <div class="event-detail-info-map-links">
+          <a target="_blank" href="https://www.openstreetmap.org/directions?from=&to={{ .Page.Param "lat"}}%2C{{ .Page.Param "lon"}}">
+            {{ i18n "open in" }} Open Street Map
+          </a>
+          <a target="_blank" href="https://www.google.com/maps?q=loc:{{.Page.Param "lat"}},{{ .Page.Param "lon" }}">
+            {{ i18n "open in" }} Google Maps
+          </a>
+          <a target="_blank" href="//mapy.cz/zakladni?q={{ .Page.Param "lat"}}N%2C {{ .Page.Param "lon" }}E">
+            {{ i18n "open in" }} Mapy.cz
+          </a>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+          initMap({
+            elementId: "map",
+            lat: {{ .Page.Param "lat" }},
+            lng: {{ .Page.Param "lon" }},
+            title: {{ .Page.Param "place" }},
+            text: {{ .Page.Param "placeAddress" }},
+          });
+        });
+      </script>
+    </aside>
+  </div>
+{{ end }}

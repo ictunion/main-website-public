@@ -13,19 +13,24 @@
         inherit system;
         overlays = [ nix-dart.overlay overlay ];
       };
+      buildInputs = with pkgs; [ hugo dart-sass-embedded-bin ];
     in
     {
       devShell = with pkgs;
         mkShell {
           name = "itc-union-website";
-          buildInputs = [ hugo dart-sass-embedded-bin ];
+          inherit buildInputs;
+          shellHook = ''
+            ln -s ${nodeDependencies}/lib/node_modules node_modules
+          '';
         };
       defaultPackage = with pkgs;
         stdenv.mkDerivation {
           name = "itc-union-website";
           src = self;
-          buildInputs = [ dart-sass-embedded-bin ];
+          inherit buildInputs;
           buildPhase = ''
+            ln -s ${nodeDependencies}/lib/node_modules node_modules
             ${hugo}/bin/hugo
           '';
           installPhase = ''

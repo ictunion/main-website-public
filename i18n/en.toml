@@ -4,5 +4,50 @@
 ["or join some of our"]
   other = 'or join some of our'
 
-["events"]
+[events]
   other = 'events'
+
+[register]
+  other = "register"
+
+[When]
+  other = "When"
+
+[Date]
+  other = "Date"
+
+[Start]
+  other = "Start"
+
+[Duration]
+  other = "Duration"
+
+[Where]
+  other = "Where"
+
+[Place]
+  other = "Place"
+
+[Address]
+  other = "Address"
+
+[Website]
+  other = "Website"
+
+[Share]
+  other = "Share"
+
+[Map]
+  other = "Map"
+
+["share on FaceBook"]
+  other = "share on FaceBook"
+
+["share on Twitter"]
+  other = "share on Twitter"
+
+["share on LinkedIn"]
+  other = "share on LinkedIn"
+
+["open in"]
+  other = "open in"

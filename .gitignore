@@ -14,3 +14,6 @@ hugo.linux
 
 # Ignore nix result symlinks
 /result*
+
+# Nodejs dependecies
+/node_modules
