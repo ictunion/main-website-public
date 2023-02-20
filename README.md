@@ -19,6 +19,7 @@ Skip to [Nix](#nix) section if you want to use it.
 - [git](https://git-scm.com/)
 - [hugo](https://gohugo.io/) side generator
 - [dart-sass-embedded](https://github.com/sass/dart-sass-embedded)
+- [nodejs with npm](https://nodejs.org/)
 
 ### Setup
 
@@ -32,8 +33,13 @@ git clone git@github.com:ictunion/main-website.git
 git clonehttps://github.com/ictunion/main-website.git
 ```
 
-
 ### Run locally
+
+Install npm dependecies:
+
+```
+npm install
+```
 
 Hugo provides build in http server:
 
