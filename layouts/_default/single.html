@@ -9,6 +9,12 @@
       <div class="single-page-description">
         {{ .Param "description" | markdownify }}
       </div>
+
+      {{ if isset .Page.Params "download" }}
+        <div class="single-page-header-download">
+          {{ i18n "download" }}: <a class="single-page-header-download-link" target="_blank" href="/downloads/{{ .Page.Param "download"}}">{{ .Page.Param "download"}}</a>
+        </div>
+      {{ end }}
     </div>
   </section>
   <main class="single-page-body">

@@ -1,6 +1,7 @@
 ---
-title: "Statutes"
+title: Statutes
 url: statutes
+download: ictunion-statutes-en.pdf
 description: |
     Trade union of workers in ICT<br/>
     *unofficial translation*

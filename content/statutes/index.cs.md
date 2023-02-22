@@ -1,6 +1,7 @@
 ---
-title: "Stanovy"
+title: Stanovy
 url: stanovy
+download: ictunion-statutes-cs.pdf
 description: |
     Odborové organizace pracujících v ICT
 ---

@@ -51,3 +51,6 @@
 
 ["open in"]
   other = "open in"
+
+[download]
+  other = "download"

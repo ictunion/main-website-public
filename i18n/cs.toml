@@ -51,3 +51,6 @@
 
 ["open in"]
   other = "otevři v"
+
+[download]
+  other = "stáhnout"

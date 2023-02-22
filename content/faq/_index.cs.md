@@ -1,4 +1,4 @@
 ---
 title: "FAQ"
-subTitle: "Frequently Asked Questions"
+subTitle: "Často kladené dotazy"
 ---
