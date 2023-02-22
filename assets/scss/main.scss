@@ -10,6 +10,7 @@ but it makes long term maintainanece much simpler.
 */
 @import "reset";
 @import "../../node_modules/leaflet/dist/leaflet";
+@import "../../node_modules/vanillajs-datepicker/sass/datepicker";
 
 $main-font: 'Merriweather Sans', sans-serif;
 $secondary-font: 'Abril Fatface', cursive;
@@ -92,6 +93,7 @@ $ternary-color: #43C5FF;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
+    white-space: nowrap;
 
     &:hover {
         background: $darken-secondary-color;
@@ -159,6 +161,12 @@ $ternary-color: #43C5FF;
 
 @mixin tablet {
     @media screen and (max-width: 1000px) {
+        @content;
+    }
+}
+
+@mixin register-form-breakpoint {
+    @media screen and (max-width: 915px) {
         @content;
     }
 }
@@ -634,9 +642,8 @@ body {
 
 .register-page-body {
     background: $primary-color;
-    min-height: 500px;
     color: $light-color;
-    padding: 32px 0;
+    padding: 64px 0;
     font-weight: 800;
     flex-grow: 1;
 }
@@ -828,7 +835,7 @@ body {
 
 .event-detail-header-register-cta {
     @include cta-btn;
-    padding: 12px 48px;
+    padding: 18px 48px;
 }
 
 .event-detail-header-info {
@@ -961,4 +968,354 @@ body {
 
 .image-preload {
     display: none;
+}
+
+// Register
+.register-form-width-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 865px;
+}
+
+.register-form-footer {
+    @include page-body;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.register-form-footer-content {
+    display: flex;
+    gap: 64px;
+
+    @include register-form-breakpoint {
+        flex-direction: column;
+    }
+}
+
+.register-form-footer-left {
+    font-weight: 600;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & > img {
+        /* width: 250px; */
+        max-width: 100%;
+    }
+
+    @include register-form-breakpoint {
+        display: none;
+    }
+}
+
+.register-form-footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 32px;
+}
+
+.register-signature-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 100%;
+    text-align: center;
+    gap: 6px;
+
+    @include register-form-breakpoint {
+        width: 100%;
+    }
+}
+
+.register-signature {
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 4px solid $primary-color;
+    border-radius: 8px;
+    background: $light-color;
+    height: 200px;
+    flex-grow: 1;
+    z-index: 2;
+
+    &.done {
+        .register-signature-default {
+            display: none;
+        }
+
+        .register-signature-clear-btn {
+            display: block;
+        }
+
+        &:not(.active):hover {
+            .register-signature-default {
+                display: flex;
+            }
+        }
+    }
+
+    &.drag {
+        .register-signature-drag {
+            display: flex;
+        }
+
+        .register-signature-default {
+            display: none;
+        }
+    }
+
+    &.active {
+        .register-signature-default {
+            display: none;
+        }
+        .register-signature-signing {
+            display: flex;
+        }
+    }
+
+    button {
+        position: relative;
+    }
+
+    img {
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+.register-signature-default {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background: rgba($primary-color, .2);
+    z-index: 1;
+
+    button {
+        font-family: $main-font;
+        background: $secondary-color;
+        width: 130px;
+        border: 2px solid $primary-color;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 6px 18px;
+        border-radius: 3px;
+        cursor: pointer;
+
+        background: transparent;
+        border: 4px solid $secondary-color;
+
+        &:hover {
+            background: $secondary-color;
+        }
+
+        &.register-signature-clear-btn {
+            border-color: $mutted-color;
+
+            &:hover {
+                background: $mutted-color;
+                color: $light-color;
+            }
+        }
+    }
+}
+
+.register-signature-default-btns {
+    display: flex;
+    gap: 12px;
+    // needed on mobile
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.register-signature-clear-btn {
+    display: none;
+}
+
+.register-signature-drag-info {
+    color: $mutted-color;
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px $light-color;
+}
+
+.register-signature-drag {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-grow: 1;
+    text-align: center;
+    color: $light-color;
+    background: $primary-color;
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.register-signature-signing {
+    display: none;
+    position: absolute;
+    top: -28px;
+    right: 5px;
+    justify-content: flex-end;
+    gap: 6px;
+
+    button {
+        font-family: $main-font;
+        font-size: 16px;
+        display: block;
+        border: none;
+        background: $very-mutted-color;
+        padding: 2px 6px;
+        font-weight: 600;
+        cursor: pointer;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+
+        &.register-signature-confirm-btn {
+            color: $dark-color;
+            background: $primary-color;
+            color: $light-color;
+        }
+
+        &:hover {
+            background: $secondary-color;
+            color: $dark-color;
+        }
+    }
+}
+
+.x-sign-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba($mutted-color, 0.6);
+    z-index: 1;
+}
+
+.registration-signature-label {
+    color: $primary-color;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.registration-submit-btn {
+    @include cta-btn;
+    align-self: flex-end;
+
+    @include register-form-breakpoint {
+        align-self: stretch;
+    }
+}
+
+.register-form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.register-fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.register-form-field {
+    width: 400px;
+    max-width: 100%;
+
+    @include register-form-breakpoint {
+        width: auto;
+        max-width: 400px;
+    }
+
+    &.small {
+        width: 170px;
+    }
+}
+
+.register-form-label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.register-form-input {
+    font-family: $main-font;
+    background: transparent;
+    border: 4px solid $secondary-color;
+    border-radius: 8px;
+    padding: 6px 12px;
+    color: $light-color;
+    font-size: 20px;
+    outline: none;
+    width: 100%;
+
+    &:focus {
+        background: rgba($light-color, .4);
+        color: $dark-color;
+
+        &::placeholder {
+            color: $dark-color;
+        }
+    }
+
+    &::placeholder {
+        color: $light-color;
+        opacity: 0.5;
+    }
+}
+
+.register-field-row {
+    display: flex;
+    gap: 64px;
+
+    @include register-form-breakpoint {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+.register-form-confirmation {
+    max-width: 965px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-approve {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.datepicker-picker {
+    color: $dark-color;
+
+    .datepicker-grid {
+        background: $very-mutted-color;
+    }
+    .datepicker-cell.day.selected {
+        background: $primary-color;
+    }
 }

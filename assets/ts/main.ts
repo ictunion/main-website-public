@@ -1,4 +1,10 @@
 import * as L from 'leaflet';
+import { XSign } from './XSign';
+import RegistrationForm from './RegistrationForm';
+import { Datepicker } from 'vanillajs-datepicker';
+import datepickerCs from './vaniall-datepicker.cs';
+
+Object.assign(Datepicker.locales, datepickerCs);
 
 function switchLanguage(url: string): void {
     location.href = url;
@@ -37,6 +43,25 @@ function initMap(config: MapConfig): void {
         .bindPopup(`<h6 class='map-marker-title'>${config.title}</h6>${config.text}`)
         .openPopup();
 }
+
+customElements.define("x-sign", XSign);
+
+// registration
+const form = (document.getElementById('register-member-form') as HTMLFormElement);
+const qrContainer = document.getElementById('registration-qr-container');
+
+if (form) {
+    const registrationForm: RegistrationForm = new RegistrationForm(form, { qrContainer });
+    registrationForm.fromLocation(window.location);
+}
+
+const datapickerElements = document.querySelectorAll('[data-widget="datepicker"]');
+datapickerElements.forEach((element: HTMLElement) => {
+    const language = document.documentElement.lang;
+    new Datepicker(element, {
+        language
+    });
+});
 
 // export to global namespace.
 window['switchLanguage'] = switchLanguage;

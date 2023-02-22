@@ -21,7 +21,7 @@
           name = "itc-union-website";
           inherit buildInputs;
           shellHook = ''
-            ln -s ${nodeDependencies}/lib/node_modules node_modules
+            ln -sf ${nodeDependencies}/lib/node_modules .
           '';
         };
       defaultPackage = with pkgs;
@@ -30,7 +30,7 @@
           src = self;
           inherit buildInputs;
           buildPhase = ''
-            ln -s ${nodeDependencies}/lib/node_modules node_modules
+            ln -s ${nodeDependencies}/lib/node_modules .
             ${hugo}/bin/hugo
           '';
           installPhase = ''

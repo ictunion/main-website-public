@@ -11,9 +11,138 @@
       </div>
     </div>
   </section>
-  <main class="register-page-body">
-    <div class="register-page-content">
-      Add form here
-    </div>
-  </main>
+  <form id="register-member-form">
+    <main class="register-page-body">
+      <div class="register-page-content">
+        <div class="register-form-width-container">
+          <div class="register-form-fields">
+
+            <fieldset class="register-fieldset">
+              <div class="register-form-field">
+                <label class="register-form-label">Email:
+                  <input class="register-form-input" name="email" type="email" placeholder="jane.doe@email.com" autofocus />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="register-fieldset">
+              <div class="register-field-row">
+                <div class="register-form-field">
+                  <label class="register-form-label">First Name:
+                    <input class="register-form-input" name="first_name" type="text" placeholder="Jane" />
+                  </label>
+                </div>
+
+                <div class="register-form-field">
+                  <label class="register-form-label">Last Name:
+                    <input class="register-form-input" name="last_name" type="text" placeholder="Doe" />
+                  </label>
+                </div>
+              </div>
+
+              <div class="register-form-field">
+                <label class="register-form-label">Date of Birth:
+                  <input class="register-form-input" name="date_of_birth" type="text" placeholder="01/31/1990"  data-widget="datepicker" />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="register-fieldset">
+              <div class="register-form-field">
+                <label class="register-form-label">Address:
+                  <input class="register-form-input" name="address" type="text" placeholder="Masarykova 42" />
+                </label>
+              </div>
+              <div class="register-field-row">
+                <div class="register-form-field">
+                  <label class="register-form-label">City:
+                    <input class="register-form-input" name="city" type="text" placeholder="Brno" />
+                  </label>
+                </div>
+
+                <div class="register-form-field small">
+                  <label class="register-form-label">Postal Code:
+                    <input class="register-form-input" name="postal_code" type="text" placeholder="602 00" />
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="register-register-fieldset">
+              <div class="register-form-field">
+                <label class="register-form-label">Phone Number:
+                  <input class="register-form-input" name="phone_number" type="text" placeholder="+420 777 555 123" />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="register-fieldset">
+              <div class="register-field-row">
+                <div class="register-form-field">
+                  <label class="register-form-label">Company:
+                    <input class="register-form-input" name="company" type="text" placeholder="Pied Piper" />
+                  </label>
+                </div>
+
+                <div class="register-form-field">
+                  <label class="register-form-label">Occupation:
+                    <input class="register-form-input" name="occupation" type="text" placeholder="CEO" />
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="register-form-footer">
+      <div class="register-form-width-container">
+
+        <div class="register-form-footer-content">
+          <aside id="registration-qr-container" class="register-form-footer-left">
+            <h4>Finish on mobile</h4>
+          </aside>
+
+          <aside class="register-form-footer-right">
+
+            <div class="register-signature-wrapper">
+              <x-sign class="register-signature">
+                <div class="register-signature-default">
+                  <div class="register-signature-default-btns">
+                    <button data-role="sign" type="button">Sign</button>
+                    <button data-role="upload" type="button">Upload</button>
+                    <button class="register-signature-clear-btn" data-role="clear" type="button">Clear</button>
+                  </div>
+                  <span class="register-signature-drag-info">Or drag &amp; drop image in this place</button>
+                </div>
+
+                <div class="register-signature-signing">
+                  <button data-role="undo" type="button">Undo</button>
+                  <button data-role="clear" type="button">Clear</button>
+                  <button data-role="cancel" type="button">Cancel</button>
+                  <button class="register-signature-confirm-btn" data-role="confirm" type="button">Confim</button>
+                </div>
+
+                <div class="register-signature-drag">
+                  Drop Image
+                </div>
+              </x-sign>
+              <span class="registration-signature-label">Your signature</span>
+            </div>
+          </aside>
+        </div>
+
+        <div class="register-form-confirmation">
+          <label class="register-approve">
+            <input type="checkbox" name="accept"></input>
+            I accept the Statute of Trade union of ICT workers and the terms and conditions.
+          </label>
+
+          <button class="registration-submit-btn" type="submit">Submit</button>
+        </div>
+
+        </div>
+    </footer>
+  </form>
 {{ end }}

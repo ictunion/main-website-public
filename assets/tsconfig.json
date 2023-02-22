@@ -1,16 +1,17 @@
 {
   "compilerOptions": {
-    "typeRoots": ["node_modules/@types"],
+    "typeRoots": ["./node_modules/@types"],
     "types": [
       "leaflet",
       "geojson"
     ],
     "outDir": "./dist/",
-    "rootDir": "./assets/ts/",
+    "rootDir": "./ts/",
     "noImplicitAny": true,
     "module": "es6",
     "target": "es5",
     "allowJs": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"]
   },
 }
