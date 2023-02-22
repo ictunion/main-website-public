@@ -21,8 +21,8 @@
       ];
       buildPdfs = pkgs.writeScriptBin "generate-pdfs" ''
         mkdir -p static/downloads
-        pandoc --pdf-engine=xelatex content/statutes/index.cs.md -o static/downloads/ictunion-statutes-cs.pdf
-        pandoc --pdf-engine=xelatex content/statutes/index.en.md -o static/downloads/ictunion-statutes-en.pdf
+        pandoc --pdf-engine=xelatex content/statutes/index.cs.md -V block-headings -o static/downloads/ictunion-statutes-cs.pdf
+        pandoc --pdf-engine=xelatex content/statutes/index.en.md -V block-headings -o static/downloads/ictunion-statutes-en.pdf
       '';
     in
     {
