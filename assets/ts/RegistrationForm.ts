@@ -4,11 +4,13 @@ interface RegistrationFormOptions {
     prefix?: string;
     qrContainer?: HTMLElement;
     encodeTypes?: string[];
+    formatters?: { [key: string]: (input: HTMLInputElement) => void };
 };
 
 export const defaultOptions: RegistrationFormOptions = {
     prefix: '',
     encodeTypes: ['text', 'email'],
+    formatters: {},
 };
 
 export default class RegistrationForm {
@@ -40,7 +42,16 @@ export default class RegistrationForm {
 
     registerEventListeners() {
         this.inputs.forEach((input: HTMLInputElement) => {
+            const formatterType = input.getAttribute('data-formatter');
+            const formatter = formatterType ? this.options.formatters[formatterType] : undefined;
+
             input.addEventListener('blur', () => {
+                // run formatter if available
+                if (formatter) {
+                    console.log("run");
+                    formatter(input);
+                }
+
                 const params = this.toURLSearchParams();
                 const url = params.toString();
 
@@ -50,7 +61,16 @@ export default class RegistrationForm {
                 }
                 this.updateQr(params);
             });
+
+            // for inputs with formatter we also need to convert
+            // values back to editable form
+            if (formatterType) {
+                input.addEventListener('focus', () => {
+                    input.value = input.value.replaceAll(' ', '');
+                });
+            }
         });
+
     }
 
     fromLocation(location: Location) {
