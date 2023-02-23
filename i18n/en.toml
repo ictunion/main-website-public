@@ -1,12 +1,3 @@
-["become member"]
-  other = 'Become member'
-
-["or join some of our"]
-  other = 'or join some of our'
-
-[events]
-  other = 'events'
-
 [register]
   other = "register"
 

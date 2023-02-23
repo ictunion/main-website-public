@@ -28,7 +28,7 @@
       <h2 class="home-membership-title">{{ .Param "home.membershipTitle" }}</h2>
       <div class="home-membership-description">
 
-        {{ with .Site.GetPage "home-membership/0-intro" }}
+        {{ with .Site.GetPage "home-membership" }}
           {{ .Content }}
         {{ end }}
 
@@ -36,12 +36,10 @@
       <div class="col-container">
 
         {{ range $index, $page := where .Site.RegularPages "Section" "home-membership" }}
-          {{ if gt $index 0 }}
-            <div class="home-membership-item">
-              <h3 class="home-membership-item-title">{{ $page.Title }}</h3>
-              {{ $page.Content }}
-            </div>
-          {{ end }}
+          <div class="home-membership-item">
+            <h3 class="home-membership-item-title">{{ $page.Title }}</h3>
+            {{ $page.Content }}
+          </div>
         {{ end }}
 
       </div>

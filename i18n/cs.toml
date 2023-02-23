@@ -1,12 +1,3 @@
-["become member"]
-  other = 'Staň se členem'
-
-["or join some of our"]
-  other = 'a nebo se zůčasni některé naší'
-
-[events]
-  other = 'akce'
-
 [register]
   other = "registrovat"
 

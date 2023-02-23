@@ -71,8 +71,16 @@
 
 .home-header-join-us-text {
     @include pharagraph;
-    @include has-links;
     font-size: 22px;
+
+    a, a:visited {
+        color: $ternary-color;
+    }
+
+    a:hover, a:active {
+        background: $ternary-color;
+        color: $light-color;
+    }
 }
 
 .home-header-join-us-cta-btn {

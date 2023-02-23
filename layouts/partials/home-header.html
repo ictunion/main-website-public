@@ -10,11 +10,9 @@
     </div>
     <div class="home-header-join-us-cta">
       <a href="{{ ref . "register" }}" class="home-header-join-us-cta-btn">{{ .Param "joinCta" }}</a>
-      <p class="home-header-join-us-text">
-        <a href="{{ ref . "register" }}">{{ i18n "become member" }}</a>
-        {{ i18n "or join some of our" }}
-        <a href="{{ ref . "events" }}">{{ i18n "events" }}</a>.
-      </p>
+      <div class="home-header-join-us-text">
+        {{ .Content }}
+      </div>
     </div>
   </div>
 </section>
