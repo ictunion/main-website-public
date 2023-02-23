@@ -2,6 +2,9 @@
 title: Staň se členem
 url: registrovat
 type: register
+dateformat: "01.02.2006"
+approveLabel: |
+    Souhlasím a respektuji <a href="/downloads/ictunion-statutes-en.pdf" target="_blank">stanovy</a> Odborové organizace pracujících v ICT.
 ---
 Staň se členem a poďílej se na revoluci
 

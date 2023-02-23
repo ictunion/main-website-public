@@ -656,7 +656,7 @@ body {
 .register-page-body {
     background: $primary-color;
     color: $light-color;
-    padding: 64px 0;
+    padding: 48px 0;
     font-weight: 800;
     flex-grow: 1;
 }
@@ -1009,6 +1009,7 @@ body {
 .register-form-footer-left {
     font-weight: 600;
     width: 400px;
+    gap: 6px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1120,7 +1121,7 @@ body {
     button {
         font-family: $main-font;
         background: $secondary-color;
-        width: 130px;
+        width: 140px;
         border: 2px solid $primary-color;
         font-weight: 600;
         font-size: 20px;
@@ -1244,7 +1245,7 @@ body {
 .register-form-fields {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 32px;
 }
 
 .register-fieldset {
@@ -1318,6 +1319,8 @@ body {
 }
 
 .register-approve {
+    @include has-links;
+
     font-size: 18px;
     font-weight: 600;
 }

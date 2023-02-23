@@ -13,17 +13,16 @@
         inherit system;
         overlays = [ nix-dart.overlay overlay ];
       };
+      tex = pkgs.texlive.combine {
+        inherit (pkgs.texlive) scheme-full;
+      };
       buildInputs = with pkgs; [
         hugo
         dart-sass-embedded-bin
         pandoc
-        texlive.combined.scheme-small
+        ibm-plex
+        tex
       ];
-      buildPdfs = pkgs.writeScriptBin "generate-pdfs" ''
-        mkdir -p static/downloads
-        pandoc --pdf-engine=xelatex content/statutes/index.cs.md -V block-headings -o static/downloads/ictunion-statutes-cs.pdf
-        pandoc --pdf-engine=xelatex content/statutes/index.en.md -V block-headings -o static/downloads/ictunion-statutes-en.pdf
-      '';
     in
     {
       devShell = with pkgs;
@@ -31,7 +30,8 @@
           name = "itc-union-website";
           inherit buildInputs;
           shellHook = ''
-            ${buildPdfs}/bin/generate-pdfs
+            OSFONTDIR=${pkgs.ibm-plex}/share/fonts/opentype bash latex/print-all
+
             ln -sf ${nodeDependencies}/lib/node_modules .
           '';
         };
@@ -41,7 +41,7 @@
           src = self;
           inherit buildInputs;
           buildPhase = ''
-            ${buildPdfs}/bin/generate-pdfs
+            OSFONTDIR=${pkgs.ibm-plex}/share/fonts/opentype bash latex/print-all
 
             ln -s ${nodeDependencies}/lib/node_modules .
             ${hugo}/bin/hugo

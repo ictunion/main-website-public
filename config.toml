@@ -60,9 +60,9 @@ title = "ICT"
     learnMore = "Learn More"
     socials = "Socials"
     languages = "Languages"
-    legal = "Leagal"
+    legal = "Legal"
     legalNote = "registered in ..."
-    legalLink = "Leagal Record"
+    legalLink = "Legal Record"
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files

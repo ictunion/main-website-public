@@ -1,12 +1,13 @@
 ---
 title: Statutes
+subtitle: Trade Union of Workers in ITC
 url: statutes
 download: ictunion-statutes-en.pdf
+lang: en
 description: |
     Trade union of workers in ICT<br/>
     *unofficial translation*
 ---
-
 #### I. INTRODUCTORY PROVISIONS
 
 1. A trade union for workers in ICT (hereinafter referred to as "the Organization") is a trade union associating, on a voluntary basis and in the common interest, members of different professions working for employers in the IT and telecommunications sectors. As we bring together workers who speak different languages, we will make sure that our organization creates an environment that is conducive to membership from different countries.

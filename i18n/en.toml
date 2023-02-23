@@ -54,3 +54,63 @@
 
 [download]
   other = "download"
+
+[Email]
+  other = "Email"
+
+["First Name"]
+  other = "First Name"
+
+["Last Name"]
+  other = "Last Name"
+
+["Date of Birth"]
+  other = "Date of Birth"
+
+[City]
+  other = "City"
+
+["Postal Code"]
+  other = "Postal Code"
+
+["Phone Number"]
+  other = "Phone Number"
+
+[Company]
+  other = "Company"
+
+[Occupation]
+  other = "Occupation"
+
+["Continue on mobile"]
+  other = "Finish on mobile"
+
+[Sign]
+  other = "Sign"
+
+[Upload]
+  other = "Upload"
+
+[Clear]
+  other = "Clear"
+
+["dnd in place"]
+  other = "Or drag &amp; drop image in this place"
+
+[Undo]
+  other = "Undo"
+
+[Cancel]
+  other ="Cancel"
+
+[Confirm]
+  other = "Confirm"
+
+["Drop Image"]
+  other = "Drop Image"
+
+["Your Signature"]
+  other = "Your signature"
+
+[Submit]
+  other = "Submit"

@@ -54,3 +54,63 @@
 
 [download]
   other = "stáhnout"
+
+[Email]
+  other = "E-mail"
+
+["First Name"]
+  other = "Jméno"
+
+["Last Name"]
+  other = "Příjmení"
+
+["Date of Birth"]
+  other = "Datum Narození"
+
+[City]
+  other = "Město"
+
+["Postal Code"]
+  other = "PSČ"
+
+["Phone Number"]
+  other = "Telefoní Číslo"
+
+[Company]
+  other = "Společnost"
+
+[Occupation]
+  other = "Pozice"
+
+["Continue on mobile"]
+  other = "Pokračuj na telefonu"
+
+[Sign]
+  other = "Podepsat"
+
+[Upload]
+  other = "Nahrát"
+
+[Clear]
+  other = "Vyčistit"
+
+["dnd in place"]
+  other = "Nebo přesuňte obrázek sem"
+
+[Undo]
+  other = "Zpět"
+
+[Cancel]
+  other ="Zrušit"
+
+[Confirm]
+  other = "Potvrdit"
+
+["Drop Image"]
+  other = "Nahrát Obrázek"
+
+["Your Signature"]
+  other = "Podpis uchazeče"
+
+[Submit]
+  other = "Odeslat"

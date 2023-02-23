@@ -2,6 +2,9 @@
 title: Become member
 url: register
 type: register
+dateformat: "02/01/2006"
+approveLabel: |
+    I accept and respect the <a href="/downloads/ictunion-statutes-cs.pdf" target="_blank">statutes</a> of the Trade Union of ICT Workers.
 ---
 Party today, revolution tomorrow
 

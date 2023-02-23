@@ -1,0 +1,13 @@
+#! /usr/bin/env bash
+
+set -xe
+
+function print_legal() {
+    pandoc -H latex/legal.sty --pdf-engine=xelatex -V block-headings $1 -t latex -s | sed '/\\def\\labelenumi/d' > out.tex
+    xelatex out.tex
+    mv -f out.pdf $2
+    rm -f out*
+}
+
+print_legal content/statutes/index.en.md static/downloads/ictunion-statutes-en.pdf
+print_legal content/statutes/index.cs.md static/downloads/ictunion-statutes-cs.pdf
