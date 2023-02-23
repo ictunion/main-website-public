@@ -1,0 +1,152 @@
+@mixin pharagraph {
+    line-height: 1.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+@mixin has-links {
+    a, a:visited, a:active {
+        color: $primary-color;
+    }
+
+    a:hover {
+        color: $light-color;
+        background: $primary-color;
+    }
+}
+
+@mixin has-strong {
+    strong {
+        font-weight: 600;
+    }
+}
+
+@mixin section-title {
+    display: inline-block;
+    font-size: 48px;
+    letter-spacing: -2px;
+    font-weight: 800;
+    line-height: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin title {
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: -1px;
+}
+
+@mixin sub-title {
+    margin-top: 24px;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+@mixin page-body {
+    width: 100%;
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+@mixin cta-btn {
+    position: relative;
+    border-radius: 3px;
+    background: $secondary-color;
+    color: $dark-color;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 28px;
+    border: none;
+    padding: 24px 82px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+
+    &:hover {
+        background: $darken-secondary-color;
+    }
+}
+
+@mixin columns-container {
+    display: flex;
+    gap: 84px;
+
+    @include tablet {
+        flex-direction: column;
+    }
+}
+
+@mixin column {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+@mixin style-md {
+    @include has-links;
+
+    p {
+        @include pharagraph;
+        margin: 20px 0;
+    }
+
+    strong {
+        font-weight: 700;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    h2 {
+        @include title;
+        padding: 24px 0;
+        font-weight: 800;
+    }
+
+    h3 {
+        @include title;
+        padding: 24px 0;
+    }
+
+    h4 {
+        font-size: 22px;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+
+    ul {
+        list-style-type: square;
+        line-height: 2em;
+        padding: 12px 0 12px 52px;
+    }
+
+    ol {
+        list-style-type: numeric;
+        line-height: 1.5em;
+        padding: 12px 0 12px 22px;
+
+        li {
+            padding: 8px 0;
+        }
+
+        ol {
+            list-style-type: lower-alpha;
+            padding: 8px 0 0 42px;
+
+            li {
+                padding: 3px 0;
+            }
+        }
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: 1000px) {
+        @content;
+    }
+}

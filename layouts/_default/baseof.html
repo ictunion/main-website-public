@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="{{ .Param "lang" }}">
   <head>
-    <title>{{ block "title" . }} {{ end }}</title>
+    <title>{{ block "title" . }}{{ end }}</title>
     {{ partial "site-head.html" . }}
   </head>
   <body>
     {{ partial "header.html" . }}
     {{ block "content" . }}{{ end }}
     {{ partial "footer.html" . }}
+    {{ block "scripts" . }}{{ end }}
     {{ partial "site-end.html" . }}
   </body>
 </html>

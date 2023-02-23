@@ -1,0 +1,242 @@
+.events-header {
+    border-bottom: 6px solid $primary-color;
+    border-top: 6px solid $primary-color;
+    background: $very-mutted-color;
+    margin-bottom: 32px;
+}
+
+.events-header-content {
+    @include page-body;
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+.events-title {
+    @include section-title;
+    border-bottom: solid 10px $primary-color;
+    font-size: 68px;
+}
+
+.events-sub-title {
+    font-weight: 400;
+    font-size: 27px;
+    color: $mutted-color;
+    margin-top: 24px;
+}
+
+.events-meta-content {
+    @include style-md;
+}
+
+.events-content {
+    @include page-body;
+    flex-grow: 1;
+}
+
+.events-event-title {
+    margin: 64px 0 18px 0;
+    font-weight: 600;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.events-event-link {
+    color: $dark-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.events-event-description {
+    @include pharagraph;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+.events-event-item {
+    padding-bottom: 32px;
+    border-bottom: 2px solid $very-mutted-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.events-event-date {
+    background: $primary-color;
+    color: $light-color;
+    font-weight: 600;
+    padding: 0 4px;
+    border-radius: 2px;
+}
+
+.events-event-place {
+    font-weight: 600;
+    font-style: italic;
+    color: $mutted-color;
+}
+
+.event-detail-header-content {
+    @include page-body;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    padding-bottom: 32px;
+
+    @include tablet {
+        flex-direction: column;
+        gap: 24px;
+    }
+}
+
+.event-detail-header-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+
+    @include tablet {
+        align-items: stretch;
+    }
+}
+
+.event-detail-sub-title {
+    font-weight: 400;
+    font-size: 27px;
+    color: $mutted-color;
+}
+
+.event-detail-header-register-cta {
+    @include cta-btn;
+    padding: 18px 48px;
+}
+
+.event-detail-header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 6px;
+
+    @include tablet {
+        align-items: flex-start;
+    }
+}
+
+.event-detail-header-date {
+    font-weight: 800;
+    font-size: 28px;
+    text-align: right;
+}
+
+.event-detail-header-place {
+    font-size: 32px;
+    font-weight: 300;
+    color: $primary-color;
+    text-align: right;
+}
+
+.event-detail-page-body {
+    @include page-body;
+    display: flex;
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-grow: 1;
+    font-size: 16px;
+
+    @include tablet {
+        flex-direction: column;
+    }
+}
+
+.event-detail-content {
+    @include style-md;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.event-detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 400px;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+    @include tablet {
+        width: auto;
+    }
+}
+
+.event-detail-info-title {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom: -18px;
+    color: $very-mutted-color;
+}
+
+.event-detail-info-table {
+    @include has-links;
+    width: 100%;
+    color: $mutted-color;
+
+    td {
+        padding: 4px 0;
+        font-weight: 600;
+
+        &:last-child {
+            width: 65%;
+            font-weight: 400;
+        }
+    }
+}
+
+.event-detail-register-cta {
+    @include cta-btn;
+}
+
+.event-detail-info-share {
+    @include has-links;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    a {
+        width: auto;
+        padding: 2px 0;
+    }
+}
+
+.event-detail-info-map {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.event-detail-info-coords {
+    color: $more-mutted-color;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+.event-detail-info-map-links {
+    @include has-links;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#map {
+    height: 300px;
+}
+
+.map-marker-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 6px;
+}

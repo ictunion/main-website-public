@@ -2,6 +2,11 @@
   {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
 {{ end }}
 
+{{ define "scripts" }}
+  {{ $events_js := resources.Get "ts/events.ts" | js.Build }}
+  <script src="{{ $events_js.Permalink }}" defer></script>
+{{ end }}
+
 {{ define "content" }}
   <section class="events-header">
     <div class="event-detail-header-content">

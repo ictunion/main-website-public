@@ -1,8 +1,2 @@
 {{ $js := resources.Get "ts/main.ts" | js.Build }}
 <script src="{{ $js.Permalink }}" defer></script>
-
-<div class="image-preload">
-  {{ range readDir "./assets/images/" }}
-    <img src='{{ (resources.Get (printf "images/%s" .Name)).Permalink }}'>
-  {{ end }}
-</div>

@@ -2,6 +2,11 @@
   {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
 {{ end }}
 
+{{ define "scripts" }}
+  {{ $register_js := resources.Get "ts/register.ts" | js.Build }}
+  <script src="{{ $register_js.Permalink }}" defer></script>
+{{ end }}
+
 {{ define "content" }}
   <section class="register-page-header">
     <div class="register-page-header-content">

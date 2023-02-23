@@ -1,0 +1,220 @@
+.home-page-body {
+    @include page-body;
+}
+
+.home-header {
+}
+
+.home-header-content {
+    @include page-body;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    padding-bottom: 48px;
+
+    @include tablet {
+        flex-direction: column;
+    }
+}
+
+.home-header-tag {
+    padding: 32px 0;
+}
+
+.home-header-headline {
+    font-size: 120px;
+    font-weight: 300;
+    line-height: 52px;
+    padding: 0;
+    margin: 0;
+
+    @include tablet {
+        text-align: center;
+    }
+
+    strong {
+        font-family: $secondary-font;
+        font-weight: 900;
+        display: block;
+    }
+
+    small {
+        font-weight: 300;
+        font-size: 32px;
+        color: $mutted-color;
+        letter-spacing: 6px;
+    }
+}
+
+.home-header-tag-line {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.1em;
+    margin: 12px 0;
+
+    @include tablet {
+        text-align: center;
+    }
+}
+
+.home-header-join-us-cta {
+    padding-top: 48px;
+    font-size: 24px;
+    max-width: 300px;
+    color: $mutted-color;
+
+    @include tablet {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+.home-header-join-us-text {
+    @include pharagraph;
+    @include has-links;
+    font-size: 22px;
+}
+
+.home-header-join-us-cta-btn {
+    @include cta-btn;
+    display: inline-block;
+
+    @include tablet {
+        display: block;
+        width: 100%;
+    }
+}
+
+.home-participate {
+    background: $primary-color;
+    color: $light-color;
+    padding: 48px 0;
+}
+
+.home-participate-title {
+    @include section-title;
+    border-bottom: solid 10px $secondary-color;
+}
+
+.col-container {
+    @include columns-container;
+}
+
+.home-participate-item {
+    p {
+        font-size: 17px;
+        line-height: 1.6em;;
+    }
+}
+
+.home-participate-content {
+    @include pharagraph;
+    font-size: 18px;
+}
+
+.home-participate-item-title {
+    @include title;
+    margin: 64px 0 32px 0;
+}
+
+.home-membership {
+    background: $secondary-color;
+    padding: 48px 0 64px 0;
+}
+
+.home-membership-description {
+    @include pharagraph;
+    @include has-strong;
+    font-size: 20px;
+
+    a, a:visited, a:active {
+        color: $primary-color;
+    }
+
+    a:hover {
+        color: $light-color;
+        background: $primary-color;
+    }
+}
+
+.home-membership-title {
+    @include section-title;
+    border-bottom: solid 10px $dark-color;
+}
+
+.home-membership-item {
+    p {
+        font-size: 17px;
+        line-height: 1.6em;
+    }
+}
+
+.home-membership-item-title {
+    @include title;
+    margin: 68px 0 52px 0;
+}
+
+.home-events {
+    padding: 48px 0;
+}
+
+.home-events-title {
+    @include section-title;
+    border-bottom: solid 10px $secondary-color;
+}
+
+.home-events-description {
+    @include pharagraph;
+    @include has-strong;
+    font-size: 19px;
+
+    a, a:visited, a:active {
+        color: $primary-color;
+    }
+
+    a:hover {
+        color: $light-color;
+        background: $primary-color;
+    }
+}
+
+.home-event-title {
+    margin: 64px 0 18px 0;
+    font-weight: 600;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.home-event-link {
+    color: $dark-color;
+    text-decoration: none;
+}
+
+.home-event-description {
+    @include pharagraph;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+.home-event-item {
+    padding-bottom: 32px;
+    border-bottom: 2px solid $very-mutted-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.home-event-date {
+    background: $primary-color;
+    color: $light-color;
+    font-weight: 600;
+    padding: 0 4px;
+    border-radius: 2px;
+}
+
+.home-event-place {
+    font-weight: 600;
+    font-style: italic;
+    color: $mutted-color;
+}
