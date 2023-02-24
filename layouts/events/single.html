@@ -80,6 +80,7 @@
         </a>
       </div>
 
+	{{ if and (isset .Page.Params "lat") (isset .Page.Params "lon") }}
       <h3 class="event-detail-info-title">{{ i18n "Map" }}:</h3>
       <div class="event-detail-info-map">
         <x-map
@@ -106,6 +107,7 @@
           </a>
         </div>
       </div>
+	{{ end }}
     </aside>
   </div>
 {{ end }}
