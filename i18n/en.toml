@@ -86,7 +86,7 @@
   other = "Clear"
 
 ["dnd in place"]
-  other = "Or drag &amp; drop image in this place"
+  other = "Or drag & drop image in this place"
 
 [Undo]
   other = "Undo"
