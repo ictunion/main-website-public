@@ -23,6 +23,10 @@ export class XMap extends HTMLElement {
         const icon: L.Icon = L.icon({
             iconUrl: '/images/marker-icon.png',
             shadowUrl: '/images/marker-shadow.png',
+            iconSize: [25, 41],
+            shadowSize: [41, 41],
+            iconAnchor:	[12, 40],
+            shadowAnchor: [12, 40],
         });
 
         this.marker = L.marker(
