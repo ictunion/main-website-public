@@ -66,3 +66,6 @@ title = "ICT"
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
+  
+[permalinks]
+  events = '/:title/'
