@@ -27,6 +27,7 @@ export class XMap extends HTMLElement {
             shadowSize: [41, 41],
             iconAnchor:	[12, 40],
             shadowAnchor: [12, 40],
+            popupAnchor:  [1, -40]
         });
 
         this.marker = L.marker(
