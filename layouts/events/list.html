@@ -18,7 +18,7 @@
             <a href="{{ .Permalink }}" class="events-event-link">{{ .Title }}</a>
           </h2>
           <div class="events-event-info">
-            {{ if isset .Params "EventDate" }}<span class="events-event-date">{{ .Params.EventDate | time.Format ":date_short" }}</span>{{ end }}
+            {{ if .Param "eventDate" }}<span class="events-event-date">{{ .Params.EventDate | time.Format ":date_short" }}</span>{{ end }}
             <span class="events-event-place">{{ .Params.Place }}</span>
           </div>
         </header>

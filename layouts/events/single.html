@@ -16,7 +16,7 @@
         <a class="event-detail-header-register-cta" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
       </div>
       <div class="event-detail-header-info">
-        {{ if isset .Params "EventDate" }}<h3 class="event-detail-header-date">{{ .Params.EventDate | time.Format ":date_long" }}</h3>{{ end }}
+        {{ if .Param "eventDate" }}<h3 class="event-detail-header-date">{{ .Params.EventDate | time.Format ":date_long" }}</h3>{{ end }}
         <h3 class="event-detail-header-place">{{ .Params.Place }}</h3>
       </div>
     </div>
@@ -31,7 +31,7 @@
 
       <table class="event-detail-info-table">
         <tbody>
-		{{ if isset .Params "EventDate" }}
+		{{ if .Param "eventDate" }}
           <tr>
             <td>{{ i18n "Date" }}:</td>
             <td>{{ .Params.EventDate | time.Format ":date_long" }}</td>
