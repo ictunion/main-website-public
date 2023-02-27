@@ -2,28 +2,27 @@
 title: "About Us"
 url: about-us
 description: |
-    Jsme skupina pracovníků a pracovnic z call center a IT sektoru (tedy sektoru ICT)  v celém Česku a společně se scházíme, abychom řešili naše pracovní podmínky, společně se zamýšleli jak je změnit a navzájem se v jejich změně podporovali.
+    We are group of workers from call centers and IT sector (ICT sector) in Czech Republic. We are meeting together to discuss our working conditions, think about ways to improve them and support each other in doing so. 
 
-    Jsme sektorová odborová organizace - to znamená, že nezdržujeme jenom zaměstnance\*kyně na jednom pracovišti, ale všechny, co v sektoru ICT pracují jako jednotlivce nebo celé pracoviště. Našimi členkami a členy jsou jak programátoři\*ky, testeři\*ky apod., ale i pracovníci\*ce call center, back office a mnoho dalších.
+    We are sectoral union which means that we are not present at only one single workplace. We are instead connecting all workers from ICT sector as individuals and also as whole workplaces. Our members are anyone from testers, programmers, to call center and back office workers and many more.
 ---
 
-## Co děláme?
+## What we do?
 
-Našimi cíli jsou:
+Our goals are:
 
-- propojit všechny pracovníky\*ice v našem sektoru a vytvořit komunitu,
-- hájit naše ekonomické, profesní, sociální a fyzická práva,
-- dosažení lepších pracovních podmínek (vyšší mzdy, lepší pracovní doba...),
-- bojovat proti jakékoliv formě útlaku na pracovišti.
+- connect all workers in our sector and create community,
+- protect our economic, professional, social and physical rights,
+- achieve better working conditions (better pay, better work hours, ...),
+- fight any form of oppression.
 
-Snažíme se také spolupracovat s jinými organizacemi v rámci snah o společenskou změnu (například spolupráce s organizacemi, co se zasazují o klimatickou spravedlnost).
+We are also cooperating with other organizations aiming for social changes (for example cooperation with climate justice organizations)
+We have also joined OSPPP to be better connected to other trade unions.
 
-Abychom byli součástí odborových struktur, vstoupili jsme do Odborového svazu pracovníků a pojišťovnictví OSPPP
+## How are we working?
 
-## Jak fungujeme?
+We are active trade union and we have online meeting each month in czech and english language, where we are planning our next actions and make collective decisions. We have one big in person planning meeting every six months. And we also have meetings and events both in person and online. You can be part of this as union member.
 
-Jsme aktivní odborová organizace a každý měsíc máme online členské schůze v anglickém i českém jazyce, kde se domlouváme na dalších akcích a děláme společná rozhodnutí. Jednou za půl roku máme velkou plánovací schůzi osobně a mezi tím další schůzky a akce online i osobně. Jako člen\*ka doborů se do tohoto všechno můžeš, ale nemusíš zapojit.
+## How we started?
 
-## Jak jsme vznikli?
-
-Odborová organizace pracujicích v ICT* vznikla v létě 2021 za účelem spojit pracovníky\*ice call center a IT sektoru (tedy sektoru ICT)  v celém Česku a poskytnout jim společnou platformu. Podnětem pro náš vznik byla situace ohledně pracovních podmínek během pandemie Covid-19, následně jsme zorganizovali\*y kolektivní akci – petici k home office.
+ICT Union has been created in summer 2021 in order to connect call center workers and IT workers in Czech Republic and give us common platform. Main reason was situation around working conditions during Covid-19 pandemic. Our first collective action was petition about home office.
