@@ -6,6 +6,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+{{ $ico := resources.Get "svg/favicon.svg" }}
+<link rel="icon" href="{{ $ico.Permalink }}" alt="{{ .Param "title" }}" sizes="any" type="image/svg+xml" />
+
 {{ $sass_options := (dict "transpiler" "dartsass") }}
 {{ $sass := resources.Get "scss/main.scss" }}
 {{ $style := $sass | resources.ToCSS $sass_options }}

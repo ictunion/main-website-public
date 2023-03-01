@@ -39,7 +39,10 @@ body {
 }
 
 .site-title, .site-title:visited, .site-title:active {
+    display: flex;
     font-size: 22px;
+    gap: 6px;
+    justify-content: center;
     font-weight: 300;
     color: $dark-color;
     text-decoration: none;
@@ -50,9 +53,11 @@ body {
     }
 
     @include tablet {
-        display: block;
-        text-align: center;
     }
+}
+
+.site-header-logo {
+    width: 25px;
 }
 
 .site-title:hover {

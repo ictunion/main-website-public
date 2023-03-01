@@ -1,7 +1,11 @@
 <header class="site-header">
   <a class="site-title" href="{{ ref . "/" }}">
-    <strong>{{ .Site.Title }}</strong>
-    {{ .Site.Param "subTitle" }}
+    {{ $logo := resources.Get "svg/oop-ict-logo.svg" }}
+    <img class="site-header-logo" src="{{ $logo.Permalink }}" alt="{{ .Param "title" }}" />
+    <div>
+      <strong>{{ .Site.Title }}</strong>
+      {{ .Site.Param "subTitle" }}
+    </div>
   </a>
   <nav class="site-nav">
     <ul class="site-nav-ul">
