@@ -6,9 +6,4 @@ dateformat: "02/01/2006"
 approveLabel: |
     I accept and respect the <a href="/downloads/ictunion-statutes-cs.pdf" target="_blank">statutes</a> of the Trade Union of ICT Workers.
 ---
-Party today, revolution tomorrow
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Please submit your application to be a member here. Once your application has been accepted, someone from our Union will call you to welcome you. You will start receiving all information about the union meetings and activities, as well as information on how to contribute financially. The standard union due is 1% of our netto salary up to max. 250 CZK per month. For students, pensionists, and people on parental leave, the fee is reduced to 25 CZK/month.

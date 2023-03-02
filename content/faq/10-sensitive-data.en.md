@@ -1,4 +1,4 @@
 ---
-title: Some sensitive data are required in the registration form. Who has access to these?
+title: Some sensitive data are required in the registration form. Does anyone outside the organization has access to this inforamtion?
 ---
-Only our elected union board has access to the full data set that you provide us upon registration. No one else and also no one can request the data.
+No.

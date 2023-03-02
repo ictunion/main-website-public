@@ -1,7 +1,9 @@
 ---
-title: Attend Event
+title: Be a supporter
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Come and meet us. There are multiple ways that you can come in contact with us and see how we function. You can:
+ * Attend event
+ * Come for beer
+ * Write us at {email}
+ * Meet with one of us
+ * Subsribe to newsletter

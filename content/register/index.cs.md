@@ -6,9 +6,4 @@ dateformat: "01.02.2006"
 approveLabel: |
     Souhlasím a respektuji <a href="/downloads/ictunion-statutes-en.pdf" target="_blank">stanovy</a> Odborové organizace pracujících v ICT.
 ---
-Staň se členem a poďílej se na revoluci
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Příhlášku ke členství můžete vyplnit zde. Jakmile bude Vaše přihláška přijata, někdo z odborů Vás kontaktuje. Od té chvíle začnete dostávat informace o odborových setkáních a aktivitách, a také informace jak přispět finančně. Běžný členský příspěvek je 1% z čistého příjmu, maximálně však 250 korun měsíčně. Studenti, důchodci a osoby na rodičovské dovolené mají příspěvek snížený na 25 korun měsíčně.
