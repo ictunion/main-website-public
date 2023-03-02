@@ -6,8 +6,12 @@
   <section class="events-header">
     <div class="events-header-content">
       <h1 class="events-title">{{ .Title }}</h1>
-      <h2 class="events-sub-title">{{ .Page.Param "subTitle" }}</h2>
-      <div class="events-meta-content">{{ .Content }}</div>
+      {{ if .Page.Params.SubTitle }}
+        <h2 class="events-sub-title">{{ .Page.Param "subTitle" }}</h2>
+      {{ end }}
+      {{ if .Page.Content }}
+        <div class="events-meta-content">{{ .Content }}</div>
+      {{ end }}
     </div>
   </section>
   <main class="events-content">

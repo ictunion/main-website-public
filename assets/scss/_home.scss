@@ -74,11 +74,11 @@
     font-size: 22px;
 
     a, a:visited {
-        color: $ternary-color;
+        color: $primary-color;
     }
 
     a:hover, a:active {
-        background: $ternary-color;
+        background: $primary-color;
         color: $light-color;
     }
 }
@@ -109,15 +109,13 @@
 }
 
 .home-participate-item {
-    p {
-        font-size: 17px;
-        line-height: 1.6em;;
-    }
+    flex: 1 1 0px;
 }
 
 .home-participate-content {
-    @include pharagraph;
-    font-size: 18px;
+    @include style-md;
+    font-size: 17px;
+    line-height: 1.6em;
 }
 
 .home-participate-item-title {
@@ -151,6 +149,8 @@
 }
 
 .home-membership-item {
+    flex: 1 1 0px;
+
     p {
         font-size: 17px;
         line-height: 1.6em;
