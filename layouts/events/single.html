@@ -31,16 +31,16 @@
 
       <table class="event-detail-info-table">
         <tbody>
-		{{ if .Param "eventDate" }}
-          <tr>
-            <td>{{ i18n "Date" }}:</td>
-            <td>{{ .Params.EventDate | time.Format ":date_long" }}</td>
-          </tr>
-          <tr>
-            <td>{{ i18n "Start" }}:</td>
-            <td>{{ .Params.EventDate | time.Format ":time_medium" }}</td>
-          </tr>
-		{{ end }}
+          {{ if .Param "eventDate" }}
+            <tr>
+              <td>{{ i18n "Date" }}:</td>
+              <td>{{ .Params.EventDate | time.Format ":date_long" }}</td>
+            </tr>
+            <tr>
+              <td>{{ i18n "Start" }}:</td>
+              <td>{{ .Params.EventDate | time.Format ":time_medium" }}</td>
+            </tr>
+          {{ end }}
           <tr>
             <td>{{ i18n "Duration" }}:</td>
             <td>{{ .Params.Duration }}</td>
@@ -82,34 +82,34 @@
         </a>
       </div>
 
-	{{ if and (isset .Page.Params "lat") (isset .Page.Params "lon") }}
-      <h3 class="event-detail-info-title">{{ i18n "Map" }}:</h3>
-      <div class="event-detail-info-map">
-        <x-map
-            class="event-detail-map"
-            lat="{{ .Page.Param "lat" }}"
-            lng="{{ .Page.Param "lon" }}"
-            title="{{ .Page.Param "place" }}"
-            text="{{ .Page.Param "placeAddress" }}"
-          ></x-map>
-        <div class="event-detail-info-coords">
-          latitude: {{ .Page.Param "lat" }}</br>
-          longitude: {{ .Page.Param "lon" }}
-        </div>
+      {{ if and (isset .Page.Params "lat") (isset .Page.Params "lon") }}
+        <h3 class="event-detail-info-title">{{ i18n "Map" }}:</h3>
+        <div class="event-detail-info-map">
+          <x-map
+              class="event-detail-map"
+              lat="{{ .Page.Param "lat" }}"
+              lng="{{ .Page.Param "lon" }}"
+              title="{{ .Page.Param "place" }}"
+              text="{{ .Page.Param "placeAddress" }}"
+            ></x-map>
+          <div class="event-detail-info-coords">
+            latitude: {{ .Page.Param "lat" }}</br>
+            longitude: {{ .Page.Param "lon" }}
+          </div>
 
-        <div class="event-detail-info-map-links">
-          <a target="_blank" href="https://www.openstreetmap.org/directions?from=&to={{ .Page.Param "lat"}}%2C{{ .Page.Param "lon"}}">
-            {{ i18n "open in" }} Open Street Map
-          </a>
-          <a target="_blank" href="https://www.google.com/maps?q=loc:{{.Page.Param "lat"}},{{ .Page.Param "lon" }}">
-            {{ i18n "open in" }} Google Maps
-          </a>
-          <a target="_blank" href="//mapy.cz/zakladni?q={{ .Page.Param "lat"}}N%2C {{ .Page.Param "lon" }}E">
-            {{ i18n "open in" }} Mapy.cz
-          </a>
+          <div class="event-detail-info-map-links">
+            <a target="_blank" href="https://www.openstreetmap.org/directions?from=&to={{ .Page.Param "lat"}}%2C{{ .Page.Param "lon"}}">
+              {{ i18n "open in" }} Open Street Map
+            </a>
+            <a target="_blank" href="https://www.google.com/maps?q=loc:{{.Page.Param "lat"}},{{ .Page.Param "lon" }}">
+              {{ i18n "open in" }} Google Maps
+            </a>
+            <a target="_blank" href="//mapy.cz/zakladni?q={{ .Page.Param "lat"}}N%2C {{ .Page.Param "lon" }}E">
+              {{ i18n "open in" }} Mapy.cz
+            </a>
+          </div>
         </div>
-      </div>
-	{{ end }}
+      {{ end }}
     </aside>
   </div>
 {{ end }}

@@ -82,9 +82,9 @@ description: |
 1. Fyzická osoba se stává členem/kou Organizace na základě písemné přihlášky, pokud Výbor Organizace rozhodne o přijetí této osoby za člena/ku.
 1. Členství vzniká dnem rozhodnutí o přijetí fyzické osoby za člena/ku, případně jiným dnem uvedeným v rozhodnutí. O tomto rozhodnutí Výbor Organizace nově přijatého člena/ky bez zbytečného odkladu uvědomí.
 1. Členství v Organizaci zaniká:
-   1) na základě písemné žádosti člena/ky o ukončení členství,
-   1) na základě rozhodnutí Výboru Organizace o vyloučení člena/ky z důvodu hrubého porušení povinností nebo těchto Stanov,
-   1) smrtí člena/ky.
+    1) na základě písemné žádosti člena/ky o ukončení členství,
+    1) na základě rozhodnutí Výboru Organizace o vyloučení člena/ky z důvodu hrubého porušení povinností nebo těchto Stanov,
+    1) smrtí člena/ky.
 1. Za hrubé porušení povinností se považuje zejména případ, kdy člen/ka řádně a včas neuhradil/a členský příspěvek, ačkoli byl/a k uhrazení dlužného příspěvku písemně vyzván/a Výborem Organizace.
 1. V případě žádosti o opakované členství, je žadatel/ka povinen v přihlášce uvést důvody, pro které znovu žádá o členství v Organizaci. O takovém členství rozhoduje Výbor Organizace.
 

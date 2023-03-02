@@ -65,7 +65,9 @@
             </a>
           </h3>
           <div class="home-event-info">
-           {{ if .Param "eventDate" }}<span class="home-event-date">{{ .Params.EventDate | time.Format ":date_short" }}</span>{{ end }}
+            {{ if .Param "eventDate" }}
+              <span class="home-event-date">{{ .Params.EventDate | time.Format ":date_short" }}</span>
+            {{ end }}
             <span class="home-event-place">{{ .Params.Place }}</span>
           </div>
           <div class="home-event-description">

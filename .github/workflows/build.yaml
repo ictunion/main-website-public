@@ -1,4 +1,4 @@
-name: "Build HTML"
+name: "Build Website"
 
 on:
   pull_request:
@@ -8,6 +8,21 @@ jobs:
   build-all:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: cachix/install-nix-action@v18
-      - run: nix build
+      - name: Clone repository
+        uses: actions/checkout@v3
+
+      - name: Verify formatting
+        env:
+          VERSION: 2.7.0
+          OS: linux
+          ARCH: amd64
+        run: |
+          curl -O -L -C - https://github.com/editorconfig-checker/editorconfig-checker/releases/download/$VERSION/ec-$OS-$ARCH.tar.gz
+          tar xzf ec-$OS-$ARCH.tar.gz
+          ./bin/ec-$OS-$ARCH
+
+      - name: Install nix
+        uses: cachix/install-nix-action@v18
+
+      - name: Build evenrything
+        run: nix build
