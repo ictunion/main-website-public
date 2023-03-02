@@ -1,8 +1,9 @@
 ---
 title: "About Us"
 url: about-us
+type: about
 description: |
-    We are group of workers from call centers and IT sector (ICT sector) in Czech Republic. We are meeting together to discuss our working conditions, think about ways to improve them and support each other in doing so. 
+    We are group of workers from call centers and IT sector (ICT sector) in Czech Republic. We are meeting together to discuss our working conditions, think about ways to improve them and support each other in doing so.
 
     We are sectoral union which means that we are not present at only one single workplace. We are instead connecting all workers from ICT sector as individuals and also as whole workplaces. Our members are anyone from testers, programmers, to call center and back office workers and many more.
 ---

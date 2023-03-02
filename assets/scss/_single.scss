@@ -46,6 +46,41 @@
     font-size: 16px;
 }
 
+// this is the only thing different in about page so we
+// reuse most of the selectors as an exception
+.about-page-body {
+    @include page-body;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-grow: 1;
+}
+
+.about-page-right {
+    float: right;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 400px;
+    margin-left: 32px;
+
+    @include tablet {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+
+        & > img {
+            max-width: 300px;
+        }
+    }
+}
+
+.about-page-left {
+    @include style-md;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 16px;
+}
+
 .single-page-header-download {
     color: rgba($light-color, 0.7);
     font-size: 16px;

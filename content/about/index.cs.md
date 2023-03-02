@@ -1,6 +1,7 @@
 ---
 title: "O Nás"
 url: o-nas
+type: about
 description: |
     Jsme skupina pracovníků a pracovnic z call center a IT sektoru (tedy sektoru ICT)  v celém Česku a společně se scházíme, abychom řešili naše pracovní podmínky, společně se zamýšleli jak je změnit a navzájem se v jejich změně podporovali.
 
