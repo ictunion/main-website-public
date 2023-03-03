@@ -1,10 +1,16 @@
-from nixos/nix
+ARG VARIANT="16-buster"
+FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
 
-RUN nix-env -iA nixpkgs.gnused
+ENV HUGO_VERSION="0.111.1"
+ENV DART_SASS_VERSION="1.58.3"
 
-RUN echo "experimental-features = nix-command flakes" >> /etc/nix/nix.conf && \
-  sed -i 's/false/true/g' /etc/nix/nix.conf
+# Install Hugo
+RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz && \
+    tar xf /tmp/hugo.tar.gz -C /usr/local/bin/ && \
+    rm -f /tmp/hugo.tar.gz
 
-ADD . /app
-WORKDIR /app
-RUN nix build
+# Install Dart-Sass-Embedded
+RUN curl -L https://github.com/sass/dart-sass-embedded/releases/download/${DART_SASS_VERSION}/sass_embedded-${DART_SASS_VERSION}-linux-x64.tar.gz -o /tmp/dart-sass-embedded.tar.gz && \
+    tar -xf /tmp/dart-sass-embedded.tar.gz && \
+    mv sass_embedded/* /usr/local/bin/ && \
+    rm -rf /tmp/dart-sass-embedded.tar.gz /tmp/sass_embedded

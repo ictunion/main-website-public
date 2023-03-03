@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  hugo:
+    build: .
+    working_dir: /code
+    command: bash -c 'npm install && hugo server --buildDrafts --watch --verbose'
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/code
