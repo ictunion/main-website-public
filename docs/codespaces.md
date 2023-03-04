@@ -36,6 +36,51 @@ To open the preview of the website go to `PORTS` and click on the link:
 
 Codespaces are based on [Microsoft Visual Studio Code](https://code.visualstudio.com/) editor so many tips for VS Code are applicable to Codespaces.
 
+> See [official documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/developing-in-a-codespace)
+> for more comprehensive documentation of features of Github Codespaces. It includes features like
+> [Colaborative editing](https://docs.github.com/en/codespaces/developing-in-codespaces/working-collaboratively-in-a-codespace)
+> and more.
+
+## Contributing from Codespaces
+
+**It's advicable to create a new branch before commiting and pushing any changes.**
+
+In terminal:
+
+```
+git checkout -b [name-the-feature]
+```
+
+In UI:
+
+- Ctrl+Shift+g or click on Source control
+- click on three dots `...`
+    - Branch
+    - Create Branch
+- Type name of the branch
+
+
+### Pushing Changes and Opening Pull Request
+
+in terminal:
+
+```
+git push origin [name-of-branch-in-repository]
+```
+
+Then go to [github](https://github.com/ictunion/main-website) and click on button to open the Pull Request.
+
+For UI based flow see [official documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests#opening-a-pull-request-in-codespaces).
+
+![branch](./codespaces-branch.png)
+
+See [official documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace)
+for more detailed information:
+
+- [Source control](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace)
+- [Pull requests](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests)
+- [Create pull request](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace#raising-a-pull-request)
+
 ## Stoping the Codespaces env
 
 After you're done don't forget to either `stop` or `delete` the Codespaces instance:

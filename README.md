@@ -39,15 +39,15 @@ especially the _Section II. MISSION AND PRINCIPLES OF THE ORGANIZATION_.**
 
 ### Project Setup
 
-Accessobility of contribution to the website is very important to use.
-We maitain setups for many different setups in order to make contributions
-to the projet as frictionless as posible. We try to do our best to support
-both all worflows to satisfy experts, free software die hards as well as novices
+Accessobility of contributing is very important to us.
+We support many different ways to setup the project in order to make contributions
+to the projet as frictionless to as posible as possible. We do our best to support
+all worflows to satisfy experts, free software die hards as well as novices
 and non technical users.
 
 Please see documentation specific to your prefered setup:
 
-- [Code Spaces](./docs/codespaces.md) no setup in browser environment
+- [Codespaces](./docs/codespaces.md) no setup in browser environment
 - [Docker](./docs/docker.md) containerized local setup
 - [Nix](./docs/nix.md) reproducible development evironment
 - [Manual Setup Guide](./docs/manual-setup.md) for information regarding requirements
