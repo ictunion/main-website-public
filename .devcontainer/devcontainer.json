@@ -1,6 +1,8 @@
 {
+  "hostRequirements": { "cpus": 2 },
   "build": { "dockerfile": "../Dockerfile" },
   "forwardPorts": [ 1313 ],
+  "onCreateCommand": "npm install",
   "features": {
   }
 }

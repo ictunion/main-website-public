@@ -1,0 +1,14 @@
+#! /usr/bin/env bash
+
+set -e
+
+# Install npm dependecies
+npm install
+
+# Detect url of preview app from environment
+PORT=1313
+URL=https://${CODESPACE_NAME}-${PORT}.${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}
+echo "Code Space preview url detected as \n ${URL}"
+
+# Run hugo development server with configguration required for code spaces
+hugo server -D --baseUrl="${URL}" --appendPort=false

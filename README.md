@@ -18,7 +18,7 @@ produces HTML files that can be served by static HTTP server.
 This means that files for web browser are compiled ahead of time
 as oppose to rendered dynamically by server while processing the request.
 
-## Developing
+## Contributing
 
 Our development model is highly distributed.
 Every contributor has their own copy of the project
@@ -33,62 +33,25 @@ Maintainer team is fully responsible for ensuring due process and compliance wit
 **Contributors are obliged to follow [statutes of the organizations](https://union.planning-game.com/downloads/ictunion-statutes-en.pdf)
 especially the _Section II. MISSION AND PRINCIPLES OF THE ORGANIZATION_.**
 
-By submitting pull request contributor automatically pledges the acceptance and respect to
-both [statuses of the organization](https://union.planning-game.com/downloads/ictunion-statutes-en.pdf) as well as [license](LICENSE) of the project.
+> By submitting pull request contributor automatically pledges the acceptance and respect to
+> both [statuses of the organization](https://union.planning-game.com/downloads/ictunion-statutes-en.pdf)
+> as well as [license](LICENSE) of the project.
 
-### Dependecies
+### Project Setup
 
-This project defines reproducible environment using [nix](https://nixos.org/).
-Skip to [Nix](#nix) section if you want to use it.
+Accessobility of contribution to the website is very important to use.
+We maitain setups for many different setups in order to make contributions
+to the projet as frictionless as posible. We try to do our best to support
+both all worflows to satisfy experts, free software die hards as well as novices
+and non technical users.
 
-- [git](https://git-scm.com/) distributed version control system
-- [hugo](https://gohugo.io/) static site generator
-- [dart-sass-embedded](https://github.com/sass/dart-sass-embedded) embeddable sass compiler
-- [nodejs with npm](https://nodejs.org/) JavaScript runtime and package manager
+Please see documentation specific to your prefered setup:
 
-### Setup
+- [Code Spaces](./docs/codespaces.md) no setup in browser environment
+- [Docker](./docs/docker.md) containerized local setup
+- [Nix](./docs/nix.md) reproducible development evironment
+- [Manual Setup Guide](./docs/manual-setup.md) for information regarding requirements
 
-Preferred method of working with this repository is to have local git clone:
+## License
 
-```
-# GIT+SSH clone
-git clone git@github.com:ictunion/main-website.git
-
-# GIT+HTTPS clone
-git clonehttps://github.com/ictunion/main-website.git
-```
-
-### Run locally
-
-Install npm dependecies:
-
-```
-npm install
-```
-
-Hugo provides build in HTTP server:
-
-```
-hugo server --buildDrafts --watch --verbose
-```
-
-open [http://localhost:1313](http://localhost:1313)
-
-### Nix
-
-We define [flake.nix](https://nixos.wiki/wiki/Flakes) so don't forget to make sure that you have support for flakes enabled in your config.
-
-To enter the development shell use:
-
-```
-nix develop
-```
-
-This will jump into shell environment where with all the necessary dependecies like hugo available
-on a pined version that were previously tested.
-
-To build html files using nix:
-
-```
-nix build
-```
+TBA
