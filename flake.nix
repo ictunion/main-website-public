@@ -14,7 +14,7 @@
         overlays = [ nix-dart.overlay overlay ];
       };
       tex = pkgs.texlive.combine {
-        inherit (pkgs.texlive) scheme-full;
+        inherit (pkgs.texlive) scheme-small enumitem;
       };
       buildInputs = with pkgs; [
         hugo
@@ -32,6 +32,7 @@
           shellHook = ''
             OSFONTDIR=${pkgs.ibm-plex}/share/fonts/opentype bash latex/print-all
 
+            rm -rf node_modules
             ln -sf ${nodeDependencies}/lib/node_modules .
           '';
         };
