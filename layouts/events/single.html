@@ -13,7 +13,9 @@
       <div class="event-detail-header-left">
         <h1 class="events-title">{{ .Title }}</h1>
         <h2 class="event-detail-sub-title">{{ .Page.Param "subTitle" }}</h2>
-        <a class="event-detail-header-register-cta" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
+        {{ if .Page.Param "registerUrl" }}
+          <a class="event-detail-header-register-cta" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
+        {{ end }}
       </div>
       <div class="event-detail-header-info">
         {{ if .Param "eventDate" }}<h3 class="event-detail-header-date">{{ .Params.EventDate | time.Format ":date_long" }}</h3>{{ end }}
@@ -66,7 +68,9 @@
         </tbody>
       </table>
 
-      <a class="event-detail-register-cta" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
+      {{ if .Page.Param "registerUrl" }}
+        <a class="event-detail-register-cta" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
+      {{ end }}
 
       <h3 class="event-detail-info-title">{{ i18n "Share" }}:</h3>
 
