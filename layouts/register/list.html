@@ -1,0 +1,153 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
+{{ end }}
+
+{{ define "scripts" }}
+  {{ $register_js := resources.Get "ts/register.ts" | js.Build }}
+  <script src="{{ $register_js.Permalink }}" defer></script>
+{{ end }}
+
+{{ define "content" }}
+  <section class="register-page-header">
+    <div class="register-page-header-content">
+      <h1 class="register-page-title">{{ .Title }}</h1>
+      <div class="register-page-description">
+        {{ .Content }}
+      </div>
+    </div>
+  </section>
+  <form id="register-member-form">
+    <main class="register-page-body">
+      <div class="register-page-content">
+        <div class="register-form-width-container">
+          <div class="register-form-fields">
+
+            <fieldset class="register-fieldset">
+              <div class="register-form-field">
+                <label class="register-form-label">{{ i18n "Email" }}:
+                  <input class="register-form-input" name="email" type="email" placeholder="jane.doe@email.com" autofocus />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="register-fieldset">
+              <div class="register-field-row">
+                <div class="register-form-field">
+                  <label class="register-form-label">{{ i18n "First Name"}}:
+                    <input class="register-form-input" name="first_name" type="text" placeholder="Jane" />
+                  </label>
+                </div>
+
+                <div class="register-form-field">
+                  <label class="register-form-label">{{ i18n "Last Name" }}:
+                    <input class="register-form-input" name="last_name" type="text" placeholder="Doe" />
+                  </label>
+                </div>
+              </div>
+
+              <div class="register-form-field">
+                <label class="register-form-label">{{ i18n "Date of Birth" }}:
+                  {{ $date_format := .Page.Param "dateformat" }}
+                  <input class="register-form-input" name="date_of_birth" type="text" placeholder="{{ time.Format (string $date_format) "1990-01-31" }}"  data-widget="datepicker" />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="register-fieldset">
+              <div class="register-form-field">
+                <label class="register-form-label">{{ i18n "Address" }}:
+                  <input class="register-form-input" name="address" type="text" placeholder="Masarykova 42" />
+                </label>
+              </div>
+              <div class="register-field-row">
+                <div class="register-form-field">
+                  <label class="register-form-label">{{ i18n "City" }}:
+                    <input class="register-form-input" name="city" type="text" placeholder="Brno" />
+                  </label>
+                </div>
+
+                <div class="register-form-field small">
+                  <label class="register-form-label">{{ i18n "Postal Code" }}:
+                    <input class="register-form-input" name="postal_code" type="text" placeholder="602 00" data-formatter="postal_code" />
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="register-register-fieldset">
+              <div class="register-form-field">
+                <label class="register-form-label">{{ i18n "Phone Number" }}:
+                  <input class="register-form-input" name="phone_number" type="text" placeholder="+420 777 555 123" data-formatter="phone_number" />
+                </label>
+              </div>
+            </fieldset>
+
+            <fieldset class="register-fieldset">
+              <div class="register-field-row">
+                <div class="register-form-field">
+                  <label class="register-form-label">{{ i18n "Company" }}:
+                    <input class="register-form-input" name="company" type="text" placeholder="Pied Piper" />
+                  </label>
+                </div>
+
+                <div class="register-form-field">
+                  <label class="register-form-label">{{ i18n "Occupation" }}:
+                    <input class="register-form-input" name="occupation" type="text" placeholder="CEO" />
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="register-form-footer">
+      <div class="register-form-width-container">
+
+        <div class="register-form-footer-content">
+          <aside id="registration-qr-container" class="register-form-footer-left">
+            <h4>{{ i18n "Continue on mobile" }}</h4>
+          </aside>
+
+          <aside class="register-form-footer-right">
+
+            <div class="register-signature-wrapper">
+              <x-sign class="register-signature">
+                <div class="register-signature-default">
+                  <div class="register-signature-default-btns">
+                    <button data-role="sign" type="button">{{ i18n "Sign" }}</button>
+                    <button data-role="upload" type="button">{{ i18n "Upload" }}</button>
+                    <button class="register-signature-clear-btn" data-role="clear" type="button">Clear</button>
+                  </div>
+                  <span class="register-signature-drag-info">{{ i18n "dnd in place" }}</button>
+                </div>
+
+                <div class="register-signature-signing">
+                  <button data-role="undo" type="button">{{ i18n "Undo" }}</button>
+                  <button data-role="clear" type="button">{{ i18n "Clear" }}</button>
+                  <button data-role="cancel" type="button">{{ i18n "Cancel" }}</button>
+                  <button class="register-signature-confirm-btn" data-role="confirm" type="button">{{ i18n "Confirm" }}</button>
+                </div>
+
+                <div class="register-signature-drag">
+                  {{ i18n "Drop Image" }}
+                </div>
+              </x-sign>
+              <span class="registration-signature-label">{{ i18n "Your Signature" }}</span>
+            </div>
+          </aside>
+        </div>
+
+        <div class="register-form-confirmation">
+          <label class="register-approve">
+            <input id="register-accept-statutes" type="checkbox" name="accept"></input>
+            {{ .Page.Param "approveLabel" | safeHTML }}
+          </label>
+
+          <button class="registration-submit-btn" type="submit">{{ i18n "Submit" }}</button>
+        </div>
+      </div>
+    </footer>
+  </form>
+{{ end }}
