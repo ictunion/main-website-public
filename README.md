@@ -41,7 +41,7 @@ especially the _Section II. MISSION AND PRINCIPLES OF THE ORGANIZATION_.**
 
 Accessobility of contributing is very important to us.
 We support many different ways to setup the project in order to make contributions
-to the projet as frictionless to as posible as possible. We do our best to support
+to the projet as frictionless as possible. We do our best to support
 all worflows to satisfy experts, free software die hards as well as novices
 and non technical users.
 
