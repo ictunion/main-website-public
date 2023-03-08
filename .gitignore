@@ -17,8 +17,7 @@ hugo.linux
 
 # Nodejs dependecies
 node_modules
-/static/downloads/ictunion-statutes-cs.pdf
-/static/downloads/ictunion-statutes-en.pdf
+/static/downloads/*.pdf
 
 # Typescript output
 proxy/*.js

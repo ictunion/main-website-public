@@ -9,5 +9,5 @@ function print_legal() {
     rm -f out*
 }
 
-print_legal content/statutes/index.en.md static/downloads/ictunion-statutes-en.pdf
-print_legal content/statutes/index.cs.md static/downloads/ictunion-statutes-cs.pdf
+print_legal content/statutes/index.en.md static/downloads/ictunion-statutes.pdf
+print_legal content/statutes/index.cs.md static/downloads/ictunion-stanovy.pdf
