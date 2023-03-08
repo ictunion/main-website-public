@@ -86,7 +86,7 @@
               <div class="register-field-row">
                 <div class="register-form-field">
                   <label class="register-form-label">{{ i18n "Company" }}:
-                    <input class="register-form-input" name="company" type="text" placeholder="Pied Piper" />
+                    <input class="register-form-input" name="company_name" type="text" placeholder="Pied Piper" />
                   </label>
                 </div>
 
@@ -113,7 +113,7 @@
           <aside class="register-form-footer-right">
 
             <div class="register-signature-wrapper">
-              <x-sign class="register-signature">
+              <x-sign class="register-signature" name="signature">
                 <div class="register-signature-default">
                   <div class="register-signature-default-btns">
                     <button data-role="sign" type="button">{{ i18n "Sign" }}</button>
@@ -145,7 +145,7 @@
             {{ .Page.Param "approveLabel" | safeHTML }}
           </label>
 
-          <button class="registration-submit-btn" type="submit">{{ i18n "Submit" }}</button>
+          <button class="registration-submit-btn" type="submit" disabled>{{ i18n "Submit" }}</button>
         </div>
       </div>
     </footer>

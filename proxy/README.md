@@ -54,3 +54,14 @@ Supported flags:
 
 listening on port 3000
 ```
+
+## Configuring Hugo
+
+You will also need to run hugo with special parameters so that it doesn't redirect to the wrong URL.
+
+For instance if you're using just default options to run the proxy you can run hugo using:
+
+```
+# within project root
+hugo server --watch -D -b "http://localhost:3000" --appendPort=False
+```

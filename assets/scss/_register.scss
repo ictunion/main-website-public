@@ -342,6 +342,10 @@
     @include register-form-breakpoint {
         align-self: stretch;
     }
+
+    &:disabled {
+        opacity: .5;
+    }
 }
 
 .register-form-fields {
