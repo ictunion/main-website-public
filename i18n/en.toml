@@ -105,3 +105,6 @@
 
 [Submit]
   other = "Submit"
+
+["require js"]
+  other = "This page requires Java Script for its functionality"

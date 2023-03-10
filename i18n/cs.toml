@@ -105,3 +105,6 @@
 
 [Submit]
   other = "Odeslat"
+
+["require js"]
+  other = "Tato stránka vyžaduje Java Script pro svoji funkcionalitu"

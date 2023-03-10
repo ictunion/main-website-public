@@ -62,10 +62,13 @@ if (form) {
 
     const submitBtn: HTMLButtonElement = form.querySelector('button[type="submit"]');
     const checkbox = (document.getElementById('register-accept-statutes') as HTMLInputElement);
+    const checkboxNotify = document.getElementById('approve-form-notify');
+    checkboxNotify.style.display = checkbox.checked ? 'none' : 'block';
 
     checkbox.addEventListener('input', (event) => {
         const checked: boolean = (event.target as HTMLInputElement).checked;
         submitBtn.disabled = !checked;
+        checkboxNotify.style.display = checked ? 'none' : 'block';
     });
 
     const signatureElement: XSign = form.querySelector('x-sign[name="signature"]');

@@ -347,6 +347,18 @@
     text-transform: uppercase;
 }
 
+.registration-submit-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: flex-end;
+
+    noscript {
+        color: $error-color;
+        font-weight: 600;
+    }
+}
+
 .registration-submit-btn {
     @include cta-btn;
     align-self: flex-end;
@@ -358,6 +370,11 @@
     &:disabled {
         opacity: .5;
     }
+}
+
+.registration-approve-notify {
+    color: $error-color;
+    font-weight: 600;
 }
 
 .register-form-fields {

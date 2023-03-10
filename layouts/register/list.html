@@ -110,42 +110,50 @@
             <h4>{{ i18n "Continue on mobile" }}</h4>
           </aside>
 
-          <aside class="register-form-footer-right">
+        <aside class="register-form-footer-right">
 
-            <div class="register-signature-wrapper">
-              <x-sign class="register-signature" name="signature">
-                <div class="register-signature-default">
-                  <div class="register-signature-default-btns">
-                    <button data-role="sign" type="button">{{ i18n "Sign" }}</button>
-                    <button data-role="upload" type="button">{{ i18n "Upload" }}</button>
-                    <button class="register-signature-clear-btn" data-role="clear" type="button">Clear</button>
-                  </div>
-                  <span class="register-signature-drag-info">{{ i18n "dnd in place" }}</button>
+          <div class="register-signature-wrapper">
+            <x-sign class="register-signature" name="signature">
+              <div class="register-signature-default">
+                <div class="register-signature-default-btns">
+                  <button data-role="sign" type="button">{{ i18n "Sign" }}</button>
+                  <button data-role="upload" type="button">{{ i18n "Upload" }}</button>
+                  <button class="register-signature-clear-btn" data-role="clear" type="button">Clear</button>
                 </div>
+                <span class="register-signature-drag-info">{{ i18n "dnd in place" }}</button>
+              </div>
 
-                <div class="register-signature-signing">
-                  <button data-role="undo" type="button">{{ i18n "Undo" }}</button>
-                  <button data-role="clear" type="button">{{ i18n "Clear" }}</button>
-                  <button data-role="cancel" type="button">{{ i18n "Cancel" }}</button>
-                  <button class="register-signature-confirm-btn" data-role="confirm" type="button">{{ i18n "Confirm" }}</button>
-                </div>
+              <div class="register-signature-signing">
+                <button data-role="undo" type="button">{{ i18n "Undo" }}</button>
+                <button data-role="clear" type="button">{{ i18n "Clear" }}</button>
+                <button data-role="cancel" type="button">{{ i18n "Cancel" }}</button>
+                <button class="register-signature-confirm-btn" data-role="confirm" type="button">{{ i18n "Confirm" }}</button>
+              </div>
 
-                <div class="register-signature-drag">
-                  {{ i18n "Drop Image" }}
-                </div>
-              </x-sign>
-              <span class="registration-signature-label">{{ i18n "Your Signature" }}</span>
-            </div>
-          </aside>
-        </div>
+              <div class="register-signature-drag">
+                {{ i18n "Drop Image" }}
+              </div>
+            </x-sign>
+            <span class="registration-signature-label">{{ i18n "Your Signature" }}</span>
+          </div>
+        </aside>
+      </div>
 
-        <div class="register-form-confirmation">
-          <label class="register-approve">
-            <input id="register-accept-statutes" type="checkbox" name="accept"></input>
-            {{ .Page.Param "approveLabel" | safeHTML }}
-          </label>
+      <div class="register-form-confirmation">
+        <label class="register-approve">
+          <input id="register-accept-statutes" type="checkbox" name="accept"></input>
+          {{ .Page.Param "approveLabel" | safeHTML }}
+        </label>
 
+        <div class="registration-submit-wrapper">
           <button class="registration-submit-btn" type="submit" disabled>{{ i18n "Submit" }}</button>
+          <noscript>
+            {{ i18n "require js" }}
+          </noscript>
+          <div class="registration-approve-notify" id="approve-form-notify">
+            {{ .Page.Param "approveNotification" }}
+          </div>
+        </div>
         </div>
       </div>
     </footer>
