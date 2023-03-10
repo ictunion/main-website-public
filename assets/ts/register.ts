@@ -106,8 +106,9 @@ if (form) {
                 return result.text();
             })
             .then((_) => {
-                // TODO: success
-                alert('Sucess!');
+                (submitBtn.parentNode as HTMLElement).remove();
+                const message = document.getElementById('registration-send-notice');
+                message.style.display = 'block';
             }).catch((err) => {
                 if (err.status === 400) {
                     err.json().then((val: ApiError) => {

@@ -142,7 +142,7 @@
       <div class="register-form-confirmation">
         <label class="register-approve">
           <input id="register-accept-statutes" type="checkbox" name="accept"></input>
-          {{ .Page.Param "approveLabel" | safeHTML }}
+          {{ .Page.Param "approveLabel" | markdownify }}
         </label>
 
         <div class="registration-submit-wrapper">
@@ -150,10 +150,13 @@
           <noscript>
             {{ i18n "require js" }}
           </noscript>
-          <div class="registration-approve-notify" id="approve-form-notify">
+          <div id="approve-form-notify" class="registration-approve-notify">
             {{ .Page.Param "approveNotification" }}
           </div>
         </div>
+        </div>
+        <div id="registration-send-notice" class="registration-complete-notice" style="display: none;">
+          {{ .Page.Param "submitMessage" | markdownify }}
         </div>
       </div>
     </footer>

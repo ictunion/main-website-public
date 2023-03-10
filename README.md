@@ -52,8 +52,8 @@ Please see documentation specific to your prefered setup:
 - [Nix](./docs/nix.md) reproducible development evironment
 - [Manual Setup Guide](./docs/manual-setup.md) for information regarding requirements
 
-Some of the functionality of website also depends on [main-system](https://github.com/ictunion/main-system)
-implementation which is stand alone project.
+Some of the functionality of website also depends on functionality implemented as part of
+[main-system](https://github.com/ictunion/main-system) which is stand alone project.
 If you need to work on integration between the web and the system have a look at [proxy](proxy) documentation.
 
 ## License
