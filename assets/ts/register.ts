@@ -2,6 +2,9 @@ import { XSign } from './XSign';
 import RegistrationForm from './RegistrationForm';
 import { Datepicker } from 'vanillajs-datepicker';
 import datepickerCs from './vaniall-datepicker.cs';
+import { ValidationError, ApiError, localize } from './validations';
+import enVlidations from './validations.en';
+import csVlidations from './validations.cs';
 
 // Register signatire component
 customElements.define("x-sign", XSign);
@@ -43,21 +46,6 @@ function phoneNumberFormat(input: HTMLInputElement) {
 
 const form = (document.getElementById('register-member-form') as HTMLFormElement);
 const qrContainer = document.getElementById('registration-qr-container');
-
-interface ValidationError {
-    code: 'required' | 'email' | 'length',
-    params: Object,
-}
-
-interface ApiErrorData {
-    [key: string]: ValidationError[],
-}
-
-interface ApiError {
-    code: number,
-    message: string,
-    errors: ApiErrorData,
-}
 
 if (form) {
     const registrationForm: RegistrationForm = new RegistrationForm(form, {
@@ -148,6 +136,10 @@ function removeError(input: HTMLElement) {
     });
 }
 
+const validationTranslations = localize(enVlidations)
+    .add(csVlidations)
+    .setLang(document.documentElement.lang);
+
 function addError(form: HTMLFormElement, name: string, errs: ValidationError[]) {
     const input = form.querySelector(`[name="${name}"]`);
     input.classList.add('error');
@@ -157,21 +149,7 @@ function addError(form: HTMLFormElement, name: string, errs: ValidationError[]) 
     const errorMessage = document.createElement('div');
     errorMessage.className = 'error-message';
     errorMessage.innerText = errs.reduce((str: string, err: ValidationError) => {
-        let message: string;
-
-        switch (err.code) {
-            case 'required':
-                message = 'This value is required';
-                break;
-            case 'email':
-                message = 'This does not look like email address';
-                break;
-            case 'length':
-                message = 'This value seems too short'
-                break;
-        }
-
-        return `${str}${message}\n`;
+        return `${str}${validationTranslations.localize(err)}\n`;
     }, '');
 
     container.appendChild(errorMessage);
