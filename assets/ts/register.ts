@@ -8,9 +8,9 @@ customElements.define("x-sign", XSign);
 
 // Configure date-picker widget
 Object.assign(Datepicker.locales, datepickerCs);
-const datapickerElements = document.querySelectorAll('[data-widget="datepicker"]');
+const datepickerElements = document.querySelectorAll('[data-widget="datepicker"]');
 const datePickers: { [key: string]: Datepicker } = {};
-datapickerElements.forEach((element: HTMLInputElement) => {
+datepickerElements.forEach((element: HTMLInputElement) => {
     const language = document.documentElement.lang;
     const instance = new Datepicker(element, {
         language
@@ -43,6 +43,21 @@ function phoneNumberFormat(input: HTMLInputElement) {
 
 const form = (document.getElementById('register-member-form') as HTMLFormElement);
 const qrContainer = document.getElementById('registration-qr-container');
+
+interface ValidationError {
+    code: 'required' | 'email' | 'length',
+    params: Object,
+}
+
+interface ApiErrorData {
+    [key: string]: ValidationError[],
+}
+
+interface ApiError {
+    code: number,
+    message: string,
+    errors: ApiErrorData,
+}
 
 if (form) {
     const registrationForm: RegistrationForm = new RegistrationForm(form, {
@@ -84,6 +99,9 @@ if (form) {
         values.signature = signatureElement.value || null;
         values.local = document.documentElement.lang;
 
+        // clear all exiting validation errors
+        form.querySelectorAll('input,x-sign').forEach(removeError);
+
         fetch("/api/registration/join", {
             method: "post",
             headers: {
@@ -100,8 +118,61 @@ if (form) {
                 alert('Sucess!');
             }).catch((err) => {
                 // TODO: error
-                console.error(err);
-                alert('There was an error - see console');
+                err.json().then((val: ApiError) => {
+                    for (const key in val.errors) {
+                        addError(form, key, val.errors[key]);
+                    }
+                });
             });
     });
+
+    form.querySelectorAll('input,x-sign').forEach((input: HTMLElement) => {
+        input.addEventListener('input', () => {
+            removeError(input);
+        }, false);
+    });
+
+    datepickerElements.forEach((input: HTMLElement) => {
+        input.addEventListener('changeDate', () => {
+            removeError(input);
+        }, false);
+    })
+}
+
+function removeError(input: HTMLElement) {
+    input.classList.remove('error');
+    const container = (input.parentNode.parentNode as HTMLElement);
+    container.classList.remove('error');
+    container.querySelectorAll('.error-message').forEach((node: HTMLElement) => {
+        node.remove();
+    });
+}
+
+function addError(form: HTMLFormElement, name: string, errs: ValidationError[]) {
+    const input = form.querySelector(`[name="${name}"]`);
+    input.classList.add('error');
+    const container = (input.parentNode.parentNode as HTMLElement);
+    container.classList.add('error');
+
+    const errorMessage = document.createElement('div');
+    errorMessage.className = 'error-message';
+    errorMessage.innerText = errs.reduce((str: string, err: ValidationError) => {
+        let message: string;
+
+        switch (err.code) {
+            case 'required':
+                message = 'This value is required';
+                break;
+            case 'email':
+                message = 'This does not look like email address';
+                break;
+            case 'length':
+                message = 'This value seems too short'
+                break;
+        }
+
+        return `${str}${message}\n`;
+    }, '');
+
+    container.appendChild(errorMessage);
 }

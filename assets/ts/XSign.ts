@@ -189,6 +189,9 @@ export class XSign extends HTMLElement {
         this.prepend(img);
         this.classList.add('done');
         this.removeOverlay();
+
+        const event = new Event('input');
+        this.dispatchEvent(event);
     }
 
     dragOver(event: DragEvent) {
