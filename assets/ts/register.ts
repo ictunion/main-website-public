@@ -89,6 +89,7 @@ if (form) {
 
         // clear all exiting validation errors
         form.querySelectorAll('input,x-sign').forEach(removeError);
+        removeGeneralError();
 
         fetch("/api/registration/join", {
             method: "post",
@@ -105,12 +106,16 @@ if (form) {
                 // TODO: success
                 alert('Sucess!');
             }).catch((err) => {
-                // TODO: error
-                err.json().then((val: ApiError) => {
-                    for (const key in val.errors) {
-                        addError(form, key, val.errors[key]);
-                    }
-                });
+                if (err.status === 400) {
+                    err.json().then((val: ApiError) => {
+                        for (const key in val.errors) {
+                            addError(form, key, val.errors[key]);
+                        }
+                    });
+                } else {
+                    console.error(err);
+                    addGeneralError(err);
+                }
             });
     });
 
@@ -153,4 +158,16 @@ function addError(form: HTMLFormElement, name: string, errs: ValidationError[]) 
     }, '');
 
     container.appendChild(errorMessage);
+}
+
+function addGeneralError(error: { status: number, statusText: string }) {
+    const errorContainer = document.createElement('div');
+    errorContainer.className = 'form-error';
+    errorContainer.innerText = error.status && error.statusText ? `Error ${error.status}: ${error.statusText}` : 'Something went wrong';
+    form.appendChild(errorContainer);
+}
+
+function removeGeneralError() {
+    const err = form.querySelector('.form-error');
+    err && err.remove();
 }
