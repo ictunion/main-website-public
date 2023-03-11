@@ -226,11 +226,13 @@ export class XSign extends HTMLElement {
     }
 
     fileToRes(file: File) {
-        const reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.addEventListener('load', () => {
-            this.setResult((reader.result as string));
-        });
+        if (['image/jpeg', 'image/png'].includes(file.type)) {
+            const reader = new FileReader();
+            reader.readAsDataURL(file);
+            reader.addEventListener('load', () => {
+                this.setResult((reader.result as string));
+            });
+        }
     }
 
     removeOverlay() {
