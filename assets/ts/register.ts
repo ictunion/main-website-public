@@ -1,10 +1,10 @@
-import { XSign } from './XSign';
-import RegistrationForm from './RegistrationForm';
+import { XSign } from './web-component/XSign';
+import RegistrationForm from './register/RegistrationForm';
 import { Datepicker } from 'vanillajs-datepicker';
-import datepickerCs from './vaniall-datepicker.cs';
-import { ValidationError, ApiError, localize } from './validations';
-import enVlidations from './validations.en';
-import csVlidations from './validations.cs';
+import datepickerCs from './register/vaniall-datepicker.cs';
+import { ValidationError, ApiError, localize } from './register/validations';
+import enVlidations from './register/validations.en';
+import csVlidations from './register/validations.cs';
 
 // Register signatire component
 customElements.define("x-sign", XSign);
