@@ -27,7 +27,7 @@ function postalCodeFormat(input: HTMLInputElement) {
     const firstPart = value.substring(0, 3);
     const secondPart = value.substring(3);
 
-    input.value = `${firstPart} ${secondPart}`;
+    input.value = `${firstPart} ${secondPart}`.trim();
 }
 
 function phoneNumberFormat(input: HTMLInputElement) {
@@ -41,7 +41,7 @@ function phoneNumberFormat(input: HTMLInputElement) {
     const thirdPart = value.substring(7, 10);
     const forthPart = value.substring(10);
 
-    input.value = `${firstPart} ${secondPart} ${thirdPart} ${forthPart}`;
+    input.value = `${firstPart} ${secondPart} ${thirdPart} ${forthPart}`.trim();
 }
 
 const form = (document.getElementById('register-member-form') as HTMLFormElement);
