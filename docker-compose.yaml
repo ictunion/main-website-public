@@ -3,7 +3,7 @@ services:
   hugo:
     build: .
     working_dir: /code
-    command: bash -c 'npm install && hugo server --buildDrafts --watch --verbose'
+    command: bash -c 'npm install && hugo server --buildDrafts --watch --verbose --bind 0.0.0.0'
     ports:
       - "1313:1313"
     volumes:
