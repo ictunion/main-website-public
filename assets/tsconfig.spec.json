@@ -1,4 +1,7 @@
 {
+  "include": [
+    "ts/**/*"
+  ],
   "compilerOptions": {
     "typeRoots": ["../node_modules/@types"],
     "types": [
@@ -10,8 +13,9 @@
     "outDir": "./dist/",
     "rootDir": "./ts/",
     "noImplicitAny": true,
+    "allowJs": true,
     "module": "es6",
-    "target": "es5",
+    "target": "es2015",
     "moduleResolution": "node",
     "lib": ["esnext", "dom"]
   }
