@@ -1,1 +1,1 @@
-Napiš mě
+Napiš mně

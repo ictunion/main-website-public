@@ -2,4 +2,4 @@
 title: ICT
 subTitle: Union
 ---
-[Staň se členem]({{< relref path="register" >}}) a nebo se zůčasni některé naší akce
+[Staň se členem]({{< relref path="register" >}}) anebo se zúčastni některé naší akce

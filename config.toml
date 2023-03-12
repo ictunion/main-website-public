@@ -19,18 +19,18 @@ title = "ICT"
         statutes = "Stanovy"
         register = "Registrace"
         events = "Události"
-        faq = "Časté Dotazy"
+        faq = "Časté dotazy"
       [languages.cs.params.home]
         participateTitle = "Jak se zapojit?"
         membershipTitle = "Členství ti přinese..."
-        eventsTitle = "Plánované Události:"
+        eventsTitle = "Plánované události:"
       [langauges.cs.params.footer]
-        learnMore = "Poznat Více"
+        learnMore = "Poznat více"
         socials = "Sítě"
         languages = "Jazyky"
         legal = "Právní info"
         legalNote = "registered in ..."
-        legalLink = "Registrační Záznam"
+        legalLink = "Registrační záznam"
 
   [languages.en]
     languagedirection = 'ltr'

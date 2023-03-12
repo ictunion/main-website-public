@@ -56,7 +56,7 @@
   other = "Příjmení"
 
 ["Date of Birth"]
-  other = "Datum Narození"
+  other = "Datum narození"
 
 [City]
   other = "Město"
@@ -65,7 +65,7 @@
   other = "PSČ"
 
 ["Phone Number"]
-  other = "Telefoní Číslo"
+  other = "Telefonní číslo"
 
 [Company]
   other = "Společnost"
@@ -98,7 +98,7 @@
   other = "Potvrdit"
 
 ["Drop Image"]
-  other = "Nahrát Obrázek"
+  other = "Nahrát obrázek"
 
 ["Your Signature"]
   other = "Podpis uchazeče"
@@ -107,4 +107,4 @@
   other = "Odeslat"
 
 ["require js"]
-  other = "Tato stránka vyžaduje Java Script pro svoji funkcionalitu"
+  other = "Tato stránka vyžaduje JavaScript pro svoji funkcionalitu"
