@@ -1,16 +1,33 @@
 import { Encoder, ErrorCorrectionLevel } from '@nuintun/qrcode';
+import { Datepicker } from 'vanillajs-datepicker';
+
+export interface Formatter {
+    (input: HTMLInputElement): void
+}
 
 interface RegistrationFormOptions {
     prefix?: string;
     qrContainer?: HTMLElement;
     encodeTypes?: string[];
-    formatters?: { [key: string]: (input: HTMLInputElement) => void };
+    formatters?: { [key: string]: Formatter };
+    datepickerSelector?: string;
+    language?: string;
 };
+
+interface Values {
+    [key: string]: string;
+}
+
+interface Field {
+    name: string;
+    value: string;
+}
 
 export const defaultOptions: RegistrationFormOptions = {
     prefix: '',
     encodeTypes: ['text', 'email'],
     formatters: {},
+    language: 'en',
 };
 
 export default class RegistrationForm {
@@ -18,6 +35,8 @@ export default class RegistrationForm {
     inputs: NodeListOf<HTMLInputElement>;
     options: RegistrationFormOptions;
     qrImg: HTMLImageElement;
+    datepickerElements: { [key: string]: HTMLInputElement } = {};
+    datepickers: { [key: string]: Datepicker } = {};
 
     constructor(form: HTMLFormElement, options?: RegistrationFormOptions) {
         this.form = form;
@@ -29,10 +48,44 @@ export default class RegistrationForm {
         }
 
         this.registerEventListeners();
+
+        if (this.options.datepickerSelector) {
+            this.initDatepickers(this.options.datepickerSelector);
+        }
+    }
+
+    static addDatepickerLocale(locale: Object) {
+        Object.assign(Datepicker.locales, locale);
     }
 
     get urlBase(): string {
         return `${location.protocol}//${location.host}${location.pathname}`
+    }
+
+    get values(): Values {
+        return Object.values(this.form).reduce((obj: Values, field: Field) => {
+            if (field.name === "") {
+                return obj;
+            } else if (this.datepickers[field.name]) {
+                obj[field.name] = (this.datepickers[field.name].getDate('yyyy-mm-dd') as string);
+                return obj;
+            } else {
+                obj[field.name] = field.value;
+                return obj;
+            }
+        }, {});
+    }
+
+    initDatepickers(selector: string) {
+        const elements = this.form.querySelectorAll(selector);
+
+        elements.forEach((element: HTMLInputElement) => {
+            const instance = new Datepicker(element, {
+                language: this.options.language
+            });
+            this.datepickerElements[element.name] = element;
+            this.datepickers[element.name] = instance;
+        });
     }
 
     initQr(qrContainer: HTMLElement) {
@@ -73,7 +126,7 @@ export default class RegistrationForm {
 
     }
 
-    fromLocation(location: Location) {
+    fromLocation(location: Location): RegistrationForm {
         const searchParams = new URLSearchParams(location.search);
         this.updateQr(searchParams);
 
@@ -89,6 +142,8 @@ export default class RegistrationForm {
                 }
             });
         }
+
+        return this;
     }
 
     toURLSearchParams(): URLSearchParams {

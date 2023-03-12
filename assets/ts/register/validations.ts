@@ -18,7 +18,7 @@ export interface Locale {
     translate: (error: ValidationError) => string;
 }
 
-interface Localizations {
+export interface Localizations {
     add(locale: Locale): Localizations;
     setLang(lang: string): Localizations;
     localize(error: ValidationError): string;

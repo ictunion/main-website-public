@@ -1,4 +1,4 @@
-name: "Build Dockerized Website"
+name: "Build Docker / Codespaces container"
 
 on:
   pull_request:

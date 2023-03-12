@@ -27,11 +27,10 @@
           name = "ict-union-website-dev";
           inherit buildInputs;
           shellHook = ''
-            OSFONTDIR=${pkgs.ibm-plex}/share/fonts/opentype bash latex/print-all
-
             rm -rf node_modules
             ln -sf ${nodeDependencies}/lib/node_modules .
           '';
+          OSFONTDIR = "${pkgs.ibm-plex}/share/fonts/opentype";
         };
       defaultPackage = pkgs.callPackage ./. { inherit tex; };
   });
