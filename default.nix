@@ -13,12 +13,23 @@ stdenv.mkDerivation {
   version = "0.1.0";
   src = nix-gitignore.gitignoreSource [] ./.;
   buildInputs = [ hugo dart-sass-embedded-bin pandoc ibm-plex tex gnutar ];
+  doCheck = true;
+
+  patchPhase = ''
+    ln -s ${nodeDependencies}/lib/node_modules .
+  '';
+
   buildPhase = ''
     OSFONTDIR=${ibm-plex}/share/fonts/opentype bash latex/print-all
 
-    ln -s ${nodeDependencies}/lib/node_modules .
     ${hugo}/bin/hugo
   '';
+
+  checkPhase = ''
+    node_modules/.bin/tsc -p assets/tsconfig.json
+    node_modules/.bin/jest --config assets/jest.config.js
+  '';
+
   installPhase = ''
     mkdir -p $out/var/www
     mv public/* $out/var/www
