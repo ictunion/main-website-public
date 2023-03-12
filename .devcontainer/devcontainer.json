@@ -3,6 +3,13 @@
   "build": { "dockerfile": "../Dockerfile" },
   "forwardPorts": [ 1313 ],
   "onCreateCommand": "npm install",
-  "features": {
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "budparr.language-hugo-vscode"
+      ]
+    }
   }
 }
