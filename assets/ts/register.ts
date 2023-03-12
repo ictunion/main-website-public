@@ -219,6 +219,7 @@ if (form) {
     const registrationForm: RegistrationForm = new RegistrationForm(form, {
         qrContainer,
         language: document.documentElement.lang,
+        datepickerSelector: '[data-widget="datepicker"]',
         formatters: {
             postal_code: postalCodeFormat,
             phone_number: phoneNumberFormat
