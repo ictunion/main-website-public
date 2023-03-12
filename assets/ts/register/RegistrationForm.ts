@@ -70,7 +70,7 @@ export default class RegistrationForm {
                 obj[field.name] = (this.datepickers[field.name].getDate('yyyy-mm-dd') as string);
                 return obj;
             } else {
-                obj[field.name] = field.value;
+                obj[field.name] = field.value || null;
                 return obj;
             }
         }, {});
