@@ -3,6 +3,32 @@ defaultContentLanguage = "cs"
 defaultContentLanguageInSubdir = true
 title = "ICT"
 
+[params]
+  title = 'ICT'
+  subTitle = 'Union'
+  tagLine = 'Trade union of workers in <br> IT & communications.'
+  joinCta = 'join us'
+  support_email = 'tba'
+  support_phone = 'tba'
+  [params.navigation]
+    home = "Home"
+    aboutUs = "About Us"
+    statutes = "Statutes"
+    register = "Register"
+    events = "Events"
+    faq = "FAQ"
+  [params.home]
+    participateTitle = "How to participate?"
+    membershipTitle = "Membership means..."
+    eventsTitle = "Upcoming Events:"
+  [params.footer]
+    learnMore = "Learn More"
+    socials = "Socials"
+    languages = "Languages"
+    legal = "Legal"
+    legalNote = "registered in ..."
+    legalLink = "Legal Record"
+
 [languages]
   [languages.cs]
     languageName = "Česky"
@@ -39,30 +65,6 @@ title = "ICT"
     weight = 2
     [languages.en.params]
       lang = "en"
-
-[params]
-  title = 'ICT'
-  subTitle = 'Union'
-  tagLine = 'Trade union of workers in <br> IT & communications.'
-  joinCta = 'join us'
-  [params.navigation]
-    home = "Home"
-    aboutUs = "About Us"
-    statutes = "Statutes"
-    register = "Register"
-    events = "Events"
-    faq = "FAQ"
-  [params.home]
-    participateTitle = "How to participate?"
-    membershipTitle = "Membership means..."
-    eventsTitle = "Upcoming Events:"
-  [params.footer]
-    learnMore = "Learn More"
-    socials = "Socials"
-    languages = "Languages"
-    legal = "Legal"
-    legalNote = "registered in ..."
-    legalLink = "Legal Record"
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files

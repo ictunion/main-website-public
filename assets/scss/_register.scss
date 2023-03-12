@@ -55,9 +55,14 @@
     letter-spacing: -2px;
     font-size: 68px;
     border-bottom: solid 10px $dark-color;
+
+    @include register-form-breakpoint {
+        font-size: 42px;
+    }
 }
 
 .register-page-description {
+    @include has-links;
     padding-top: 24px;
     line-height: 1.7em;
     font-weight: 600;
@@ -357,13 +362,17 @@
         color: $error-color;
         font-weight: 600;
     }
+
+    @include tablet {
+        align-self: stretch;
+    }
 }
 
 .registration-submit-btn {
     @include cta-btn;
     align-self: flex-end;
 
-    @include register-form-breakpoint {
+    @include tablet {
         align-self: stretch;
     }
 
@@ -375,6 +384,7 @@
 .registration-approve-notify {
     color: $error-color;
     font-weight: 600;
+    line-height: 1.4em;
 }
 
 .register-form-fields {
@@ -469,6 +479,7 @@
 
     font-size: 18px;
     font-weight: 600;
+    line-height: 1.4em;
 }
 
 .datepicker-picker {
