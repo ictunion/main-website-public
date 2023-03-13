@@ -11,7 +11,7 @@
 stdenv.mkDerivation {
   name = "ict-union-website";
   version = "0.1.0";
-  src = nix-gitignore.gitignoreSource [] ./.;
+  src = nix-gitignore.gitignoreSource [ ".github/CODEOWNERS" ] ./.;
   buildInputs = [ hugo dart-sass-embedded-bin pandoc ibm-plex tex gnutar ];
   doCheck = true;
 

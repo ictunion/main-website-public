@@ -1,0 +1,36 @@
+# !!! ATTENTION !!!
+#
+# In general do not put your identifiable information to any file in the repository.
+# This includes any github user name, email, name or anythign that might identify you.
+# That is of course unless you're OK with being publically associated with the project
+# and therefore the union.
+#
+# This particular file is excluded from public tar ball though
+# but we can't gurantee anyone would not produce tar.gz in some different way in the future
+# which would include this file.
+
+# Content
+/content/            @Kubik161
+
+# Config
+*.json               @turboMaCk
+*.toml               @turboMaCk
+
+# Logic
+*.js                 @turboMaCk
+*.ts                 @turboMaCk
+
+# Templates and styles
+*.html               @turboMaCk
+*.scss               @turboMaCk
+
+# Docker and nix
+*.nix                @turboMaCk
+Dockerfile           @turboMaCk @wojciech29 @daniilsvirin
+docker-compose.yaml  @turboMaCk @wojciech29 @daniilsvirin
+
+# CI
+.github/workflows    @turboMaCk @wojciech29 @daniilsvirin
+
+# Setup Documentation
+docs                 @turboMaCk
