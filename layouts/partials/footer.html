@@ -24,6 +24,29 @@
 
       <div class="site-footer-column">
         <h4 class="site-footer-title">{{ .Param "footer.socials" }}</h4>
+        <div class="site-footer-social-links">
+          {{ if .Site.Param "social.twitter" }}
+            <a target="_blank" href="{{ .Site.Param "social.twitter" }}"><span class="icon twitter"></span></a>
+          {{ end }}
+          {{ if .Site.Param "social.facebook" }}
+            <a target="blank" href="{{ .Site.Param "social.facebook" }}"><span class="icon facebook"></span></a>
+          {{ end }}
+          {{ if .Site.Param "social.linkedin" }}
+            <a target="blank" href="{{ .Site.Param "social.linkedin" }}"><span class="icon linkedin"></span></a>
+          {{ end }}
+          {{ if .Site.Param "social.github" }}
+            <a target="blank" href="{{ .Site.Param "social.github" }}"><span class="icon github"></span></a>
+          {{ end }}
+          {{ if .Site.Param "social.youtube" }}
+            <a target="blank" href="{{ .Site.Param "social.youtube" }}"><span class="icon youtube"></span></a>
+          {{ end }}
+          {{ if .Site.Param "social.mastodon" }}
+            <a target="blank" href="{{ .Site.Param "social.mastodon" }}"><span class="icon mastodon"></span></a>
+          {{ end }}
+          {{ with .OutputFormats.Get "rss" -}}
+            <a target="_blank" href="{{.Permalink}}"><span class="icon rss"></span></a>
+          {{ end }}
+        </div>
         <h4 class="site-footer-title">{{ .Param "footer.languages" }}</h4>
         <ul class="site-footer-nav-ul">
           {{ $siteLanguages := site.Languages }}

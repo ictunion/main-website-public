@@ -2,6 +2,11 @@ baseURL = "/"
 defaultContentLanguage = "cs"
 defaultContentLanguageInSubdir = true
 title = "ICT"
+copyright = 'This work is licensed under a Creative Commons Attribution 4.0 International License.'
+
+[author]
+  email = 'TBA'
+  name = 'Odborová organizace pracujících v ICT'
 
 [params]
   title = 'ICT'
@@ -10,6 +15,13 @@ title = "ICT"
   joinCta = 'join us'
   support_email = 'tba'
   support_phone = 'tba'
+  [params.social]
+    github = 'https://github.com/ictunion'
+    twitter = ''
+    linkedin = ''
+    facebook = ''
+    youtube = ''
+    mastodon = ''
   [params.navigation]
     home = "Home"
     aboutUs = "About Us"
@@ -50,7 +62,7 @@ title = "ICT"
         participateTitle = "Jak se zapojit?"
         membershipTitle = "Členství ti přinese..."
         eventsTitle = "Plánované události:"
-      [langauges.cs.params.footer]
+      [languages.cs.params.footer]
         learnMore = "Poznat více"
         socials = "Sítě"
         languages = "Jazyky"
@@ -72,3 +84,12 @@ title = "ICT"
 [permalinks]
   events = '/:year/:slug/'
   registered = '/:slug'
+
+[sitemap]
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ['HTML'] # default is ['HTML','RSS'] - disable RSS for homepage
+  page = ['HTML']

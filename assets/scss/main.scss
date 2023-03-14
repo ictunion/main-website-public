@@ -12,6 +12,9 @@ but it makes long term maintainanece much simpler.
 @import "../../node_modules/leaflet/dist/leaflet";
 @import "../../node_modules/vanillajs-datepicker/sass/datepicker";
 
+// Load icons font support
+@import "icons";
+
 // Load Pieces
 @import "configuration";
 @import "mixins";

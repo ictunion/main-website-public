@@ -139,10 +139,15 @@ body {
 
 .site-footer-col-container {
     @include columns-container;
+
+    @include tablet {
+        gap: 12px;
+    }
 }
 
 .site-footer-column {
     @include column;
+    flex: 1 1 0px;
 }
 
 .site-footer-title {
@@ -166,6 +171,21 @@ body {
     margin: 0;
     line-height: 2em;
     font-weight: 400;
+}
+
+.site-footer-social-links {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    a {
+        font-size: 32px;
+        text-decoration: none;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
 }
 
 .site-software-note {
