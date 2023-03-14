@@ -1,4 +1,4 @@
 ---
-title: 2nd Benefit
+title: Learn about your rights!
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Individually and in group, we learn from union lawyers and each other and other unions and union federations.

@@ -1,4 +1,5 @@
 ---
-title: 3rd Benefit
+title: Be part of the change!
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are and want to be an active union - we organize actions on the sectoral level to educate about issues and change them.
+
