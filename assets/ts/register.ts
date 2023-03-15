@@ -149,8 +149,7 @@ async function requestJoin(values: { [key: string]: string }, submitBtn: HTMLBut
         // If status is not OK (one of the 2xx series)
         // we throw the requet result into the exception handler
         if (!result.ok) throw result;
-        // TODO: API should probably use JSONs all around
-        const response: string = await result.text();
+        const response: string = await result.json();
 
         // In case of success we remove submit button
         // and display success message

@@ -1,16 +1,16 @@
 // See: https://www.dafont.com/icons-social-media-8.font
 // as a reference for gliphs
 @font-face {
-  font-family: 'icons-social-media-8';
-  src: url('/font/icons-social-media-8/IconsSocialMedia8.eot'); /* IE9 Compat Modes */
-  src: url('/font/icons-social-media-8/IconsSocialMedia8.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/font/icons-social-media-8/IconsSocialMedia8.woff2') format('woff2'), /* Super Modern Browsers */
-       url('/font/icons-social-media-8/IconsSocialMedia8.woff') format('woff'), /* Pretty Modern Browsers */
-       url('/font/icons-social-media-8/IconsSocialMedia8.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('IconsSocialMedia8.svg#IconsSocialMedia8') format('svg'); /* Legacy iOS */
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'icons-social-media-8';
+    src: url('/font/icons-social-media-8/IconsSocialMedia8.eot'); /* IE9 Compat Modes */
+    src: url('/font/icons-social-media-8/IconsSocialMedia8.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('/font/icons-social-media-8/IconsSocialMedia8.woff2') format('woff2'), /* Super Modern Browsers */
+        url('/font/icons-social-media-8/IconsSocialMedia8.woff') format('woff'), /* Pretty Modern Browsers */
+        url('/font/icons-social-media-8/IconsSocialMedia8.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('IconsSocialMedia8.svg#IconsSocialMedia8') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 @mixin icon($name, $glyph) {
