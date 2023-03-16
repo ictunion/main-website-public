@@ -7,8 +7,9 @@ function translate(error: ValidationError): string {
         case 'email':
             return 'Toto pole neobsahuje e-mailovou adresu';
         case 'length':
-            console.log(error);
             return 'Toto polo je přílis krátké';
+        case 'empty':
+            return 'Toto polo nesmí být prázdné';
     }
 }
 

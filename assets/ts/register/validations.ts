@@ -1,5 +1,5 @@
 export interface ValidationError {
-    code: 'required' | 'email' | 'length',
+    code: 'required' | 'email' | 'length' | 'empty',
     params: Object,
 }
 

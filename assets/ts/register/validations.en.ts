@@ -7,8 +7,9 @@ function translate(error: ValidationError): string {
         case 'email':
             return 'This does not look like email address';
         case 'length':
-            console.log(error);
             return 'This value seems too short'
+        case 'empty':
+            return 'This value cannot be empty'
     }
 }
 
