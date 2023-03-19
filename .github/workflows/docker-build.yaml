@@ -1,7 +1,6 @@
 name: "Build Docker / Codespaces container"
 
 on:
-  pull_request:
   push:
 
 jobs:

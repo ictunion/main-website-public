@@ -5,6 +5,6 @@
 }:
 let
   pkgs = import nixpkgs config;
-  tex = pkgs.callPackage ./tex.nix {};
+  tex = pkgs.callPackage ./latex {};
 in
 pkgs.callPackage ./default.nix { inherit tex; }

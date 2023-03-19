@@ -1,7 +1,6 @@
 name: "Build Website"
 
 on:
-  pull_request:
   push:
 
 jobs:

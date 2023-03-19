@@ -12,7 +12,7 @@
         inherit system;
         overlays = [ overlay ];
       };
-      tex = pkgs.callPackage ./tex.nix {};
+      tex = pkgs.callPackage ./latex {};
       buildInputs = with pkgs; [
         hugo
         dart-sass-embedded-bin
