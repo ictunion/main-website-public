@@ -127,13 +127,17 @@ body {
     flex-direction: column;
     gap: 24px;
     background: $more-mutted-color;
-    padding: 32px 0;
+    padding: 56px 0;
     color: $light-color;
     line-height: 2em;
 
     a {
         color: $light-color;
         font-size: 16px;
+
+        &:hover {
+            color: $secondary-color;
+        }
     }
 }
 
@@ -141,19 +145,26 @@ body {
     @include columns-container;
 
     @include tablet {
-        gap: 12px;
+        gap: 32px;
     }
 }
 
 .site-footer-column {
     @include column;
     flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    @include tablet {
+        gap: 32px;
+    }
 }
 
 .site-footer-title {
     font-size: 20px;
     font-weight: 600;
-    margin: 24px 0;
+    margin: 0 0 12px;
 }
 
 .site-footer-page-body {
@@ -188,7 +199,34 @@ body {
     }
 }
 
-.site-software-note {
+.site-footer-partners-ul {
+    line-height: 1.5em;
+
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.site-footer-legal-info {
+    font-size: 16px;
+    line-height: 1.6em;
+
+    a {
+        color: $secondary-color;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.site-licensing-note {
     @include page-body;
     font-size: 14px;
     color: $very-mutted-color;
@@ -196,6 +234,6 @@ body {
     text-align: center;
 
     a {
-        color: $ternary-color;
+        color: $secondary-color;
     }
 }
