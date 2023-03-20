@@ -1,4 +1,4 @@
 ---
-title: Buď součástí změny!
+title: Kryjeme ti záda!
 ---
-Jsme a chceme být aktivními odbory - organizujeme akce na úrovni celého sektoru, abychom pomohli pracujícím získávat znalosti o jich problémech a měnit je.
+Jako člen\*ka máš možnost využívat zdarma konzultace a zastoupení odborovým právníkem. Členská základna tě také ráda podpoří radou nebo akcí.

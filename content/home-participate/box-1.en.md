@@ -1,9 +1,4 @@
 ---
-title: Be a supporter
+title: Join us!
 ---
-Come and meet us. There are multiple ways that you can come in contact with us and see how we function. You can:
- * Attend event
- * Come for beer
- * Write us at {email}
- * Meet with one of us
- * Subsribe to newsletter
+The more of us there are, the bigger changes we can achieve. As a member you can be part of it. Just fill [the registration form.]({{< relref path="register" >}})

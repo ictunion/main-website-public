@@ -10,7 +10,7 @@ description: |
 #### I. ÚVODNÍ USTANOVENÍ
 
 1. Odborová organizace pracujících v ICT (dále jen „Organizace“) je odborovou organizací sdružující na základě dobrovolnosti a společných zájmů členy a členky různých profesí, kteří působí u zaměstnavatelů v sektoru IT a telekomunikací. Vzhledem k tomu, že sdružujeme pracující hovořící různými jazyky, budeme dbát o to, aby naše organizace vytvářela prostředí, které je přívětivé pro členstvo z různých zemí.
-1. Sídlem Organizace je ………………………….
+1. Sídlem Organizace je Roháčova 145/14, Praha, 130 00.
 
 #### II. POSLÁNÍ A ZÁSADY ORGANIZACE
 

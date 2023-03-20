@@ -1,4 +1,4 @@
 ---
 title: Learn about your rights!
 ---
-Individually and in group, we learn from union lawyers and each other and other unions and union federations.
+Individually and in group, we learn from union lawyers, each other and other unions and union federations about the Labour code and our own rights.

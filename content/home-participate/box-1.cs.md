@@ -1,9 +1,4 @@
 ---
-title: "Pojď se s námi potkat"
+title: Přidej se k nám!
 ---
-There are multiple ways that you can come in contact with us and see how we function. You can:
- * Attend event
- * Come for beer
- * Write us at {email}
- * Meet with one of us
- * Subsribe to newslett
+Čím více nás bude, tím větších změn můžeme dosáhnout. Jako člen*ka můžeš být přímo u toho. Stačí vyplnit [registrační formulář.]({{< relref path="register" >}})

@@ -11,7 +11,7 @@ description: |
 #### I. INTRODUCTORY PROVISIONS
 
 1. A trade union for workers in ICT (hereinafter referred to as "the Organization") is a trade union associating, on a voluntary basis and in the common interest, members of different professions working for employers in the IT and telecommunications sectors. As we bring together workers who speak different languages, we will make sure that our organization creates an environment that is conducive to membership from different countries.
-2. The seat of the Organization shall be ………………………….
+2. The seat of the Organization shall be Roháčova 145/14, Prague, 130 00.
 
 #### II. MISSION AND PRINCIPLES OF THE ORGANIZATION
 

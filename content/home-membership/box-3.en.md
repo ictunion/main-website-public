@@ -1,5 +1,5 @@
 ---
-title: Be part of the change!
+title: We have your back!
 ---
-We are and want to be an active union - we organize actions on the sectoral level to educate about issues and change them.
+As a union member you have right to free consultation and representation by a union lawyer and the member base will support you as well through advice and action.
 

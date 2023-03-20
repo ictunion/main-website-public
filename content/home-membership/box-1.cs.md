@@ -1,4 +1,4 @@
 ---
-title: Buď součástí komunity pracujících v ICT sektoru!
+title: Budeš součástí změny!
 ---
-Chceme změnit pracovní podmínky k lepšímu, takže se potkáváme offline i online, společně získáváme nové znalosti a podporujeme se navzájem.
+Jsme a chceme být aktivními odbory - organizujeme akce na úrovni celého sektoru, abychom pomohli pracujícím získávat znalosti o jich problémech a měnit je.

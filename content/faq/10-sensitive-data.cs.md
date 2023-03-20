@@ -1,4 +1,4 @@
 ---
-title: Registrace vyžaduje moje osobní citlívé data. Múže někdo mimo tuto organizaci získat tyto data?
+title: Registrace vyžaduje moje osobní citlivé údaje. Může někdo mimo tuto organizaci získat tyto údaje?
 ---
-Ne.
+Ne. K osobním údajům má přístup jen několik málo členů*ek odborové organizace. Jak zpracováváme tvé osobní údaje si můžeš přečíst [zde (TBA)]

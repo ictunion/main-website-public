@@ -1,5 +1,5 @@
 ---
-title: Staň se členem
+title: Staň se členem*kou
 url: registrovat
 type: register
 dateformat: "01.02.2006"
@@ -11,4 +11,4 @@ submitMessage: |
     Úspěšně jste podali přihlášku.</br>
     Potvrzení registrace Vám <u>přijde emailem</u>.
 ---
-Přihlášku ke členství můžete vyplnit zde. Jakmile bude Vaše přihláška přijata, někdo z odborů Vás kontaktuje. Od té chvíle začnete dostávat informace o odborových setkáních a aktivitách, a také informace, jak přispět finančně. Běžný členský příspěvek je 1% z čistého příjmu, maximálně však 250 korun měsíčně. Studenti, důchodci a osoby na rodičovské dovolené mají příspěvek snížený na 25 korun měsíčně.
+Přihlášku ke členství můžeš vyplnit zde. Jakmile bude tvá přihláška přijata, dáme ti vědět. Od té chvíle začneš dostávat informace o odborových setkáních a aktivitách. Také ti pošleme informace o **členských příspěvcích.** Běžný členský příspěvek je 1 % z čistého příjmu, maximálně však 250 korun měsíčně. Studenti\*tky, důchodci\*kyně, nezaměstnaní\*é a osoby na rodičovské dovolené mají příspěvek snížený na 25 korun měsíčně.

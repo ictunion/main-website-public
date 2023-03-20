@@ -1,5 +1,5 @@
 ---
-title: Be part of a community of workers from ICT sector!
+title: Be part of the change!
 ---
-We want to change their working conditions for the better, so we meet, discuss online and offline, learn together, and support each other in change.
+We are and want to be an active union - we organize actions on the sectoral level to educate about issues and change them.
 
