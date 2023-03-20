@@ -44,6 +44,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     legal = "Legal"
     legalLink = "ID"
     partners = "Parners"
+    contacts = "Contacts"
 
 [languages]
   [languages.cs]
@@ -67,12 +68,13 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
         membershipTitle = "Členství ti přinese..."
         eventsTitle = "Plánované události:"
       [languages.cs.params.footer]
-        learnMore = "Poznat více"
+        learnMore = "Poznej více"
         socials = "Sítě"
         languages = "Jazyky"
         legal = "Právní info"
         legalLink = "IČO"
         partners = "Patneři"
+        contacts = "Kontakty"
 
   [languages.en]
     languagedirection = 'ltr'

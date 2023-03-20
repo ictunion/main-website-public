@@ -199,6 +199,24 @@ body {
     }
 }
 
+.site-footer-contancts-ul {
+    line-height: 1.5em;
+    font-size: 16px;
+
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    strong {
+        font-weight: 700;
+    }
+}
+
 .site-footer-partners-ul {
     line-height: 1.5em;
 

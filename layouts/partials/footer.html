@@ -76,6 +76,19 @@
 
       <div class="site-footer-column">
         <section class="site-footer-section">
+          <h4 class="site-footer-title">{{ .Site.Param "footer.contacts" }}</h4>
+
+          <ul class="site-footer-contancts-ul">
+            <li>
+              {{i18n "Email" }}: <a href="mailto:{{ .Site.Param "support_email" }}">{{ .Site.Param "support_email" }}</a>
+            </li>
+            <li>
+              {{ i18n "Phone Number" }}: <strong>{{ .Site.Param "support_phone" }}</strong>
+            </li>
+          </ul>
+        </section>
+
+        <section class="site-footer-section">
           <h4 class="site-footer-title">{{ .Site.Param "footer.partners" }}</h4>
 
           <ul class="site-footer-partners-ul">
