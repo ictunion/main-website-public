@@ -22,9 +22,11 @@
             {{ end }}
         ">
         <header class="faq-question ">
-          <h2 class="faq-question-text">
-            <a href="#{{ $item_id }}" class="faq-question-link">{{ $page.Title }}</a>
-          </h2>
+          <div class="faq-question-title">
+            <h2 class="faq-question-text">
+              <a href="#{{ $item_id }}" class="faq-question-link">{{ $page.Title }}</a>
+            </h2>
+          </div>
         </header>
         <div class="faq-answer">
           {{ $page.Content }}
