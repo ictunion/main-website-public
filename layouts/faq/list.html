@@ -12,13 +12,15 @@
     {{ range $i, $page := sort .Pages "File.Path" }}
       {{ $item_id := strings.TrimRight "/" (slicestr $page.RelPermalink 8) }}
       <article id="{{ $item_id }}" class="faq-item
-            {{ $remainder := mod $i 3 }}
+            {{ $remainder := mod $i 4 }}
             {{ if eq $remainder 0 }}
               first
             {{ else if eq $remainder 1 }}
               second
-            {{ else }}
+            {{ else if eq $remainder 2 }}
               third
+            {{ else }}
+              forth
             {{ end }}
         ">
         <header class="faq-question ">

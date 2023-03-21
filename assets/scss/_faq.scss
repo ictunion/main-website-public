@@ -26,22 +26,22 @@
 }
 
 .faq-item {
-    background: $primary-color;
-    color: $light-color;
+    background: $light-color;
+    color: $dark-color;
     padding: 24px 0;
 
-    &.second {
+    &.first {
+        background: $primary-color;
+        color: $light-color;
+    }
+
+    &.third {
         background: $secondary-color;
         color: $dark-color;
 
         .faq-question-text {
             border-color: $dark-color;
         }
-    }
-
-    &.third {
-        background: $light-color;
-        color: $dark-color;
     }
 }
 
@@ -101,7 +101,7 @@
             margin: 6px 0;
         }
 
-        .second & {
+        .third & {
             list-style-type: "\1F499\0009";
         }
     }
