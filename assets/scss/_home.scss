@@ -25,7 +25,7 @@
 
 .home-header-tag {
     line-height: 1em;
-    max-width: 400px;
+    flex-grow: 1;
 
     @include tablet {
         max-width: 100%;
@@ -65,6 +65,34 @@
 
     @include tablet {
         text-align: center;
+    }
+}
+
+.home-header-tag-line-we-are {
+    font-weight: 600;;
+}
+
+@keyframes blinkTextCursor {
+  from {
+    color: $very-mutted-color;
+  }
+  to {
+    color: transparent;
+  }
+}
+
+.home-header-tag-line-occupation {
+    display: inline-block;
+    color: $primary-color;
+    font-weight: 400;
+
+    &::after {
+        content: '\2581';
+        animation: blinkTextCursor 800ms steps(44) infinite normal;
+    }
+
+    &::before {
+        font-weight: 800;
     }
 }
 

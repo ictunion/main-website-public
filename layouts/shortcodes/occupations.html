@@ -1,0 +1,6 @@
+{{ $pageLang := .Page.Lang }}
+<ul class="occupations-list">
+  {{- range  $i, $occupation := .Site.Data.occupations }}
+    <li>{{ index $occupation $pageLang }}</li>
+  {{- end }}
+</ul>

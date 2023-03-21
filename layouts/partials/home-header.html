@@ -1,3 +1,8 @@
+{{ define "scripts" }}
+  {{ $index_js := resources.Get "ts/index.ts" | js.Build }}
+  <script src="{{ $index_js.Permalink }}" defer></script>
+{{ end }}
+
 <section class="home-header">
   <div class="home-header-content">
     <div class="home-header-tag">
@@ -5,7 +10,17 @@
         <strong>{{ .Param "title" }}</strong> <small>{{ .Param "subTitle" }}</small>
       </h1>
       <p class="home-header-tag-line">
-        {{ .Param "tagLine" }}
+        <span class="home-header-tag-line-we-are">{{ i18n "We are" }}</span>
+        <span class="home-header-tag-line-occupation" data-effect="shuffled-typing">
+          <script type="application/json">
+            {{ $pageLang := .Page.Lang }}
+            {{ $res := slice  }}
+            {{- range  $i, $occupation := .Site.Data.occupations }}
+            {{ $res = append (index $occupation $pageLang) $res }}
+            {{- end }}
+            {{ $res | jsonify }}
+          </script>
+        </span>
       </p>
     </div>
     <div class="home-header-join-us-cta">

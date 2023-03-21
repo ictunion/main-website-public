@@ -108,3 +108,6 @@
 
 ["require js"]
   other = "This page requires Java Script for its functionality"
+
+["We are"]
+  other = "We are"

@@ -108,3 +108,6 @@
 
 ["require js"]
   other = "Tato stránka vyžaduje JavaScript pro svoji funkcionalitu"
+
+["We are"]
+  other = "Jsme"

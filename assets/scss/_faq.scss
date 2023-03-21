@@ -110,3 +110,17 @@
         color: $secondary-color;
     }
 }
+
+ul.occupations-list {
+    max-width: 100%;
+    columns: 4;
+    column-gap: 32px;
+
+    @include tablet {
+        columns: 2;
+    }
+
+    @include mobile {
+        columns: 1;
+    }
+}
