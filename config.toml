@@ -21,11 +21,12 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     registrationNumber = '116 57 502'
   [params.social]
     github = 'https://github.com/ictunion'
-    twitter = ''
-    linkedin = ''
-    facebook = ''
+    twitter = 'https://twitter.com/IctOdbory_Union'
+    linkedin = 'http://www.linkedin.com/company/ictodbory-ictunion'
+    facebook = 'https://www.facebook.com/ictodbory'
     youtube = ''
-    mastodon = ''
+    mastodon = 'https://witter.cz/@ict_odbory_ict_union'
+    instagram = 'https://www.instagram.com/ict_odbory_ict_union/'
   [params.navigation]
     home = "Home"
     aboutUs = "About Us"

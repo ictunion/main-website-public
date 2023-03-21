@@ -43,6 +43,9 @@
             {{ if .Site.Param "social.youtube" }}
               <a target="blank" href="{{ .Site.Param "social.youtube" }}"><span class="icon youtube"></span></a>
             {{ end }}
+			{{ if .Site.Param "social.instagram" }}
+              <a target="blank" href="{{ .Site.Param "social.instagram" }}"><span class="icon instagram"></span></a>
+            {{ end }}
             {{ if .Site.Param "social.mastodon" }}
               <a target="blank" href="{{ .Site.Param "social.mastodon" }}"><span class="icon mastodon"></span></a>
             {{ end }}
