@@ -29,6 +29,10 @@
     line-height: 0.9em;
     padding: 0;
     margin: 0;
+
+    @include tablet {
+        line-height: 1.1em;
+    }
 }
 
 @mixin title {
@@ -78,6 +82,7 @@
 
     @include tablet {
         flex-direction: column;
+        gap: 24px;
     }
 }
 
@@ -121,8 +126,12 @@
 
     ul {
         list-style-type: square;
-        line-height: 2em;
         padding: 12px 0 12px 52px;
+        font-weight: 500;
+
+        li {
+            margin: 12px 0;
+        }
     }
 
     ol {

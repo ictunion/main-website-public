@@ -58,7 +58,7 @@ If you need to work on integration between the web and the system have a look at
 
 ## License
 
-- All source code is releleased under [AGPLv3](LICENSE) license unless specifically state otherwise.
+- All source code is releleased under [AGPLv3](LICENSE) license unless specifically stated otherwise.
 - All content is licensed under [CCv4](content/LICENSE).
 
 ```

@@ -54,7 +54,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     weight = 1
     [languages.cs.params]
       lang = 'cs'
-      tagLine = 'Odborová organizace pracujících v <br> IT a komunikacích.'
+      tagLine = 'Odborová organizace pracujících v IT a komunikacích.'
       joinCta = 'přidej se'
       [languages.cs.params.navigation]
         home = "Domů"

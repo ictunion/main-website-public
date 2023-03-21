@@ -8,7 +8,7 @@
   <section class="home-participate">
     <main class="home-page-body">
       <h2 class="home-participate-title">{{ .Param "home.participateTitle" }}</h2>
-      <div class="col-container">
+      <div class="home-participate-container">
 
         {{ range  sort (where .Site.RegularPages "Section" "home-participate") "File.Path" }}
           <div class="home-participate-item">
@@ -33,7 +33,7 @@
         {{ end }}
 
       </div>
-      <div class="col-container">
+      <div class="home-membership-container">
 
         {{ range $index, $page := sort (where .Site.RegularPages "Section" "home-membership") "File.Path" }}
           <div class="home-membership-item">
