@@ -3,18 +3,18 @@ title: "O nás"
 url: o-nas
 type: about
 description: |
-    Jsme skupina pracovníků a pracovnic z call center a IT sektoru (tedy sektoru ICT) v celém Česku a společně se scházíme, abychom řešili naše pracovní podmínky, společně se zamýšleli, jak je změnit a navzájem se v jejich změně podporovali.
+    Jsme skupina pracovníků a pracovnic z call center a IT sektoru (tedy sektoru ICT) v celém Česku a společně se scházíme, abychom řešili naše pracovní podmínky, zamýšleli se, jak je změnit a navzájem se v jejich změně podporovali.
 
     Jsme sektorová odborová organizace - to znamená, že nesdružujeme jenom zaměstnance\*kyně na jednom pracovišti, ale všechny, kdo v sektoru ICT pracují jako jednotlivci nebo celá pracoviště. Našimi členkami a členy jsou jak programátoři\*ky, testeři\*ky apod., tak i pracovníci\*ce call center, back office a mnoho dalších.
 ---
 
 ## Co děláme?
 
-**Našimi cíli jsou:**
+**Naše cíli jsou:**
 
 - propojit všechny pracovníky\*ce v našem sektoru a vytvořit komunitu,
 - hájit naše ekonomická, profesní, sociální a fyzická práva,
-- dosažení lepších pracovních podmínek (vyšší mzdy, lepší pracovní doba...),
+- dosáhnout lepších pracovních podmínek (vyšší mzdy, lepší pracovní doba...),
 - bojovat proti jakékoliv formě útlaku na pracovišti.
 
 Snažíme se také **spolupracovat s jinými organizacemi** v rámci snah o společenskou změnu (například spolupráce s organizacemi, co se zasazují o klimatickou spravedlnost).
