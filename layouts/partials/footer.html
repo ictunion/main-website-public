@@ -86,7 +86,7 @@
               {{i18n "Email" }}: <a href="mailto:{{ .Site.Param "support_email" }}">{{ .Site.Param "support_email" }}</a>
             </li>
             <li>
-              {{ i18n "Phone Number" }}: <strong>{{ .Site.Param "support_phone" }}</strong>
+              {{ i18n "Phone Number" }}: <a href="tel:{{ .Site.Param "support_phone" }}">{{ .Site.Param "support_phone" }}</a>
             </li>
           </ul>
         </section>
@@ -97,7 +97,7 @@
           <ul class="site-footer-partners-ul">
             {{- range $i, $partner := .Site.Param "partners" }}
               <li>
-                <a href="{{ $partner.link }}">{{ $partner.name }}</a>
+                <a target="_blank" href="{{ $partner.link }}">{{ $partner.name }}</a>
               </li>
             {{- end }}
           </ul>

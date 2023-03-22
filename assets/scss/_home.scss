@@ -58,10 +58,13 @@
 }
 
 .home-header-tag-line {
+    display: block;
     font-size: 26px;
     font-weight: 400;
     line-height: 1.1em;
     margin: 12px 0;
+    color: $dark-color;
+    text-decoration: none;
 
     @include tablet {
         text-align: center;

@@ -54,6 +54,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     languagedirection = 'ltr'
     weight = 1
     [languages.cs.params]
+      subTitle = 'Odbory'
       lang = 'cs'
       tagLine = 'Odborová organizace pracujících v IT a komunikacích.'
       joinCta = 'přidej se'
@@ -107,4 +108,4 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
   link = "https://www.osppp.cz/"
 [[params.partners]]
   name = "UNI Global Union"
-  link = "https://uniglobalunion.org/"
+  link = "https://www.uni-europa.org/sectors/ict-related-services/"

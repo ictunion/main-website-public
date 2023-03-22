@@ -6,6 +6,8 @@ description: |
     Jsme skupina pracovníků a pracovnic z call center a IT sektoru (tedy sektoru ICT) v celém Česku a společně se scházíme, abychom řešili naše pracovní podmínky, zamýšleli se, jak je změnit a navzájem se v jejich změně podporovali.
 
     Jsme sektorová odborová organizace - to znamená, že nesdružujeme jenom zaměstnance\*kyně na jednom pracovišti, ale všechny, kdo v sektoru ICT pracují jako jednotlivci nebo celá pracoviště. Našimi členkami a členy jsou jak programátoři\*ky, testeři\*ky apod., tak i pracovníci\*ce call center, back office a mnoho dalších.
+
+    {{< contacts >}}
 ---
 
 ## Co děláme?
@@ -28,3 +30,12 @@ Jsme aktivní odborová organizace a **každý měsíc máme online členské sc
 ## Jak jsme vznikli?
 
 **Odborová organizace pracujicích v ICT vznikla v létě 2021** za účelem spojit pracovníky\*ice call center a IT sektoru (tedy sektoru ICT)  v celém Česku a poskytnout jim společnou platformu. Podnětem pro náš vznik byla situace týkající se pracovních podmínek během pandemie Covid-19, následně jsme zorganizovali naši první kolektivní akci – petici k home office.
+
+## Kdo jsme?
+
+Naše chápání sektoru je velice **široké a inkluzivní**. Kdokoliv, kdo pracuje s informačními systémy,
+na jejich vývoji nebo na jakékoliv pozici ve firmě, která je s tímto oborem spojena, se dle našeho názoru
+kvalifikuje jako ICT pracovník\*ce. I tak se ale pokusíme vyjmenovat alespoň několik titulů, které beze sporu
+za součást sektoru považujeme:
+
+{{< occupations >}}

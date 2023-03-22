@@ -255,3 +255,48 @@ body {
         color: $secondary-color;
     }
 }
+
+// Shortcodes
+
+ul.occupations-list {
+    max-width: 100%;
+    columns: 4;
+    column-gap: 32px;
+
+    @include tablet {
+        columns: 2;
+    }
+
+    @include mobile {
+        columns: 1;
+    }
+}
+
+ul.contact-list {
+    background: $secondary-color;
+    color: $dark-color;
+    padding: 6px 12px;
+    border-radius: 6px;
+    align-self: flex-start;
+    font-size: 16px;
+    margin: 12px 0;
+    font-weight: 400;
+
+    a {
+        color: $primary-color;
+        font-weight: 600;
+
+        &:hover {
+            background: $primary-color;
+            color: $secondary-color;
+        }
+    }
+
+    strong {
+        font-weight: 700;
+    }
+
+    small {
+        font-size: 12px;
+    }
+}

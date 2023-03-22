@@ -7,9 +7,9 @@
   <div class="home-header-content">
     <div class="home-header-tag">
       <h1 class="home-header-headline">
-        <strong>{{ .Param "title" }}</strong> <small>{{ .Param "subTitle" }}</small>
+        <strong>{{ .Page.Param "title" }}</strong> <small>{{ .Page.Param "subTitle" }}</small>
       </h1>
-      <p class="home-header-tag-line">
+      <a class="home-header-tag-line" href="{{ ref . "faq" }}#12-who-are-we">
         <span class="home-header-tag-line-we-are">{{ i18n "We are" }}</span>
         <span class="home-header-tag-line-occupation" data-effect="shuffled-typing">
           <script type="application/json">
@@ -21,7 +21,7 @@
             {{ $res | jsonify }}
           </script>
         </span>
-      </p>
+      </a>
     </div>
     <div class="home-header-join-us-cta">
       <a href="{{ ref . "register" }}" class="home-header-join-us-cta-btn">{{ .Param "joinCta" }}</a>

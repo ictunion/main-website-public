@@ -6,6 +6,8 @@ description: |
     We are group of workers from call centers and IT sector (ICT sector) in Czech Republic. We are meeting together to discuss our working conditions, think about ways to improve them and support each other in doing so.
 
     We are sectoral union which means that we are not present at only one single workplace. We are instead connecting all workers from ICT sector as individuals and also as whole workplaces. Our members are anyone from testers, programmers, to call center and back office workers and many more.
+
+    {{< contacts >}}
 ---
 
 ## What we do?
@@ -28,3 +30,12 @@ We are active trade union and we have online meeting each month in czech and eng
 ## How we started?
 
 ICT Union has been created in summer 2021 in order to connect call center workers and IT workers in Czech Republic and give us common platform. Main reason was situation around working conditions during Covid-19 pandemic. Our first collective action was petition about home office.
+
+## Who are we?
+
+Our understading of sector is very **broad and inclusive**. Anyone who works with information system,
+on their development or on any position in company providing services in this sector is, in our opinion,
+considered worker in ICT sector. Notherless let us list at least few of job titles which without a doubt
+are considered as a part of the sector:
+
+{{< occupations >}}
