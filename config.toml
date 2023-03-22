@@ -31,7 +31,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     home = "Home"
     aboutUs = "About Us"
     statutes = "Statutes"
-    register = "Register"
+    register = "Application"
     events = "Events"
     faq = "FAQ"
   [params.home]
@@ -62,7 +62,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
         home = "Domů"
         aboutUs = "O nás"
         statutes = "Stanovy"
-        register = "Registrace"
+        register = "Přihláška"
         events = "Události"
         faq = "Časté dotazy"
       [languages.cs.params.home]

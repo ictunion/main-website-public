@@ -1,6 +1,6 @@
 ---
 title: Become member
-url: register
+url: application
 type: register
 dateformat: "02/01/2006"
 approveLabel: |

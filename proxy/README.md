@@ -1,7 +1,7 @@
 # Development Proxy
 
 This module implements [Node.js](https://nodejs.org/) base proxy server for purposes of working on integration between
-static web and api which is used to support certain functionality (like registrations).
+static web and api which is used to support certain functionality (like membership application).
 
 ## Using Proxy
 
