@@ -10,6 +10,7 @@
     @include page-body;
     display: flex;
     justify-content: space-between;
+    gap: 24px;
     align-items: flex-end;
     padding-top: 72px;
     padding-bottom: 48px;
@@ -65,14 +66,30 @@
     margin: 12px 0;
     color: $dark-color;
     text-decoration: none;
+    padding: 6px 12px;
+    line-height: 32px;
+    transform: translate(-12px, -6px);
 
     @include tablet {
         text-align: center;
     }
-}
 
-.home-header-tag-line-we-are {
-    font-weight: 600;;
+    &:hover {
+        background: $dark-color;
+        border-radius: 6px;
+        color: $light-color;
+        font-family: monospace;
+        font-size: 22px;
+        text-transform: lowercase;
+
+        &::before {
+            content: '$';
+        }
+
+        .home-header-tag-line-occupation {
+            color: $secondary-color;
+        }
+    }
 }
 
 @keyframes blinkTextCursor {
@@ -84,6 +101,11 @@
   }
 }
 
+
+.home-header-tag-line-we-are {
+    font-weight: 600;;
+}
+
 .home-header-tag-line-occupation {
     display: inline-block;
     color: $primary-color;
@@ -92,10 +114,6 @@
     &::after {
         content: '\2581';
         animation: blinkTextCursor 800ms steps(44) infinite normal;
-    }
-
-    &::before {
-        font-weight: 800;
     }
 }
 
