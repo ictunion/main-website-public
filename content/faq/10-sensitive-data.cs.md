@@ -1,4 +1,4 @@
 ---
-title: Registrace vyžaduje moje osobní citlivé údaje. Může někdo mimo tuto organizaci získat tyto údaje?
+title: Přihláška vyžaduje moje osobní údaje. Může někdo mimo tuto organizaci získat tyto údaje?
 ---
-Ne. K osobním údajům má přístup jen několik málo členů*ek odborové organizace. Jak zpracováváme tvé osobní údaje si můžeš přečíst [zde (TBA)]
+**Ne.** K osobním údajům má přístup jen několik členů*ek odborové organizace a zacházíme s nimi s největší opatrností. Data o členstvu nikomu nepředáváme.
