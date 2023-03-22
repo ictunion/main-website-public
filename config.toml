@@ -36,7 +36,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     faq = "FAQ"
   [params.home]
     participateTitle = "How to participate?"
-    membershipTitle = "Membership means..."
+    membershipTitle = "We provide..."
     eventsTitle = "Upcoming Events:"
   [params.footer]
     learnMore = "Learn More"
