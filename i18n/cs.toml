@@ -111,3 +111,18 @@
 
 ["We are"]
   other = "Jsme"
+
+["jane.doe@email.com"]
+  other = "jan.novak@email.cz"
+
+["Jane"]
+  other = "Jan"
+
+["Doe"]
+  other = "Novák"
+
+["helpdesk operator"]
+  other = "operátor helpdesku"
+
+["11/08/1986"]
+  other = "08.11.1986"

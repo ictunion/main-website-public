@@ -25,7 +25,7 @@
             <fieldset class="register-fieldset">
               <div class="register-form-field">
                 <label class="register-form-label">{{ i18n "Email" }}:
-                  <input class="register-form-input" name="email" type="email" placeholder="jane.doe@email.com" autofocus />
+                  <input class="register-form-input" name="email" type="email" placeholder="{{ i18n "jane.doe@email.com" }}" autofocus />
                 </label>
               </div>
             </fieldset>
@@ -34,13 +34,13 @@
               <div class="register-field-row">
                 <div class="register-form-field">
                   <label class="register-form-label">{{ i18n "First Name"}}:
-                    <input class="register-form-input" name="first_name" type="text" placeholder="Jane" />
+                    <input class="register-form-input" name="first_name" type="text" placeholder="{{ i18n "Jane" }}" />
                   </label>
                 </div>
 
                 <div class="register-form-field">
                   <label class="register-form-label">{{ i18n "Last Name" }}:
-                    <input class="register-form-input" name="last_name" type="text" placeholder="Doe" />
+                    <input class="register-form-input" name="last_name" type="text" placeholder="{{ i18n "Doe" }}" />
                   </label>
                 </div>
               </div>
@@ -48,7 +48,7 @@
               <div class="register-form-field">
                 <label class="register-form-label">{{ i18n "Date of Birth" }}:
                   {{ $date_format := .Page.Param "dateformat" }}
-                  <input class="register-form-input" name="date_of_birth" type="text" placeholder="{{ time.Format (string $date_format) "1990-01-31" }}"  data-widget="datepicker" />
+                  <input class="register-form-input" name="date_of_birth" type="text" placeholder="{{ i18n "11/08/1986" }}"  data-widget="datepicker" />
                 </label>
               </div>
             </fieldset>
@@ -56,7 +56,7 @@
             <fieldset class="register-fieldset">
               <div class="register-form-field">
                 <label class="register-form-label">{{ i18n "Address" }}:
-                  <input class="register-form-input" name="address" type="text" placeholder="Masarykova 42" />
+                  <input class="register-form-input" name="address" type="text" placeholder="Bezručova 42" />
                 </label>
               </div>
               <div class="register-field-row">
@@ -92,7 +92,7 @@
 
                 <div class="register-form-field">
                   <label class="register-form-label">{{ i18n "Occupation" }}:
-                    <input class="register-form-input" name="occupation" type="text" placeholder="CEO" />
+                    <input class="register-form-input" name="occupation" type="text" placeholder="{{ i18n "helpdesk operator" }}" />
                   </label>
                 </div>
               </div>
