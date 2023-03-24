@@ -1,15 +1,11 @@
 [turboMaCk]
 name = "Marek Fajkus"
 email = "marek.faj@gmail.com"
+
 [Kubik161]
-name = "Kubik161"
-email = "30665071+Kubik161@users.noreply.github.com"
-[kubik]
-name = "kubik"
-email = "jakub.juroska161@gmail.com"
+name = [ "Kubik161", "kubik" ]
+email =  [ "30665071+Kubik161@users.noreply.github.com", "jakub.juroska161@gmail.com" ]
+
 [wojciech29]
 name = "wojciech29"
-email = "wojciech29@users.noreply.github.com"
-[wojciech29_2]
-name = "wojciech29"
-email = "vojtech.remes@gmail.com"
+email = [ "wojciech29@users.noreply.github.com", "vojtech.remes@gmail.com" ]
