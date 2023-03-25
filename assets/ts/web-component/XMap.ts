@@ -1,10 +1,10 @@
 import * as L from 'leaflet';
 
 export class XMap extends HTMLElement {
-    map: L.Map;
-    marker: L.Marker;
+    private map: L.Map;
+    private marker: L.Marker;
 
-    connectedCallback() {
+    public connectedCallback() {
         const lat = Number(this.getAttribute('lat'));
         const lng = Number(this.getAttribute('lng'));
         const title = this.getAttribute('title');
@@ -25,9 +25,9 @@ export class XMap extends HTMLElement {
             shadowUrl: '/images/marker-shadow.png',
             iconSize: [25, 41],
             shadowSize: [41, 41],
-            iconAnchor:	[12, 40],
+            iconAnchor: [12, 40],
             shadowAnchor: [12, 40],
-            popupAnchor:  [1, -40]
+            popupAnchor: [1, -40]
         });
 
         this.marker = L.marker(

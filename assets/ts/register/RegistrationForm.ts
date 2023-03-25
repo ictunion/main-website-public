@@ -14,8 +14,8 @@ interface RegistrationFormOptions {
     language?: string;
 };
 
-interface Values {
-    [key: string]: string;
+export interface Values {
+    [key: string]: string | null;
 }
 
 interface Field {
@@ -31,12 +31,12 @@ export const defaultOptions: RegistrationFormOptions = {
 };
 
 export default class RegistrationForm {
-    form: HTMLFormElement;
-    inputs: NodeListOf<HTMLInputElement>;
-    options: RegistrationFormOptions;
-    qrImg: HTMLImageElement;
-    datepickerElements: { [key: string]: HTMLInputElement } = {};
-    datepickers: { [key: string]: Datepicker } = {};
+    public form: HTMLFormElement;
+    public datepickerElements: { [key: string]: HTMLInputElement } = {};
+    private inputs: NodeListOf<HTMLInputElement>;
+    private options: RegistrationFormOptions;
+    private qrImg: HTMLImageElement | undefined;
+    private datepickers: { [key: string]: Datepicker } = {};
 
     constructor(form: HTMLFormElement, options?: RegistrationFormOptions) {
         this.form = form;
@@ -76,7 +76,7 @@ export default class RegistrationForm {
         }, {});
     }
 
-    initDatepickers(selector: string) {
+    private initDatepickers(selector: string) {
         const elements = this.form.querySelectorAll(selector);
 
         elements.forEach((element: HTMLInputElement) => {
@@ -88,12 +88,12 @@ export default class RegistrationForm {
         });
     }
 
-    initQr(qrContainer: HTMLElement) {
+    private initQr(qrContainer: HTMLElement) {
         this.qrImg = document.createElement('img');
         qrContainer.append(this.qrImg);
     }
 
-    registerEventListeners() {
+    private registerEventListeners() {
         this.inputs.forEach((input: HTMLInputElement) => {
             const formatterType = input.getAttribute('data-formatter');
             const formatter = formatterType ? this.options.formatters[formatterType] : undefined;
@@ -126,7 +126,7 @@ export default class RegistrationForm {
 
     }
 
-    fromLocation(location: Location): RegistrationForm {
+    public fromLocation(location: Location): RegistrationForm {
         const searchParams = new URLSearchParams(location.search);
         this.updateQr(searchParams);
 
@@ -146,7 +146,7 @@ export default class RegistrationForm {
         return this;
     }
 
-    toURLSearchParams(): URLSearchParams {
+    private toURLSearchParams(): URLSearchParams {
         const values: { [key: string]: string; } = {};
 
         this.inputs.forEach((input: HTMLInputElement) => {
@@ -158,7 +158,7 @@ export default class RegistrationForm {
         return new URLSearchParams(values);
     }
 
-    updateQr(params: URLSearchParams) {
+    private updateQr(params: URLSearchParams) {
         if (!this.qrImg) {
             // nothing to update
             return;

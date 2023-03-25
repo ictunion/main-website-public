@@ -9,11 +9,13 @@ function shuffle<T>(a: T[]): T[] {
     return a;
 }
 
-const typingElements = document.querySelectorAll('[data-effect="shuffled-typing"]');
+const typingElements = document.querySelectorAll('[data-effect="shuffled-typing"]') as NodeListOf<HTMLElement>;
 
 typingElements.forEach((typing: HTMLElement) => {
+    const script = typing.querySelector('script');
+    if (!script) return;
     // oh well.. double json parse because for some reason hugo feels stringifies JSON implicitelly
-    let occupations: string[] = shuffle(JSON.parse(JSON.parse(typing.querySelector('script').innerText)));
+    let occupations: string[] = shuffle(JSON.parse(JSON.parse(script.innerText)));
     let occupation_index = 0;
     let index = 0;
     let occupation: string = occupations[occupation_index];

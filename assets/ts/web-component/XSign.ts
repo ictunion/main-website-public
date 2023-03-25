@@ -1,21 +1,21 @@
 import SignaturePad from 'signature_pad';
 
 export class XSign extends HTMLElement {
-    signaturePad: SignaturePad;
-    signButton: NodeListOf<HTMLButtonElement>;
-    uploadButton: NodeListOf<HTMLButtonElement>;
-    confirmButton: NodeListOf<HTMLButtonElement>;
-    cancelButton: NodeListOf<HTMLButtonElement>;
-    undoButton: NodeListOf<HTMLButtonElement>;
-    clearButton: NodeListOf<HTMLButtonElement>;
-    canvas: HTMLCanvasElement;
-    fileInput: HTMLInputElement;
-    result: HTMLImageElement;
-    overlay: HTMLElement;
-    value: string;
-    resizeObserver: ResizeObserver;
+    public value: string | undefined;
+    private signaturePad: SignaturePad | undefined;
+    private signButton: NodeListOf<HTMLButtonElement> | undefined;
+    private uploadButton: NodeListOf<HTMLButtonElement> | undefined;
+    private confirmButton: NodeListOf<HTMLButtonElement> | undefined;
+    private cancelButton: NodeListOf<HTMLButtonElement> | undefined;
+    private undoButton: NodeListOf<HTMLButtonElement> | undefined;
+    private clearButton: NodeListOf<HTMLButtonElement> | undefined;
+    private canvas: HTMLCanvasElement | undefined;
+    private fileInput: HTMLInputElement | undefined;
+    private result: HTMLImageElement | undefined;
+    private overlay: HTMLElement | undefined;
+    private resizeObserver: ResizeObserver | undefined;
 
-    connectedCallback() {
+    public connectedCallback() {
         // setup callback for sign button
         this.signButton = this.querySelectorAll('[data-role="sign"]');
         this.signButton.forEach((btn) => {
@@ -62,6 +62,7 @@ export class XSign extends HTMLElement {
         this.fileInput.style.display = 'none';
         // configure callback
         this.fileInput.addEventListener('change', (e) => {
+            if (!e.target) return;
             const file = (e.target as HTMLInputElement).files[0];
             this.fileToRes(file);
         });
@@ -71,10 +72,10 @@ export class XSign extends HTMLElement {
         if (ResizeObserver) {
             this.resizeObserver = new ResizeObserver(() => {
                 if (this.canvas) {
-                    const data = this.signaturePad.toData();
+                    const data = this.signaturePad && this.signaturePad.toData();
                     this.canvas.width = this.clientWidth;
                     this.canvas.height = this.clientHeight;
-                    this.signaturePad.fromData(data);
+                    this.signaturePad && data && this.signaturePad.fromData(data);
                 }
             });
 
@@ -82,7 +83,7 @@ export class XSign extends HTMLElement {
         }
     }
 
-    initSignaturePad() {
+    private initSignaturePad() {
         if (this.signaturePad) {
             // already initialized
             return;
@@ -106,10 +107,10 @@ export class XSign extends HTMLElement {
         this.classList.add('active');
         this.overlay = document.createElement('div');
         this.overlay.className = 'x-sign-overlay';
-        this.parentElement.appendChild(this.overlay);
+        this.parentElement && this.parentElement.appendChild(this.overlay);
     }
 
-    cancelSignature() {
+    private cancelSignature() {
         if (!this.signaturePad) {
             // nothing to cancel
             return;
@@ -117,7 +118,7 @@ export class XSign extends HTMLElement {
         this.signaturePad.off();
         this.signaturePad = undefined;
 
-        this.removeChild(this.canvas);
+        this.canvas && this.removeChild(this.canvas);
         this.canvas = undefined;
 
 
@@ -130,7 +131,7 @@ export class XSign extends HTMLElement {
         this.removeOverlay();
     }
 
-    undoSignature() {
+    private undoSignature() {
         if (!this.signaturePad) {
             // nothing to undo
             return;
@@ -142,7 +143,7 @@ export class XSign extends HTMLElement {
         this.signaturePad.fromData(data);
     }
 
-    clearSignature() {
+    private clearSignature() {
         if (this.signaturePad) {
             // nothing to clear
             return this.signaturePad.clear();
@@ -157,7 +158,7 @@ export class XSign extends HTMLElement {
         }
     }
 
-    confirmSignature() {
+    private confirmSignature() {
         if (!this.signaturePad) {
             // nothing to confirm
             return;
@@ -173,11 +174,11 @@ export class XSign extends HTMLElement {
         }
     }
 
-    uploadFile() {
-        this.fileInput.click();
+    private uploadFile() {
+        this.fileInput && this.fileInput.click();
     }
 
-    setResult(data: string) {
+    private setResult(data: string) {
         if (this.result) {
             // already has previous result which needs to be cleared
             this.removeChild(this.result);
@@ -194,49 +195,76 @@ export class XSign extends HTMLElement {
         this.dispatchEvent(event);
     }
 
-    dragOver(event: DragEvent) {
+    private dragOver(event: DragEvent) {
         event.stopPropagation();
         event.preventDefault();
 
         this.classList.add('drag');
     }
 
-    dragEnter(event: DragEvent) {
+    private dragEnter(event: DragEvent) {
         event.stopPropagation();
         event.preventDefault();
 
         this.classList.add('drag');
     }
 
-    dragLeave(event: DragEvent) {
+    private dragLeave(event: DragEvent) {
         event.preventDefault();
         event.stopPropagation();
 
         this.classList.remove('drag');
     }
 
-    dropped(event: DragEvent) {
+    private dropped(event: DragEvent) {
         event.preventDefault();
         event.stopPropagation();
-        const dt: DataTransfer = event.dataTransfer;
-        const file: File = dt.files[0];
-        this.fileToRes(file);
+        if (event.dataTransfer) {
+            const dt: DataTransfer = event.dataTransfer;
+            const file: File = dt.files[0];
+            this.fileToRes(file);
 
-        this.classList.remove('drag');
+            this.classList.remove('drag');
+        }
     }
 
-    fileToRes(file: File) {
+    private fileToRes(file: File) {
         if (['image/jpeg', 'image/png'].includes(file.type)) {
+            let width: number = this.clientWidth * window.devicePixelRatio;
+            let height: number = this.clientHeight * window.devicePixelRatio;
+
             const reader = new FileReader();
             reader.readAsDataURL(file);
-            reader.addEventListener('load', () => {
-                this.setResult((reader.result as string));
+
+            reader.addEventListener('load', (e: any) => {
+                const img: HTMLImageElement = document.createElement('img');
+                img.addEventListener('load', () => {
+                    // resize to fit
+                    const origWidth = img.naturalWidth;
+                    const origHeight = img.naturalHeight;
+                    if (origWidth / width > origHeight / height) {
+                        height = origHeight * (width / origWidth);
+                    } else {
+                        width = origWidth * (height / origHeight);
+                    }
+
+                    const canvas: HTMLCanvasElement = document.createElement('canvas');
+                    canvas.width = width;
+                    canvas.height = height;
+                    var ctx = (canvas.getContext('2d') as CanvasRenderingContext2D);
+                    ctx.drawImage(img, 0, 0, width, height);
+                    const result: string = (canvas.toDataURL(file.type) as string);
+                    this.setResult(result);
+                });
+                if (e.target && e.target.result) {
+                    img.src = e.target.result;
+                }
             });
         }
     }
 
-    removeOverlay() {
-        if (this.overlay) {
+    private removeOverlay() {
+        if (this.overlay && this.parentElement && this.overlay) {
             this.parentElement.removeChild(this.overlay);
             this.overlay = undefined;
         }
