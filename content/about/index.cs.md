@@ -25,11 +25,23 @@ Abychom byli součástí odborových struktur, **vstoupili jsme do Odborového s
 
 ## Jak fungujeme?
 
-Jsme aktivní odborová organizace a **každý měsíc máme online členské schůze v anglickém i českém jazyce**, kde se domlouváme na dalších akcích a děláme společná rozhodnutí. Jednou za půl roku máme velkou plánovací schůzi osobně a mezi tím další schůzky a akce online i osobně. Jako člen\*ka odborů se do tohoto všeho můžeš, ale nemusíš zapojit.
+Jsme aktivní odborová organizace a **každý měsíc máme online členské schůze v anglickém i českém jazyce**,
+kde se domlouváme na dalších akcích a děláme společná rozhodnutí.
+Jednou za půl roku máme velkou plánovací schůzi osobně a mezi tím další schůzky a akce online i osobně.
+Jako člen\*ka odborů se do tohoto všeho můžeš, ale nemusíš zapojit.
+
+## Co je možné na pracovišti?
+
+V rámci sektorových odborů mají členi\*ky také možnost založit **odbory na pracovišti**.
+Pokud se s dalšími kolegy a kolegyněmi dohodnete, že chcete mít hlas na svém pracovišti,
+máte tak možnost měnit podmínky přímo u vašeho zaměstnavatele. Neznamená to ovšem, že každý\*á člen\*ka k tomuto cíli směřují,
+sektorové odbory jsou důležité sami o sobě.
 
 ## Jak jsme vznikli?
 
-**Odborová organizace pracujicích v ICT vznikla v létě 2021** za účelem spojit pracovníky\*ice call center a IT sektoru (tedy sektoru ICT)  v celém Česku a poskytnout jim společnou platformu. Podnětem pro náš vznik byla situace týkající se pracovních podmínek během pandemie Covid-19, následně jsme zorganizovali naši první kolektivní akci – petici k home office.
+**Odborová organizace pracujicích v ICT vznikla v létě 2021** za účelem spojit pracovníky\*ice call center a IT sektoru (tedy sektoru ICT)
+v celém Česku a poskytnout jim společnou platformu. Podnětem pro náš vznik byla situace týkající se pracovních podmínek během pandemie Covid-19,
+následně jsme zorganizovali naši první kolektivní akci – petici k home office.
 
 ## Kdo jsme?
 
