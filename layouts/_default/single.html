@@ -15,14 +15,14 @@
           {{ i18n "download" }}: <a class="single-page-header-download-link" target="_blank" href="/downloads/{{ .Page.Param "download"}}">{{ .Page.Param "download"}}</a>
         </div>
       {{ end }}
-      
-      {{ if isset .Page.Params "extra_statutes_subtitle" }}
-		  <div class="single-page-header-extra-statutes">
-			{{ .Param "extra_statutes_subtitle" }}
-				{{ if isset .Page.Params "extra_statutes_link" }}
-					<a class="single-page-header-download-link" target="_blank" href="{{ .Page.Param "extra_statutes_link" }}">{{ .Page.Param "extra_statutes_link"}}</a>
-				{{ end }}
-		  </div>
+
+      {{ if isset .Page.Params "extraStatutesSubtitle" }}
+        <div class="single-page-header-extra-statutes">
+          {{ .Param "extraStatutesSubtitle" }}
+          {{ if isset .Page.Params "extraStatutesLink" }}
+            <a class="single-page-header-download-link" target="_blank" href="{{ .Page.Param "extraStatutesLink" }}">{{ .Page.Param "extraStatutesLink"}}</a>
+          {{ end }}
+        </div>
       {{ end }}
     </div>
   </section>

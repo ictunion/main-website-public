@@ -13,8 +13,8 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
   subTitle = 'Union'
   tagLine = 'Trade union of workers in <br> IT & communications.'
   joinCta = 'join us'
-  support_email = 'ictodbory@gmail.com'
-  support_phone = '+420 737 035 289'
+  supportEmail = 'ictodbory@gmail.com'
+  supportPhone = '+420 737 035 289'
   [params.legal]
     entityName = 'Odborová organizace pracujících v ICT'
     entry = 'https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=1130032&typ=UPLNY'

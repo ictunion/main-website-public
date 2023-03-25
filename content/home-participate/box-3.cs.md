@@ -5,7 +5,7 @@ Chceš se dozvědět více a nenašel\*a jsi [odpovědi na své otázky]({{< rel
 
 Nebo se u vás v práci děje něco, co bys nám chtěl\*a říct?
 
-**Napiš nám na [{{< param support_email >}}](mailto:{{< param support_email >}})
-či [{{< param support_phone >}}](tel:{{< param support_phone >}}) (telefon/Signal) a my se ti ozveme.**
+**Napiš nám na [{{< param supportEmail >}}](mailto:{{< param supportEmail >}})
+či [{{< param supportPhone >}}](tel:{{< param supportPhone >}}) (telefon/Signal) a my se ti ozveme.**
 
 *Zaručujeme se za důvěrný způsob zpracování všech osobních informací.*

@@ -1,8 +1,8 @@
 ---
 title: Statutes
 subtitle: Trade Union of Workers in ITC
-extra_statutes_subtitle: "Statutes of Trade Union of Workers in ITC are subject to statutes of Trade Union Federation of Money and Insurance Workers, which you can read here:" 
-extra_statutes_link: "https://www.osppp.cz/o-nas/dokumenty"
+extraStatutesSubtitle: "Statutes of Trade Union of Workers in ITC are subject to statutes of Trade Union Federation of Money and Insurance Workers, which you can read here:"
+extraStatutesLink: "https://www.osppp.cz/o-nas/dokumenty"
 url: statutes
 download: ictunion-statutes.pdf
 lang: en
