@@ -67,6 +67,9 @@
 ["Phone Number"]
   other = "Telefonní číslo"
 
+[phone]
+  other = "telefon"
+
 [Company]
   other = "Společnost"
 

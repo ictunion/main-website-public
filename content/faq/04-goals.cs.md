@@ -5,4 +5,4 @@ Chceme **propojit všechny pracovníky\*ce v našem sektoru a vytvořit komunit
 
 Snažíme se také **spolupracovat s jinými organizacemi** v rámci snah o společenskou změnu (například spolupráce s organizacemi, co se zasazují o klimatickou spravedlnost).
 
-Abychom byli součástí odborových struktur, **vstoupili jsme do Odborového svazu pracovníků peněžnictví a pojišťovnictví - OSPPP.**
+Abychom byli součástí odborových struktur, **vstoupili jsme do Odborového svazu pracovníků peněžnictví a pojišťovnictví – OSPPP.**

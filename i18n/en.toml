@@ -67,6 +67,9 @@
 ["Phone Number"]
   other = "Phone Number"
 
+[phone]
+  other = "phone"
+
 [Company]
   other = "Company"
 

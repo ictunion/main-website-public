@@ -1,5 +1,5 @@
 {{ $pageLang := .Page.Lang }}
 <ul class="contact-list">
-  <li><strong>{{ i18n "Email" }}</strong>: <a href="{{ .Site.Param "support_email"}}">{{ .Site.Param "support_email"}}</a></li>
-  <li><strong>{{ i18n "Phone Number" }}</strong>: <a href="{{ .Site.Param "support_phone"}}">{{ .Site.Param "support_phone"}}</a> <small>(Signal Messenger)</small></li>
+  <li><strong>{{ i18n "Email" }}</strong>: <a href="mailto:{{ .Site.Param "support_email"}}">{{ .Site.Param "support_email"}}</a></li>
+  <li><strong>{{ i18n "Phone Number" }}</strong>: <a href="tel:{{ .Site.Param "support_phone"}}">{{ .Site.Param "support_phone"}}</a> <small>({{ i18n "phone" }}/Signal)</small></li>
 </ul>
