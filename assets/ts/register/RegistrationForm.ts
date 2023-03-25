@@ -10,7 +10,6 @@ interface RegistrationFormOptions {
     qrContainer?: HTMLElement;
     encodeTypes?: string[];
     formatters?: { [key: string]: Formatter };
-    datepickerSelector?: string;
     language?: string;
 };
 
@@ -48,10 +47,6 @@ export default class RegistrationForm {
         }
 
         this.registerEventListeners();
-
-        if (this.options.datepickerSelector) {
-            this.initDatepickers(this.options.datepickerSelector);
-        }
     }
 
     static addDatepickerLocale(locale: Object) {
@@ -76,7 +71,7 @@ export default class RegistrationForm {
         }, {});
     }
 
-    private initDatepickers(selector: string) {
+    public initDatepickers(selector: string): RegistrationForm {
         const elements = this.form.querySelectorAll(selector);
 
         elements.forEach((element: HTMLInputElement) => {
@@ -86,6 +81,8 @@ export default class RegistrationForm {
             this.datepickerElements[element.name] = element;
             this.datepickers[element.name] = instance;
         });
+
+        return this;
     }
 
     private initQr(qrContainer: HTMLElement) {

@@ -231,13 +231,13 @@ if (form) {
     const registrationForm: RegistrationForm = new RegistrationForm(form, {
         qrContainer,
         language: document.documentElement.lang,
-        datepickerSelector: '[data-widget="datepicker"]',
         formatters: {
             postal_code: postalCodeFormat,
             phone_number: phoneNumberFormat
         }
     })
-        .fromLocation(window.location);
+        .fromLocation(window.location)
+        .initDatepickers('[data-widget="datepicker"]');
 
     // Initialize additional functions
     const submitBtn: HTMLButtonElement = form.querySelector('button[type="submit"]');
