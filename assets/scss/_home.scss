@@ -217,6 +217,10 @@
 .home-membership {
     background: $secondary-color;
     padding: 64px 0;
+
+    p {
+        margin: 6px 0;
+    }
 }
 
 .home-membership-container {
