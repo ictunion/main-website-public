@@ -92,7 +92,7 @@
     }
 
     ul {
-        list-style-type: "\1F44D\0009";
+        list-style-type: "\1F44D\20";
         padding: 0 0 0 28px;
         font-weight: 600;
         max-width: 700px;
@@ -102,7 +102,7 @@
         }
 
         .third & {
-            list-style-type: "\1F499\0009";
+            list-style-type: "\1F499\20";
         }
 
         &.occupations-list {
