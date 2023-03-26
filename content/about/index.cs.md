@@ -35,7 +35,7 @@ Jako člen\*ka odborů se do tohoto všeho můžeš, ale nemusíš zapojit.
 V rámci sektorových odborů mají členi\*ky také možnost založit **odbory na pracovišti**.
 Pokud se s dalšími kolegy a kolegyněmi dohodnete, že chcete mít hlas na svém pracovišti,
 máte tak možnost měnit podmínky přímo u vašeho zaměstnavatele. Neznamená to ovšem, že každý\*á člen\*ka k tomuto cíli směřují,
-sektorové odbory jsou důležité sami o sobě.
+sektorové odbory jsou důležité samy o sobě.
 
 ## Jak jsme vznikli?
 
