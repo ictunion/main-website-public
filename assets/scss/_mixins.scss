@@ -97,6 +97,11 @@
     p {
         @include pharagraph;
         margin: 20px 0;
+        text-align: justify;
+
+        @include mobile {
+            text-align: left;
+        }
     }
 
     strong {
@@ -128,6 +133,7 @@
         list-style-type: square;
         padding: 12px 0 12px 52px;
         font-weight: 500;
+        text-align: left;
 
         li {
             margin: 12px 0;
@@ -139,6 +145,11 @@
         list-style-type: numeric;
         line-height: 1.5em;
         padding: 12px 0 12px 22px;
+        text-align: justify;
+
+        @include mobile {
+            text-align: left;
+        }
 
         li {
             padding: 8px 0;

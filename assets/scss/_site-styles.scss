@@ -261,6 +261,7 @@ body {
 ul.occupations-list {
     columns: 4;
     column-gap: 32px;
+    text-align: left;
 
     @include tablet {
         columns: 2;

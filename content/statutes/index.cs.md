@@ -1,13 +1,13 @@
 ---
 title: Stanovy
 subtitle: Odborová organizace pracujících v ICT
-extraStatutesSubtitle: "Stanovy odborové organizace pracujících v ICT podléhají stanovám Odborového svazu pracovníků peněžnictví a pojišťovnictví, které si můžeš přečíst zde:"
-extraStatutesLink: "https://www.osppp.cz/o-nas/dokumenty"
 url: stanovy
 download: ictunion-stanovy.pdf
 lang: cs
 description: |
     Odborové organizace pracujících v ICT
+subDescription: |
+    Stanovy odborové organizace pracujících v ICT podléhají stanovám Odborového svazu pracovníků peněžnictví a pojišťovnictví, které si můžeš přečíst na [https://www.osppp.cz/o-nas/dokumenty](https://www.osppp.cz/o-nas/dokumenty)
 ---
 #### I. ÚVODNÍ USTANOVENÍ
 

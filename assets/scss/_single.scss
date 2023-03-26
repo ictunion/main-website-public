@@ -31,6 +31,11 @@
 
     p {
         margin: 12px 0;
+        text-align: justify;
+
+        @include mobile {
+            text-align: left;
+        }
     }
 
     em {
@@ -88,13 +93,17 @@
     font-size: 16px;
 }
 
-.single-page-header-extra-statutes {
+.single-page-header-sub-description {
     line-height: 1.7em;
     font-size: 16px;
     padding-top: 8px;
 
     p {
         margin: 12px 0;
+    }
+
+    a {
+        color: $secondary-color;
     }
 }
 

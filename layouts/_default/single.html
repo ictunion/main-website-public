@@ -15,13 +15,9 @@
           {{ i18n "download" }}: <a class="single-page-header-download-link" target="_blank" href="/downloads/{{ .Page.Param "download"}}">{{ .Page.Param "download"}}</a>
         </div>
       {{ end }}
-
-      {{ if isset .Page.Params "extraStatutesSubtitle" }}
-        <div class="single-page-header-extra-statutes">
-          {{ .Param "extraStatutesSubtitle" }}
-          {{ if isset .Page.Params "extraStatutesLink" }}
-            <a class="single-page-header-download-link" target="_blank" href="{{ .Page.Param "extraStatutesLink" }}">{{ .Page.Param "extraStatutesLink"}}</a>
-          {{ end }}
+      {{ if isset .Page.Params "subdescription" }}
+        <div class="single-page-header-sub-description">
+          {{ .Param "subDescription" | markdownify }}
         </div>
       {{ end }}
     </div>
