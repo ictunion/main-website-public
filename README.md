@@ -3,7 +3,7 @@
 ![status](https://github.com/ictunion/main-website/actions/workflows/build.yaml/badge.svg?branch=main)
 
 Official public website of "Odborová organizace pracujících v ICT"
-hosted on [itcunion.cz](https://itcunion.cz).
+hosted on [ictunion.cz](https://ictunion.cz).
 
 We're [Sectoral Trade Union](https://en.wikipedia.org/wiki/Sectoral_collective_bargaining) of wider
 [ICT](https://en.wikipedia.org/wiki/Information_and_communications_technology) sector of [Czech Republic](https://en.wikipedia.org/wiki/Czech_Republic).
