@@ -78,7 +78,7 @@
 
 @mixin columns-container {
     display: flex;
-    gap: 84px;
+    gap: 75px;
 
     @include tablet {
         flex-direction: column;
