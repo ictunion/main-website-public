@@ -21,7 +21,7 @@ description: |
 
 Snažíme se také **spolupracovat s jinými organizacemi** v rámci snah o společenskou změnu (například spolupráce s organizacemi, co se zasazují o klimatickou spravedlnost).
 
-Abychom byli součástí odborových struktur, **vstoupili jsme do Odborového svazu pracovníků peněžnictví a pojišťovnictví - OSPPP.**
+Abychom byli součástí odborových struktur, **vstoupili jsme do Odborového svazu pracovníků peněžnictví a pojišťovnictví -- OSPPP.**
 
 ## Jak fungujeme?
 
@@ -39,7 +39,7 @@ sektorové odbory jsou důležité samy o sobě.
 
 ## Jak jsme vznikli?
 
-**Odborová organizace pracujicích v ICT vznikla v létě 2021** za účelem spojit pracovníky\*ice call center a IT sektoru (tedy sektoru ICT)
+**Odborová organizace pracujících v ICT vznikla v létě 2021** za účelem spojit pracovníky\*ice call center a IT sektoru (tedy sektoru ICT)
 v celém Česku a poskytnout jim společnou platformu. Podnětem pro náš vznik byla situace týkající se pracovních podmínek během pandemie Covid-19,
 následně jsme zorganizovali naši první kolektivní akci – petici k home office.
 
@@ -47,7 +47,7 @@ následně jsme zorganizovali naši první kolektivní akci – petici k home o
 
 Naše chápání sektoru je velice **široké a inkluzivní**. Kdokoliv, kdo pracuje s informačními systémy,
 na jejich vývoji nebo na jakékoliv pozici ve firmě, která je s tímto oborem spojena, se dle našeho názoru
-kvalifikuje jako ICT pracovník\*ce. I tak se ale pokusíme vyjmenovat alespoň několik titulů, které beze sporu
+kvalifikuje jako ICT pracovník\*ce. I tak se ale pokusíme vyjmenovat alespoň několik titulů, které bezesporu
 za součást sektoru považujeme:
 
 {{< occupations >}}
