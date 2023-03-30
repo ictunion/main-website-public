@@ -44,7 +44,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     languages = "Languages"
     legal = "Legal"
     legalLink = "ID"
-    partners = "Parners"
+    partners = "Partners"
     contacts = "Contacts"
 
 [languages]
@@ -75,7 +75,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
         languages = "Jazyky"
         legal = "Právní info"
         legalLink = "IČO"
-        partners = "Patneři"
+        partners = "Partneři"
         contacts = "Kontakty"
 
   [languages.en]

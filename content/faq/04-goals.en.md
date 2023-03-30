@@ -1,8 +1,8 @@
 ---
-title: What are goals of union?
+title: What are the goals of the union?
 ---
-We want to **connect all workers in our sector and create community, protect our economic, professional, social and physical rights, achieve better working conditions and fight any form of oppression.**
+We want to **connect all workers in our sector and create a community that advocates for our economic, professional, social, and physical rights, improves working conditions, and fights against any form of oppression in the workplace**.
 
-We are also **cooperating with other organizations** aiming for social changes (for example cooperation with climate justice organizations).
+We also strive to **collaborate with other organizations** in the pursuit of social change (for example, working with organizations that advocate for climate justice).
 
-We have also **joined OSPPP** to be better connected to other trade unions.
+To be a part of labor structures, we have **joined the Union of Banking and Insurance Workers - OSPPP**.

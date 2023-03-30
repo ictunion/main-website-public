@@ -4,16 +4,17 @@ url: application
 type: register
 dateformat: "02/01/2006"
 approveLabel: |
-    I accept and respect the <a href="/downloads/ictunion-statutes.pdf" target="_blank">statutes</a> of the Trade Union of ICT Workers.
+    I agree with and respect the <a href="/downloads/ictunion-statutes.pdf" target="_blank">statutes</a> of Trade Union of Workers in ICT.
 approveNotification: |
-    You need to approve conditions before submitting
+    Before submitting, it is necessary to agree to the terms and conditions.
 submitMessage: |
     You have successfully submitted your application.<br>
-    Please <u>check your email</u> for verification purposes.
+    Confirmation will be sent to you <u>by email</u>.
 ---
-Please submit your application to be a member here.
-Once your application has been accepted, we will let you know.
-You will start receiving all information about the union meetings and activities, as well as information on member dues.
-The standard union due is 1% of the netto salary up to maximum of 250 CZK per month.
+You can fill out the membership application here.
+Once your application is accepted, we will let you know.
+From that moment on, you will start receiving information about union meetings and activities.
+We will also send you information about membership fees.
+The standard membership fee is 1 % of your net income, but no more than 250 CZK per month.
 
-For students, pensionists, unemployed and people on parental leave the fee is reduced to 25 CZK per month.
+Students, retirees, unemployed, and those on parental leave have their fee reduced to 25 CZK per month.

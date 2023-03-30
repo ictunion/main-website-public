@@ -1,4 +1,9 @@
 ---
 title: Legislation
 ---
-Individually and in group, we learn from union lawyers, each other and other unions and union federations about the Labour code and our own rights.
+We believe in continuous learning and seek guidance from union lawyers,
+fellow members, and other trade unions and associations to deepen our understanding
+of labor law and our rights within the ICT sector and the workplace.
+
+This collaborative approach enables us to be effective advocates for our interests and protect the fundamental rights of
+workers in the ever-evolving ICT industry.

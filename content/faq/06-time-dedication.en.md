@@ -1,6 +1,9 @@
 ---
 title: How much time should I dedicate to the union?
 ---
-A union is only as strong as the number if it's members, most importantly it's **active** members. We are a young union with a lot of ideas on how to make ourselves and our environment better and our desire is to have as many members involved in the decision making and the co-creation of actions as possible.
+Unions are only as strong as the number of their members, especially those who are active.
 
-**But of course, it is also more than okay to attend our online members meetings once a month or become a passive member and support us in our efforts.**
+We are a young organization with many ideas on how to improve our sector,
+and we would like as many members as possible to participate in decision-making and event planning.
+
+**Of course, it's perfectly okay to just attend our regular monthly online meetings or even be a passive member.**

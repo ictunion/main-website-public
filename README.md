@@ -30,7 +30,7 @@ Changes to certain documents (e.g. statutes) are democratically voted on and app
 (Membership meeting, Committee of the Organization...).
 Maintainer team is fully responsible for ensuring due process and compliance with both legal and organization rules.
 
-**Contributors are obliged to follow [statutes of the organizations](https://union.planning-game.com/downloads/ictunion-statutes-en.pdf)
+**Contributors are obliged to follow [statutes of the organizations](https://ictunion.cz/downloads/ictunion-statutes-en.pdf)
 especially the _Section II. MISSION AND PRINCIPLES OF THE ORGANIZATION_.**
 
 > By submitting pull request contributor automatically pledges the acceptance and respect to

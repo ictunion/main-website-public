@@ -1,5 +1,8 @@
 ---
 title: What is a sectoral union?
 ---
+Sectoral unions are organizations whose members work in a specific sector of the economy, operating across individual companies.
+The sectoral unions bring together employees and other workers from various positions and professions within the sector to collectively improve working conditions in their respective workplaces.
 
-A sectoral union is a trade union of workers that are employed in a specific sector of the economy. **It is a union that is not only for and from workers of a specific company.** With the sectoral union freelancers and workers from different companies, positions, and professions within the sector organize as a collective to have a say in all matters that involve them in the workplace. The ICT sector stands for Information and Communication technology and includes IT and customer care, meaning anyone from testers, programmers, to call center and back office workers and many more.
+The ICT sector refers to Information and Communication Technologies, which includes IT and user support.
+In practice, this includes anyone from testers, programmers, to workers in call centers and back offices.
