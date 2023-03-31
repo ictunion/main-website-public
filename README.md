@@ -34,7 +34,7 @@ Maintainer team is fully responsible for ensuring due process and compliance wit
 especially the _Section II. MISSION AND PRINCIPLES OF THE ORGANIZATION_.**
 
 > By submitting pull request contributor automatically pledges the acceptance and respect to
-> both [statuses of the organization](https://union.planning-game.com/downloads/ictunion-statutes-en.pdf)
+> both [statuses of the organization](https://ictunion.cz/downloads/ictunion-statutes-en.pdf)
 > as well as [license](LICENSE) of the project.
 
 ### Project Setup
