@@ -72,6 +72,7 @@
 
     @include tablet {
         text-align: center;
+        transform: translate(0, 0);
     }
 
     @include mobile {

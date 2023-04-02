@@ -476,10 +476,14 @@
 
 .register-approve {
     @include has-links;
-
     font-size: 18px;
     font-weight: 600;
-    line-height: 1.4em;
+    line-height: 1.6em;
+
+    input {
+        width: 18px;
+        height: 18px;
+    }
 }
 
 .datepicker-picker {
