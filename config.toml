@@ -92,8 +92,13 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
   unsafe = true # Allow HTML in md files
 
 [permalinks]
-  events = '/:year/:slug/'
+  events = '/events/:year/:slug/'
   registered = '/:slug'
+  statements = '/statements/:slug'
+
+[languages.cs.permalinks]
+  events = '/udalosti/:year/:slug/'
+  statements = '/prohlaseni/:slug'
 
 [sitemap]
   changefreq = 'monthly'
