@@ -1,0 +1,32 @@
+.statements-body {
+    @include page-body;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-grow: 1;
+}
+
+.statements-right {
+    float: right;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 300px;
+    margin-left: 32px;
+
+    @include tablet {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+
+        & > img {
+            max-width: 260px;
+        }
+    }
+}
+
+.statements-left {
+    @include style-md;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 16px;
+}

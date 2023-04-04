@@ -1,0 +1,23 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="single-page-header">
+    <div class="single-page-header-content">
+      <h1 class="single-page-title">{{ .Title }}</h1>
+      <div class="single-page-description">
+        {{ .Param "description" | markdownify }}
+      </div>
+    </div>
+  </section>
+  <main class="statements-body">
+    <div class="statements-right">
+      {{ $logo := resources.Get "svg/oop-ict-logo.svg" }}
+      <img src="{{ $logo.Permalink }}" alt="{{ .Param "title" }}" />
+    </div>
+    <div class="statements-left">
+      {{ .Content }}
+    </div>
+  </main>
+{{ end }}

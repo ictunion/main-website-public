@@ -1,7 +1,7 @@
 ---
 title: To Women's Day 2023
 date: 2023-03-08
-draft: true
+draft: false
 ---
 The international women's day is here and already our companies are sending out emails for
 fun competitions and company parties, giving out flowers and chocolate to the female

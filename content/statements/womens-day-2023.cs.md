@@ -1,7 +1,7 @@
 ---
 title: Ke dni žen 2023
 date: 2023-03-08
-draft: true
+draft: false
 ---
 Mezinárodní den žen je tady a naše firmy už rozesílají e-maily se zábavnými soutěžemi a
 firemními večírky a rozdávají zaměstnankyním květiny a čokoládu.
