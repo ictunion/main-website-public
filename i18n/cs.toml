@@ -34,7 +34,7 @@
 ["share on FaceBook"]
   other = "sdílet na Facebooku"
 
-["Share on Twitter"]
+["share on Twitter"]
   other = "sdílet na Twitteru"
 
 ["share on LinkedIn"]
@@ -129,3 +129,21 @@
 
 ["11/08/1986"]
   other = "08.11.1986"
+
+[statements]
+  other = "prohlášení"
+
+["info"]
+  other = "informace"
+
+["published on"]
+  other = "publikováno"
+
+["by"]
+  other = ", "
+
+["Read more"]
+  other = "Pokračovat v čtení"
+
+["More statements"]
+  other = "Další prohlášení"

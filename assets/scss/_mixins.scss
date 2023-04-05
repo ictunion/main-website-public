@@ -76,6 +76,26 @@
     }
 }
 
+@mixin cta-secondary {
+    position: relative;
+    border-radius: 3px;
+    color: $light-color;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid rgba($light-color, 0.5);
+
+    &:hover {
+        background: rgba($light-color, 0.25);
+    }
+}
+
 @mixin columns-container {
     display: flex;
     gap: 75px;
@@ -176,4 +196,12 @@
     @media screen and (max-width: 590px) {
         @content;
     }
+}
+
+@mixin right-side-title {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom: -18px;
+    color: $very-mutted-color;
 }

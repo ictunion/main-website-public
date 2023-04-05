@@ -3,21 +3,51 @@
 {{ end }}
 
 {{ define "content" }}
-  <section class="single-page-header">
+  <section class="statements-header">
     <div class="single-page-header-content">
-      <h1 class="single-page-title">{{ .Title }}</h1>
-      <div class="single-page-description">
-        {{ .Param "description" | markdownify }}
+      <a class="statements-header-all-btn" href="{{ ref . "statements" }}">
+        {{ i18n "More statements" }}
+      </a>
+      <h1 class="statements-title">{{ .Title }}</h1>
+
+      <div class="statement-header-meta">
+        <div class="statement-header-date">{{ i18n "published on" }} {{ .Date | time.Format ":date_long" }}</div>
+        <div class="statement-header-author">
+          {{ if .Page.Param "author" }}
+            {{ i18n "by" }} {{ .Author }}
+          {{ end }}
+        </div>
       </div>
     </div>
   </section>
   <main class="statements-body">
+    <div class="statements-left">
+      {{ .Content }}
+
+      {{ if .Page.Param "authorInfo" }}
+        <div class="statements-author-info">
+          {{ .Page.Param "authorInfo" | markdownify }}
+        </div>
+      {{ end }}
+
+    </div>
+
     <div class="statements-right">
       {{ $logo := resources.Get "svg/oop-ict-logo.svg" }}
       <img src="{{ $logo.Permalink }}" alt="{{ .Param "title" }}" />
-    </div>
-    <div class="statements-left">
-      {{ .Content }}
+
+      <h3 class="statements-right-title">{{ i18n "Share" }}:</h3>
+      <div class="statements-share">
+        {{ partial "share" . }}
+      </div>
     </div>
   </main>
+
+  <footer class="statements-end-cta">
+    <a class="statements-end-all-btn" href="{{ ref . "statements" }}">
+      {{ i18n "More statements" }}
+    </a>
+
+    {{ partial "share" . }}
+  </footer>
 {{ end }}

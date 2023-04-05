@@ -171,11 +171,7 @@
 }
 
 .event-detail-info-title {
-    font-size: 38px;
-    font-weight: 800;
-    letter-spacing: -2px;
-    margin-bottom: -18px;
-    color: $very-mutted-color;
+    @include right-side-title;
 }
 
 .event-detail-info-table {

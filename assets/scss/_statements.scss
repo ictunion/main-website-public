@@ -1,22 +1,96 @@
+.statements-content {
+    @include page-body;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.statements-item {
+    padding-bottom: 32px;
+    border-bottom: 2px solid $very-mutted-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.statements-item-title {
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.statements-item-date {
+    color: $mutted-color;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.statements-item-author {
+    color: $mutted-color;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.statements-item-author-anonymous {
+    font-style: italic;
+}
+
+.statements-item-description {
+    @include pharagraph;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+.statements-read-more {
+    color: $primary-color;
+    font-weight: 600;
+    font-size: 16px;
+
+    &:hover {
+        background: $primary-color;
+        color: $light-color;
+    }
+}
+.statements-header {
+    background: $primary-color;
+    color: $light-color;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 .statements-body {
     @include page-body;
     padding-top: 32px;
     padding-bottom: 32px;
     flex-grow: 1;
+    display: flex;
+
+    @include tablet {
+        flex-direction: column;
+    }
 }
 
 .statements-right {
-    float: right;
     flex-grow: 0;
     flex-shrink: 0;
     width: 300px;
     margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 3px;
+    padding: 12px;
 
     @include tablet {
-        float: none;
         width: 100%;
         text-align: center;
         margin-left: 0;
+        align-items: center;
+        margin-top: 32px;
 
         & > img {
             max-width: 260px;
@@ -24,9 +98,101 @@
     }
 }
 
+.statements-right-title {
+    @include right-side-title;
+}
+
 .statements-left {
     @include style-md;
     flex-grow: 1;
     flex-shrink: 1;
     font-size: 16px;
+}
+
+.statements-title {
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 48px;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.statement-header-meta {
+    color: $light-color;
+    line-height: 1.6em;
+}
+
+.statement-header-date {
+    font-weight: 600;
+}
+
+.statements-share {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6em;
+    font-size: 16px;
+    align-items: flex-start;
+
+    a {
+        color: $primary-color;
+
+        &:hover {
+            background: $primary-color;
+            color: $light-color;
+        }
+    }
+}
+
+.statements-header-all-btn {
+    @include cta-secondary;
+    align-self: flex-start;
+    margin-bottom: 32px;
+}
+
+.statements-author-info {
+    position: relative;
+    background: $very-mutted-color;
+    color: $mutted-color;
+    border-radius: 3px;
+    padding: 32px;
+    font-style: italic;
+    margin-top: 64px;
+}
+
+.statements-end-cta {
+    @include page-body;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+
+    a {
+        display: block;
+        padding: 12px 32px;
+        color: $primary-color;
+        font-size: 18px;
+        text-decoration: none;
+        border: 1px solid rgba($primary-color, 0.5);
+        border-radius: 3px;
+
+        &:hover {
+            background: rgba($primary-color, 0.25);
+        }
+    }
+
+    @include tablet {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+a.statements-end-all-btn {
+    background: $primary-color;
+    color: $light-color;
+
+    &:hover {
+        color: $primary-color;
+        background: $secondary-color;
+    }
 }

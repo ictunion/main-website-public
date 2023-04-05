@@ -1,6 +1,8 @@
 ---
 title: To Women's Day 2023
 date: 2023-03-08
+authorInfo: The author is a member of union and an employee of an international IT company.
+type: statements
 draft: false
 ---
 The international women's day is here and already our companies are sending out emails for

@@ -9,6 +9,7 @@ description: |
 
     As a sectoral union, we represent workers across the ICT industry, connecting individuals and entire workplaces.
     Our members include testers, programmers, call center and back office workers, and many more.
+
     {{< contacts >}}
 ---
 

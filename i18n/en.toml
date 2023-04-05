@@ -129,3 +129,21 @@
 
 ["11/08/1986"]
   other = "11/08/1986"
+
+[statements]
+  other = "statements"
+
+["info"]
+  other = "informations"
+
+["published on"]
+  other = "published on"
+
+["by"]
+  other = "by"
+
+["Read more"]
+  other = "Read more"
+
+["More statements"]
+  other = "More statements"

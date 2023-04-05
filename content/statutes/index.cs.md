@@ -4,6 +4,7 @@ subtitle: Odborová organizace pracujících v ICT
 url: stanovy
 download: ictunion-stanovy.pdf
 lang: cs
+type: statutes
 description: |
     Odborové organizace pracujících v ICT
 subDescription: |
