@@ -1,0 +1,42 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="about-page-header">
+    <div class="single-page-header-content">
+      <h1 class="single-page-title">{{ .Title }}</h1>
+      <div class="single-page-description">
+        {{ .Content }}
+      </div>
+
+      <nav class="single-page-sub-nav">
+        <a href="{{ ref . "about" }}">{{ i18n "info" }}</a>
+        <a class="active" href="{{ ref . "statements" }}">{{ i18n "statements" }}</a>
+      </nav>
+    </div>
+  </section>
+  <main class="statements-content">
+    {{ range .Pages }}
+      <article class="statements-item">
+        <header class="statements-item-header">
+          <h2 class="statements-item-title">
+            <a href="{{ .Permalink }}" class="events-event-link">{{ .Title }}</a>
+          </h2>
+          <div class="statements-item-info">
+            <span class="statements-item-date">{{ i18n "published on" }} {{ .Date | time.Format ":date_short" }}</span>
+            <span class="statements-item-author">
+              {{ if .Page.Param "author" }}
+                {{ i18n "by" }} {{ .Author }}
+              {{ end }}
+            </span>
+          </div>
+        </header>
+        <div class="statements-item-description">
+          {{ .Summary }}
+        </div>
+        <a class="statements-read-more" href="{{ .Permalink }}">{{ i18n "Read more" }}</a>
+      </article>
+    {{ end }}
+  </main>
+{{ end }}

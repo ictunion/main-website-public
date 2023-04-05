@@ -1,6 +1,8 @@
 ---
 title: Ke dni žen 2023
 date: 2023-03-08
+authorInfo: Autorka textu je členkou odboru a zároveň zaměstnankyní mezinárodní IT společnosti.
+type: statements
 draft: false
 ---
 Mezinárodní den žen je tady a naše firmy už rozesílají e-maily se zábavnými soutěžemi a

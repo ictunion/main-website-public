@@ -5,6 +5,39 @@
     padding-bottom: 32px;
 }
 
+.about-page-header {
+    background: $primary-color;
+    color: $light-color;
+    padding-top: 72px;
+}
+
+.single-page-sub-nav {
+    display: flex;
+    gap: 6px;
+
+    a {
+        color: $light-color;
+        text-decoration: none;
+        border: 1px solid rgba($light-color, .5);
+        padding: 12px 24px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        font-weight: 300;
+        border-bottom: 0;
+
+        &:hover {
+            background: rgba($light-color, .25);
+        }
+
+        &.active {
+            background: $light-color;
+            color: $primary-color;
+            border-color: $light-color;
+            font-weight: 600;
+        }
+    }
+}
+
 .single-page-header-content {
     @include page-body;
     display: flex;
@@ -19,6 +52,10 @@
     border-bottom: solid 10px $secondary-color;
     align-self: flex-start;
     justify-self: flex-start;
+
+    @include mobile {
+        font-size: 48px;
+    }
 }
 
 .single-page-description {

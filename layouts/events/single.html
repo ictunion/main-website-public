@@ -75,15 +75,7 @@
       <h3 class="event-detail-info-title">{{ i18n "Share" }}:</h3>
 
       <div class="event-detail-info-share">
-        <a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}">
-          {{ i18n "share on FaceBook" }}
-        </a>
-        <a href="//twitter.com/share?url={{ .Permalink | urlquery }}">
-          {{ i18n "share on Twitter" }}
-        </a>
-        <a href="//linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}">
-          {{ i18n "share on LinkedIn" }}
-        </a>
+        {{ partial "share" . }}
       </div>
 
       {{ if and (isset .Page.Params "lat") (isset .Page.Params "lon") }}

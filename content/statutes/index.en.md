@@ -4,6 +4,7 @@ subtitle: Trade Union of Workers in ITC
 url: statutes
 download: ictunion-statutes.pdf
 lang: en
+type: statutes
 description: |
     Trade union of workers in ICT<br/>
     *unofficial translation*
