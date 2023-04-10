@@ -39,26 +39,54 @@ especially the _Section II. MISSION AND PRINCIPLES OF THE ORGANIZATION_.**
 
 ### Project Setup
 
-Accessobility of contributing is very important to us.
+Accessibility of contributing is very important to us.
 We support many different ways to setup the project in order to make contributions
-to the projet as frictionless as possible. We do our best to support
-all worflows to satisfy experts, free software die hards as well as novices
+to the project as friction-less as possible. We do our best to support
+all workflows to satisfy experts, free software die hard as well as novices
 and non technical users.
 
-Please see documentation specific to your prefered setup:
+Please see documentation specific to your preferred setup:
 
 - [Codespaces](./docs/codespaces.md) no setup in browser environment
 - [Docker](./docs/docker.md) containerized local setup
-- [Nix](./docs/nix.md) reproducible development evironment
+- [Nix](./docs/nix.md) reproducible development environment
 - [Manual Setup Guide](./docs/manual-setup.md) for information regarding requirements
 
 Some of the functionality of website also depends on functionality implemented as part of
 [main-system](https://github.com/ictunion/main-system) which is stand alone project.
 If you need to work on integration between the web and the system have a look at [proxy](proxy) documentation.
 
+## Publishing and Deployments
+
+Publishing of anonymized public repository as well as deployments to server are both automated by [automation](https://github.com/ictunion/automation) project.
+`main` branch is deployed to testing which runs on subdomain [testing.ictunion.cz](https://testing.ictunion.cz) and is meant for pre-production testing.
+[`production`](https://github.com/ictunion/main-website/releases/tag/production) tag is used to mark what version is deployed publicly to production domain
+[ictunion.cz](https://ictunion.cz). Automated jobs can [triggered manually](https://github.com/ictunion/automation#publish-website).
+They also run on regular schedule twice each day.
+
+### Update Production Version
+
+To mark current version for production deployment you will need to manually move `production` tag to new rev.
+
+Most likely you will want to release the last commit to production in which case you need to checkout it locally:
+
+```
+$ git checkout main
+$ git pull origin main
+```
+
+or you could checkout any git commit you want to be deployed.
+
+Once correct commit is checkout you just move the `production` tag to the commit by:
+
+```
+$ git tag production
+$ git push origin production:production
+```
+
 ## License
 
-- All source code is releleased under [AGPLv3](LICENSE) license unless specifically stated otherwise.
+- All source code is released under [AGPLv3](LICENSE) license unless specifically stated otherwise.
 - All content is licensed under [CCv4](content/LICENSE).
 
 ```
