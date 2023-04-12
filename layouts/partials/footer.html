@@ -12,6 +12,9 @@
               <a href="{{ ref . "about" }}">{{ .Param "navigation.aboutUs" }}</a>
             </li>
             <li>
+              <a href="{{ ref . "statements" }}">{{ .Param "navigation.statements" }}</a>
+            </li>
+            <li>
               <a href="{{ ref . "statutes" }}">{{ .Param "navigation.statutes" }}</a>
             </li>
             <li>
@@ -121,6 +124,6 @@
 <section class="site-after-footer">
   <div class="site-licensing-note">
     Content is provided under <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.<br>
-    Source code is <a taget="_blank" href="{{ .Site.BaseURL }}downloads/source.tar.gz">released</a> under <a target="_blank" href="//www.gnu.org/licenses/agpl-3.0.html">AGPL license</a>.
+    Source code is <a target="_blank" href="{{ .Site.Param "sourceUrl" }}">released</a> under <a target="_blank" href="//www.gnu.org/licenses/agpl-3.0.html">AGPL license</a>.
   </div>
 </section>

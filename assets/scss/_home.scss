@@ -15,7 +15,7 @@
     padding-top: 72px;
     padding-bottom: 48px;
 
-    @include tablet {
+    @include small-tablet {
         flex-direction: column;
         gap: 24px;
         padding-top: 32px;
@@ -40,7 +40,7 @@
     padding: 0;
     margin: 0;
 
-    @include tablet {
+    @include small-tablet {
         text-align: center;
     }
 
@@ -70,12 +70,9 @@
     line-height: 32px;
     transform: translate(-12px, -6px);
 
-    @include tablet {
+    @include small-tablet {
         text-align: center;
         transform: translate(0, 0);
-    }
-
-    @include mobile {
         min-height: 110px;
     }
 
@@ -121,17 +118,24 @@
         animation: blinkTextCursor 800ms steps(44) infinite normal;
     }
 
-    @include mobile {
+    @include small-tablet {
         display: block;
     }
 }
 
 .home-header-join-us-cta {
+    display: flex;
+    flex-direction: column;
     font-size: 24px;
     max-width: 300px;
     color: $mutted-color;
 
     @include tablet {
+        max-width: 270px;
+    }
+
+
+    @include small-tablet {
         display: block;
         max-width: 100%;
     }
@@ -155,6 +159,8 @@
 .home-header-join-us-cta-btn {
     @include cta-btn;
     display: inline-block;
+    padding-left: 0;
+    padding-right: 0;
 
     @include tablet {
         display: block;

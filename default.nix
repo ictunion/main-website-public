@@ -33,9 +33,5 @@ stdenv.mkDerivation {
   installPhase = ''
     mkdir -p $out/var/www
     mv public/* $out/var/www
-
-    # Note that .git is not included in build source
-    tar -czvf source.tar.gz -C $src .
-    mv source.tar.gz $out/var/www/downloads/
   '';
 }
