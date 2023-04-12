@@ -4,8 +4,6 @@
 # This includes any github user name, email, name or anythign that might identify you.
 # That is of course unless you're OK with being publically associated with the project
 # and therefore the union.
-#
-# This particular file is excluded from public tar ball but is visible in public mirror of the repository!
 
 # Content
 /content/            @Kubik161

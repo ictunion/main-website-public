@@ -26,7 +26,7 @@ body {
     padding: 0 32px;
     line-height: 72px;
 
-    @include tablet {
+    @include small-tablet {
         flex-direction: column;
     }
 }
@@ -43,9 +43,6 @@ body {
 
     strong {
         font-size: 24px;
-    }
-
-    @include tablet {
     }
 }
 
@@ -83,8 +80,11 @@ body {
         }
     }
 
-
     @include tablet {
+        gap: 20px;
+    }
+
+    @include mobile {
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -100,11 +100,16 @@ body {
     padding: 0;
 
     @include tablet {
+        gap: 20px;
+    }
+
+    @include mobile {
         justify-content: center;
         flex-wrap: wrap;
         line-height: 1.5em;
         align-items: center;
         gap: 6px;
+        font-size: 14px;
     }
 }
 
@@ -116,8 +121,9 @@ body {
     border-radius: 3px;
     outline: $mutted-color;
 
-    @include tablet {
+    @include mobile {
         margin-bottom: 24px;
+        font-size: 12px;
     }
 }
 
@@ -141,15 +147,22 @@ body {
 }
 
 .site-footer-col-container {
-    @include columns-container;
+    display: flex;
+    gap: 75px;
 
     @include tablet {
+        gap: 16px;
+    }
+
+    @include small-tablet {
+        flex-direction: column;
         gap: 32px;
     }
 }
 
 .site-footer-column {
     @include column;
+
     flex: 1 1 0px;
     display: flex;
     flex-direction: column;

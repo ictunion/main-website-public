@@ -1,9 +1,9 @@
-<a href="//www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}">
+<a href="//www.facebook.com/sharer/sharer.php?u={{.Site.Param "publicUrl" }}{{ .Permalink | urlquery }}">
   {{ i18n "share on FaceBook" }}
 </a>
-<a href="//twitter.com/share?url={{ .Permalink | urlquery }}">
+<a href="//twitter.com/share?url={{.Site.Param "publicUrl" }}{{ .Permalink | urlquery }}">
   {{ i18n "share on Twitter" }}
 </a>
-<a href="//linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}">
+<a href="//linkedin.com/sharing/share-offsite/?url={{.Site.Param "publicUrl" }}{{ .Permalink | urlquery }}">
   {{ i18n "share on LinkedIn" }}
 </a>

@@ -11,5 +11,3 @@ function print_legal() {
 
 print_legal content/statutes/index.en.md static/downloads/ictunion-statutes.pdf
 print_legal content/statutes/index.cs.md static/downloads/ictunion-stanovy.pdf
-print_legal content/statements/womens-day-2023.en.md static/downloads/womens-day-2023.pdf
-print_legal content/statements/womens-day-2023.cs.md static/downloads/den-zen-2023.pdf
