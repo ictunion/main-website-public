@@ -1,11 +1,11 @@
 ---
 title: Contact Us!
 ---
-Do you want to learn more and haven't found [an answer to your question]({{< relref path="faq" >}})?
+Do you have a question which is not [answered in faqs]({{< relref path="faq" >}})?
 
-Or is there something happening at your workplace that you would like to tell us about?
+Is anything happening at work you'd like to tell us about?
 
 Contact us at [{{< param supportEmail >}}](mailto:{{< param supportEmail >}})
-or [{{< param supportPhone >}}](tel:{{< param supportPhone >}}) (phone/Signal) and we will get back to you.
+or [{{< param supportPhone >}}](tel:{{< param supportPhone >}}) (phone/Signal).
 
-We guarantee the confidential handling of all personal information.
+*We ensure confidential handling of any personal information.*
