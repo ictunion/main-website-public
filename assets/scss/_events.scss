@@ -15,6 +15,10 @@
     @include section-title;
     border-bottom: solid 10px $primary-color;
     font-size: 68px;
+
+    @include mobile {
+        font-size: 52px;
+    }
 }
 
 .events-sub-title {
@@ -30,11 +34,13 @@
 
 .events-content {
     @include page-body;
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
 }
 
 .events-event-title {
-    margin: 64px 0 18px 0;
+    margin: 18px 0;
     font-weight: 600;
     font-size: 32px;
     display: inline-block;
@@ -91,6 +97,12 @@
     }
 }
 
+.event-detail-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 .event-detail-header-left {
     display: flex;
     flex-direction: column;
@@ -113,11 +125,16 @@
     padding: 18px 48px;
 }
 
-.event-detail-header-info {
+.event-detail-header-poster {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: 6px;
+    height: 350px;
+
+    & img {
+        height: 100%;
+    }
 
     @include tablet {
         align-items: flex-start;
@@ -127,20 +144,18 @@
 .event-detail-header-date {
     font-weight: 800;
     font-size: 28px;
-    text-align: right;
 }
 
 .event-detail-header-place {
     font-size: 32px;
-    font-weight: 300;
+    font-weight: 500;
     color: $primary-color;
-    text-align: right;
 }
 
 .event-detail-page-body {
     @include page-body;
     display: flex;
-    gap: 32px;
+    gap: 64px;
     padding-top: 32px;
     padding-bottom: 32px;
     flex-grow: 1;
@@ -148,6 +163,7 @@
 
     @include tablet {
         flex-direction: column;
+        gap: 32px;
     }
 }
 
@@ -160,7 +176,7 @@
 .event-detail-info {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 6px;
     width: 400px;
     flex-shrink: 0;
     flex-grow: 0;
@@ -168,6 +184,13 @@
     @include tablet {
         width: auto;
     }
+}
+
+.event-detail-info-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 24px;
 }
 
 .event-detail-info-title {
@@ -192,6 +215,12 @@
 
 .event-detail-register-cta {
     @include cta-btn;
+}
+
+.event-detail-qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .event-detail-info-share {

@@ -184,6 +184,12 @@
             }
         }
     }
+
+    blockquote {
+        background: rgba($primary-color, .2);
+        border-left: 8px solid $primary-color;
+        padding: 6px 32px;
+    }
 }
 
 @mixin tablet {
