@@ -45,4 +45,37 @@
       </div>
     </main>
   </section>
+
+  <section class="home-events">
+    <main class="home-page-body">
+      <h2 class="home-events-title">{{ .Param "home.eventsTitle" }}</h2>
+      <div class="home-events-description">
+
+        {{ with .Site.GetPage "home-events" }}
+          {{ .Content }}
+        {{ end }}
+
+      </div>
+
+      {{ range (where .Site.RegularPages "Section" "events") }}
+        <div class="home-event-item">
+          <h3 class="home-event-title">
+            <a href="{{ .Permalink }}" class="home-event-link">
+              {{ .Title }}
+            </a>
+          </h3>
+          <div class="home-event-info">
+            {{ if .Param "eventDate" }}
+              <span class="home-event-date">{{ .Params.EventDate | time.Format ":date_short" }}</span>
+            {{ end }}
+            <span class="home-event-place">{{ .Params.Place }}</span>
+          </div>
+          <div class="home-event-description">
+            {{ .Summary }}
+          </div>
+        </div>
+      {{ end }}
+
+    </main>
+  </section>
 {{ end }}
