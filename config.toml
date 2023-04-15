@@ -66,13 +66,13 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
         aboutUs = "O nás"
         statutes = "Stanovy"
         register = "Přihláška"
-        events = "Události"
+        events = "Akce"
         faq = "Časté dotazy"
         statements = "Prohlášení"
       [languages.cs.params.home]
         participateTitle = "Jak se zapojit?"
         membershipTitle = "Členství ti přinese..."
-        eventsTitle = "Plánované události:"
+        eventsTitle = "Plánované akce:"
       [languages.cs.params.footer]
         learnMore = "Poznej více"
         socials = "Sítě"
@@ -99,7 +99,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
   statements = '/statements/:slug'
 
 [languages.cs.permalinks]
-  events = '/udalosti/:year/:slug/'
+  events = '/akce/:year/:slug/'
   statements = '/prohlaseni/:slug'
 
 [sitemap]

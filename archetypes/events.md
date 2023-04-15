@@ -1,8 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 subTitle:
-date: {{ .Date }}
-eventDate:
+publishDate: {{ .Date }}
+startDate:
+date:
 duration:
 place:
 placeAddress:
@@ -10,6 +11,7 @@ lat:
 lon:
 placeUrl:
 registerUrl:
+ctaType: register
 draft: true
 ---
 

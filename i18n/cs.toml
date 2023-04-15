@@ -1,6 +1,12 @@
 [register]
   other = "registrovat"
 
+[fill]
+  other = "vyplnit dotazník"
+
+[sign]
+  other = "podepsat petici"
+
 [When]
   other = "Kdy"
 
@@ -35,16 +41,16 @@
   other = "Mapa"
 
 ["share on FaceBook"]
-  other = "sdílet na Facebooku"
+  other = "Sdílet na Facebooku"
 
 ["share on Twitter"]
-  other = "sdílet na Twitteru"
+  other = "Sdílet na Twitteru"
 
 ["share on LinkedIn"]
-  other = "sdílet na LinkedInu"
+  other = "Sdílet na LinkedInu"
 
 ["open in"]
-  other = "otevři v"
+  other = "Otevři v"
 
 [download]
   other = "stáhnout"
@@ -146,7 +152,10 @@
   other = ", "
 
 ["Read more"]
-  other = "Pokračovat v čtení"
+  other = "Pokračovat ve čtení"
 
 ["More statements"]
   other = "Další prohlášení"
+
+["Event Details"]
+  other = "Detaily akce"

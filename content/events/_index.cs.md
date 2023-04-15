@@ -1,5 +1,8 @@
 ---
-title: Události
-url: udalosti
+title: Akce
+url: akce
+past: Proběhlé akce
+noUpcoming: |
+    **V tuto chvíli pilně pracujeme na přípravách akcí!** Můžeš ale kouknout na nějaké již proběhlé akce:
 ---
-Would you like to meet us? We are planning these events for you. Everyone can come even if they are not a member of the union. We will be glad to see you. And who knows, maybe you will consider joining eventually.
+Chceš se s námi potkat? Plánujeme následující akce. Přijít může kdokoliv bez ohledu na to, zda je členem\*kou. Rádi tě uvidíme. A kdo ví, třeba se nakonec rozhodneš stát členem či členkou.

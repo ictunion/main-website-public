@@ -8,24 +8,36 @@
 {{ end }}
 
 {{ define "content" }}
+  {{ $ctaType := .Page.Param "ctaType" }}
+  {{ if not $ctaType }}
+    {{ $ctaType = "register" }}
+  {{ end }}
   <section class="events-header">
     <div class="event-detail-header-content">
       <div class="event-detail-header-left">
         <h1 class="events-title">{{ .Title }}</h1>
         <h2 class="event-detail-sub-title">{{ .Page.Param "subTitle" }}</h2>
         <div class="event-detail-meta">
-          {{ if .Param "eventDate" }}<h3 class="event-detail-header-date">{{ .Params.EventDate | time.Format ":date_long" }}</h3>{{ end }}
+          {{ if .Param "startDate" }}
+            <h3 class="event-detail-header-date">{{ .Params.StartDate | time.Format ":date_long" }}</h3>
+          {{ else if .Date }}
+            <h3 class="event-detail-header-date">{{ .Date | time.Format ":date_long" }}</h3>
+          {{ end }}
           <h3 class="event-detail-header-place">{{ .Params.Place }}</h3>
         </div>
         {{ if .Page.Param "registerUrl" }}
-          <a class="event-detail-header-register-cta" target="_blank" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
+          <a class="event-detail-header-register-cta" target="_blank" href="{{ .Params.RegisterUrl }}">{{ i18n $ctaType }}</a>
         {{ end }}
       </div>
-      <div class="event-detail-header-poster">
-        {{ if .Page.Param "poster" }}
-          {{ with .Params.poster }}<img src="{{ . }}">{{ end }}
-        {{ end }}
-      </div>
+
+      {{ if .Page.Param "poster" }}
+        {{ $poster := resources.Get (path.Join "images/events" .Page.Params.poster) }}
+        <a target="_blank" href="{{ $poster.RelPermalink }}" class="event-detail-header-poster">
+          {{ $resized := $poster.Fit "250x350 Top" }}
+          <img src="{{ $resized.RelPermalink }}" alt="poster">
+        </a>
+      {{ end }}
+
     </div>
   </section>
   <div class="event-detail-page-body">
@@ -39,20 +51,32 @@
         <h3 class="event-detail-info-title">{{ i18n "When" }}?</h3>
         <table class="event-detail-info-table">
           <tbody>
-            {{ if .Param "eventDate" }}
+            {{ if and (.Param "startDate") (not (eq (time (.Param "startDate")).YearDay .Date.YearDay)) }}
+              <tr>
+                <td>{{ i18n "Start" }}:</td>
+                <td>{{ .Params.startDate | time.Format ":date_long" }}</td>
+              </tr>
+              <tr>
+                <td>{{ i18n "End" }}:</td>
+                <td>{{ .Params.Date | time.Format ":date_long" }}</td>
+              </tr>
+            {{ else if and (.Param "startDate") }}
               <tr>
                 <td>{{ i18n "Date" }}:</td>
-                <td>{{ .Params.EventDate | time.Format ":date_long" }}</td>
+                <td>{{ .Params.StartDate | time.Format ":date_long" }}</td>
               </tr>
               <tr>
                 <td>{{ i18n "Start" }}:</td>
-                <td>{{ .Params.EventDate | time.Format ":time_short" }}</td>
+                <td>{{ .Params.StartDate | time.Format ":time_short" }}</td>
               </tr>
-            {{ end }}
-            {{ if .Param "endDate" }}
+            {{ else if .Param "date" }}
               <tr>
-                <td>{{ i18n "End" }}:</td>
-                <td>{{ .Params.EndDate | time.Format ":time_short" }}</td>
+                <td>{{ i18n "Date" }}:</td>
+                <td>{{ .Params.date | time.Format ":date_long" }}</td>
+              </tr>
+              <tr>
+                <td>{{ i18n "Start" }}:</td>
+                <td>{{ .Params.Date | time.Format ":time_short" }}</td>
               </tr>
             {{ end }}
             {{ if .Params.Duration }}
@@ -73,21 +97,25 @@
               <td>{{ i18n "Place" }}:</td>
               <td>{{ .Params.Place }}</td>
             </tr>
-            <tr>
-              <td>{{ i18n "Address" }}:</td>
-              <td>{{ .Params.PlaceAddress }}</td>
-            </tr>
-            <tr>
-              <td>{{ i18n "Website" }}:</td>
-              <td><a href="//{{ .Params.placeUrl }}">{{ .Params.placeUrl }}</a></td>
-            </tr>
+            {{ if .Params.PlaceAddress }}
+              <tr>
+                <td>{{ i18n "Address" }}:</td>
+                <td>{{ .Params.PlaceAddress }}</td>
+              </tr>
+            {{ end }}
+            {{ if .Params.placeUrl }}
+              <tr>
+                <td>{{ i18n "Website" }}:</td>
+                <td><a href="//{{ .Params.placeUrl }}">{{ .Params.placeUrl }}</a></td>
+              </tr>
+            {{ end }}
           </tbody>
         </table>
       </section>
 
       {{ if .Page.Param "registerUrl" }}
         <section class="event-detail-info-box">
-            <a class="event-detail-register-cta" target="_blank" href="{{ .Params.RegisterUrl }}">{{ i18n "register" }}</a>
+            <a class="event-detail-register-cta" target="_blank" href="{{ .Params.RegisterUrl }}">{{ i18n $ctaType }}</a>
             <div class="event-detail-qr">
               <x-qr data="{{ .Page.Param "registerUrl" }}"></x-qr>
             </div>

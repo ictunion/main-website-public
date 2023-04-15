@@ -1,0 +1,25 @@
+<article class="events-event-item">
+  <div class="events-event-body">
+    <header class="events-event-header">
+      {{ if .Param "startDate" }}
+        <span class="events-event-date">{{ .Param "startDate" | time.Format ":date_medium" }}</span>
+      {{ else if .Param "date"  }}
+        <span class="evenets-event-date">{{ .Param "date" | time.Format ":date_medium" }}</span>
+      {{ end }}
+
+      <div class="events-event-head">
+        <h2 class="events-event-title">
+          <a href="{{ .Permalink }}" class="events-event-link">{{ .Title }}</a>
+        </h2>
+
+        <div class="events-event-info">
+          <span class="events-event-place">{{ .Params.Place }}</span>
+        </div>
+      </div>
+    </header>
+    <div class="events-event-description">
+      {{ .Summary }}
+    </div>
+    <a href="{{ .Permalink }}" class="events-event-detail-link">{{ i18n "Event Details" }}</a>
+  </div>
+</article>
