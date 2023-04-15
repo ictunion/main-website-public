@@ -24,7 +24,13 @@
             <a href="{{ .Permalink }}" class="events-event-link">{{ .Title }}</a>
           </h2>
           <div class="statements-item-info">
-            <span class="statements-item-date">{{ i18n "published on" }} {{ .Date | time.Format ":date_short" }}</span>
+            <span class="statements-item-date">{{ i18n "published on" }}
+              {{ if isset .Page "PublishedDate" }}
+                {{ .PublishedDate | time.Format ":date_long" }}
+              {{ else }}
+                {{ .Date | time.Format ":date_long" }}
+              {{ end }}
+            </span>
             <span class="statements-item-author">
               {{ if .Page.Param "author" }}
                 {{ i18n "by" }} {{ .Author }}

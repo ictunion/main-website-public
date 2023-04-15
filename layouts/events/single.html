@@ -12,6 +12,7 @@
   {{ if not $ctaType }}
     {{ $ctaType = "register" }}
   {{ end }}
+  {{ $past := lt .Page.Date now }}
   <section class="events-header">
     <div class="event-detail-header-content">
       <div class="event-detail-header-left">
@@ -26,7 +27,9 @@
           <h3 class="event-detail-header-place">{{ .Params.Place }}</h3>
         </div>
         {{ if .Page.Param "registerUrl" }}
-          <a class="event-detail-header-register-cta" target="_blank" href="{{ .Params.RegisterUrl }}">{{ i18n $ctaType }}</a>
+        <a class="event-detail-header-register-cta {{ if $past }} disabled {{end}}" target="_blank" {{ if not $past }} href="{{ .Params.RegisterUrl }}" {{ end }}>
+          {{ i18n $ctaType }}
+        </a>
         {{ end }}
       </div>
 
@@ -115,7 +118,7 @@
 
       {{ if .Page.Param "registerUrl" }}
         <section class="event-detail-info-box">
-            <a class="event-detail-register-cta" target="_blank" href="{{ .Params.RegisterUrl }}">{{ i18n $ctaType }}</a>
+            <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="{{ .Params.RegisterUrl }}" {{ end }}>{{ i18n $ctaType }}</a>
             <div class="event-detail-qr">
               <x-qr data="{{ .Page.Param "registerUrl" }}"></x-qr>
             </div>

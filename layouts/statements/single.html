@@ -11,7 +11,13 @@
       <h1 class="statements-title">{{ .Title }}</h1>
 
       <div class="statement-header-meta">
-        <div class="statement-header-date">{{ i18n "published on" }} {{ .Date | time.Format ":date_long" }}</div>
+        <div class="statement-header-date">
+          {{ if isset .Page "PublishedDate" }}
+            {{ .PublishedDate | time.Format ":date_long" }}
+          {{ else }}
+            {{ .Date | time.Format ":date_long" }}
+          {{ end }}
+        </div>
         <div class="statement-header-author">
           {{ if .Page.Param "author" }}
             {{ i18n "by" }} {{ .Author }}
@@ -34,7 +40,7 @@
 
     <div class="statements-right">
       {{ $logo := resources.Get "svg/oop-ict-logo.svg" }}
-      <img src="{{ $logo.Permalink }}" alt="{{ .Param "title" }}" />
+      <img class="statements-logo" src="{{ $logo.Permalink }}" alt="{{ .Site.Param "title" }}" />
 
       <h3 class="statements-right-title">{{ i18n "Share" }}:</h3>
       <div class="statements-share">
