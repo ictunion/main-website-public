@@ -24,7 +24,7 @@ description: |
 
 We **cooperate with other organizations** aiming for social changes (for example cooperation with climate justice organizations).
 
-We have **joined OSPPP** to be better connected to other trade unions.
+We have **joined [OSPPP](https://www.osppp.cz/)** to be better connected to other trade unions.
 
 ## How do we work?
 

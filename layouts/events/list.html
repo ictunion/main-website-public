@@ -15,23 +15,23 @@
     </div>
   </section>
   <main class="events-content">
-    {{ range sort .Pages "File.Path" }}
-      <article class="events-event-item">
-        <header class="event-header">
-          <h2 class="events-event-title">
-            <a href="{{ .Permalink }}" class="events-event-link">{{ .Title }}</a>
-          </h2>
-          <div class="events-event-info">
-            {{ if .Param "eventDate" }}
-              <span class="events-event-date">{{ .Params.EventDate | time.Format ":date_short" }}</span>
-            {{ end }}
-            <span class="events-event-place">{{ .Params.Place }}</span>
-          </div>
-        </header>
-        <div class="events-event-description">
-          {{ .Summary }}
-        </div>
-      </article>
-    {{ end }}
+    {{ $upcomming := where (where (sort .Pages ".Date" "asc") "Section" "events") ".Date" ">=" now }}
+    <div class="events-list">
+      {{ range $upcomming }}
+        {{ partial "event-item" . }}
+      {{ end }}
+    </div>
+    <div class="events-past">
+      {{ if gt ($upcomming | len) 0 }}
+        {{ .Page.Param "past" }}
+      {{ else }}
+        {{ .Page.Param "noUpcomming" }}
+      {{ end }}
+    </div>
+    <div class="events-list past">
+      {{ range where (where .Site.RegularPages "Section" "events") ".Date" "<" now }}
+        {{ partial "event-item" . }}
+      {{ end }}
+    </div>
   </main>
 {{ end }}

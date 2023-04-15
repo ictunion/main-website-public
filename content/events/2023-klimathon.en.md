@@ -1,13 +1,13 @@
 ---
 title: Klimathon
 subTitle: "A day of hacking with the climate movement"
-date: 2023-04-13
-eventDate: 2023-06-03T08:00:00.000Z
-endDate: 2023-06-03T22:00:00.000Z
+publishDate: 2023-04-13
+startDate: 2023-06-03T08:00:00.000Z
+date: 2023-06-03T22:00:00.000Z
 duration: full day
 place: Kumst Brno
 placeAddress: "Údolní 495/19 602 00 Brno"
-poster: /images/events/2023-klimathon-poster.png
+poster: 2023-klimathon-poster.png
 lat: 49.1968311
 lon: 16.6003278
 placeUrl: www.kumstbrno.cz
@@ -30,9 +30,9 @@ But one day is a good start.
 **Three challenges that we will tackle together:**
 
 - Supporting the awareness of the climate movement
-How can we facilitate the work of climate movements in their efforts to raise awareness of the impacts of climate crisis?
+    - How can we facilitate the work of climate movements in their efforts to raise awareness of the impacts of climate crisis?
 - Reducing emissions in other sectors
-How to use ICT innovations to help reduce emissions in other sectors of the economy?
+    - How to use ICT innovations to help reduce emissions in other sectors of the economy?
 - Reducing emissions in the ICT sector
 
 How can we show ICT employers the climate impact of their operations and engage them in addressing and reducing emissions in their sector?

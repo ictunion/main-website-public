@@ -1,13 +1,13 @@
 ---
 title: Klimathon
 subTitle: "Den hackování s klimatickým hnutím"
-date: 2023-04-13
-eventDate: 2023-06-03T08:00:00.000Z
-endDate: 2023-06-03T22:00:00.000Z
+publishDate: 2023-04-13
+startDate: 2023-06-03T08:00:00.000Z
+date: 2023-06-03T22:00:00.000Z
 duration: celý den
 place: Kumst Brno
 placeAddress: "Údolní 495/19 602 00 Brno"
-poster: /images/events/2023-klimathon-poster.png
+poster: 2023-klimathon-poster.png
 lat: 49.1968311
 lon: 16.6003278
 placeUrl: www.kumstbrno.cz
@@ -29,11 +29,11 @@ Jeden den je ale dobrý začátek.
 
 Tři výzvy, které budeme společně řešit:
 
-- Podpora osvěty klimatických hnutí
-Jak usnadnit práci klimatickým hnutím v jejich snaze o osvětu dopadů klimatické krize?
-- Snížení emisí v dalších sektorech
-Jak pomocí ICT inovací přispět ke snižování emisí v jiných sektorech ekonomiky?
-- Snížení emisí v ICT sektoru
+- **Podpora osvěty klimatických hnutí**
+    - Jak usnadnit práci klimatickým hnutím v jejich snaze o osvětu dopadů klimatické krize?
+- **Snížení emisí v dalších sektorech**
+    - Jak pomocí ICT inovací přispět ke snižování emisí v jiných sektorech ekonomiky?
+- **Snížení emisí v ICT sektoru**
 
 Jak můžeme ICT zaměstnavatelům ukázat dopad jejich fungování na klima a zapojit je do řešení a snižování emisí v jejich sektoru?
 Ke tvůrčímu stolu zveme každého, komu záleží na důstojných podmínkách lidí a kvality životního prostředí.
@@ -43,8 +43,10 @@ Ke tvůrčímu stolu zveme každého, komu záleží na důstojných podmínkác
 - Designéry*ky služeb a produktů
 - Programátory*ky
 - Marketingové a komunikační experty*ky
-- Můžeš přijít sam*a nebo v týmu.
-- Akce bude probíhat v češtině i v angličtině.
+
+**Můžeš přijít sam*a nebo v týmu.**
+
+Akce bude probíhat v **češtině i v angličtině**.
 
 - Potkáme se v sobotu 3.6. v Brně
 - Začínáme v 8hod. ráno a končíme ve 22hod.
