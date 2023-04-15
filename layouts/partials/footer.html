@@ -34,11 +34,11 @@
         <section class="site-footer-section">
           <h4 class="site-footer-title">{{ .Param "footer.socials" }}</h4>
           <div class="site-footer-social-links">
-            {{ if .Site.Param "social.twitter" }}
-              <a target="_blank" href="{{ .Site.Param "social.twitter" }}"><span class="icon bird_site"></span></a>
-            {{ end }}
             {{ if .Site.Param "social.facebook" }}
               <a target="blank" href="{{ .Site.Param "social.facebook" }}"><span class="icon facebook"></span></a>
+            {{ end }}
+            {{ if .Site.Param "social.twitter" }}
+              <a target="_blank" href="{{ .Site.Param "social.twitter" }}"><span class="icon bird_site"></span></a>
             {{ end }}
             {{ if .Site.Param "social.linkedin" }}
               <a target="blank" href="{{ .Site.Param "social.linkedin" }}"><span class="icon job_site"></span></a>

@@ -344,11 +344,15 @@
     color: $primary-color;
     font-weight: 700;
     font-size: 20px;
-    align-self: center;
+    text-align: center;
+    padding: 12px;
+    border: 2px solid transparent;
+    border-radius: 3px;
 
     &:hover {
-        background: $primary-color;
-        color: $light-color;
+        border-color: $primary-color;
+        background: rgba($primary-color, .2);
+        text-decoration: none;
     }
 }
 

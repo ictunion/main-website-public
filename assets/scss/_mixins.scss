@@ -74,6 +74,11 @@
     &:hover {
         background: $darken-secondary-color;
     }
+
+    &.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
 }
 
 @mixin cta-secondary {

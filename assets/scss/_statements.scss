@@ -47,14 +47,19 @@
 
 .statements-read-more {
     color: $primary-color;
-    font-weight: 600;
-    font-size: 16px;
+    font-weight: 700;
 
     &:hover {
         background: $primary-color;
         color: $light-color;
     }
 }
+
+.statements-logo {
+    width: 250px;
+    align-self: center;
+}
+
 .statements-header {
     background: $primary-color;
     color: $light-color;
@@ -68,6 +73,7 @@
     padding-bottom: 32px;
     flex-grow: 1;
     display: flex;
+    gap: 64px;
 
     @include tablet {
         flex-direction: column;
@@ -77,13 +83,11 @@
 .statements-right {
     flex-grow: 0;
     flex-shrink: 0;
-    width: 300px;
-    margin-left: 32px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     gap: 32px;
     border-radius: 3px;
-    padding: 12px;
 
     @include tablet {
         width: 100%;
@@ -195,4 +199,8 @@ a.statements-end-all-btn {
         color: $primary-color;
         background: $secondary-color;
     }
+}
+
+.statutes-content {
+    max-width: 750px;
 }
