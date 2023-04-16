@@ -6,7 +6,7 @@
 
 {{ $sass_options := (dict "transpiler" "dartsass") }}
 {{ $sass := resources.Get "scss/main.scss" }}
-{{ $style := $sass | resources.ToCSS $sass_options }}
+{{ $style := $sass | resources.ToCSS $sass_options | resources.Fingerprint "sha512" }}
 
 <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
 
