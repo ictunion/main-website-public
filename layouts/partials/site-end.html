@@ -1,2 +1,2 @@
-{{ $js := resources.Get "ts/main.ts" | js.Build }}
+{{ $js := resources.Get "ts/main.ts" | js.Build | resources.Fingerprint "sha512"}}
 <script src="{{ $js.Permalink }}" defer></script>

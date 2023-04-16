@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "scripts" }}
-  {{ $register_js := resources.Get "ts/register.ts" | js.Build }}
+  {{ $register_js := resources.Get "ts/register.ts" | js.Build | resources.Fingerprint "sha512" }}
   <script src="{{ $register_js.Permalink }}" defer></script>
 {{ end }}
 

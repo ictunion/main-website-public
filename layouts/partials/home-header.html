@@ -1,5 +1,5 @@
 {{ define "scripts" }}
-  {{ $index_js := resources.Get "ts/home-header.ts" | js.Build }}
+  {{ $index_js := resources.Get "ts/home-header.ts" | js.Build | resources.Fingerprint "sha512" }}
   <script src="{{ $index_js.Permalink }}" defer></script>
 {{ end }}
 
