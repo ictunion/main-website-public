@@ -56,8 +56,8 @@ Akce bude probíhat v **češtině i v angličtině**.
 
 **Registrace je otevřená do 28.5.2023**
 
-> Klimathon organizujeme ve spolupráci s **Heinrich-Böll-Stiftung** Praha
-> a podporou **Odborového svazu pracovníků peněžnictví a pojišťovnictví** (OSPPP)
-> a **Climate Designers Czech Republic & Slovakia**.
+> Klimathon organizujeme ve spolupráci s [**Heinrich-Böll-Stiftung**](https://cz.boell.org/) Praha
+> a podporou [**Odborového svazu pracovníků peněžnictví a pojišťovnictví**](https://www.osppp.cz/) (OSPPP)
+> a [**Climate Designers**](https://www.climatedesigners.org/chapters) Czech Republic & Slovakia.
 
 *Skvělou grafiku vytvořila [LM graphic design](https://www.lenkamareckova.com/)*

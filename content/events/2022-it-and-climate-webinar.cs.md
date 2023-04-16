@@ -14,4 +14,5 @@ v České republice, Anny Kárníkové (ředitelky ekologické organizace Hnutí
 a Josefa Patočky (výzkumníka z Platformy pro sociálně-ekologickou transformaci Re-set),
 budeme diskutovat o tom, jak spolu souvisí klimatická krize a informační technologie.
 
-> Organizováno iniciativou Práce na Drátě za podpory Heinrich Boell Stiftung Praha
+> Organizováno iniciativou [Práce na Drátě](https://pracenadrate.cz/)
+> za podpory [**Heinrich Boell Stiftung**](https://cz.boell.org/) Praha
