@@ -56,8 +56,8 @@ The event will be held in both **Czech and English**.
 
 **Registration is open until 28.5.2023**
 
-> Klimathon is organized in cooperation with **Heinrich-Böll-Stiftung Prague**
-> and supported by the **Trade Union of Money and Insurance Workers** (Odborový svaz pracovníků peněžnictví a pojišťovnictví - OSPPP)
-> and **Climate Designers Czech Republic & Slovakia**.
+> Klimathon is organized in cooperation with [**Heinrich-Böll-Stiftung**](https://cz.boell.org/) Prague
+> and supported by the [**Trade Union of Money and Insurance Workers**](https://www.osppp.cz/) (Odborový svaz pracovníků peněžnictví a pojišťovnictví - OSPPP)
+> and [**Climate Designers**](https://www.climatedesigners.org/chapters) Czech Republic & Slovakia.
 
 *Great graphics were made by [LM graphic design](https://www.lenkamareckova.com/)*

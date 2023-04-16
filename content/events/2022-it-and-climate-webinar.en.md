@@ -14,4 +14,5 @@ Anna Kárníková (director of the environmental organization Hnutí DUHA)
 and Josef Patočka (researcher at the Platform for Social-Ecological Transformation Re-set),
 we will discuss how the climate crisis and information technology are related.
 
-> Organized by the Work on Wire initiative with the support of Heinrich Boell Stiftung Praha
+> Organized by the [Work on Wire](https://pracenadrate.cz/en/) initiative
+> with the support of [**Heinrich Boell Stiftung**](https://cz.boell.org) Praha
