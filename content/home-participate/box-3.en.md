@@ -1,7 +1,7 @@
 ---
 title: Contact Us!
 ---
-Do you have a question which is not [answered in faqs]({{< relref path="faq" >}})?
+Do you have a question which is not [answered in FAQs]({{< relref path="faq" >}})?
 
 Is anything happening at work you'd like to tell us about?
 
