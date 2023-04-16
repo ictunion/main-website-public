@@ -40,8 +40,8 @@ The ICT Union was established in the summer of 2021 to provide a common platform
 
 ## Who are we?
 
-Our understanding of the sector is very **broad and inclusive**. Anyone who works with information system,
-on their development or on any position in a company providing services in this sector is, in our opinion,
+Our understanding of the sector is very **broad and inclusive**. Anyone who works with information systems or/and on their development, 
+or works in any position in any company that provides services in this sector is, in our opinion,
 considered a worker in the ICT sector. Nonetheless, let us list a few job titles which, without a doubt,
 are considered a part of the sector:
 
