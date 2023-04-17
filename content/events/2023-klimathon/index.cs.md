@@ -7,7 +7,7 @@ date: 2023-06-03T22:00:00.000Z
 duration: celý den
 place: Kumst Brno
 placeAddress: "Údolní 495/19 602 00 Brno"
-poster: 2023-klimathon-poster.png
+poster: poster-cs.png
 lat: 49.1968311
 lon: 16.6003278
 placeUrl: www.kumstbrno.cz

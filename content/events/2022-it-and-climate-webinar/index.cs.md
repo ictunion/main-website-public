@@ -6,7 +6,7 @@ startDate: 2022-11-01T18:00:00.000Z
 date: 2022-11-01T20:00:00.000Z
 duration: 2 hodiny
 place: Online
-poster: 2022-climate-webinar-poster.png
+poster: poster.png
 placeUrl: zoom.us
 registerUrl: https://forms.office.com/pages/responsepage.aspx?id=4LJZg9auY0CssXj57_7NCpF7Rn6hFQJOmZ4Z5I1XnTNUNjRMR1BSUkJMMkdDWjc5VEtJTENIR0VWMS4u&fbclid=IwAR2nyZxQkIZoQW5BMwn6Y038Twe3LmjYGLD4oUI716BRGyAAg4eeB0ZksFU
 ---

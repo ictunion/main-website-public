@@ -139,6 +139,7 @@
 .event-detail-header-content {
     @include page-body;
     display: flex;
+    gap: 64px;
     justify-content: space-between;
     padding-top: 72px;
     padding-bottom: 32px;
@@ -184,6 +185,7 @@
     justify-content: flex-end;
     gap: 6px;
     height: 350px;
+    align-self: center;
 
     @include tablet {
         align-items: center;

@@ -3,7 +3,7 @@ title: Union Beer in Brno
 publishDate: 2023-03-21
 startDate: 2023-02-28T18:00:00.000Z
 date: 2023-02-28T22:00:00.000Z
-place: Vegalité Brno
+place: Vegalité, Brno
 placeAddress: "Slovákova 10, Brno 602 00"
 lat: 49.2003917
 lon: 16.6025416
