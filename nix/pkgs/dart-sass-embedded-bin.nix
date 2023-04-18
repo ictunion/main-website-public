@@ -1,6 +1,6 @@
 { pkgs ? import <nixpkgs> { }
-, sha256 ? "sha256-BFbwtMygqaoeHWe+7a5eFnKpT8ktUjhrrktQckUFaTY="
-, version ? "1.58.1" }:
+, sha256 ? "sha256-szSKhLnUan1dNjwkDbcZHVyML81MtGTQ2d9KA41eQo4="
+, version ? "1.62.0" }:
 
 with pkgs;
 self.stdenv.mkDerivation rec {
