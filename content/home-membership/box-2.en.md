@@ -1,5 +1,5 @@
 ---
-title: Legislation
+title: Knowledge
 ---
 We believe in continuous learning and seek guidance from union lawyers,
 fellow members, and other trade unions and associations to deepen our understanding
