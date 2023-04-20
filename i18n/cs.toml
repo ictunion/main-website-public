@@ -98,7 +98,7 @@
   other = "Vyčistit"
 
 ["dnd in place"]
-  other = "Nebo přesuňte obrázek sem"
+  other = "Nebo sem přesuň obrázek"
 
 [Undo]
   other = "Zpět"
