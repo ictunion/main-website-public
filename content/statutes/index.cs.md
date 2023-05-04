@@ -33,11 +33,14 @@ subDescription: |
 #### III. ORGANIZAČNÍ USPOŘÁDÁNÍ
 
 1. Orgány organizace jsou:
-    1) Členská schůze
-    1) Výbor Organizace
-    1) Předseda/kyně Výboru
-    1) Místopředseda/kyně/ové Výboru
-    1) Revizor/ka
+    1) Členská schůze,
+    1) Výbor Organizace,
+    1) Předseda/kyně Výboru,
+    1) Místopředseda/kyně/ové Výboru,
+    1) Revizor/ka,
+    1) Členská schůze pracoviště,
+    1) Předsednictvo pracoviště.
+
 
 #### IV. ČLENSKÁ SCHŮZE
 
@@ -46,20 +49,20 @@ subDescription: |
 1. Členská schůze rozhoduje o všech záležitostech souvisejících s činností Organizace, a to zejména:
     1) stanoví program činnosti Organizace,
     1) schvaluje Stanovy Organizace, případně jejich změny,
-    1) rozhoduje o způsobu volby a o počtu členů/ek Výboru Organizace,
     1) přijímá a hodnotí zprávy Výboru Organizace a kontroluje jeho činnost,
-    1) projednává návrh kolektivní smlouvy a vnitřních předpisů, o kterých jedná Výbor Organizace se zaměstnavatelem,
-    1) rozhoduje o způsobech spolupráce s ostatními odborovými organizacemi působícími u zaměstnavatele,
+    1) schvaluje vnitřní předpisy Organizace,
     1) schvaluje zprávu o hospodaření Organizace, kontroluje použití finančních prostředků, které tvoří zejména podíl členských příspěvků, výnosy z vlastní činnosti, FKSP a příp. z dalších mimořádných fondů dotací a darů,
-    1) volí Předsedu/kyni, Místopředsedy/kyně a další členy/ky výboru Organizace
     1) volí Revizora/ku.
+1. Část Členské schůze skládající se z členů/ek Organizace, kteří zároveň nejsou členové Organizace na libovolném Pracovišti, rozhoduje o:
+    1) způsobu volby a počtu členů/ek Výboru Organizace,
+    1) volí Předsedu/kyni, Místopředsedy/kyně a další členy/ky Výboru Organizace.
+
 
 #### V. VÝBOR ORGANIZACE A PŘEDSEDA/KYNĚ VÝBORU
 
 1. Pro zabezpečení úkolů Organizace volí Členská schůze Výbor Organizace.
 1. Výbor Organizace je statutárním orgánem Organizace. Za Výbor organizace je oprávněn právně jednat Předseda/kyně Výboru nebo každý z Místopředsedů/kyní Výboru. Předseda/kyně a místopředsedové/kyně Organizace jsou oprávněni jednat a podepisovat za Organizaci ve všech věcech dle pravomocí schválených Výborem.
 1. Členem/kou Výboru Organizace může být jen člen/ka Organizace. Samotné schůzky Výboru Organizace jsou členstvu přístupné a členi/ky mají právo navrhnout bod na jednání; Výbor Organizace má právo uzavřít část nebo celou schůzku pouze pro své členy/ky.
-1. Všichni členové/ky Výboru Organizace jsou členy/kami orgánu odborové organizace působící u zaměstnavatele ve smyslu § 61 odst. 2 zákoníku práce.
 1. Funkční období členů/ek Výboru Organizace je tříleté. Minimální počet členů/ek Výboru Organizace je tři.  Členská schůze rozhoduje o počtu členů/ek Výboru Organizace a o počtu místopředsedů/kyň Výboru. Počet členů/ek Výboru Organizace je vždy lichý. Je-li počet členů/ek Výboru Organizace mimořádně sudý (například v důsledku rezignace některého z členů/ek) a při hlasování došlo k nerozhodnému výsledku, má Předseda/kyně Výboru dva hlasy.
 1. Členská schůze může člena/ku Výboru Organizace odvolat. V takovém případě Členská schůze bezodkladně, nejpozději do 30 dnů, zvolí nového člena/ku Výboru Organizace.
 1. Výbor Organizace může v závislosti na velikosti a potřebách volit i další své funkcionáře/ky.
@@ -78,20 +81,48 @@ subDescription: |
 1. Revizor/ka kontroluje hospodaření Organizace podle zásad a pravidel schválených Členskou schůzí a nejméně jednou ročně informuje Členskou schůzi o výsledcích provedené kontroly.
 1. Výbor Organizace je povinen poskytnout Revizorovi/ce za účelem provedení kontroly potřebné podklady.
 
-#### VII. ČLENSTVÍ V ORGANIZACI
+#### VII. ČLENSKÁ SCHŮZE PRACOVIŠTĚ
+
+1. Členská schůze pracoviště je nejvyšším orgánem na daném Pracovišti, tak jak je vymezeno v příslušném usnesení Výboru.
+1. Členem/kou Členské schůze pracoviště je člen/ka Organizace vykonávající závislou práci na daném Pracovišti.
+1. Členskou schůzi pracoviště svolává Předsednictvo pracoviště podle potřeb, nebo na žádost alespoň jedné třetiny členstva Organizace vykonávající závislou práci na daném Pracovišti, minimálně ale jednou ročně.
+1. Členská schůze pracoviště rozhoduje o všech záležitostech souvisejících s činností Organizace na daném Pracovišti, a to zejména:
+    1) rozhoduje o způsobu volby a o počtu členů/ek Předsednictva pracoviště,
+    1) přijímá a hodnotí zprávy Předsednictva pracoviště a kontroluje jeho činnost,
+    1) projednává návrh kolektivní smlouvy, o kterých jedná Předsednictvo pracoviště se zaměstnavatelem,
+    1) rozhoduje o způsobech spolupráce s ostatními odborovými organizacemi působícími u zaměstnavatele,
+    1) volí členstvo Předsednictva pracoviště,
+    1) volí jednoho zástupce do Výboru Organizace.
+
+#### VIII. PŘEDSEDNICTVO PRACOVIŠTĚ
+
+1. Členem/kou Předsednictva pracoviště může být jen člen/ka Organizace vykonávající závislou práci na daném Pracovišti. 
+1. Schůze Předsednictva pracoviště jsou členstvu vykonávajícímu závislou práci na daném Pracovišti přístupné a členi/ky mají právo navrhnout bod na jednání; Předsednictvo pracoviště má právo uzavřít část nebo celou schůzku pouze pro své členy/ky.
+1. Všichni členové/ky Předsednictva pracoviště jsou členy/kami orgánu odborové organizace působící u zaměstnavatele ve smyslu § 61 odst. 2 zákoníku práce.
+1. Funkční období členů/ek Předsednictva pracoviště je tříleté. Minimální počet členů/ek Předsednictva pracoviště je tři. Počet členů/ek Předsednictva pracoviště je vždy lichý.
+1. Členská schůze pracoviště může člena/ku Předsednictva pracoviště odvolat. V takovém případě Členská schůze pracoviště bezodkladně, nejpozději do 30 dnů, zvolí nového člena/ku Předsednictva pracoviště.
+1. Ve své činnosti je Předsednictvo pracoviště vázáno usneseními Členské schůze Organizace, Výboru Organizace a Členské schůze pracoviště.
+1. Předsednictvo pracoviště:
+    1) zajišťuje úkoly, jimiž bylo pověřen Členskou schůzí pracoviště,
+    1) vykonává oprávnění, která podle pracovněprávních a dalších předpisů přísluší odborovým organizacím,
+    1) hospodaří s poměrnou částí finančních prostředků Organizace,
+    1) v souladu se zákonem č. 2/1991 Sb. o kolektivním vyjednávání, ve znění pozdějších předpisů, kolektivně vyjednává a uzavírá kolektivní smlouvu, přičemž ve vyjednávacím týmu mohou působit i další členové/ky vykonávající závislou práci na daném Pracovišti.
+
+#### IX. ČLENSTVÍ V ORGANIZACI
 
 1. Členem/kou Organizace se může stát jen fyzická osoba uvedená v bodu I. 1. těchto Stanov.
 1. Členství v Organizaci je dobrovolné.
-1. Fyzická osoba se stává členem/kou Organizace na základě písemné přihlášky, pokud Výbor Organizace rozhodne o přijetí této osoby za člena/ku.
+1. Pokud na Pracovišti, kde vykonává fyzická osoba závislou činnost, působí Organizace, stává se fyzická osoba členem/kou Organizace na daném Pracovišti.
+1. Fyzická osoba se stává členem/kou Organizace na základě písemné či elektronické přihlášky, pokud Výbor Organizace rozhodne o přijetí této osoby za člena/ku.
 1. Členství vzniká dnem rozhodnutí o přijetí fyzické osoby za člena/ku, případně jiným dnem uvedeným v rozhodnutí. O tomto rozhodnutí Výbor Organizace nově přijatého člena/ky bez zbytečného odkladu uvědomí.
+1. Pokud člen/ka přestane vykonávat závislou činnost na Pracovišti, zůstává členem/kou Organizace ale ne na daném Pracovišti.
 1. Členství v Organizaci zaniká:
     1) na základě písemné žádosti člena/ky o ukončení členství,
     1) na základě rozhodnutí Výboru Organizace o vyloučení člena/ky z důvodu hrubého porušení povinností nebo těchto Stanov,
     1) smrtí člena/ky.
 1. Za hrubé porušení povinností se považuje zejména případ, kdy člen/ka řádně a včas neuhradil/a členský příspěvek, ačkoli byl/a k uhrazení dlužného příspěvku písemně vyzván/a Výborem Organizace.
-1. V případě žádosti o opakované členství, je žadatel/ka povinen v přihlášce uvést důvody, pro které znovu žádá o členství v Organizaci. O takovém členství rozhoduje Výbor Organizace.
 
-#### VIII. PRÁVA A POVINNOSTI ČLENŮ
+#### X. PRÁVA A POVINNOSTI ČLENŮ
 
 1. Každý/a člen/ka Organizace má zejména právo:
     1) na obhajobu a ochranu svých pracovních a profesních zájmů prostřednictvím orgánů Organizace,
@@ -100,7 +131,7 @@ subDescription: |
     1) na účast při tvorbě programu Organizace,
     1) volit a být volen/a do orgánů Organizace,
     1) účastnit se schůzí orgánů, které jednají, nebo rozhodují o jeho osobě,
-    1) na hmotnou pomoc v případě dlouhodobé nemoci,
+    1) na hmotnou pomoc v případě dlouhodobé nemoci, a to podle finančních možností Organizace,
     1) na podporu při nezaviněné finanční tísni, a to podle finančních možností Organizace.
 1. Každý/á člen/ka je povinen:
     1) řádně a včas platit členské příspěvky ve výši 1 procenta z čisté mzdy,
@@ -113,6 +144,6 @@ subDescription: |
     1) delší dobu trvající dočasná pracovní neschopnost,
     1) insolvence (osobní bankrot).
 
-#### IX. ZÁVĚREČNÉ USTANOVENÍ
+#### XI. ZÁVĚREČNÉ USTANOVENÍ
 
-Stanovy v tomto znění byly schváleny Členskou schůzí dne 1. 10. 2022 s účinností od jejich schválení. Toto nové znění stanov je doručeno rejstříkovému soudu.
+Stanovy v tomto znění byly schváleny Členskou schůzí dne 3. 5. 2023 s účinností od jejich schválení. Toto nové znění stanov je doručeno rejstříkovému soudu.
