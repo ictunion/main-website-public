@@ -1,4 +1,4 @@
 { texlive }:
 texlive.combine {
-  inherit (texlive) scheme-small enumitem;
+  inherit (texlive) scheme-small enumitem needspace;
 }

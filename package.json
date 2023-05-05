@@ -8,7 +8,7 @@
     "build": "npx tsc proxy/index.ts --strict",
     "test": "npx jest --config assets/jest.config.js"
   },
-  "author": "Marek Fajkus",
+  "author": "members of ICT Union",
   "license": "AGPL-3.0-or-later",
   "dependencies": {
     "@nuintun/qrcode": "^3.3.0",
