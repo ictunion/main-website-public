@@ -1,6 +1,13 @@
 \usepackage{enumitem}
 \usepackage{amsfonts}
 \usepackage{fontspec}
+\usepackage{needspace}
+
+\widowpenalties 1 10000
+\raggedbottom
+
+\let\svitem\item
+\def\item{\needspace{\baselineskip}\svitem}
 
 %% Basic font
 \setmainfont[

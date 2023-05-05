@@ -53,7 +53,7 @@ subDescription: |
     1) schvaluje vnitřní předpisy Organizace,
     1) schvaluje zprávu o hospodaření Organizace, kontroluje použití finančních prostředků, které tvoří zejména podíl členských příspěvků, výnosy z vlastní činnosti, FKSP a příp. z dalších mimořádných fondů dotací a darů,
     1) volí Revizora/ku.
-1. Část Členské schůze skládající se z členů/ek Organizace, kteří zároveň nejsou členové Organizace na libovolném Pracovišti, rozhoduje o:
+1. Část Členské schůze skládající se z členů/ek Organizace, kteří zároveň nejsou členové Organizace na libovolném Pracovišti, rozhoduje&nbsp;o:
     1) způsobu volby a počtu členů/ek Výboru Organizace,
     1) volí Předsedu/kyni, Místopředsedy/kyně a další členy/ky Výboru Organizace.
 
