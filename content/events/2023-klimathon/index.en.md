@@ -29,13 +29,13 @@ But one day is a good start.
 
 **Three challenges that we will tackle together:**
 
-- Supporting the awareness of the climate movement
+- **Supporting the awareness of the climate movement**
     - How can we facilitate the work of climate movements in their efforts to raise awareness of the impacts of climate crisis?
-- Reducing emissions in other sectors
+- **Reducing emissions in other sectors**
     - How to use ICT innovations to help reduce emissions in other sectors of the economy?
-- Reducing emissions in the ICT sector
+- **Reducing emissions in the ICT sector**
+    - How can we show ICT employers the climate impact of their operations and engage them in addressing and reducing emissions in their sector?
 
-How can we show ICT employers the climate impact of their operations and engage them in addressing and reducing emissions in their sector?
 To the creative table, we invite everyone who cares about dignified conditions of people and quality of the environment.
 
 - Researchers
