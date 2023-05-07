@@ -34,8 +34,8 @@ Tři výzvy, které budeme společně řešit:
 - **Snížení emisí v dalších sektorech**
     - Jak pomocí ICT inovací přispět ke snižování emisí v jiných sektorech ekonomiky?
 - **Snížení emisí v ICT sektoru**
+    - Jak můžeme ICT zaměstnavatelům ukázat dopad jejich fungování na klima a zapojit je do řešení a snižování emisí v jejich sektoru?
 
-Jak můžeme ICT zaměstnavatelům ukázat dopad jejich fungování na klima a zapojit je do řešení a snižování emisí v jejich sektoru?
 Ke tvůrčímu stolu zveme každého, komu záleží na důstojných podmínkách lidí a kvality životního prostředí.
 
 - Výzkumníky*nice

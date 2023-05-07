@@ -195,6 +195,10 @@
         border-left: 8px solid $primary-color;
         padding: 6px 32px;
         text-align: left;
+
+        p {
+            text-align: left;
+        }
     }
 }
 
