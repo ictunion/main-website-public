@@ -1,0 +1,24 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="single-page-header">
+    <div class="single-page-header-content">
+      <h1 class="single-page-title">{{ .Title }}</h1>
+      <div class="single-page-description">
+        {{ .Param "description" | markdownify }}
+      </div>
+      {{ if isset .Page.Params "subdescription" }}
+        <div class="single-page-header-sub-description">
+          {{ .Param "subDescription" | markdownify }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+  <main class="single-page-body">
+    <div class="statutes-content">
+      {{ .Content }}
+    </div>
+  </main>
+{{ end }}
