@@ -3,7 +3,7 @@ final: prev:
   dart-sass-embedded-bin = final.callPackage ../pkgs/dart-sass-embedded-bin.nix {};
   nodeDependencies = with final;
     let
-      nodejs = nodejs-16_x;
+      nodejs = nodejs-18_x;
       node-files = lib.sourceByRegex ../.. [ "^(package(-lock)?.json)$" ];
       generated-nixfiles = stdenv.mkDerivation {
         name = "ictunion-generated-nix-file-node";
