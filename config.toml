@@ -55,7 +55,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
 
 [languages]
   [languages.cs]
-    languageName = "Česky"
+    language = 'Česky'
     languageFlag = "🇨🇿"
     languagedirection = 'ltr'
     weight = 1
@@ -91,7 +91,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
 
   [languages.en]
     languagedirection = 'ltr'
-    languageName = "English"
+    language = 'English'
     languageFlag = "🇬🇧"
     weight = 2
     [languages.en.params]
