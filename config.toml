@@ -13,7 +13,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
   subTitle = 'Union'
   tagLine = 'Trade union of workers in <br> IT & communications.'
   joinCta = 'join us'
-  supportEmail = 'ictodbory@gmail.com'
+  supportEmail = 'support@ictunion.cz'
   supportPhone = '+420 737 035 289'
   publicUrl = 'https://ictunion.cz'
   [params.legal]
