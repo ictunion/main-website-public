@@ -10,4 +10,4 @@ By filling the form of the Odborové organizace pracujících v ICT (Trade union
 
 The processing of personal data is carried out by the Organisation. The Organisation obtains this personal data from web forms on the Organisation's website and social media. Personal data is only made available to authorised persons within the Organisation.
 
-You may modify or withdraw your consent at any time by submitting a request in writing to the Organization (Roháčova 145/14, Žižkov, 130 00 Prague 3) or electronically to ictunion@gmail.com.
+You may modify or withdraw your consent at any time by submitting a request in writing to the Organization (Roháčova 145/14, Žižkov, 130 00 Prague 3) or electronically to gdpr@ictunion.cz.
