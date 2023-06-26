@@ -190,6 +190,10 @@
         }
     }
 
+    img {
+        max-width: 100%;
+    }
+
     blockquote {
         background: rgba($primary-color, .2);
         border-left: 8px solid $primary-color;
