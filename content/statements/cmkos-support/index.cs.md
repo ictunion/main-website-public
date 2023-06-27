@@ -2,7 +2,7 @@
 title: "Placka Podporujeme stávkovou pohotovost"
 date: 2023-06-15T00:00:00+01:00
 publishDate: 2023-06-26T00:00:00+01:00
-authorInfo: Alena Chlapíková, OSPPP
+authorInfo: Výbor odborové organizace
 type: statements
 draft: false
 ---
@@ -29,3 +29,5 @@ ICT Odbory, jakožto člen odborového svazu OSPPP, se tímto přidávájí k vy
 > Bojujeme za spravedlivé ocenění naší práce.
 >
 > Děkuji a těším se na Vaše příspěvky
+>
+> Alena Chlapíková, OSPPP
