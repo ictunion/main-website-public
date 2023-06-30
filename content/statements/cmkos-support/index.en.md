@@ -1,5 +1,5 @@
 ---
-title: "We support strike emergency badge"
+title: '"We support strike emergency" badge'
 date: 2023-06-15T00:00:00+01:00
 publishDate: 2023-06-28T00:00:00+01:00
 authorInfo: Board of the trade union
