@@ -1,5 +1,5 @@
 ---
-title: Transaprency of Pay
+title: Open Call for Supporting Our Petition on Transparency of Pay
 date: 2023-08-01T00:00:00+01:00
 publishDate: 2023-08-01T00:00:00+01:00
 authorInfo: The authors are members of union
