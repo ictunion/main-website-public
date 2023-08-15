@@ -6,7 +6,7 @@ startDate: 2023-08-08T19:00:00.000Z
 date: 2023-08-08T21:00:00.000Z
 place: Vegalité Brno
 placeAddress: "Slovákova 10, Brno 602 00"
-# poster: poster-cs.jpg
+poster: poster.jpg
 lat: 49.2002088
 lon: 16.6025405
 placeUrl: www.vegalite.cz
