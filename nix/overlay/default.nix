@@ -1,6 +1,5 @@
 final: prev:
 {
-  dart-sass-embedded-bin = final.callPackage ../pkgs/dart-sass-embedded-bin.nix {};
   nodeDependencies = with final;
     let
       nodejs = nodejs-18_x;

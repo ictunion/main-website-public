@@ -1,18 +1,17 @@
 { stdenv
 , hugo
-, dart-sass-embedded-bin
+, dart-sass-embedded
 , pandoc
 , ibm-plex
 , tex
 , nodeDependencies
 , nix-gitignore
-, gnutar
 }:
 stdenv.mkDerivation {
   name = "ict-union-website";
   version = "0.1.0";
   src = nix-gitignore.gitignoreSource [ ".github/CODEOWNERS" ] ./.;
-  buildInputs = [ hugo dart-sass-embedded-bin pandoc ibm-plex tex gnutar ];
+  buildInputs = [ hugo dart-sass-embedded pandoc ibm-plex tex ];
   doCheck = true;
 
   patchPhase = ''
