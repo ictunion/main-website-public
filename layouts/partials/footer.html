@@ -53,7 +53,7 @@
               <a target="blank" href="{{ .Site.Param "social.instagram" }}"><span class="icon photo_site"></span></a>
             {{ end }}
             {{ if .Site.Param "social.mastodon" }}
-              <a target="blank" href="{{ .Site.Param "social.mastodon" }}"><span class="icon mastodon"></span></a>
+              <a rel="me" target="blank" href="{{ .Site.Param "social.mastodon" }}"><span class="icon mastodon"></span></a>
             {{ end }}
             {{ with .OutputFormats.Get "rss" -}}
               <a target="_blank" href="{{.Permalink}}"><span class="icon rss"></span></a>
