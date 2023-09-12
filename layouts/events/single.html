@@ -48,7 +48,8 @@
       {{ .Content }}
       {{ if .Page.Param "petitionId"}}
         <script src="https://actionnetwork.org/widgets/v5/petition/{{ .Params.PetitionId }}?format=js&source=widgets"></script>
-        <div id="can-petition-area-{{ .Params.PetitionId }}" style=width: 100%></div>
+        <div class="events-cookie-consent">{{ i18n "Petition consent" }}</div>
+        <div id="can-petition-area-{{ .Params.PetitionId }}" style=width:100%></div>
       {{ end }}
     </main>
 

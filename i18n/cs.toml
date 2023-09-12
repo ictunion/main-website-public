@@ -159,3 +159,6 @@
 
 ["Event Details"]
   other = "Detaily akce"
+
+["Petition consent"]
+  other = "Odeslání tohoto formuláře nastaví cookie pro spojení s actionnetwork.org"
