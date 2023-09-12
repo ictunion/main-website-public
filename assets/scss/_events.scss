@@ -346,6 +346,20 @@ a.event-detail-content-register-cta {
 
 .events-cookie-consent {
     font-style: italic;
-    margin-top: 40px;
-    margin-bottom: 6px;
+    color: $primary-color;
+    border: 2px solid $primary-color;
+    border-radius: 4px;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.event-detail-petition-embed {
+    width: 100%;
+}
+
+.event-detail-petition-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }

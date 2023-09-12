@@ -5,6 +5,10 @@
 {{ define "scripts" }}
   {{ $events_js := resources.Get "ts/events.ts" | js.Build | resources.Fingerprint "sha512" }}
   <script src="{{ $events_js.Permalink }}" defer></script>
+
+  {{ if .Page.Param "petitionId"}}
+    <script src="https://actionnetwork.org/widgets/v5/petition/{{ .Params.PetitionId }}?format=js&source=widgets"></script>
+  {{ end }}
 {{ end }}
 
 {{ define "content" }}
@@ -30,6 +34,10 @@
         <a class="event-detail-header-register-cta {{ if $past }} disabled {{end}}" target="_blank" {{ if not $past }} href="{{ .Params.RegisterUrl }}" {{ end }}>
           {{ i18n $ctaType }}
         </a>
+        {{ else if .Page.Param "petitionId" }}
+          <a class="event-detail-header-register-cta {{ if $past }} disabled {{end}}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/petitions/{{ .Params.PetitionId }}" {{ end }}>
+            {{ i18n "sign" }}
+          </a>
         {{ end }}
       </div>
 
@@ -46,10 +54,12 @@
   <div class="event-detail-page-body">
     <main class="event-detail-content">
       {{ .Content }}
+
       {{ if .Page.Param "petitionId"}}
-        <script src="https://actionnetwork.org/widgets/v5/petition/{{ .Params.PetitionId }}?format=js&source=widgets"></script>
-        <div class="events-cookie-consent">{{ i18n "Petition consent" }}</div>
-        <div id="can-petition-area-{{ .Params.PetitionId }}" style=width:100%></div>
+        <div class="event-detail-petition-container">
+          <div class="events-cookie-consent">{{ i18n "Petition consent" }}</div>
+          <div id="can-petition-area-{{ .Params.PetitionId }}" class="event-detail-petition-embed"></div>
+        </div>
       {{ end }}
     </main>
 
@@ -126,6 +136,13 @@
             <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="{{ .Params.RegisterUrl }}" {{ end }}>{{ i18n $ctaType }}</a>
             <div class="event-detail-qr">
               <x-qr data="{{ .Page.Param "registerUrl" }}"></x-qr>
+            </div>
+        </section>
+      {{ else if .Page.Param "petitionId" }}
+        <section class="event-detail-info-box">
+            <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/petitions/{{ .Params.PetitionId }}" {{ end }}>{{ i18n $ctaType }}</a>
+            <div class="event-detail-qr">
+              <x-qr data="https://actionnetwork.org/petitions/{{ .Params.PetitionId }}"></x-qr>
             </div>
         </section>
       {{ end }}

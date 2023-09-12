@@ -6,7 +6,6 @@ startDate: 2023-08-01T00:00:00.000Z
 date: 2023-12-31T00:00:00.000Z
 duration: 5 months
 place: Online
-ctaType: sign
 petitionId: transparentnost-odmenovani-transparency-of-pay
 ---
 Sektor ICT se velmi rychle rozvíjí a za posledních 10 let změnil pracovní prostředí v České republice. Mnoho velkých nadnárodních společností se zde rozhodlo otevřít jejich centra a zároveň vzniklo několik českých společností, které se postupně rozvíjely. Tehdejší nabízené mzdy byly velmi atraktivní ve srovnání se zbytkem ekonomiky, což mělo za následek jak přemisťování Čechů a Češek do dynamicky se rozvíjejícího sektoru, tak i zvýšenou imigraci z jiných zemí za účelem perspektivního zaměstnání. To mělo za následek několik zásadních dopadů na českou společnost, jeden z nejvýznamnějších je enormní zvýšení cen nájmů a bydlení obecně, zvláště patrné v největších městech.
