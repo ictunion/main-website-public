@@ -1,8 +1,8 @@
 ---
 title: Petition for Transparent Communication and Protection of Employee Benefits for ICT Workers
 subtitle: Petition
-publishDate: 2023-09-19
-startDate: 2023-09-19T00:00:00.000Z
+publishDate: 2023-09-18
+startDate: 2023-09-18T00:00:00.000Z
 date: 2024-04-01T00:00:00.000Z
 duration: 6 months
 place: Online

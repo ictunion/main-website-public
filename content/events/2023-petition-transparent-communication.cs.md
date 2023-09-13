@@ -1,8 +1,8 @@
 ---
 title: Petice za transparentní komunikaci a ochranu zaměstnaneckých benefitů pro pracující v ICT sektoru
 subtitle: Petice
-publishDate: 2023-09-191
-startDate: 2023-09-19T00:00:00.000Z
+publishDate: 2023-09-18
+startDate: 2023-09-18T00:00:00.000Z
 date: 2024-04-01T00:00:00.000Z
 duration: 6 months
 place: Online
