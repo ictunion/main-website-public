@@ -133,14 +133,18 @@
 
       {{ if .Page.Param "registerUrl" }}
         <section class="event-detail-info-box">
-            <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="{{ .Params.RegisterUrl }}" {{ end }}>{{ i18n $ctaType }}</a>
-            <div class="event-detail-qr">
-              <x-qr data="{{ .Page.Param "registerUrl" }}"></x-qr>
-            </div>
+          <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="{{ .Params.RegisterUrl }}" {{ end }}>
+            {{ i18n $ctaType }}
+          </a>
+          <div class="event-detail-qr">
+            <x-qr data="{{ .Page.Param "registerUrl" }}"></x-qr>
+          </div>
         </section>
       {{ else if .Page.Param "petitionId" }}
         <section class="event-detail-info-box">
-            <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/petitions/{{ .Params.PetitionId }}" {{ end }}>{{ i18n $ctaType }}</a>
+          <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/petitions/{{ .Params.PetitionId }}" {{ end }}>
+            {{ i18n "sign" }}
+          </a>
             <div class="event-detail-qr">
               <x-qr data="https://actionnetwork.org/petitions/{{ .Params.PetitionId }}"></x-qr>
             </div>
