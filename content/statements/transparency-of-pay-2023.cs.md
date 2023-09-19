@@ -1,5 +1,6 @@
 ---
-title: Výzva k podpoře naší petice za transparentnost odměňování
+title: Podpoř naši petici za transparentnost odměňování
+slug: výzva-k-podpoře-naší-petice-za-transparentnost-odměňování
 date: 2023-08-01T00:00:00+01:00
 publishDate: 2023-08-01T00:00:00+01:00
 authorInfo: Autoři jsou členové odborové organizace
