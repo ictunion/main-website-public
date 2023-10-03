@@ -5,10 +5,6 @@
 {{ define "scripts" }}
   {{ $events_js := resources.Get "ts/events.ts" | js.Build | resources.Fingerprint "sha512" }}
   <script src="{{ $events_js.Permalink }}" defer></script>
-
-  {{ if .Page.Param "petitionId"}}
-    <script src="https://actionnetwork.org/widgets/v5/petition/{{ .Params.PetitionId }}?format=js&source=widgets"></script>
-  {{ end }}
 {{ end }}
 
 {{ define "content" }}
@@ -53,12 +49,18 @@
   </section>
   <div class="event-detail-page-body">
     <main class="event-detail-content">
-      {{ .Content }}
+      <article class="event-detail-content-post">
+        {{ .Content }}
+      </article>
 
       {{ if .Page.Param "petitionId"}}
         <div class="event-detail-petition-container">
-          <div class="events-cookie-consent">{{ i18n "Petition consent" }}</div>
-          <div id="can-petition-area-{{ .Params.PetitionId }}" class="event-detail-petition-embed"></div>
+          <x-petition petitionId="{{ .Params.PetitionId }}" class="event-detail-petition-embed">
+            <div class="events-cookie-consent">
+              <p class="events-cookie-consent-text">{{ i18n "Petition Consent" }}</p>
+              <button role="allow" class="events-cookie-consent-accept-btn">{{ i18n "Petition Accept"}}</button>
+            </div>
+          </x-petition>
         </div>
       {{ end }}
     </main>

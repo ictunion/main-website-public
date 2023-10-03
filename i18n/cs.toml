@@ -160,5 +160,8 @@
 ["Event Details"]
   other = "Detaily akce"
 
-["Petition consent"]
-  other = "Odeslání tohoto formuláře nastaví cookie pro spojení s actionnetwork.org"
+["Petition Consent"]
+  other = "Podepsání petice vytvárí soubor cookie pro actionnetwork.org"
+
+["Petition Accept"]
+  other = "Souhlasím"

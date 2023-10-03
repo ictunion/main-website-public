@@ -160,5 +160,8 @@
 ["Event Details"]
   other = "Event Details"
 
-["Petition consent"]
-  other = "Sending the form sets a cookie for actionnetwork.org"
+["Petition Consent"]
+  other = "Petition functionality creates cookie for actionnetwork.org"
+
+["Petition Accept"]
+  other = "Allow"

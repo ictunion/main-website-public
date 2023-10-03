@@ -225,9 +225,12 @@
 }
 
 .event-detail-content {
-    @include style-md;
     flex-grow: 1;
     flex-shrink: 1;
+}
+
+.event-detail-content-post {
+    @include style-md;
 }
 
 .event-detail-info {
@@ -345,13 +348,24 @@ a.event-detail-content-register-cta {
 }
 
 .events-cookie-consent {
-    font-style: italic;
-    color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     border: 2px solid $primary-color;
     border-radius: 4px;
     padding: 12px;
-    font-weight: 600;
+}
+
+.events-cookie-consent-text {
+    margin: 0;
+    color: $primary-color;
+    font-weight: 500;
     font-size: 21px;
+}
+
+.events-cookie-consent-accept-btn {
+    @include cta-btn;
+    padding: 18px 48px;
 }
 
 .event-detail-petition-embed {
