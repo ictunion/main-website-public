@@ -161,7 +161,7 @@
   other = "Detaily akce"
 
 ["Petition Consent"]
-  other = "Podepsání petice vytvárí soubor cookie pro actionnetwork.org"
+  other = "Funkcionalita petice vytvárí cookie pro actionnetwork.org"
 
 ["Petition Accept"]
   other = "Souhlasím"
