@@ -20,8 +20,9 @@ jobs:
           tar xzf ec-$OS-$ARCH.tar.gz
           ./bin/ec-$OS-$ARCH
 
-      - name: Install nix
-        uses: cachix/install-nix-action@v18
+      # Nix
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
 
       - name: Typecheck with tsc
         run: nix develop -c bash -c 'cd assets; npx tsc'
