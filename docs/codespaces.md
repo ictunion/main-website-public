@@ -1,88 +1,96 @@
-# Codepaces
+> **_NOTE:_** You must be familiar with the basics of [Git](https://wiki.ictunion.cz/get-started/git.html#git) before you start.
 
-[Codespaces](https://github.com/features/codespaces) are github service
-providing cloud based development environments.
+# Codespaces
 
-You can use it to run and work on this project to avoid need for any manual setup on your side.
+[Codespaces](https://github.com/features/codespaces) is a GitHub service that provides cloud-based development environments. With Codespaces, you can work on this project without any manual setup on your side.
 
-Code Spaces are premium feature of github. See their [pricing calculator](https://github.com/pricing/calculator).
-Anyway Github offers __60 hours every month for free__ for 2 Core (smallest) instance we're using.
+Codespaces is a premium feature of GitHub, see the [pricing calculator](https://github.com/pricing/calculator).
+GitHub offers __60 hours every month for free__ for a 2-core instance per user. 
 
-## Create Code Space
+## Create a new codespace
 
-On [github](https://github.com/ictunion/main-website) select option to get code in codespaces and crete new:
-`<> Code` > `Codespaces` > `Create on main`.
-
-__Don't forget to stop or delete your code space environment once you're finished!__
+1. Go to the [main-website](https://github.com/ictunion/main-website) repository and fid the `<> Code` button in the upper-right corner.
+2. Click the `<> Code` button, a menu will pop up.
+3. Go to the `Codespaces` tab and click `Create codespace on main`.
+4. A new window with your codespace will open. 
 
 ![create](./codespaces-create.png)
 
-## Run In Code Spaces
+> **_NOTE:_** Make sure to [stop](#stop-a-codespace) your Codespace instance once you're done working.__
 
-Use convinient script to run the website server within your code space instance:
+## Run the website server in a codespace
 
+`cs-start` is a script in the root of the repository for starting the `main-website` server. The script configures `hugo` in a way that allows you to use preview features while working in a codespace.
+
+1. Run the script from your codespace terminal:
+    ```
+    ./cs-start
+    ```
+
+    ![start](./codespaces-start.png)
+
+2. Go to `PORTS` and click the link to open a preview of the website.
+
+    ![open](./codespaces-open.png)
+
+## Contribute from a codespaces
+
+We use [topic branch](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) workflow in all of our repositories.
+
+### Create a new branch 
+
+* From the terminal:
+    ```
+    git switch -c <name-of-your-branch>
+    ```
+
+* In GUI:
+
+1. Select and hold `Ctrl+Shift+g` or click `Source control`
+2. Click the ellipsis (...) -> `Branch` -> `Create Branch`
+3. Type the name of your branch.
+
+    ![branch](./codespaces-branch.png)
+
+### Make the changes
+
+You can now work on your changes as if in a regular IDE.
+
+Codespaces are based on [Microsoft Visual Studio Code](https://code.visualstudio.com/), so many tips for VS Code are applicable to Codespaces.
+
+See the [Codespaces official documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/developing-in-a-codespace) for a comprehensive overview of features such as [Colaborative editing](https://docs.github.com/en/codespaces/developing-in-codespaces/working-collaboratively-in-a-codespace).
+
+### Commit and push your changes
+
+* From the terminal:
 ```
-./cs-start
+    git add <filename>
+    git commit -m "My descriptive and useful commit message"
+    git push origin <name-of-your-branch>
 ```
 
-This configures hugo to run with settings that will allow you to use preview features while working within
-Codespaces.
+* In the GUI:
+    1. In the Activity Bar, click `Source Control`.
+    2. Click `+` next to the files you have changed.
+    3. Type a commit message that meaingfully decribes your change in the text box.
+    4. Click `↓` in the `Commit` button
+    5. Select `Commit & Push` from the dropdown menu.
 
-![start](./codespaces-start.png)
+### Open a pull request
 
-To open the preview of the website go to `PORTS` and click on the link:
+See the [Opening a pull request in Codespaces](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests#opening-a-pull-request-in-codespaces).
 
-![open](./codespaces-open.ong)
+## Stop a codespace
 
-Codespaces are based on [Microsoft Visual Studio Code](https://code.visualstudio.com/) editor so many tips for VS Code are applicable to Codespaces.
+1. Open [Codespaces](https://github.com/codespaces).
+2. Click the ellipsis (...) next to your codespace.
+3. Click `Stop codespace`.
 
-> See [official documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/developing-in-a-codespace)
-> for more comprehensive documentation of features of Github Codespaces. It includes features like
-> [Colaborative editing](https://docs.github.com/en/codespaces/developing-in-codespaces/working-collaboratively-in-a-codespace)
-> and more.
+    ![kill](./codespaces-kill.png)
 
-## Contributing from Codespaces
+## Useful Codespaces resources
+* [Official documentation](https://docs.github.com/en/codespaces)
+* [Source control](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace)
+* [Pull requests](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests)
+* [Create pull request](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace#raising-a-pull-request)
 
-**It's advicable to create a new branch before commiting and pushing any changes.**
-
-In terminal:
-
-```
-git checkout -b [name-the-feature]
-```
-
-In UI:
-
-- Ctrl+Shift+g or click on Source control
-- click on three dots `...`
-    - Branch
-    - Create Branch
-- Type name of the branch
-
-
-### Pushing Changes and Opening Pull Request
-
-in terminal:
-
-```
-git push origin [name-of-branch-in-repository]
-```
-
-Then go to [github](https://github.com/ictunion/main-website) and click on button to open the Pull Request.
-
-For UI based flow see [official documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests#opening-a-pull-request-in-codespaces).
-
-![branch](./codespaces-branch.png)
-
-See [official documentation](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace)
-for more detailed information:
-
-- [Source control](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace)
-- [Pull requests](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-for-pull-requests)
-- [Create pull request](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace#raising-a-pull-request)
-
-## Stoping the Codespaces env
-
-After you're done don't forget to either `stop` or `delete` the Codespaces instance:
-
-![kill](./codespaces-kill.png)
