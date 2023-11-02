@@ -15,10 +15,7 @@
           {{ i18n "download" }}: <a class="single-page-header-download-link" target="_blank" href="/downloads/{{ .Page.Param "download"}}">{{ .Page.Param "download"}}</a>
         </div>
       {{ end }}
-      <nav class="single-page-sub-nav">
-        <a class="active" href="{{ ref . "about" }}">{{ i18n "info" }}</a>
-        <a href="{{ ref . "statements" }}">{{ i18n "statements" }}</a>
-      </nav>
+      {{ partial "secondary-navigation" . }}
     </div>
   </section>
   <main class="about-page-body">

@@ -1,6 +1,6 @@
 ---
-title: Infaltion And You
-subtitle: Infration Survey
+title: Inflace a Vy
+subtitle: Dotazník k inflaci
 subTitle:
 publishDate: 2022-08-09
 startDate: 2022-09-09T00:00:00.000Z

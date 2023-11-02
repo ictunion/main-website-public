@@ -1,6 +1,6 @@
 ---
-title: Infaltion And You
-subtitle: Infration Survey
+title: Inflation And You
+subtitle: Inflation Survey
 subTitle:
 publishDate: 2022-08-09
 startDate: 2022-09-09T00:00:00.000Z

@@ -1,0 +1,19 @@
+<article class="workplaces-workplace-item">
+  <div class="workplaces-workplace-body {{ if and (.Params) (.Param "logo") }}logo{{ end }}" >
+    {{ if and (.Params) (.Param "logo") }}
+      {{ $logo := .Resources.GetMatch .Params.logo | resources.Fingerprint "sha512" }}
+      <a href="{{ .Permalink }}" class="workplaces-workplace-logo">
+        {{ $resized := $logo.Fit "325x325 Top" }}
+        <img src="{{ $resized.RelPermalink }}" alt="logo">
+      </a>
+    {{ else if .Permalink }}
+      <h2 class="workplaces-workplace-title">
+        <a href="{{ .Permalink }}" class="workplaces-workplace-link">{{ .Title }}</a>
+      </h2>
+    {{ else }}
+      <h2 class="workplaces-workplace-title">
+        {{ .Title }}
+      </h2>
+    {{ end }}
+  </div>
+</article>

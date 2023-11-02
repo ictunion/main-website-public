@@ -1,0 +1,5 @@
+<nav class="single-page-sub-nav">
+    <a class="{{ if (eq .Type "about") }}active{{ end }}" href="{{ ref . "about" }}">{{ i18n "info" }}</a>
+    <a class="{{ if (eq .Type "statements") }}active{{ end }}" href="{{ ref . "statements" }}">{{ i18n "statements" }}</a>
+    <a class="{{ if (eq .Type "statutes") }}active{{ end }}" href="{{ ref . "statutes" }}">{{ .Site.Param "navigation.statutes" }}</a>
+</nav>

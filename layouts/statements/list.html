@@ -10,10 +10,7 @@
         {{ .Content }}
       </div>
 
-      <nav class="single-page-sub-nav">
-        <a href="{{ ref . "about" }}">{{ i18n "info" }}</a>
-        <a class="active" href="{{ ref . "statements" }}">{{ i18n "statements" }}</a>
-      </nav>
+      {{ partial "secondary-navigation" . }}
     </div>
   </section>
   <main class="statements-content">

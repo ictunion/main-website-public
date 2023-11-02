@@ -1,0 +1,34 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="workplaces-header">
+    <div class="workplaces-header-content">
+      <h1 class="workplaces-title">{{ .Title }}</h1>
+      {{ if .Page.Params.SubTitle }}
+        <h2 class="workplaces-sub-title">{{ .Page.Param "subTitle" }}</h2>
+      {{ end }}
+      {{ if .Page.Content }}
+        <div class="workplaces-meta-content">{{ .Content }}</div>
+      {{ end }}
+    </div>
+  </section>
+  <main class="workplaces-content">
+    <div class="workplaces-list">
+      <!--
+        First list workplaces that have a logo and page, then the ones that have a page
+        and at last the ones that do not even have page.
+      -->
+      {{ range where (where .Site.RegularPages "Section" "workplaces") ".Params.logo" "!=" nil }}
+        {{ partial "workplace-item" . }}
+      {{ end }}
+      {{ range where (where .Site.RegularPages "Section" "workplaces") ".Params.logo" nil }}
+        {{ partial "workplace-item" . }}
+      {{ end }}
+      {{ range .Params.workplaces }}
+        {{ partial "workplace-item" . }}
+      {{ end }}
+    </div>
+  </main>
+{{ end }}

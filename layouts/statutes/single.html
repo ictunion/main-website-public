@@ -3,7 +3,7 @@
 {{ end }}
 
 {{ define "content" }}
-  <section class="single-page-header">
+  <section class="about-page-header">
     <div class="single-page-header-content">
       <h1 class="single-page-title">{{ .Title }}</h1>
       <div class="single-page-description">
@@ -17,9 +17,12 @@
       {{ end }}
       {{ if isset .Page.Params "subdescription" }}
         <div class="single-page-header-sub-description">
-          {{ .Param "subDescription" | markdownify }}
+          <p>
+            {{ .Param "subDescription" | markdownify }}
+          </p>
         </div>
       {{ end }}
+      {{ partial "secondary-navigation" . }}
     </div>
   </section>
   <main class="single-page-body">

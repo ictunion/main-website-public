@@ -34,6 +34,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     statutes = "Statutes"
     register = "Application"
     events = "Events"
+    workplaces = "Workplaces"
     faq = "FAQ"
     statements = "Statements"
   [params.home]
@@ -70,6 +71,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
         statutes = "Stanovy"
         register = "Přihláška"
         events = "Akce"
+        workplaces = "Pracoviště"
         faq = "Časté dotazy"
         statements = "Prohlášení"
       [languages.cs.params.home]
@@ -103,11 +105,13 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
 [permalinks]
   events = '/events/:year/:slug/'
   registered = '/:slug'
-  statements = '/statements/:slug'
+  workplaces = '/workplace/:slug/'
+  statements = '/statements/:slug/'
 
 [languages.cs.permalinks]
   events = '/akce/:year/:slug/'
-  statements = '/prohlaseni/:slug'
+  workplaces = '/pracoviste/:slug/'
+  statements = '/prohlaseni/:slug/'
 
 [sitemap]
   changefreq = 'monthly'
