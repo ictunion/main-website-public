@@ -15,6 +15,6 @@ You can fill out the membership application here.
 Once your application is accepted, we will let you know.
 From that moment on, you will start receiving information about union meetings and activities.
 We will also send you information about membership fees.
-The standard membership fee is 1 % of your net income, but no more than 250 CZK per month.
+The standard membership fee is 1 % of your net income, but no more than 300 CZK per month.
 
 Students, retirees, unemployed, and those on parental leave have their fee reduced to 25 CZK per month.

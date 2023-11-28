@@ -35,7 +35,7 @@ Apply for the [ICT Union membership]({{< relref path="register" >}}) If you are 
 
 #### What are the fees?
 
-A monthly fee is 1% of your monthly salary but 250 CZK at most.
+A monthly fee is 1% of your monthly salary but 300 CZK at most.
 
 #### Why am I paying fees to ICT Union and not to Red Hat Czech Workers Union?
 
