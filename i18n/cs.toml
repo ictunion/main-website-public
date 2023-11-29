@@ -55,6 +55,9 @@
 [download]
   other = "stáhnout"
 
+[PrivateEmail]
+  other = "Soukromý e-mail"
+
 [Email]
   other = "E-mail"
 
@@ -125,7 +128,7 @@
   other = "Jsme"
 
 ["jane.doe@email.com"]
-  other = "jan.novak@email.cz"
+  other = "jan.novak@soukromyemail.cz"
 
 ["Jane"]
   other = "Jan"

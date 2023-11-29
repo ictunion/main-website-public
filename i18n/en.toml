@@ -55,6 +55,9 @@
 [download]
   other = "download"
 
+[PrivateEmail]
+  other = "Private Email"
+
 [Email]
   other = "Email"
 
@@ -125,7 +128,7 @@
   other = "We are"
 
 ["jane.doe@email.com"]
-  other = "jane.doe@email.com"
+  other = "jane.doe@privatemail.com"
 
 ["Jane"]
   other = "Jane"
