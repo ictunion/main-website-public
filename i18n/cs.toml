@@ -31,6 +31,9 @@
 [Address]
   other = "Adresa"
 
+[ContactAddress]
+  other = "Kontaktní Adresa"
+
 [Website]
   other = "Web"
 
@@ -56,7 +59,7 @@
   other = "stáhnout"
 
 [PrivateEmail]
-  other = "Soukromý e-mail"
+  other = "Osobní/soukromý e-mail"
 
 [Email]
   other = "E-mail"
@@ -129,6 +132,9 @@
 
 ["jane.doe@email.com"]
   other = "jan.novak@soukromyemail.cz"
+
+["Email Warning"]
+  other = "Prosím použijte Vaši osobní/soukromou emailovou adresu (nepracovní adresu)"
 
 ["Jane"]
   other = "Jan"

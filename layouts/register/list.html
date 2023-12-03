@@ -25,8 +25,13 @@
             <fieldset class="register-fieldset">
               <div class="register-form-field">
                 <label class="register-form-label">{{ i18n "PrivateEmail" }}:
-                  <input class="register-form-input" name="email" type="email" placeholder="{{ i18n "jane.doe@email.com" }}" />
-                </label>
+                  <input  class="register-form-input"
+                          name="email"
+                          type="email"
+                          placeholder="{{ i18n "jane.doe@email.com" }}"
+                          pattern="^.+@(?!.*rws\.com|redhat\.com|moravia\.com).*$"
+                          title="{{ i18n "Email Warning" }}"/>
+                  </label>
               </div>
             </fieldset>
 
@@ -55,7 +60,7 @@
 
             <fieldset class="register-fieldset">
               <div class="register-form-field">
-                <label class="register-form-label">{{ i18n "Address" }}:
+                <label class="register-form-label">{{ i18n "ContactAddress" }}:
                   <input class="register-form-input" name="address" type="text" placeholder="Bezručova 42" />
                 </label>
               </div>

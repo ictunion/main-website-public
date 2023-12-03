@@ -31,6 +31,9 @@
 [Address]
   other = "Address"
 
+[ContactAddress]
+  other = "Contact Address"
+
 [Website]
   other = "Website"
 
@@ -56,7 +59,7 @@
   other = "download"
 
 [PrivateEmail]
-  other = "Private Email"
+  other = "Personal/Private Email"
 
 [Email]
   other = "Email"
@@ -129,6 +132,9 @@
 
 ["jane.doe@email.com"]
   other = "jane.doe@privatemail.com"
+
+["Email Warning"]
+  other = "Please use your personal/private email address (not a work one)"
 
 ["Jane"]
   other = "Jane"
