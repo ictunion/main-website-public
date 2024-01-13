@@ -5,7 +5,7 @@ Skip to [Nix](#nix) section if you want to use it.
 
 - [git](https://git-scm.com/) distributed version control system
 - [hugo](https://gohugo.io/) static site generator
-- [dart-sass-embedded](https://github.com/sass/dart-sass-embedded) embeddable sass compiler
+- [dart-sass](https://github.com/sass/dart-sass) embeddable sass compiler
 - [nodejs with npm](https://nodejs.org/) JavaScript runtime and package manager
 
 ### Setup

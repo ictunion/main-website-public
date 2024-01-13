@@ -15,7 +15,7 @@
       tex = pkgs.callPackage ./latex {};
       buildInputs = with pkgs; [
         hugo
-        dart-sass-embedded
+        dart-sass
         pandoc
         ibm-plex
         tex
