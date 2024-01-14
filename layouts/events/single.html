@@ -53,7 +53,7 @@
         {{ .Content }}
       </article>
 
-      {{ if .Page.Param "petitionId"}}
+      {{ if and (.Page.Param "petitionId") (not $past)  }}
         <div class="event-detail-petition-container">
           <x-petition petitionId="{{ .Params.PetitionId }}" class="event-detail-petition-embed">
             <div class="events-cookie-consent">
