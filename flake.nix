@@ -8,11 +8,13 @@
   outputs = { self, nixpkgs, flake-utils }: flake-utils.lib.eachDefaultSystem (system:
     let
       overlay = import ./nix/overlay;
+
       pkgs = import nixpkgs {
         inherit system;
         overlays = [ overlay ];
       };
       tex = pkgs.callPackage ./latex {};
+
       buildInputs = with pkgs; [
         hugo
         dart-sass

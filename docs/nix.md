@@ -27,3 +27,12 @@ hugo server --buildDrafts --watch --verbose
 
 open [http://localhost:1313](http://localhost:1313)
 
+## Using nix run
+
+You can also use nix run to run the build without entering the dev shell.
+
+```
+nix run . -- server --buildDrafts --watch --verbose
+```
+
+Unlike pure hugo build, nix run will also build PDFs when invoked.
