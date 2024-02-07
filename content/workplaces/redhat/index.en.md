@@ -66,3 +66,8 @@ To cancel your membership, contact us at <redhat@ictunion.cz> or stop paying you
 #### Who are the union representatives committee, and what do they do?
 
 The workplace executive committee, often referred to as representatives, are three elected members who voluntarily disclose their identity to the company. They are the main link between the union and the company. Their responsibilities include communications between the company and the union, internal union communications, organizing and moderating members' meetings and public discussions, onboarding new members, and more. They also form the core of the negotiation team. 
+
+#### How can I receive updates about the union activites if I don't want to become a member?
+
+You can subscribe to the [newsletter for non-members](http://eepurl.com/is3GdY) with your personal email. Tick the `Red Hat Czech Union news` box. You can unsubscribe from the newsletter at any moment.
+
