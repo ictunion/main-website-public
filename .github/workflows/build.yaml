@@ -37,4 +37,4 @@ jobs:
         run: nix build
 
       - name: Run re-build script
-        run: nix run . -- --buildDrafts --verbose
+        run: nix run . -- --buildDrafts --verbose --baseURL=https://ictunion.cz
