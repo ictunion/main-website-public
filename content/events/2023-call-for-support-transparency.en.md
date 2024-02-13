@@ -4,8 +4,7 @@ slug: open-call-for-supporting-our-petition-on-transparency-of-pay
 subtitle: Open call for support of our petition for transparency of pay
 publishDate: 2023-07-31
 startDate: 2023-08-01T00:00:00.000Z
-date: 2023-12-31T00:00:00.000Z
-duration: 5 months
+date: 2024-12-31T00:00:00.000Z
 place: Online
 petitionId: transparentnost-odmenovani-transparency-of-pay
 ---

@@ -3,7 +3,7 @@ title: "About Us"
 url: about-us
 type: about
 description: |
-    We are a community of workers from call centers and the IT sector (ICT sector) in the Czech Republic.
+    We are a community of workers from the IT sector and call centers (ICT sector) in the Czech Republic.
     We gather to discuss our working conditions, brainstorm ways to improve them,
     and support each other in achieving positive change.
 
