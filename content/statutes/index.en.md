@@ -83,10 +83,10 @@ subDescription: |
     4. members elected by the Workplaces Council.
 2. The Board is the statutory body of the Organization. The Chairperson and Vice-Chairperson are each authorised to act, appear and sign on behalf of the Organization in all matters according to the powers entrusted to them by vote approved by the Board.
 3. The number of members elected by the Workplaces Council is derived from the number of members elected by the Organization Members’ Meeting. if
-    the Organization Members’ Meeting elects 3 members, the Workplace Council does not elect any members;
-    the Organization Members’ Meeting elects 4 members, the Workplace Council elects 1 member;
-    the Organization Members’ Meeting elects 5 members, the Workplace Council elects 2 members;
-    the Organization Members’ Meeting elects 6 members, the Workplace Council elects 3 members.
+    1. the Organization Members’ Meeting elects 3 members, the Workplace Council does not elect any members;
+    2. the Organization Members’ Meeting elects 4 members, the Workplace Council elects 1 member;
+    3. the Organization Members’ Meeting elects 5 members, the Workplace Council elects 2 members;
+    4. the Organization Members’ Meeting elects 6 members, the Workplace Council elects 3 members.
 4. The Organization Members’ Meeting decides the number of members of the Board elected in accordance with Article V, paragraph 4 letter b. The number of members of the Board is always odd. If the number of members of the Board is extraordinarily even and there is a tie during the voting, the Chairperson has two votes.
 5. The Organization Members’ Meeting may remove a member of the Board. In such a case, the Organization Members’ Meeting shall elect a new member of the Board without delay and, at the latest, within 60 days.
 6. The Board
@@ -156,10 +156,9 @@ subDescription: |
     1. the Board decides on the admission of that person as a member, or
     2. the Workplace Executive Committee decides on the admission of that person as a member, but only in the case when the person in question is a member with accordance to Article XI, paragraph 5 letter a or b.
 4. Membership arises on the day of the decision on the admission of a natural person as a member or on another day specified in the decision. The Board shall inform the newly admitted member of this decision without delay.
-5. Member of the Organization,
-    1. who performs dependent work at the Workplace where the Organization operates, or
-    2. who performs work that, under the conditions of the place of performance in the Czech Republic, would be considered dependent work abroad exclusively for the employer where the Organization operates,
-becomes a member of the Organization at the given Workplace.
+5. Member of the Organization becomes a member of the Organization at the given Workplace,
+    1. if they perform dependent work at the Workplace where the Organization operates, or
+    2. if they perform work that, under the conditions of the place of performance in the Czech Republic, would be considered dependent work abroad exclusively for the employer where the Organization operates.
 6. If a member of the Organization ceases to carry out activities according to Article XI, paragraph 5 letter a or b, they remain a member of the Organization but cease to be a member of the Workplace Members’ Meeting of the given Workplace.
 7. Membership in the Organization shall terminate
     1. based on a written or electronic request of a member for termination of membership,
