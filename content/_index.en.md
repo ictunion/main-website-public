@@ -3,4 +3,4 @@ title: ICT
 subTitle: Union
 moreEvents: More Events
 ---
-[become member]({{< relref path="register" >}}) or join some of our [events]({{< relref path="events">}})
+[join our union]({{< relref path="register" >}}) or attend some of our [events]({{< relref path="events">}})

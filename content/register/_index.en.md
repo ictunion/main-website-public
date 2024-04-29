@@ -1,10 +1,10 @@
 ---
-title: Become member
+title: Join The Union
 url: application
 type: register
 dateformat: "02/01/2006"
 approveLabel: |
-    I agree with and respect the <a href="/downloads/ictunion-statutes.pdf" target="_blank">statutes</a> of Trade Union of Workers in ICT.
+    I agree with and respect the <a href="/downloads/ictunion-statutes.pdf" target="_blank">statutes</a> of the Trade Union of Workers in ICT.
 approveNotification: |
     Before submitting, it is necessary to agree with the statutes.
 submitMessage: |
