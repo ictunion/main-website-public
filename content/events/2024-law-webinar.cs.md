@@ -1,7 +1,9 @@
 ---
 title: Webinář o novinkách zákoníku práce
 publishDate: 2024-06-12
+startDate: 2024-06-20T18:00:00.000Z
 date: 2024-06-20T18:00:00.000Z
+duration: 2 hodiny
 place: Online
 registerUrl: https://forms.office.com/e/02p2DDKUSm
 ctaType: register
