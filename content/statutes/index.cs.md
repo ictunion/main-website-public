@@ -17,7 +17,7 @@ subDescription: |
 3. Sídlem Organizace je Praha.
 4. Organizace má právní osobnost a je oprávněna jednat vlastním jménem.
 5. Při splnění podmínek stanovených v § 286 odst. 3 zákona č. 262/2006 Sb., zákoník práce, ve znění pozdějších předpisů (dále jen „zákoník práce“), působí Organizace u každého zaměstnavatele, vůči němuž jsou tyto podmínky splněny, a má právo po splnění oznamovací povinnosti uvedené v § 286 odst. 4 zákoníku práce se zaměstnavatelem jednat, kolektivně vyjednávat a uzavírat kolektivní smlouvy.
-
+6. Cílem stanov je reagovat na specifické uspořádání Organizace, kdy Organizace působí u více zaměstnavatelských subjektů zároveň. Tyto Stanovy tak vytváří orgány, které umožňují tohoto uspořádání dosahovat.
 
 #### II. POSLÁNÍ A ZÁSADY ORGANIZACE
 
@@ -47,15 +47,16 @@ subDescription: |
 
 #### IV. ORGANIZAČNÍ USPOŘÁDÁNÍ
 
-1. Orgány Organizace jsou
+1. Orgány Organizace, které mají oporu ve Stanovách OSPPP jsou
     1. Členská schůze tak, jak je definována ve Stanovách OSPPP (dále jako „Členská schůze Organizace“),
     2. Výbor ZOOS tak, jak je definován ve Stanovách OSPPP (dále jen „Výbor“),
     3. Předseda/kyně ZOOS tak, jak je definován/a ve Stanovách OSPPP (dále jen „Předseda/kyně “),
     4. Místopředseda/kyně,
     5. Revizní komise ZOOS tak, jak je definována ve Stanovách OSPPP (dále jen „Revizní komise“),
-    6. Rada pracovišť,
-    7. Členská schůze pracoviště a
-    8. Předsednictvo pracoviště.
+2. Orgány organizace ustanovené podle čl. 90 Stanov OSPPP, jejichž posláním je vykonávat působnost u jednotlivých zaměstnavatelských subjektů a skupin zaměstnavatelských subjektů jsou
+    1. Rada pracovišť,
+    2. Členská schůze pracoviště a
+    3. Předsednictvo pracoviště.
 
 
 #### V. ČLENSKÁ SCHŮZE ORGANIZACE
@@ -68,7 +69,8 @@ subDescription: |
 5. Část Členské schůze Organizace skládající se z členů/ek Organizace, kteří zároveň nejsou členové Organizace na libovolném Pracovišti
     1. rozhoduje o počtu členů/ek Výboru volených Členskou schůzí Organizace,
     2. volí Předsedu/kyni, část členů/ek Výboru a člena/ku Revizní komise,
-    3. odvolává Předsedu/kyni, část členů/ek Výboru a člena/ku Revizní komise.
+    3. odvolává Předsedu/kyni a členy/ky Výboru, kteří byli zvoleni Členskou schůzí Organizace,
+    4. odvolává člena/ku Revizní komise, který/á byl/a zvolen/a Členskou schůzí Organizace.
 6. K platnosti usnesení o změnách stanov Organizace je potřeba ⅔ hlasů přítomných.
 7. K platnosti jiných usnesení než těch dle bodu 5. je potřeba ½ hlasů přítomných.
 
@@ -87,15 +89,13 @@ subDescription: |
     3. Členská schůze Organizace volí 5 členů/ek, Rada pracoviště volí 2 členy/ky;
     4. Členská schůze Organizace volí 6 členů/ek, Rada pracoviště volí 3 členy/ky.
 4. Členská schůze Organizace rozhoduje o počtu členů/ek Výboru volených dle čl. V, odst. 4 písm. b). Počet členů/ek Výboru je vždy lichý. Je-li počet členů/ek Výboru mimořádně sudý a při hlasování došlo k nerozhodnému výsledku, má Předseda/kyně Výboru dva hlasy.
-5. Členská schůze Organizace může člena/ku Výboru odvolat. V takovém případě Členská schůze Organizace bezodkladně, nejpozději do 60 dnů, zvolí nového člena/ku Výboru.
-6. Výbor
+5. Výbor rozhoduje o všech náležitostech uvedených ve stanovách OSPPP, a dále
     1. zajišťuje úkoly, jimiž byl pověřen Členskou schůzí Organizace,
     2. vykonává oprávnění, která podle pracovněprávních a dalších předpisů přísluší odborovým organizacím,
     3. hospodaří s finančními prostředky Organizace,
     4. zakládá pracoviště,
     5. pravidelně informuje Členskou schůzi o výsledku hospodaření Organizace a
     6. v souladu se zákonem č. 2/1991 Sb., o kolektivním vyjednávání, ve znění pozdějších předpisů, kolektivně vyjednává a uzavírá kolektivní smlouvu.
-
 
 #### VII. REVIZNÍ KOMISE
 
@@ -112,8 +112,9 @@ subDescription: |
 1. Rada pracovišť se skládá z delegátů pracovišť. Každé pracoviště má právo být zastoupeno v Radě pracovišť jedním/ou členem/kou.
 2. Rada pracovišť se schází alespoň jednou za čtvrt roku.
 3. Rada pracovišť
-    1. volí část členů/ek Výboru  a Revizní komise,
-    2. odvolává část členy/ky Výboru a Revizní komise,
+    1. volí Místopředsedu/kyni, část členů/ek Výboru a Revizní komise,
+    2. odvolává Místopředsedu/kyni a členy/ky Výboru, kteří byli zvoleni Radou pracovišť,
+    3. odvolává členy/ky Revizní komise, kteří byli zvoleni Radou pracovišť,
     3. předkládá návrhy Výboru,
     4. projednává strategii kolektivního vyjednávání a způsoby náboru členstva, na jednotlivých pracovištích.
 
@@ -126,7 +127,7 @@ subDescription: |
 4. Členskou schůzi pracoviště svolává Předsednictvo pracoviště podle potřeb, nebo na žádost alespoň ¼ členstva Členské schůze daného pracoviště, minimálně však jednou ročně.
 5. Členská schůze pracoviště rozhoduje ve všech záležitostech souvisejících s činností Organizace na daném Pracovišti. Mezi ty patří zejména
     1. rozhodování o funkčním období a počtu členů/ek Předsednictva pracoviště,
-    2. přijímání a hodnocení zprávy Předsednictva pracoviště a kontrola jeho činnost,
+    2. přijímání a hodnocení zprávy Předsednictva pracoviště a kontrola jeho činnosti,
     3. projednání návrhu kolektivní smlouvy, o kterém jedná Předsednictvo pracoviště se zaměstnavatelem,
     4. rozhodování o způsobech spolupráce s ostatními odborovými organizacemi působícími u zaměstnavatele,
     5. volba členstva Předsednictva pracoviště a
@@ -144,12 +145,10 @@ subDescription: |
     1. zajišťuje úkoly, jimiž bylo pověřen Členskou schůzí pracoviště,
     2. vykonává oprávnění, která podle pracovněprávních a dalších předpisů přísluší odborovým organizacím na pracovišti,
     3. hospodaří s určenou částí finančních prostředků Organizace,
-    4. v souladu se zákonem č. 2/1991 Sb. o kolektivním vyjednávání, ve znění pozdějších předpisů, kolektivně vyjednává a uzavírá kolektivní smlouvu, přičemž ve vyjednávacím týmu mohou působit i další členové/ky  Členské schůze daného pracoviště.
+    4. v souladu se zákonem č. 2/1991 Sb. o kolektivním vyjednávání, ve znění pozdějších předpisů, kolektivně vyjednává a uzavírá kolektivní smlouvu.
 
 
-#### **XI. ČLENSTVÍ V ORGANIZACI**
-
-
+#### XI. ČLENSTVÍ V ORGANIZACI
 
 1. Členem/kou Organizace se může stát jen fyzická osoba uvedená v bodu I. 1. těchto Stanov.
 2. Členství v Organizaci je dobrovolné.
@@ -177,19 +176,12 @@ subDescription: |
     4. na účast při tvorbě programu Organizace,
     5. volit a být volen/a do orgánů Organizace,
     6. účastnit se schůzí orgánů, které jednají, nebo rozhodují o jeho osobě,
-    7. na hmotnou pomoc v případě dlouhodobé nemoci, a to podle finančních možností Organizace a
-    8. na podporu při nezaviněné finanční tísni, a to podle finančních možností Organizace.
+    7. na hmotnou pomoc v případě nevyplacené mzdy zaměstnavatelem, v případě dlouhodobé nemoci nebo v nezaviněné finanční tísni, a to vždy podle finančních možností Organizace.
 2. Každý/á člen/ka je povinen/na
     1. řádně a včas platit členské příspěvky,
     2. dodržovat tyto Stanovy, další předpisy a usnesení orgánů Organizace,
     3. dbát na svou profesionální úroveň a
     4. nepoškozovat dobré jméno Organizace.
-3. Povinnost platit členské příspěvky se neuplatňuje v době, kdy člen/ka přerušil/a výkon výdělečné činnosti z vážného důvodu, jako například
-    1. studium,
-    2. péče o osobu blízkou,
-    3. čerpání mateřské nebo rodičovské dovolené,
-    4. delší dobu trvající dočasná pracovní neschopnost, nebo
-    5. insolvence (osobní bankrot).
 
 
 #### XIII. ČLENSKÉ PŘÍSPĚVKY
@@ -197,8 +189,13 @@ subDescription: |
 1. Každý/á člen/ka má povinnost platit členský příspěvek ve výši 1 % z jeho/jího čistého měsíčního výdělku, nebo z jiného příjmu, maximálně však ve výši nastavené Členskou schůzí Organizace.
 2. Osoba samostatně výdělečně činná má povinnost pravidelně, měsíčně, řádně a včas platit členský příspěvek, který činí 1 % ze jejího základu daně z příjmů, nejméně však 200 Kč a nejvýše ve výši nastavené Členskou schůzí Organizace.
 3. Organizace umožňuje členům/kám platit solidární členský příspěvek, který může činit až dvojnásobek maximální výše členského příspěvku nastaveného Členskou schůzí Organizace. Tento příspěvek neumožňuje členům/kám čerpat jakékoliv výhody oproti členstvu platícímu základní členský příspěvek.
-
+4. Organizace umožňuje členům/kám platit sníženou sazbu členského příspěvku v hodnotě 25 Kč. Snížená sazba členských příspěvků se uplatní pouze v době, kdy člen/ka přerušil/a výkon výdělečné činnosti z vážného důvodu, jako například
+    1. studium,
+    2. péče o osobu blízkou,
+    3. čerpání mateřské nebo rodičovské dovolené,
+    4. delší dobu trvající dočasná pracovní neschopnost, nebo
+    5. insolvence (osobní bankrot).
 
 #### XI. ZÁVĚREČNÉ USTANOVENÍ
 
-Stanovy v tomto znění byly schváleny Členskou schůzí Organizace dne 25. 11. 2023 s účinností od jejich schválení. Toto nové znění stanov bude doručeno rejstříkovému soudu.
+Stanovy v tomto znění byly schváleny Členskou schůzí Organizace dne 15. 6. 2024 s účinností od jejich schválení. Toto nové znění stanov bude doručeno rejstříkovému soudu.

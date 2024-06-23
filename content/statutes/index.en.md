@@ -18,6 +18,7 @@ subDescription: |
 3. The residence of the Organization is Prague.
 4. The Organization shall have legal personality and shall be entitled to act on its own behalf.
 5. Upon fulfilment of the conditions stipulated in § 286 paragraph 3 of Act No. 262/2006 Coll., The Labor Code, as amended (hereinafter referred to as the “Labor Code”), the Organization operates for each employer against whom these conditions are met and has the right to negotiate, bargain collectively and conclude collective agreements with the employer based on fulfilling the notification obligation specified in Section 286, Paragraph 4 of the Labor Code.
+6. The goal of these Statutes is to respond to specific arrangement of the Organization, when the Organization operates at multiple employer entities at the same time. These Statutes create bodies, that achieve this specific arrangement.
 
 
 #### II. MISSION AND PRINCIPLES OF THE ORGANIZATION
@@ -48,15 +49,16 @@ subDescription: |
 
 #### IV. ORGANIZATIONAL ARRANGEMENT
 
-1. The bodies of the Organization are
+1. The bodies of the Organization, which are defined in the Statutes of OSPPP are
     1. Members’ Meeting, as defined in the Statutes of OSPPP (hereinafter referred to as “Organization Members’ Meeting”)
     2. Board of ZOOS, as defined in the Statutes of OSPPP  (hereinafter referred to as “Board”)
     3. Chairperson of ZOOS, as defined in the Statutes of OSPPP (hereinafter referred to as “Chairperson”)
     4. Vice-Chairperson,
     5. Audit Committee of ZOOS, as defined in the Statutes of OSPPP (hereinafter referred to as “Audit Committee”),
-    6. Workplaces Council,
-    7. Workplace Members’ Meeting, and
-    8. Workplace Executive Committee.
+2. The bodies of the Organization, which are established according to Article 90 of the Statutes of OSPPP, whose mission is to exercise jurisdiction of the Organization over employer entities and groups of employer entities are
+    1. Workplaces Council,
+    2. Workplace Members’ Meeting, and
+    3. Workplace Executive Committee.
 
 
 #### V. ORGANIZATION MEMBERS’ MEETING
@@ -69,7 +71,8 @@ subDescription: |
 5. Part of the Organization Members’ Meeting consisting of members of the Organization who are also not members of the Organization at any Workplace
     1. decides on the number of Board members elected by the Organization Members’ Meeting,
     2. elects the Chairperson, members of the Board and a member of the Audit Committee,
-    3. dismisses the Chairperson, members of the Board and a member of the Audit Committee.
+    3. dismisses the Chairperson and members of the Board that were elected by the Organization Members’ Meeting,
+    4. dismisses the member of the Audit Committee that was elected by the Organization Members’ Meeting.
 6. Resolutions on changes to the Statutes require ⅔ votes of those present to be valid.
 7. Resolutions other than those according to Article V, paragraph 5. require ½ of those present to be valid.
 
@@ -88,15 +91,13 @@ subDescription: |
     3. the Organization Members’ Meeting elects 5 members, the Workplace Council elects 2 members;
     4. the Organization Members’ Meeting elects 6 members, the Workplace Council elects 3 members.
 4. The Organization Members’ Meeting decides the number of members of the Board elected in accordance with Article V, paragraph 4 letter b. The number of members of the Board is always odd. If the number of members of the Board is extraordinarily even and there is a tie during the voting, the Chairperson has two votes.
-5. The Organization Members’ Meeting may remove a member of the Board. In such a case, the Organization Members’ Meeting shall elect a new member of the Board without delay and, at the latest, within 60 days.
-6. The Board
+5. The Board decides on all matters listed in the Statutes of OSPPP and also
     1. ensures the tasks entrusted to it by the Organization Members’ Meeting,
     2. exercises the rights which, according to the Labor Code and other regulations, belong to trade unions,
     3. manages the financial resources of the Organization,
     4. establishes a Workplace,
     5. regularly informs the Organization Members’ Meeting about the economic result of the Organization,
     6. in accordance with Act No. 2/1991 Coll. on collective bargaining, as amended, collectively negotiates and concludes a collective agreement.
-
 
 #### VII. AUDIT COMMITTEE
 
@@ -145,7 +146,7 @@ subDescription: |
     1. carries out the tasks entrusted to it by the Workplace Members’ Meeting,
     2. exercises the powers conferred on trade union organizations by the Labor Code and other legislation,
     3. manages a determined share of the Organization’s financial resources,
-    4. in accordance with Act No. 2/1991 Coll. on collective bargaining, as amended, bargains collectively and concludes a collective agreement whereby the bargaining team may include other members performing dependent work at the Workplace.
+    4. in accordance with Act No. 2/1991 Coll. on collective bargaining, as amended, bargains collectively and concludes a collective agreement.
 
 
 #### XI. MEMBERSHIP IN THE ORGANIZATION
@@ -164,7 +165,7 @@ subDescription: |
     1. based on a written or electronic request of a member for termination of membership,
     2. based on a decision of the Board on the expulsion of a member due to a gross breach of duty or these Statutes,
     3. death of a member.
-8. A gross breach of duty shall be deemed to be, in particular, a case where a member has not duly and timely paid the membership fee, even though he has been called in writing by the Board or Workplace Executive Committee to pay the fee due.
+8. A gross breach of duty shall be deemed to be, in particular, a case where a member has not duly and timely paid the membership fee, even though he has been called upon in writing by the Board or Workplace Executive Committee to pay the fee.
 
 
 #### XII. RIGHTS AND OBLIGATIONS OF MEMBERS
@@ -176,19 +177,12 @@ subDescription: |
     4. to participate in the creation of the program of the Organization,
     5. to elect and be elected to the bodies of the Organization,
     6. to take part in Meetings of the bodies which act or decide on his person,
-    7. for material assistance in case of long-term illness, according to the financial capabilities of the Organization,
-    8. to support in the event of financial hardship, according to the financial capabilities of the Organization.
+    7. for material assistance in case of unpaid wages by the employer, in case of long-term illness, or in the event of no-fault financial hardship, but always according to the financial capabilities of the Organization.
 2. Each member shall
     1. pay membership fees properly and on time,
     2. comply with these Statutes, other regulations and resolutions of the Organization’s bodies,
     3. pay attention to their professional level,
     4. not damage the good name of the Organization.
-3. The obligation to pay membership dues shall not apply when the member has ceased gainful employment for a serious reason, such as
-    1. studying,
-    2. care for a close person,
-    3. taking maternity or parental leave,
-    4. long-term temporary incapacity for work,
-    5. insolvency (personal bankruptcy).
 
 
 #### XIII. MEMBERSHIP FEES
@@ -196,8 +190,13 @@ subDescription: |
 1. Every member must pay a membership fee of 1% of their net monthly earnings or other income, but not more than the amount set by the Organization Members’ Meeting.
 2. A self-employed person must pay a membership fee regularly, monthly, properly and on time, which is 1% of his income tax base, but at least CZK 200 and at most in the amount set by the Organization Members’ Meeting.
 3. The Organization allows members to pay a solidarity membership fee, up to twice the maximum amount of the regular membership fee set by the Organization Members’ Meeting. This contribution does not allow members to draw any benefits compared to members paying a regular membership fee.
-
+4. The Organization allows members to pay reduced membership fee which is 25 CZK. The reduced fee can only be paid in case the member has ceased gainful employment for a serious reason, such as
+    1. studying,
+    2. care for a close person,
+    3. taking maternity or parental leave,
+    4. long-term temporary incapacity for work,
+    5. insolvency (personal bankruptcy).
 
 #### XIV. FINAL PROVISION
 
-These Statutes were approved by the Members’ Meeting on November 25th, 2023, with effect from their approval.
+These Statutes were approved by the Members’ Meeting on June 15th, 2024, with effect from their approval.
