@@ -2,7 +2,7 @@
 title: Webinar on Workers' Rights in a Workplace
 publishDate: 2024-07-27
 startDate: 2024-07-31T18:00:00.000Z
-date: 2024-07-31T18:00.000Z
+date: 2024-07-31T18:00:00.000Z
 duration: 2 hours
 place: Online
 poster: poster.png

@@ -2,8 +2,8 @@
 ARG VARIANT="16-bullseye"
 FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
 
-ENV HUGO_VERSION="0.121.2"
-ENV DART_SASS_VERSION="1.69.0"
+ENV HUGO_VERSION="0.129.0"
+ENV DART_SASS_VERSION="1.77.8"
 
 # Install Hugo
 RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz && \
