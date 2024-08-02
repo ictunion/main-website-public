@@ -38,28 +38,28 @@
           <h4 class="site-footer-title">{{ .Param "footer.socials" }}</h4>
           <div class="site-footer-social-links">
             {{ if .Site.Param "social.facebook" }}
-              <a target="blank" href="{{ .Site.Param "social.facebook" }}"><span class="icon facebook"></span></a>
+              <a target="blank" href="{{ .Site.Param "social.facebook" }}"><span class="icon facebook" aria-label="Facebook"></span></a>
             {{ end }}
             {{ if .Site.Param "social.twitter" }}
-              <a target="_blank" href="{{ .Site.Param "social.twitter" }}"><span class="icon bird_site"></span></a>
+              <a target="_blank" href="{{ .Site.Param "social.twitter" }}"><span class="icon bird_site" aria-label="Twitter"></span></a>
             {{ end }}
             {{ if .Site.Param "social.linkedin" }}
-              <a target="blank" href="{{ .Site.Param "social.linkedin" }}"><span class="icon job_site"></span></a>
+              <a target="blank" href="{{ .Site.Param "social.linkedin" }}"><span class="icon job_site" aria-label="LinkedIn"></span></a>
             {{ end }}
             {{ if .Site.Param "social.github" }}
-              <a target="blank" href="{{ .Site.Param "social.github" }}"><span class="icon github"></span></a>
+              <a target="blank" href="{{ .Site.Param "social.github" }}"><span class="icon github" aria-label="GitHub"></span></a>
             {{ end }}
             {{ if .Site.Param "social.youtube" }}
-              <a target="blank" href="{{ .Site.Param "social.youtube" }}"><span class="icon video_site"></span></a>
+              <a target="blank" href="{{ .Site.Param "social.youtube" }}"><span class="icon video_site" aria-label="YouTube"></span></a>
             {{ end }}
             {{ if .Site.Param "social.instagram" }}
-              <a target="blank" href="{{ .Site.Param "social.instagram" }}"><span class="icon photo_site"></span></a>
+              <a target="blank" href="{{ .Site.Param "social.instagram" }}"><span class="icon photo_site" aria-label="Instagram"></span></a>
             {{ end }}
             {{ if .Site.Param "social.mastodon" }}
-              <a rel="me" target="blank" href="{{ .Site.Param "social.mastodon" }}"><span class="icon mastodon"></span></a>
+              <a rel="me" target="blank" href="{{ .Site.Param "social.mastodon" }}"><span class="icon mastodon" aria-label="Mastodon"></span></a>
             {{ end }}
             {{ with .OutputFormats.Get "rss" -}}
-              <a target="_blank" href="{{.Permalink}}"><span class="icon rss"></span></a>
+              <a target="_blank" href="{{.Permalink}}"><span class="icon rss" aria-label="RSS"></span></a>
             {{ end }}
           </div>
         </section>
