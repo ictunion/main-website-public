@@ -174,3 +174,6 @@
 
 ["Petition Accept"]
   other = "Souhlasím"
+
+["Select language"]
+  other = "Vybrat jazyk"

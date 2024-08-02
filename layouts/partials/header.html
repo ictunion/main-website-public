@@ -28,7 +28,7 @@
         <a href="{{ ref . "faq" }}">{{ .Site.Param "navigation.faq" }}</a>
       </li>
     </ul>
-    <select class="language-selector" onchange="switchLanguage(this.value)">
+    <select class="language-selector" onchange="switchLanguage(this.value)" aria-label="{{ i18n "Select language" }}">
       {{ $siteLanguages := site.Languages }}
       {{ $pageLang := .Page.Lang }}
       {{- range .Page.AllTranslations }}
