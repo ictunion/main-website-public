@@ -9,9 +9,9 @@
       <h1 class="home-header-headline">
         <strong>{{ .Page.Param "title" }}</strong> <small>{{ .Page.Param "subTitle" }}</small>
       </h1>
-      <a class="home-header-tag-line" href="{{ ref . "faq" }}#12-who-are-we">
+      <a class="home-header-tag-line" href="{{ ref . "faq" }}#12-who-are-we" aria-label="{{ i18n "Who we are" }}">
         <span class="home-header-tag-line-we-are">{{ i18n "We are" }}</span>
-        <span class="home-header-tag-line-occupation" data-effect="shuffled-typing">
+        <span class="home-header-tag-line-occupation" data-effect="shuffled-typing" role="marquee">
           <script type="application/json">
             {{ $pageLang := .Page.Lang }}
             {{ $res := slice  }}

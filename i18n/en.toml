@@ -127,6 +127,9 @@
 ["require js"]
   other = "This page requires Java Script for its functionality"
 
+["Who we are"]
+  other = "Who we are"
+
 ["We are"]
   other = "We are"
 

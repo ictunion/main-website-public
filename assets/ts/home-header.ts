@@ -20,6 +20,10 @@ typingElements.forEach((typing: HTMLElement) => {
     let index = 0;
     let occupation: string = occupations[occupation_index];
 
+    function setAccessibleLabel() {
+        typing.setAttribute('aria-label', occupation);
+    }
+
     function nextOccupation() {
         occupation_index++;
         if (occupation_index < occupations.length) {
@@ -47,10 +51,12 @@ typingElements.forEach((typing: HTMLElement) => {
             index--;
         } else {
             nextOccupation();
+            setAccessibleLabel();
             window.setTimeout(typeLetter, 200);
         }
     }
 
+    setAccessibleLabel();
     window.setTimeout(typeLetter, 200);
 
 });
