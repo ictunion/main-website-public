@@ -21,7 +21,7 @@
   <main class="about-page-body">
     <div class="about-page-right">
       {{ $logo := resources.Get "svg/oop-ict-logo.svg" | resources.Fingerprint "sha512" }}
-      <img src="{{ $logo.Permalink }}" alt="{{ .Param "title" }}" />
+      <img src="{{ $logo.Permalink }}" alt="" />
     </div>
     <div class="about-page-left">
       {{ .Content }}

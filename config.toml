@@ -10,8 +10,9 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
 [params]
   title = 'ICT'
   subTitle = 'Union'
-  tagLine = 'Trade union of workers in <br> IT & communications.'
+  tagLine = 'Trade union of workers in IT & communications.'
   joinCta = 'join us'
+  eventPosterAlt = 'Poster for the event'
   supportEmail = 'support@ictunion.cz'
   supportPhone = '+420 737 035 289'
   publicUrl = 'https://ictunion.cz'
@@ -64,6 +65,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
       lang = 'cs'
       tagLine = 'Odborová organizace pracujících v IT a komunikacích.'
       joinCta = 'přidej se'
+      eventPosterAlt = 'Plakát k akci'
       [languages.cs.params.navigation]
         home = "Domů"
         aboutUs = "O nás"

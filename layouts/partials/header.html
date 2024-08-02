@@ -1,7 +1,7 @@
 <header class="site-header">
   <a class="site-title" href="{{ ref . "/" }}">
     {{ $logo := resources.Get "svg/oop-ict-logo.svg" | resources.Fingerprint "sha512" }}
-    <img class="site-header-logo" src="{{ $logo.Permalink }}" alt="{{ .Param "title" }}" />
+    <img class="site-header-logo" src="{{ $logo.Permalink }}" alt="" />
     <div>
       <strong>{{ .Site.Title }}</strong>
       {{ .Site.Param "subTitle" }}

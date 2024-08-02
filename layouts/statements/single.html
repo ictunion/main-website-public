@@ -40,7 +40,7 @@
 
     <div class="statements-right">
       {{ $logo := resources.Get "svg/oop-ict-logo.svg" | resources.Fingerprint "sha512" }}
-      <img class="statements-logo" src="{{ $logo.Permalink }}" alt="{{ .Site.Param "title" }}" />
+      <img class="statements-logo" src="{{ $logo.Permalink }}" alt="{{ .Site.Param "tagLine" }}" />
 
       <h3 class="statements-right-title">{{ i18n "Share" }}:</h3>
       <div class="statements-share">

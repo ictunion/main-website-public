@@ -2,7 +2,7 @@
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 {{ $ico := resources.Get "svg/favicon.svg" }}
-<link rel="icon" href="{{ $ico.Permalink }}" alt="{{ .Param "title" }}" sizes="any" type="image/svg+xml" />
+<link rel="icon" href="{{ $ico.Permalink }}" sizes="any" type="image/svg+xml" />
 
 {{ $sass_options := (dict "transpiler" "dartsass") }}
 {{ $sass := resources.Get "scss/main.scss" }}

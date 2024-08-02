@@ -41,7 +41,7 @@
         {{ $poster := .Resources.GetMatch .Page.Params.poster | resources.Fingerprint "sha512" }}
         <a target="_blank" href="{{ $poster.RelPermalink }}" class="event-detail-header-poster">
           {{ $resized := $poster.Fit "250x350 Top" }}
-          <img src="{{ $resized.RelPermalink }}" alt="poster">
+          <img src="{{ $resized.RelPermalink }}" alt="{{ .Site.Param "eventPosterAlt" }}">
         </a>
       {{ end }}
 

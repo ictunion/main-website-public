@@ -4,7 +4,7 @@
       {{ $logo := .Resources.GetMatch .Params.logo | resources.Fingerprint "sha512" }}
       <a href="{{ .Permalink }}" class="workplaces-workplace-logo">
         {{ $resized := $logo.Fit "325x325 Top" }}
-        <img src="{{ $resized.RelPermalink }}" alt="logo">
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .title }}">
       </a>
     {{ else if .Permalink }}
       <h2 class="workplaces-workplace-title">
