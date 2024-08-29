@@ -1,0 +1,142 @@
+.career-content {
+    @include page-body;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.career-logo {
+    width: 250px;
+    align-self: center;
+}
+
+.career-header {
+    background: $primary-color;
+    color: $light-color;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.career-body {
+    @include page-body;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-grow: 1;
+    display: flex;
+    gap: 64px;
+
+    @include tablet {
+        flex-direction: column;
+    }
+}
+
+.career-right {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    border-radius: 3px;
+
+    @include tablet {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        align-items: center;
+        margin-top: 32px;
+
+        & > img {
+            max-width: 260px;
+        }
+    }
+}
+
+.career-right-title {
+    @include right-side-title;
+}
+
+.career-left {
+    @include style-md;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-size: 16px;
+}
+
+.career-title {
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 48px;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.career-header-meta {
+    color: $light-color;
+    line-height: 1.6em;
+}
+
+.career-header-date {
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.career-header-who {
+    font-weight: 600;
+}
+
+.career-header-where {
+    font-weight: 600;
+}
+
+.career-header-contract {
+    font-weight: 600;
+}
+
+.career-share {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6em;
+    font-size: 16px;
+    align-items: flex-start;
+
+    a {
+        color: $primary-color;
+
+        &:hover {
+            background: $primary-color;
+            color: $light-color;
+        }
+    }
+}
+
+.career-end-cta {
+    @include page-body;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+
+    a {
+        display: block;
+        padding: 12px 32px;
+        color: $primary-color;
+        font-size: 18px;
+        text-decoration: none;
+        border: 1px solid rgba($primary-color, 0.5);
+        border-radius: 3px;
+
+        &:hover {
+            background: rgba($primary-color, 0.25);
+        }
+    }
+
+    @include tablet {
+        flex-direction: column;
+        align-items: center;
+    }
+}

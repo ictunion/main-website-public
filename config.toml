@@ -37,6 +37,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     workplaces = "Workplaces"
     faq = "FAQ"
     statements = "Statements"
+    career = "Career"
   [params.home]
     participateTitle = "How to participate?"
     membershipTitle = "We provide..."
@@ -56,13 +57,13 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
 
 [languages]
   [languages.cs]
-    language = 'Česky'
-    languageFlag = "🇨🇿"
     languagedirection = 'ltr'
     weight = 1
     [languages.cs.params]
       subTitle = 'Odbory'
       lang = 'cs'
+      language = 'Česky'
+      languageFlag = "🇨🇿"
       tagLine = 'Odborová organizace pracujících v IT a komunikacích.'
       joinCta = 'přidej se'
       eventPosterAlt = 'Plakát k akci'
@@ -75,6 +76,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
         workplaces = "Pracoviště"
         faq = "Časté dotazy"
         statements = "Prohlášení"
+        career = "Career"
       [languages.cs.params.home]
         participateTitle = "Jak se zapojit?"
         membershipTitle = "Členství ti přinese..."
@@ -94,11 +96,11 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
 
   [languages.en]
     languagedirection = 'ltr'
-    language = 'English'
-    languageFlag = "🇬🇧"
     weight = 2
     [languages.en.params]
       lang = "en"
+      language = 'English'
+      languageFlag = "🇬🇧"
 
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
@@ -108,11 +110,13 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
   registered = '/:slug'
   workplaces = '/workplace/:slug/'
   statements = '/statements/:slug/'
+  career = '/career/:slug/'
 
 [languages.cs.permalinks]
   events = '/akce/:year/:slug/'
   workplaces = '/pracoviste/:slug/'
   statements = '/prohlaseni/:slug/'
+  career = '/career/:slug/'
 
 [sitemap]
   changefreq = 'monthly'

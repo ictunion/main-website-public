@@ -1,0 +1,55 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="career-header">
+    <div class="single-page-header-content">
+      <h1 class="career-title">{{ .Title }}</h1>
+
+      <div class="career-header-meta">
+        <div class="career-header-date">
+          {{ if isset .Page "PublishedDate" }}
+            {{ .PublishedDate | time.Format ":date_long" }}
+          {{ else }}
+            {{ .Date | time.Format ":date_long" }}
+          {{ end }}
+        </div>
+        <div class="career-header-who">
+          {{ if .Page.Param "who" }}
+            Who: {{ .Page.Param "who" }}
+          {{ end }}
+        </div>
+        <div class="career-header-where">
+          {{ if .Page.Param "where" }}
+            Where: {{ .Page.Param "where" }}
+          {{ end }}
+        </div>
+        <div class="career-header-contract">
+          {{ if .Page.Param "contract" }}
+            Type: {{ .Page.Param "contract" }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+  <main class="career-body">
+    <div class="career-left">
+      {{ .Content }}
+    </div>
+
+    <div class="career-right">
+      {{ $logo := resources.Get "svg/oop-ict-logo.svg" | resources.Fingerprint "sha512" }}
+      <img class="career-logo" src="{{ $logo.Permalink }}" alt="{{ .Site.Param "tagLine" }}" />
+
+      <h3 class="career-right-title">{{ i18n "Share" }}:</h3>
+      <div class="career-share">
+        {{ partial "share" . }}
+      </div>
+    </div>
+  </main>
+
+  <footer class="career-end-cta">
+    {{ partial "share" . }}
+  </footer>
+{{ end }}
