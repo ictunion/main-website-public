@@ -3,7 +3,6 @@ slug: organizer
 title: Job offer - Trade union organizer
 date: 2024-08-28T08:00:00.000Z
 type: career
-who: The trade union of workers in ICT
 where: Prague  
 contract: Part-time  
 ---
@@ -50,9 +49,9 @@ Deadline for your application is **30th September**. Send your resume and cover 
     
 *   active English and Czech language  
     
-*   Big Plus: knowledge about ICT sector  
+*   big plus: knowledge about ICT sector  
     
-*   Big Plus: experience with activism  
+*   big plus: experience with activism  
     
 
 #### What we offer:  
