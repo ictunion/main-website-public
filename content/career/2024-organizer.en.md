@@ -59,6 +59,8 @@ Deadline for your application is **30th September**. Send your resume and cover 
 *   part-time (20 hours per week) job  
     
 *   300 czk/h, 24 000 czk per month 
+
+*	5 weeks of vacation
     
 *   home office but lots of going to locations as well  
     
