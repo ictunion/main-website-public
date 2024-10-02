@@ -14,7 +14,7 @@ This part-time (20 hours per week) position is ideally suited for someone who is
 
 This position is based in **Prague**.   
 
-Deadline for your application is **30th September**. Send your resume and cover letter to [info@ictunion.cz](mailto:info@ictunion.cz) and use subject **Trade union organizer**. Second round will be half day in-person assessment in Prague on **13th October from 1 PM to 6 PM**.  
+Deadline for your application is **extended to 6th October 2024**. Send your resume and cover letter to [info@ictunion.cz](mailto:info@ictunion.cz) and use subject **Trade union organizer**. Second round will be half day in-person assessment in Prague on **13th October from 1 PM to 6 PM**.  
 
 #### What will you do:  
 
