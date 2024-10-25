@@ -5,7 +5,7 @@ slug: petition-remote-work-is-legitimate-work
 publishDate: 2024-10-25
 startDate: 2024-10-25T08:00:00.000Z
 date: 2024-12-31T10:00:00.000Z
-duration: 3 months
+duration: 2 months
 place: Online
 ctaType: sign
 petitionId: remote-work-is-legitimate-work

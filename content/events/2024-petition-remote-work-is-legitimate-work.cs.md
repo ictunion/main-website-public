@@ -5,7 +5,7 @@ slug: petice-prace-na-dalku-je-legitimni-prace
 publishDate: 2024-10-25
 startDate: 2024-10-25T08:00:00.000Z
 date: 2024-12-31T10:00:00.000Z
-duration: 3 měsíce
+duration: 2 měsíce
 place: Online
 ctaType: sign
 petitionId: remote-work-is-legitimate-work
