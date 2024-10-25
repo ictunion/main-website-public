@@ -2,7 +2,7 @@
 title: Petice za smysluplný sociální dialog
 publishDate: 2024-06-03
 startDate: 2024-06-03T08:00:00.000Z
-date: 2024-12-03T10:00:00.000Z
+date: 2025-01-01T10:00:00.000Z
 duration: 6 months
 place: Online
 ctaType: sign
@@ -18,4 +18,4 @@ My, zaměstnanci a zaměstnankyně sektoru ICT, máme právo zakládat odbory, n
 
 Věříme, že prostřednictvím odborů zaměstnanců na sektorové úrovni a na pracovištích můžeme společně posunout ICT sektor k lepším pracovním podmínkám.
 
-Pokud s našimi požadavky souhlasíte, budeme moc rádi, když petici podepíšete. 
+Pokud s našimi požadavky souhlasíte, budeme moc rádi, když petici podepíšete.

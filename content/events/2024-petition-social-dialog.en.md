@@ -2,7 +2,7 @@
 title: Petition for meaningful social dialogue
 publishDate: 2024-06-03
 startDate: 2024-06-03T08:00:00.000Z
-date: 2024-12-03T10:00:00.000Z
+date: 2025-01-01T10:00:00.000Z
 duration: 6 months
 place: Online
 ctaType: sign

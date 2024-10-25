@@ -4,7 +4,7 @@ slug: výzva-k-podpoře-naší-petice-za-transparentnost-odměňování
 subtitle: Výzva k podpoře naší petice za transparentnost odměňování
 publishDate: 2023-07-31
 startDate: 2023-08-01T00:00:00.000Z
-date: 2024-12-31T00:00:00.000Z
+date: 2024-09-30T00:00:00.000Z
 place: Online
 petitionId: transparentnost-odmenovani-transparency-of-pay
 ---
