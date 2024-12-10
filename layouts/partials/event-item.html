@@ -3,8 +3,14 @@
     <header class="events-event-header">
       {{ if .Param "startDate" }}
         <span class="events-event-date">{{ .Param "startDate" | time.Format ":date_medium" }}</span>
-      {{ else if .Param "date"  }}
-        <span class="evenets-event-date">{{ .Param "date" | time.Format ":date_medium" }}</span>
+      {{ end }}
+
+      {{ if .Param "date"}}
+        <!-- This checks if dates are different and displays end date if they are different -->
+        {{ if not (eq (.Param "startDate" | time.Format ":date_medium") (.Param "date" | time.Format ":date_medium")) }}
+          <span class="events-event-date-dash">━</span>
+          <span class="events-event-date">{{ .Param "date" | time.Format ":date_medium" }}</span>
+        {{ end }}
       {{ end }}
 
       <div class="events-event-head">

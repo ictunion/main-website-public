@@ -42,7 +42,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
   [params.home]
     participateTitle = "How to participate?"
     membershipTitle = "We provide..."
-    eventsTitle = "Upcoming Events:"
+    eventsTitle = "Upcoming and ongoing events:"
   [params.footer]
     learnMore = "Learn More"
     socials = "Socials"
@@ -82,7 +82,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
       [languages.cs.params.home]
         participateTitle = "Jak se zapojit?"
         membershipTitle = "Členství ti přinese..."
-        eventsTitle = "Plánované akce:"
+        eventsTitle = "Plánované a probíhající akce:"
       [languages.cs.params.footer]
         learnMore = "Poznej více"
         socials = "Sítě"
