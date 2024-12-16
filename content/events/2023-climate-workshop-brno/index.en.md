@@ -28,4 +28,4 @@ Exact place is to be sent by email.
 
 Additional info and contacts:
 In order for us all to get along with each other, we ask if you speak Czech and/or English. If necessary we can arrange simultaneous translation.
-If you have any questions, please let us know at ictodbory@gmail.com or +420 737 035 289.
+If you have any questions, please let us know at [{{< param supportEmail >}}](mailto:{{< param supportEmail >}}) or [{{< param supportPhone >}}](tel:{{< param supportPhone >}}).

@@ -10,4 +10,4 @@ lon: 16.6025416
 placeUrl: www.vegalite.cz
 ---
 
-Odborové pivo bude za týden ve Vegalité v salonku – úterý 28.3.2023. V 18:00 se konečně můžeme v Brně sejít na odborové pivo, poznat se navzájem a pozvat do odborů nové potenciální členy a členky. Určitě přijďte i když nemáte koho nového vzít, ale samozřejmě čím více, z odborů i mimo ně, nás bude tím lépe! Kdybyste se ztratili nebo něco potřebovali, jsem k dispozici na [+420 737 035 289](tel:+420737035289).
+Odborové pivo bude za týden ve Vegalité v salonku – úterý 28.3.2023. V 18:00 se konečně můžeme v Brně sejít na odborové pivo, poznat se navzájem a pozvat do odborů nové potenciální členy a členky. Určitě přijďte i když nemáte koho nového vzít, ale samozřejmě čím více, z odborů i mimo ně, nás bude tím lépe! Kdybyste se ztratili nebo něco potřebovali, jsem k dispozici na [{{< param supportPhone >}}](tel:{{< param supportPhone >}}).

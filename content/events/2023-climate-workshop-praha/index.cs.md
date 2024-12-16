@@ -28,4 +28,4 @@ Přesné místo bude doplněno e-mailem.
 
 Další důležité info a kontakty:
 Abychom se všichni navzájem domluvili, ptáme se na to, jestli mluvíte česky a/nebo anglicky. Pokud bude třeba zařídíme simultánní překládání.
-Kdybyste měli jakékoliv dotazy, dejte prosím vědět na ictodbory@gmail.com nebo na +420 737 035 289.
+Kdybyste měli jakékoliv dotazy, dejte prosím vědět na [{{< param supportEmail >}}](mailto:{{< param supportEmail >}}) nebo na [{{< param supportPhone >}}](tel:{{< param supportPhone >}}).
