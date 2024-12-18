@@ -4,7 +4,8 @@
     <title>{{ block "title" . }}{{ end }}</title>
     {{ partial "site-head.html" . }}
   </head>
-  <body>
+  <body class="no-js">
+    <script>document.body.className = 'has-js'</script>
     {{ partial "header.html" . }}
     {{ block "content" . }}{{ end }}
     {{ partial "footer.html" . }}

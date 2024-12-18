@@ -115,11 +115,24 @@
 
     &::after {
         content: '\2581';
-        animation: blinkTextCursor 800ms steps(44) infinite normal;
+
+        @media not (prefers-reduced-motion) {
+            animation: blinkTextCursor 800ms steps(44) infinite normal;
+        }
+
+        @media (prefers-reduced-motion) {
+            color: $very-mutted-color;
+        }
     }
 
     @include small-tablet {
         display: block;
+    }
+}
+
+.has-js .home-header-tag-line-default {
+    @media not (prefers-reduced-motion) {
+        display: none;
     }
 }
 

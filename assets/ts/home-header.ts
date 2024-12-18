@@ -12,6 +12,7 @@ function shuffle<T>(a: T[]): T[] {
 const typingElements = document.querySelectorAll('[data-effect="shuffled-typing"]') as NodeListOf<HTMLElement>;
 
 typingElements.forEach((typing: HTMLElement) => {
+    if (window?.matchMedia('(prefers-reduced-motion)')?.matches) return;
     const script = typing.querySelector('script');
     if (!script) return;
     // oh well.. double json parse because for some reason hugo feels stringifies JSON implicitelly
@@ -57,6 +58,7 @@ typingElements.forEach((typing: HTMLElement) => {
     }
 
     setAccessibleLabel();
+    typing.innerText = '';
     window.setTimeout(typeLetter, 200);
 
 });

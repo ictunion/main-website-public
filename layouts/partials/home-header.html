@@ -12,6 +12,9 @@
       <a class="home-header-tag-line" href="{{ ref . "faq" }}#12-who-are-we" aria-label="{{ i18n "Who we are" }}">
         <span class="home-header-tag-line-we-are">{{ i18n "We are" }}</span>
         <span class="home-header-tag-line-occupation" data-effect="shuffled-typing" role="marquee">
+          <span class="home-header-tag-line-default">
+            {{ i18n "ICT workers" }}
+          </span>
           <script type="application/json">
             {{ $pageLang := .Page.Lang }}
             {{ $res := slice  }}

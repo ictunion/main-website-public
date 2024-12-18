@@ -133,6 +133,9 @@
 ["We are"]
   other = "Jsme"
 
+["ICT workers"]
+  other = "pracující v ICT"
+
 ["jane.doe@email.com"]
   other = "jan.novak@soukromyemail.cz"
 
