@@ -174,7 +174,7 @@ async function requestJoin(values: Values, submitBtn: HTMLButtonElement): Promis
     } catch (err: any) {
         // If status is 400 there was a problem with validating input
         // so we just parse out validation errors and display them
-        if (err.status === 400) {
+        if (err.status === 400 || err.status == 422) {
             err.json().then((val: ApiError) => {
                 for (const key in val.errors) {
                     addError(form, key, val.errors[key]);
