@@ -1,37 +1,71 @@
-### Dependecies
+# Manual Setup
 
-This project defines reproducible environment using [nix](https://nixos.org/).
-Skip to [Nix](#nix) section if you want to use it.
+This document describes how to setup `main-website` for local development.
 
-- [git](https://git-scm.com/) distributed version control system
-- [hugo](https://gohugo.io/) static site generator
-- [dart-sass](https://github.com/sass/dart-sass) embeddable sass compiler
-- [nodejs with npm](https://nodejs.org/) JavaScript runtime and package manager
+## Install dependencies
 
-### Setup
+Before starting development, please make sure you have installed all the dependencies.
+There are 4 mains dependencies needed for `main-website` project:
 
-Preferred method of working with this repository is to have local git clone:
+- [git](https://git-scm.com/) distributed version control system - to clone/download the code
+- [hugo](https://gohugo.io/) static site generator - to convert source files (markdown) into the final output (HTML+CSS+JS etc.)
+- [dart-sass](https://github.com/sass/dart-sass) embeddable sass compiler - needed by Hugo to convert .scss files into CSS
+- [nodejs with npm](https://nodejs.org/) JavaScript runtime and package manager - handles the creation of .js files
+
+### MacOS
+If you use brew, you can run:
+```
+brew install git
+brew install hugo
+brew install sass/sass/sass
+brew install node
+```
+
+### Windows
+If you use Chocolatey, you can run:
+```
+choco install git
+choco install hugo
+choco install sass
+choco install nodejs
+```
+
+### Linux
+Git: probably already installed
+Hugo: https://gohugo.io/installation/linux/#repository-packages
+Sass: https://sass-lang.com/install/
+NodeJS: https://nodejs.org/en/download/package-manager/all
+
+## Serve Website Locally
+
+1. Get the repository by git cloning it:
 
 ```
 # GIT+SSH clone
 git clone git@github.com:ictunion/main-website.git
 
 # GIT+HTTPS clone
-git clonehttps://github.com/ictunion/main-website.git
+git clone https://github.com/ictunion/main-website.git
 ```
 
-### Run locally
+Once the repository is cloned, open the directory:
 
-Install npm dependecies:
+```
+cd main-website
+```
+
+2. Install npm dependencies:
 
 ```
 npm install
 ```
 
-Hugo provides build in HTTP server:
+3. Run the local development server
+
+Hugo provides built-in HTTP server:
 
 ```
-hugo server --buildDrafts --watch --verbose
+hugo server --buildDrafts --watch --logLevel info
 ```
 
-open [http://localhost:1313](http://localhost:1313)
+4. Open [http://localhost:1313](http://localhost:1313)
