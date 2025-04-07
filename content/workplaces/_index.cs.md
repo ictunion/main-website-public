@@ -5,6 +5,7 @@ workplaces:
     - title: Moravia IT
     - title: Expedia
     - title: Infosys
+    - title: Monster Worldwide
 ---
 Mnoho našich členů*ek působí aktivně v odborech u svého zaměstnavatele. Pokud ohlásíte odbory zaměstnavateli může to pro Vás mít mnoho výhod. Největší výhodou je možnost vyjednat kolektivní smlouvu, která umožňuje zlepšit Vaše pracovní podmínky a zvýšit Vaše mzdy. Odbory na pracovišti také musí být informovány a konzultovány ohledně změn, které zaměstnavatel plánuje (propouštění, nové pracovní místa, změny v organizaci práce, atd.).
 
