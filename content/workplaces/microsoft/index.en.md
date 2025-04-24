@@ -4,6 +4,21 @@ subtitle: Workers Union
 email: microsoft@ictunion.cz
 layout: single
 ---
+> **As the Microsoft Workers Union continues to grow, we’re preparing for the next step: collective negotiation. This process will shape the future of our working conditions — and we want your voice to be part of it.**
+>
+> Collective negotiation is a form of social dialogue between a workers’ union and an employer, aiming to reach **a mutually beneficial collective agreement.** Such an agreement establishes baseline working conditions for all employees — typically covering areas such as remuneration, dismissal procedures, work organization, and more.
+>
+> **We want to know the opinions of Microsoft workers — it will form the basis for collective negotiation.**
+>
+> Please take a few minutes to complete our survey; it focuses on:
+> -	Remuneration
+> -	Job security
+> -	Layoff procedures
+> -	Improvements to overall working conditions
+>
+> [Take the survey here](https://cryptpad.fr/form/#/2/form/view/sgak3kU31zaar6MYqcBTF052Mwaw-VrREQA-WXneCOY/) 
+>
+> **Want to learn more?** Join our online info meetings on May 28 and June 18, held via the Teams channel [Prague Workers Union.](http://aka.ms/prague-union)
 
 We, Microsoft Workers Union, are a collective representing all workers of Microsoft in the Czech Republic. Our workers union operates within the ICT Union, aiming to uphold the values and mission of Microsoft while advocating for the rights and well-being of all employees. 
 
