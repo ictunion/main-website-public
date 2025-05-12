@@ -1,0 +1,33 @@
+{{ define "title" }}
+  {{ .Param "title" }} | {{ .Site.Title }} {{ .Site.Param "subTitle" }}
+{{ end }}
+
+{{ define "content" }}
+  <section class="about-page-header">
+    <div class="single-page-header-content">
+      <h1 class="single-page-title">{{ .Title }}</h1>
+      <div class="single-page-description">
+        {{ .Param "description" | markdownify }}
+      </div>
+
+      {{ if isset .Page.Params "download" }}
+        <div class="single-page-header-download">
+          {{ i18n "download" }}: <a class="single-page-header-download-link" target="_blank" href="/downloads/{{ .Page.Param "download"}}">{{ .Page.Param "download"}}</a>
+        </div>
+      {{ end }}
+      {{ if isset .Page.Params "subdescription" }}
+        <div class="single-page-header-sub-description">
+          <p>
+            {{ .Param "subDescription" | markdownify }}
+          </p>
+        </div>
+      {{ end }}
+      {{ partial "secondary-navigation" . }}
+    </div>
+  </section>
+  <main class="single-page-body">
+    <div class="declaration-content">
+      {{ .Content }}
+    </div>
+  </main>
+{{ end }}

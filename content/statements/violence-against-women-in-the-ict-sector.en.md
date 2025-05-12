@@ -5,7 +5,7 @@ authorInfo: The author is a member of union and an employee of an international 
 type: statements
 draft: false
 ---
-Last week, on the 25th of November, **we comemorated the International day for the Elimination of Violence against women**, which inspired me to take the time and write my reflections on the issue, as a woman working in the ITC Sector.
+Last week, on the 25th of November, **we comemorated the International day for the Elimination of Violence against women**, which inspired me to take the time and write my reflections on the issue, as a woman working in the ICT Sector.
 
 I think I never felt as in touch with and affected by the fact that I am a woman, until I started working for the company, at which I have been employed for the past 4 years. Before that, of course I could feel the microaggressions of growing up and living in a deeply patriarchal world as any other woman. But I could either not put everything into words, or felt that this is just the way things are, or thought that there were bigger problems in the world that needed addressing. And since I was always interacting with people in my university or then with very specific circles where sexism and misogyny were frowned upon, I even started to think for a while that feminism is not a relevant movement anymore. And this is how real life and work in corporate environment proved me wrong.
 

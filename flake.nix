@@ -1,5 +1,5 @@
 {
-  description = "ITC Union official website";
+  description = "ICT Union official website";
   inputs = {
     nixpkgs.url = github:NixOS/nixpkgs;
     flake-utils.url = github:numtide/flake-utils;

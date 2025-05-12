@@ -1,6 +1,6 @@
 ---
 title: Statutes
-subtitle: Trade Union of Workers in ITC
+subtitle: Trade Union of Workers in ICT
 url: statutes
 download: ictunion-statutes.pdf
 lang: en
@@ -9,7 +9,7 @@ description: |
     Trade union of workers in ICT<br/>
     *unofficial translation*
 subDescription: |
-    Statutes of Trade Union of Workers in ITC are subject to statutes of Trade Union Federation of Money and Insurance Workers, which you can read at [https://www.osppp.cz/o-nas/dokumenty](https://www.osppp.cz/o-nas/dokumenty)
+    Statutes of Trade Union of Workers in ICT are subject to statutes of Trade Union Federation of Money and Insurance Workers, which you can read at [https://www.osppp.cz/o-nas/dokumenty](https://www.osppp.cz/o-nas/dokumenty)
 ---
 #### I. INTRODUCTORY PROVISIONS
 

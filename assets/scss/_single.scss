@@ -12,12 +12,10 @@
 }
 
 .single-page-sub-nav {
+    flex: 1;
     display: flex;
+    overflow: auto;
     gap: 6px;
-
-    @include mobile {
-        justify-content: center;
-    }
 
     a {
         color: $light-color;
