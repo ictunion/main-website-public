@@ -5,7 +5,7 @@ url: deklarace
 lang: cs
 type: declaration
 description: |
-    Napsáno členy Odborové organizace pracujících v ICT
+    Napsala Odborová organizace pracujících v ICT
 subDescription: |
     
 ---
