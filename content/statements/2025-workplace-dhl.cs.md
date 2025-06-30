@@ -1,7 +1,7 @@
 ---
 title: ICT Odborovy rozšiřují své řady – vítáme nové kolegy z DHL ITS
-date: 2026-06-29T00:00:00+01:00
-publishDate: 2024-06-29T00:00:00+01:00
+date: 2025-06-29T00:00:00+01:00
+publishDate: 2025-06-29T00:00:00+01:00
 authorInfo: Autoři jsou členové odborové organizace
 type: statements
 draft: false

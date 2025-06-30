@@ -1,7 +1,7 @@
 ---
 title: ICT Unions Expand Their Ranks – Welcoming New Colleagues from DHL ITS
-date: 2026-06-29T00:00:00+01:00
-publishDate: 2026-06-29T00:00:00+01:00
+date: 2025-06-29T00:00:00+01:00
+publishDate: 2025-06-29T00:00:00+01:00
 authorInfo: Authors are members of ICT union
 type: statements
 draft: false
