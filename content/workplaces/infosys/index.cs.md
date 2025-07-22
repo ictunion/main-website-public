@@ -5,27 +5,49 @@ email: infosys@ictunion.cz
 layout: single
 ---
 ## Your voice. Your rights. Your workplace.
-At Infosys, we believe that a strong workplace is built on respect, transparency, and the active involvement of those who make the company run every day—its employees. That’s why we’ve come together to establish the Infosys Workers Union, a platform for open dialogue, shared responsibility, and real impact.
-Our goal is social peace made possible by your voice and actions.
-Whether you're concerned about job security, unclear procedures, or simply want a say in decisions that affect your daily work life, you’re not alone. Our union gives you a seat at the table, backed by the legal and organizational strength of the ICT Union.
+At Infosys, we believe that a strong workplace is built on respect, transparency, and the active involvement of those who make the company run every day—its employees. There is a purpose in representing employees’ interests and ensuring they have a strong, constructive voice in shaping their working conditions. 
+
+That’s why we’ve come together to establish the Infosys Workers Union, a platform for open dialogue, shared responsibility, and real impact. Our mission is to advocate for fair compensation, equal opportunities, and a safe, respectful work environment for all employees. 
+
+We wish to see a strong and supportive company culture where people feel valued, heard, and empowered to grow. A company where the employees feel fulfilled and want to build a future. Whether you’re concerned about job security, unclear procedures, or simply want a say in decisions that affect your daily work life, you’re not alone. Our union gives you a seat at the table, backed by the legal and organizational strength of the ICT Union.
 
 ## What We Stand For
 
-#### Protection & Support
+#### Fair Conditions for All 
 
-Workplace issues can be complex, stressful, and difficult to handle alone. As a union member, you’ll have access to **legal advice, professional guidance**, and **support** when it matters most—whether you’re facing layoffs, performance disputes, or unclear changes in company policy.
+* Promoting collective bargaining to ensure fair wages, stable benefits, and regular salary reviews that reflect company performance and employee contributions.
+* Supporting transparent criteria for promotions and performance evaluation.
+* Providing legal assistance to members in case of disputes or dismissals.
 
-#### Fair Conditions
+#### Healthy and Safe Workplace
 
-We advocate for clear, fair, and sustainable working conditions—because everyone deserves a work environment that respects their time, energy, and contribution. Through **collective bargaining**, we aim to improve transparency, ensure reasonable workloads, and maintain the benefits we’ve earned.
+* Promoting workplace ergonomics, stress prevention, and awareness of burnout.
+* Encouraging a healthy work-life balance with realistic workload expectations.
+* Supporting a respectful and supportive atmosphere that promotes mental well-being.
 
-#### Community & Solidarity
+#### Equal Opportunities 
 
-Joining the union means joining a community of colleagues who care. We’re building a culture of **mutual respect, shared knowledge**, and **everyday solidarity**—not just during crises, but in the small, ongoing ways we support one another.
+* Encouraging professional growth and leadership opportunities for all employees. 
+* Promoting fair treatment and career development based on merit and performance.
+* Supporting women to advance in their careers, including mentoring, development programs, and leadership opportunities.
 
-#### Knowledge & Confidence
+#### Learning and Development
 
-Knowing your rights makes a difference. Through workshops, internal resources, and access to labor experts, we’ll help you understand your protections under the Czech Labor Code and how to make them work for you. It’s not only about knowing your rights, but also knowing how to ask for them.
+* Advocating for access to quality learning opportunities during work hours.
+* Supporting long-term skill development that benefits both employees and the company.
+* Organizing workshops, seminars, and peer learning sessions for members.
+
+#### Engagement and Communication
+
+* Facilitating open communication through regular meetings, surveys, and feedback. 
+* Supporting meaningful employee participation in shaping company culture. 
+* Positioning the union as a constructive partner in dialogue and cooperation. 
+
+#### Representation and Collaboration
+
+* Acting as a voice for employees in discussions about workplace policies and changes.
+* Engaging in shared decision-making on topics like benefits, structure, and rules. 
+* Working jointly with management to promote fair, transparent practices and ensure company success. 
 
 ## Join Us
 
