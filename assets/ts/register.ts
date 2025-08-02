@@ -194,7 +194,11 @@ async function requestJoin(values: Values, submitBtn: HTMLButtonElement): Promis
     These should turn input values into more readable format unless user is editing them
 */
 
-export const postalCodeFormat: Formatter = (input: HTMLInputElement) => {
+export const plaintextFormat: Formatter = (input) => {
+    input.value = input.value.trim();
+}
+
+export const postalCodeFormat: Formatter = (input) => {
     const value: string = input.value.replace(' ', '');
     const firstPart = value.substring(0, 3);
     const secondPart = value.substring(3);
@@ -202,7 +206,7 @@ export const postalCodeFormat: Formatter = (input: HTMLInputElement) => {
     input.value = `${firstPart} ${secondPart}`.trim();
 }
 
-export const phoneNumberFormat: Formatter = (input: HTMLInputElement) => {
+export const phoneNumberFormat: Formatter = (input) => {
     let value = input.value.replaceAll(' ', '');
     if (value.length === 9) {
         value = `+420${value}`;
@@ -232,6 +236,7 @@ if (form) {
         qrContainer,
         language: document.documentElement.lang,
         formatters: {
+            plain_text: plaintextFormat,
             postal_code: postalCodeFormat,
             phone_number: phoneNumberFormat
         }

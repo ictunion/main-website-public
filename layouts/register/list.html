@@ -28,6 +28,7 @@
                   <input  class="register-form-input"
                           name="email"
                           type="email"
+                          data-formatter="plain_text"
                           placeholder="{{ i18n "jane.doe@email.com" }}"
                           pattern="^.+@(?!.*rws\.com|redhat\.com|moravia\.com|expediagroup\.com|microsoft\.com|skype\.net|infosys\.com|dhl\.com|monster\.com).*$"
                           title="{{ i18n "Email Warning" }}"/>
@@ -39,13 +40,13 @@
               <div class="register-field-row">
                 <div class="register-form-field">
                   <label class="register-form-label">{{ i18n "First Name"}}:
-                    <input class="register-form-input" name="first_name" type="text" placeholder="{{ i18n "Jane" }}" />
+                    <input class="register-form-input" name="first_name" type="text" data-formatter="plain_text" placeholder="{{ i18n "Jane" }}" />
                   </label>
                 </div>
 
                 <div class="register-form-field">
                   <label class="register-form-label">{{ i18n "Last Name" }}:
-                    <input class="register-form-input" name="last_name" type="text" placeholder="{{ i18n "Doe" }}" />
+                    <input class="register-form-input" name="last_name" type="text" data-formatter="plain_text" placeholder="{{ i18n "Doe" }}" />
                   </label>
                 </div>
               </div>
@@ -56,6 +57,7 @@
                   <input  class="register-form-input"
                           name="date_of_birth"
                           type="text"
+                          data-formatter="plain_text"
                           placeholder="{{ i18n "11/08/1986" }}"
                           data-widget="datepicker" />
                 </label>
@@ -65,19 +67,35 @@
             <fieldset class="register-fieldset">
               <div class="register-form-field">
                 <label class="register-form-label">{{ i18n "ContactAddress" }}:
-                  <input class="register-form-input" name="address" type="text" placeholder="Bezručova 42" />
+                  <input
+                    class="register-form-input"
+                    name="address"
+                    type="text"
+                    placeholder="Bezručova 42"
+                    data-formatter="plain_text" />
                 </label>
               </div>
               <div class="register-field-row">
                 <div class="register-form-field">
                   <label class="register-form-label">{{ i18n "City" }}:
-                    <input class="register-form-input" name="city" type="text" placeholder="Brno" />
+                    <input
+                    class="register-form-input"
+                    name="city"
+                    type="text"
+                    placeholder="Brno"
+                    data-formatter="plain_text" />
                   </label>
                 </div>
 
                 <div class="register-form-field small">
                   <label class="register-form-label">{{ i18n "Postal Code" }}:
-                    <input class="register-form-input" name="postal_code" type="text" placeholder="602 00" data-formatter="postal_code" />
+                    <input
+                      class="register-form-input"
+                      name="postal_code"
+                      type="text"
+                      placeholder="602 00"
+                      data-erase-whitespace
+                      data-formatter="postal_code" />
                   </label>
                 </div>
               </div>
@@ -90,6 +108,7 @@
                           name="phone_number"
                           type="text"
                           placeholder="+420 777 555 123"
+                          data-erase-whitespace
                           data-formatter="phone_number" />
                 </label>
               </div>
@@ -103,7 +122,8 @@
                             name="company_name"
                             type="text"
                             placeholder="Pied Piper s.r.o."
-                            list="companies"/>
+                            list="companies"
+                            data-formatter="plain_text" />
                     <datalist id="companies">
                       <option value="MICROSOFT s.r.o."></option>
                       <option value="Infosys (Czech Republic) Limited s.r.o."></option>
@@ -119,7 +139,12 @@
 
                 <div class="register-form-field">
                   <label class="register-form-label">{{ i18n "Occupation" }}:
-                    <input class="register-form-input" name="occupation" type="text" placeholder="{{ i18n "helpdesk operator" }}" />
+                    <input
+                      class="register-form-input"
+                      name="occupation"
+                      type="text"
+                      placeholder="{{ i18n "helpdesk operator" }}"
+                      data-formatter="plain_text" />
                   </label>
                 </div>
               </div>

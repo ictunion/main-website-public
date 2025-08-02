@@ -112,9 +112,9 @@ export default class RegistrationForm {
                 this.updateQr(params);
             });
 
-            // for inputs with formatter we also need to convert
+            // for postal codes and phone numbers we also need to convert
             // values back to editable form
-            if (formatterType) {
+            if (input.hasAttribute('data-erase-whitespace')) {
                 input.addEventListener('focus', () => {
                     input.value = input.value.replaceAll(' ', '');
                 });
