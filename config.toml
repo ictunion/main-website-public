@@ -40,6 +40,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     faq = "FAQ"
     statements = "Statements"
     career = "Career"
+    forMembers = "For Members"
   [params.home]
     participateTitle = "How to participate?"
     membershipTitle = "We provide..."
@@ -81,6 +82,7 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
         faq = "Časté dotazy"
         statements = "Prohlášení"
         career = "Career"
+        forMembers = "Pro členstvo"
       [languages.cs.params.home]
         participateTitle = "Jak se zapojit?"
         membershipTitle = "Členství ti přinese..."
