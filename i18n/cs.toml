@@ -73,6 +73,9 @@
 ["Date of Birth"]
   other = "Datum narození"
 
+["Preferred Language"]
+  other = "Preferovaný jazyk komunikace"
+
 [City]
   other = "Město"
 

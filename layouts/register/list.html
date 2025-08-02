@@ -51,16 +51,26 @@
                 </div>
               </div>
 
-              <div class="register-form-field">
-                <label class="register-form-label">{{ i18n "Date of Birth" }}:
-                  {{ $date_format := .Page.Param "dateformat" }}
-                  <input  class="register-form-input"
-                          name="date_of_birth"
-                          type="text"
-                          data-formatter="plain_text"
-                          placeholder="{{ i18n "11/08/1986" }}"
-                          data-widget="datepicker" />
-                </label>
+              <div class="register-field-row">
+                <div class="register-form-field">
+                  <label class="register-form-label">{{ i18n "Date of Birth" }}:
+                    {{ $date_format := .Page.Param "dateformat" }}
+                    <input  class="register-form-input"
+                            name="date_of_birth"
+                            type="text"
+                            placeholder="{{ i18n "11/08/1986" }}"
+                            data-widget="datepicker"
+                            data-formatter="plain_text" />
+                  </label>
+                </div>
+                <div class="register-form-field">
+                  <label class="register-form-label">{{ i18n "Preferred Language" }}:
+                    <select class="register-form-input" name="local">
+                      <option value="cs" {{ if eq (.Param "lang") "cs" }} selected {{ end }}>Česky</option>
+                      <option value="en" {{ if eq (.Param "lang") "en" }} selected {{ end }}>English</option>
+                    </select>
+                  </label>
+                </div>
               </div>
             </fieldset>
 

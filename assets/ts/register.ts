@@ -131,7 +131,6 @@ function onSubmit(registrationForm: RegistrationForm, signature: XSign, submitBt
         const values = registrationForm.values;
         if (!values) return;
         values.signature = signature.value || null;
-        values.local = document.documentElement.lang;
 
         // clear all exiting validation errors
         (form.querySelectorAll('input,x-sign') as NodeListOf<HTMLInputElement>)

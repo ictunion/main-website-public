@@ -73,6 +73,9 @@
 ["Date of Birth"]
   other = "Date of Birth"
 
+["Preferred Language"]
+  other = "Preferred Language of Communication"
+
 [City]
   other = "City"
 
