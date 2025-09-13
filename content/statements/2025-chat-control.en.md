@@ -1,0 +1,20 @@
+---
+title: Chat Control and union
+date: 2025-09-13T00:00:00+01:00
+publishDate: 2025-09-13T00:00:00+01:00
+authorInfo: The author is a member of the union
+type: statements
+draft: false
+---
+
+Since 2022, a proposed Regulation of the European Parliament and of the Council laying down rules to prevent and combat child sexual abuse, also known as so-called "Chat Control," has been on the figurative table of the European Commission. This is a regulation that would mandate that every communication application and cloud storage service have filters checking all content before it is encrypted. Technically, this would mean the end of encryption, and not one news article has failed to mention the spying and sound the alarm. Politicians who previously swore by child protection are now, ahead of the Czech parliamentary elections, flipping and talking about the necessity of the right to privacy.
+
+The debate about privacy is an old one, but it is necessary for trade unions to also speak about how this regulation concerns them. First and foremost, tools that break encryption—and thus privacy—endanger trade unionists. Their membership is protected in the Czech context to prevent them from being targeted for dismissal. This is also why publicly active union officials are protected, as we know that trade union neutrality is not a majority opinion. The idea that technology companies store in their databases all the content we write to each other (from invitations to a barbecue to sharing work problems) and at best mark it as 'deleted' (we all know they don't delete it from the database—the data is too valuable for that) creates an environment where it is not safe to organize. Our basic rights are thus endangered.
+
+Tech giants want to collect more data (much like the mythical Minotaur wanted more maidens). We know this ourselves; we work in these very companies. And it should be up to us whether we want to participate in the surveillance of the entire population. Whether we want to risk false positives and the destruction of human lives. Whether we add an asterisk to freedom of speech. We categorically reject the word games in which the proposers of this draft avoid its implications. Yes, technically it does not break encryption, because it happens before it, but it is as if we had to have a permanent official next to us to ensure we don't accidentally say something forbidden.
+
+ICT unions are built on technologies that allow privacy. It is precisely thanks to them that we can organize, hold critical and sensitive conversations. It is that very safety to speak that allows us to share. From problems to our joys. But we do not want to share them with filters that we ourselves will be training. We do not want to sell ourselves the figurative rope we will be hanged with. For many days, the ability to be political is technologically co-determined. Therefore, we must protect the technologies; in doing so, we protect our political arena.
+
+ICT unions are aware that this is just the beginning (the proposal) of the legislative process. We are aware that for now, the initiator—the European Commission—is deliberating, and if it decides to pass the legislature, it will go to readings where the European Parliament and the Council of the EU must agree. If they do not agree by the third reading, or if they reject the proposal, our technological conditions will be protected. Despite declared position of it's administration against it, there is no guarantee that the Czech Republic, its European Commissioner, and its MEPs will truly fight against this proposal. We have a specific fear that they will let themselves be persuaded by lobbyist groups and the increasing pressure from security forces, who are eager to collect more and more data. It is therefore necessary to clearly stand against Chat Control, even as trade unions, and push back against the Minotaur. It is necessary to fight for our right to organize.
+
+Through the union, we can express our opinions outside of the ballot box. [Join us][přihlášku]({{< relref path="register" >}}) and together we will defend our freedoms. Because that is what unions are for.
