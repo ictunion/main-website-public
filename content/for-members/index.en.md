@@ -6,7 +6,7 @@ type: basic
 
 ## Keycloak
 
-Most of the union services are protected by Keycloak. Every union member has [Keycloak](https://keycloak.ictunion.cz/) account created automatically.
+Most of the union services are protected by [Keycloak](https://en.wikipedia.org/wiki/Keycloak). Every union member has Keycloak account created automatically.
 
 Username is your email, that you have used in your union application. Password has to be setup by using “Reset password” function.
 

@@ -6,9 +6,9 @@ type: basic
 
 ## Keycloak
 
-Většina služeb odborů je chráněna systémem Keycloak. Každý*á člen*ka odborů má automaticky vytvořený účet [Keycloak](https://keycloak.ictunion.cz/).
+Většina služeb odborů je chráněna systémem [Keycloak](https://en.wikipedia.org/wiki/Keycloak). Každý\*á člen\*ka odborů má automaticky vytvořený účet Keycloak.
 
-Uživatelské jméno je váš e-mail, který jste použili*y v přihlášce do odborů. Heslo je třeba nastavit pomocí funkce „Obnovit heslo“.
+Uživatelské jméno je váš e-mail, který jste použili\*y v přihlášce do odborů. Heslo je třeba nastavit pomocí funkce „Obnovit heslo“.
 
 Některé naše služby vyžadují 2FA. Pro jeho zprovoznění budete potřebovat aplikaci „FreeOTP“ z Obchodu Play nebo Apple Store a připojit svůj účet Keycloak.
 
