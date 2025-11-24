@@ -18,4 +18,6 @@ Běžný členský příspěvek je 1 % z čistého příjmu, maximálně však 3
 
 Studenti\*ky, důchodci\*kyně, nezaměstnaní\*é a osoby na rodičovské dovolené mají příspěvek snížený na 25 korun měsíčně.
 
+Členství v odborech je důvěrné a tento údaj je chráněn [Zákoníkem práce](https://www.zakonyprolidi.cz/cs/2006-262#f3055507)
+
 Pokud nám nechcete poskytnout některé údaje vyžadované v této přihlášce, ozvěte se na [support@ictunion.cz](mailto:support@ictunion.cz).

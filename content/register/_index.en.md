@@ -19,4 +19,6 @@ The standard membership fee is 1 % of your net income, but no more than 300 CZK 
 
 Students, retirees, unemployed, and those on parental leave have their fee reduced to 25 CZK per month.
 
+The union membership is confidential and protected by [Labor code](https://www.zakonyprolidi.cz/cs/2006-262#f3055507)
+
 If you want to omit some information required in this application, please get in touch with us at [support@ictunion.cz](mailto:support@ictunion.cz).
