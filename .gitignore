@@ -25,3 +25,6 @@ node_modules
 # Typescript output
 proxy/*.js
 /assets/dist/
+
+# Jakub's script
+move-production-tag-to-latest.sh
