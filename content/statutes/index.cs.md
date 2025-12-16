@@ -53,17 +53,20 @@ subDescription: |
     3. Předseda/kyně ZOOS tak, jak je definován/a ve Stanovách OSPPP (dále jen „Předseda/kyně “),
     4. Místopředseda/kyně,
     5. Revizní komise ZOOS tak, jak je definována ve Stanovách OSPPP (dále jen „Revizní komise“),
+    6. Hospodář ZOOS, jak je definován ve Stanovách OSPPP (dále jen „Pokladník/nice“).
 2. Orgány organizace ustanovené podle čl. 90 Stanov OSPPP, jejichž posláním je vykonávat působnost u jednotlivých zaměstnavatelských subjektů a skupin zaměstnavatelských subjektů jsou
     1. Rada pracovišť,
     2. Členská schůze pracoviště a
     3. Předsednictvo pracoviště.
+3. Orgány organizace ustanovené podle čl. 90 Stanov OSPPP, jejichž posláním je řešit část práv a povinností Členské schůze Organizace jsou
+    1. Měsíční členská schůze.
 
 
 #### V. ČLENSKÁ SCHŮZE ORGANIZACE
 
 1. Členská schůze Organizace je nejvyšším orgánem Organizace a skládá se ze všech členů/ek Organizace, tedy z členů/ek Členských schůzí pracovišť a členů/ek Organizace, kteří nejsou zároveň členy/kami Členské schůze pracovišť.
 2. Členskou schůzi Organizace svolává Výbor podle potřeb, na žádost alespoň ¼ členstva Organizace nebo na žádost Revizní komise, minimálně ale jednou ročně. Jednání Členské schůze Organizace musí být svoláno alespoň 21 dní před jejím konáním.
-3. Členská schůze Organizace je schopna usnášet se za účasti alespoň 5 % členů Organizace.
+3. Členská schůze Organizace je schopna usnášet se za účasti alespoň 20 členů Organizace.
 4. Členská schůze Organizace rozhoduje o všech náležitostech uvedených ve stanovách OSPPP kromě těch, které jsou uvedeny v bodě 5 a dále
     1. ruší Pracoviště.
 5. Část Členské schůze Organizace skládající se z členů/ek Organizace, kteří zároveň nejsou členové Organizace na libovolném Pracovišti
@@ -71,11 +74,19 @@ subDescription: |
     2. volí Předsedu/kyni, část členů/ek Výboru a člena/ku Revizní komise,
     3. odvolává Předsedu/kyni a členy/ky Výboru, kteří byli zvoleni Členskou schůzí Organizace,
     4. odvolává člena/ku Revizní komise, který/á byl/a zvolen/a Členskou schůzí Organizace.
-6. K platnosti usnesení o změnách stanov Organizace je potřeba ⅔ hlasů přítomných.
-7. K platnosti jiných usnesení než těch dle bodu 5. je potřeba ½ hlasů přítomných.
+
+#### VI. MĚSÍČNÍ ČLENSKÁ SCHŮZE
+1. Měsíční členská schůze se skládá ze všech členů/ek Organizace, tedy z členů/ek Členských schůzí pracovišť a členů/ek Organizace, kteří nejsou zároveň členy/kami Členské schůze pracovišť.
+2. Měsíční členskou schůzi svolává Výbor podle potřeb, na žádost alespoň ⅒ členstva Organizace nebo na žádost Revizní komise. Jednání měsíční členské schůze musí být svoláno nejméně 2 dny před jejím konáním.
+3. Měsíční členská schůze může být svolána pouze na první středu v měsíci.
+4. Měsíční členská schůze je schopna usnášet se za účasti alespoň 10 členů/ek organizace.
+5. Měsíční členská schůze
+    1. hlasuje o Usneseních,
+    2. volí Pokladníka/nici,
+    3. odvolává Pokladníka/nice.
 
 
-#### VI. VÝBOR, PŘEDSEDA/KYNĚ A MÍSTOPŘEDSEDA/KYNĚ
+#### VII. VÝBOR, PŘEDSEDA/KYNĚ A MÍSTOPŘEDSEDA/KYNĚ
 
 1. Výbor se skládá z
     1. Předsedy/kyně voleným/ou Členskou schůzí Organizace,
@@ -97,7 +108,12 @@ subDescription: |
     5. pravidelně informuje Členskou schůzi o výsledku hospodaření Organizace a
     6. v souladu se zákonem č. 2/1991 Sb., o kolektivním vyjednávání, ve znění pozdějších předpisů, kolektivně vyjednává a uzavírá kolektivní smlouvu.
 
-#### VII. REVIZNÍ KOMISE
+## VIII. POKLADNÍK/NICE
+1. Pokladník odpovídá za hospodaření se svěřenými finančními prostředky a movitým majetkem Organizace.
+2. Pokladník není členem/kou Výboru.
+
+
+#### IX. REVIZNÍ KOMISE
 
 1. Revizní komise se skládá ze:
     1. dvou členů/ek zvolených Radou pracovišť,
@@ -107,7 +123,7 @@ subDescription: |
 4. Členem/kou Revizní komise nemůže být člen/ka Výboru.
 
 
-#### VIII. RADA PRACOVIŠŤ
+#### X. RADA PRACOVIŠŤ
 
 1. Rada pracovišť se skládá z delegátů pracovišť. Každé pracoviště má právo být zastoupeno v Radě pracovišť jedním/ou členem/kou.
 2. Rada pracovišť se schází alespoň jednou za čtvrt roku.
@@ -119,7 +135,7 @@ subDescription: |
     4. projednává strategii kolektivního vyjednávání a způsoby náboru členstva, na jednotlivých pracovištích.
 
 
-#### IX. ČLENSKÁ SCHŮZE PRACOVIŠTĚ
+#### XI. ČLENSKÁ SCHŮZE PRACOVIŠTĚ
 
 1. Členská schůze pracoviště je nejvyšším orgánem pro dané Pracoviště tak, jak je vymezeno v příslušném usnesení Výboru.
 2. Členem/kou Členské schůze pracoviště je člen/ka Organizace vykonávající závislou práci na daném Pracovišti a pracující vykonávajících práci výlučně pro daného zaměstnavatele v zahraničí, pokud by jejich práce, kdyby byla vykonávána na území ČR, byla považována za závislou.
@@ -134,7 +150,7 @@ subDescription: |
     6. volba zástupce do Rady pracovišť.
 
 
-#### X. PŘEDSEDNICTVO PRACOVIŠTĚ
+#### XII. PŘEDSEDNICTVO PRACOVIŠTĚ
 
 1. Členem/kou Předsednictva pracoviště může být jen člen/ka Členské schůze daného pracoviště.
 2. Schůze Předsednictva pracoviště jsou členstvu Členské schůze daného pracoviště přístupné a členi/ky mají právo navrhovat body k projednání; Předsednictvo pracoviště má právo uzavřít část nebo celou schůzku pouze pro své členy/ky.
@@ -148,7 +164,7 @@ subDescription: |
     4. v souladu se zákonem č. 2/1991 Sb. o kolektivním vyjednávání, ve znění pozdějších předpisů, kolektivně vyjednává a uzavírá kolektivní smlouvu.
 
 
-#### XI. ČLENSTVÍ V ORGANIZACI
+#### XIII. ČLENSTVÍ V ORGANIZACI
 
 1. Členem/kou Organizace se může stát jen fyzická osoba uvedená v bodu I. 1. těchto Stanov.
 2. Členství v Organizaci je dobrovolné.
@@ -167,7 +183,7 @@ subDescription: |
 8. Za hrubé porušení povinností se považuje zejména případ, kdy člen/ka řádně a včas neuhradí členský příspěvek, ačkoli byl/a k uhrazení dlužného příspěvku písemně vyzván/a Výborem Organizace či Předsednictvem pracoviště.
 
 
-#### XII. PRÁVA A POVINNOSTI ČLENŮ
+#### XIV. PRÁVA A POVINNOSTI ČLENŮ
 
 1. Každý/á člen/ka Organizace má zejména právo
     1. na obhajobu a ochranu svých pracovních a profesních zájmů prostřednictvím orgánů Organizace,
@@ -184,7 +200,7 @@ subDescription: |
     4. nepoškozovat dobré jméno Organizace.
 
 
-#### XIII. ČLENSKÉ PŘÍSPĚVKY
+#### XV. ČLENSKÉ PŘÍSPĚVKY
 
 1. Každý/á člen/ka má povinnost platit členský příspěvek ve výši 1 % z jeho/jího čistého měsíčního výdělku, nebo z jiného příjmu, maximálně však ve výši nastavené Členskou schůzí Organizace.
 2. Osoba samostatně výdělečně činná má povinnost pravidelně, měsíčně, řádně a včas platit členský příspěvek, který činí 1 % ze jejího základu daně z příjmů, nejméně však 200 Kč a nejvýše ve výši nastavené Členskou schůzí Organizace.
@@ -196,6 +212,18 @@ subDescription: |
     4. delší dobu trvající dočasná pracovní neschopnost, nebo
     5. insolvence (osobní bankrot).
 
-#### XI. ZÁVĚREČNÉ USTANOVENÍ
 
-Stanovy v tomto znění byly schváleny Členskou schůzí Organizace dne 15. 6. 2024 s účinností od jejich schválení. Toto nové znění stanov bude doručeno rejstříkovému soudu.
+#### XVI. USNESENÍ A ZMĚNY STANOV
+1. Každý/á člen/ka Organizace může předložit návrh usnesení nebo pozměňovací návrh.
+2. Návrh usnesení musí být zaslán e-mailem na adresu info@ictunion.cz nejméně 10 dní před Měsíční členskou schůzí nebo 30 dní před Členskou schůzí Organizace. Členové/ky musí být informováni/y o nadcházejících hlasováních nejméně 2 dny před Měsíční členskou schůzí nebo 21 dní před Členskou schůzí Organizace. Pozměňovací návrhy mohou být předloženy společně s příslušným návrhem usnesení.
+3. Návrhy usnesení nebo pozměňovací návrhy, které jsou v jasném rozporu se Stanovami nebo Kodexem chování Organizace, budou považovány za neplatné a nebudou předloženy ani hlasovány na žádné schůzi. V takovém případě poskytne Výbor zpětnou vazbu ohledně důvodů tohoto rozhodnutí a, pokud to bude možné, pomoc a radu, jak usnesení nebo pozměňovací návrh učinit platnými.
+4. S výjimkou změn stanov vyžadují návrhy usnesení k nabytí platnosti ½ hlasů přítomných
+    1. na usnášneníschopné Členské schůzi Organizace nebo
+    2. na usnášneníschopné Měsíční členské schůzi a následně na usnášneníschopné Radě pracovišť.
+5. Pokud usnesení neprojde hlasováním Rady pracovišť, musí Rada pracovišť poskytnout písemné odůvodnění svého zamítnutí.
+6. Změny stanov vyžadují k platnosti ⅔ hlasů přítomných na usnášneníschopné Členské schůzi Organizace.
+
+
+#### XVII. ZÁVĚREČNÉ USTANOVENÍ
+
+Stanovy v tomto znění byly schváleny Členskou schůzí Organizace dne 22. 11. 2025 s účinností od jejich schválení. Toto nové znění stanov bude doručeno rejstříkovému soudu.

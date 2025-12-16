@@ -55,17 +55,21 @@ subDescription: |
     3. Chairperson of ZOOS, as defined in the Statutes of OSPPP (hereinafter referred to as “Chairperson”)
     4. Vice-Chairperson,
     5. Audit Committee of ZOOS, as defined in the Statutes of OSPPP (hereinafter referred to as “Audit Committee”),
+    6. Treasurer of ZOOS, as defined in the Statutes of OSPPP (hereinafter referred to as “Treasurer”).
 2. The bodies of the Organization, which are established according to Article 90 of the Statutes of OSPPP, whose mission is to exercise jurisdiction of the Organization over employer entities and groups of employer entities are
     1. Workplaces Council,
     2. Workplace Members’ Meeting, and
     3. Workplace Executive Committee.
+3. The bodies of the Organization, which are established according to Article 90 of the Statutes of OSPPP, whose mission is handle part of Organizations Members’ Meeting responsibilities are
+    1. Monthly Members’ Meeting.
+
 
 
 #### V. ORGANIZATION MEMBERS’ MEETING
 
 1. The Organization Members’ Meeting is the highest body of the Organization and consists of all members of the Organization, i.e. members of the Workplace Members’ Meetings and members of the Organization who are not also members of the Workplace Members’ Meetings.
 2. The Organization Members’ Meeting is convened by the Board as needed, at the request of at least ¼ of the members of the Organization or at the request of the Audit Committee, but at least once a year. Proceedings of the Organization Members’ Meeting must be convened at least 21 days before its holding.
-3. The Organization Members’ Meeting can reach a resolution with the participation of at least 5% of the members of the Organization.
+3. The Organization Members’ Meeting can reach a resolution with the participation of at least 20 members of the Organization.
 4. The Organization Members’ Meeting decides on all matters listed in the Statutes of OSPPP, except for those listed in Article V, paragraph 5 and
     1. cancels a Workplace.
 5. Part of the Organization Members’ Meeting consisting of members of the Organization who are also not members of the Organization at any Workplace
@@ -73,11 +77,19 @@ subDescription: |
     2. elects the Chairperson, members of the Board and a member of the Audit Committee,
     3. dismisses the Chairperson and members of the Board that were elected by the Organization Members’ Meeting,
     4. dismisses the member of the Audit Committee that was elected by the Organization Members’ Meeting.
-6. Resolutions on changes to the Statutes require ⅔ votes of those present to be valid.
-7. Resolutions other than those according to Article V, paragraph 5. require ½ of those present to be valid.
+
+#### VI. MONTHLY MEMBERS’ MEETING
+1. The Monthly Members’ Meeting consists of all members of the Organization, i.e. members of the Workplace Members’ Meetings and members of the Organization who are not also members of the Workplace Members’ Meetings.
+2. The Monthly Members’ Meeting is convened by the Board as needed, at the request of at least ⅒ of the members of the Organization or at the request of the Audit Committee. Proceedings of the Monthly Members’ Meeting must be convened at least 2 days before its holding.
+3. The Monthly Members’ Meeting can only be convened on the first Wednesday of any month.
+4. The Monthly Members’ Meeting can reach a resolution with the participation of at least 10 members of the Organization.
+5. The Monthly Members’ Meeting
+    1. votes on Resolutions,
+    2. elects the Treasurer,
+    3. dismisses the Treasurer.
 
 
-#### VI. BOARD, CHAIRPERSON AND VICE-CHAIRPERSON
+#### VII. BOARD, CHAIRPERSON AND VICE-CHAIRPERSON
 
 1. The Board consists of
     1. Chairperson elected by the Organization Members’ Meeting,
@@ -99,7 +111,12 @@ subDescription: |
     5. regularly informs the Organization Members’ Meeting about the economic result of the Organization,
     6. in accordance with Act No. 2/1991 Coll. on collective bargaining, as amended, collectively negotiates and concludes a collective agreement.
 
-#### VII. AUDIT COMMITTEE
+#### VIII. TREASURER
+The Treasurer is responsible for managing the entrusted funds and property of the Organization.
+The Treasurer is not a member of the Board.
+
+
+#### IX. AUDIT COMMITTEE
 
 1. The Audit Committee consists of
     1. two members elected by the Workplaces Council,
@@ -109,7 +126,7 @@ subDescription: |
 4. A member of the Audit Committee cannot be a member of the Board.
 
 
-#### VIII. WORKPLACES COUNCIL
+#### X. WORKPLACES COUNCIL
 
 1. The Workplace Council consists of delegates from each Workplace. Each Workplace has the right to be represented in the Workplaces Council by one member.
 2. The Workplaces Council meets at least once a quarter.
@@ -120,7 +137,7 @@ subDescription: |
     4. discusses collective bargaining strategies and membership recruitment methods at individual Workplaces.
 
 
-#### IX. WORKPLACE MEMBERS’ MEETING
+#### XI. WORKPLACE MEMBERS’ MEETING
 
 1. The highest body of the Organization at a particular Workplace is the Workplace Members’ Meeting. The Workplace is defined by the resolution of the Board.
 2. A member of the Workplace Members’ Meeting shall be a member of the Organization performing dependent work at a particular Workplace or a worker performing work exclusively for the particular employer abroad if their work would be considered dependent if performed at the territory of the Czech Republic.
@@ -135,7 +152,7 @@ subDescription: |
     6. elects the delegate to the Workplaces Council.
 
 
-#### X. WORKPLACE EXECUTIVE COMMITTEE
+#### XII. WORKPLACE EXECUTIVE COMMITTEE
 
 1. Only a member of the particular Organization Members’ Meeting may be a member of the Workplace Executive Committee.
 2. Proceedings of the Workplace Executive Committee are open to the members of the Workplace Members’ Meeting, and members have the right to propose points for discussion. The Workplace Executive Committee has the right to close part or all of the proceedings for its members only.
@@ -149,7 +166,7 @@ subDescription: |
     4. in accordance with Act No. 2/1991 Coll. on collective bargaining, as amended, bargains collectively and concludes a collective agreement.
 
 
-#### XI. MEMBERSHIP IN THE ORGANIZATION
+#### XIII. MEMBERSHIP IN THE ORGANIZATION
 
 1. Only a natural person referred to in point I.1 of these Statutes may become a member of the Organization.
 2. Membership in the Organization is voluntary.
@@ -168,7 +185,7 @@ subDescription: |
 8. A gross breach of duty shall be deemed to be, in particular, a case where a member has not duly and timely paid the membership fee, even though he has been called upon in writing by the Board or Workplace Executive Committee to pay the fee.
 
 
-#### XII. RIGHTS AND OBLIGATIONS OF MEMBERS
+#### XIV. RIGHTS AND OBLIGATIONS OF MEMBERS
 
 1. Each member of the Organization shall, in particular, have the right
     1. for the defence and protection of their occupational and professional interests through the bodies of the Organization,
@@ -185,7 +202,7 @@ subDescription: |
     4. not damage the good name of the Organization.
 
 
-#### XIII. MEMBERSHIP FEES
+#### XV. MEMBERSHIP FEES
 
 1. Every member must pay a membership fee of 1% of their net monthly earnings or other income, but not more than the amount set by the Organization Members’ Meeting.
 2. A self-employed person must pay a membership fee regularly, monthly, properly and on time, which is 1% of his income tax base, but at least CZK 200 and at most in the amount set by the Organization Members’ Meeting.
@@ -197,6 +214,16 @@ subDescription: |
     4. long-term temporary incapacity for work,
     5. insolvency (personal bankruptcy).
 
-#### XIV. FINAL PROVISION
+#### XVI. RESOLUTIONS AND AMENDING THE STATUTES
+1. Any member of the Organization can submit a resolution or amendment.
+2. Resolutions shall be emailed to info@ictunion.cz at least 10 days in advance of a Monthly Members’ Meeting or 30 days of an Organization Members’ Meeting. Members shall be informed of upcoming votes at least 2 days in advance of the Monthly Members’ Meeting or 21 days of Organization Members’ Meeting. Amendments can be tabled together with their corresponding resolution.
+3. Resolutions or amendments that are in clear violation of the Organization’s Statutes or Code of Conduct will be considered invalid and not tabled or voted on in any meeting. In this situation, the Board will provide feedback as to why this decision was made and, where possible, help and advice on how to make the resolution or amendment valid.
+4. With the exception of alterations to the Statutes, resolutions require ½ votes of those present to be valid
+    1. in a quorate Organization Members’ Meeting, or
+    2. in a quorate Monthly Members’ Meeting plus subsequently in a quorate Workplaces Council meeting.
+5. If the resolution does not pass the Workplaces Council vote, the Workplaces Council must provide written reasoning for its rejection.
+6. Changes to the Statutes require ⅔ of votes of those present to be valid in a quorate Organization Members’ Meeting.
 
-These Statutes were approved by the Members’ Meeting on June 15th, 2024, with effect from their approval.
+#### XVII. FINAL PROVISION
+
+These Statutes were approved by the Organization Members’ Meeting on November 22nd, 2025, with effect from their approval.
