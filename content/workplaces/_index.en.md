@@ -4,7 +4,7 @@ url: workplaces
 workplaces:
     - title: Moravia IT
     - title: Expedia
-    - title: Monster Worldwide
+    - title: Vendavo
 ---
 Many of our members are active in a union at their workplace. Having a union at your workplace can have many benefits. The most important one is the ability to negotiate and sign a Collective Bargaining Agreement (CBA). Through CBA, you can improve your working conditions and increase your wages. Workplace unions also have the right to be informed and consulted about changes in your workplace (layoffs, new job openings, changes in departments, etc.).
 
