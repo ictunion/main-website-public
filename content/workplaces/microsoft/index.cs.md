@@ -4,21 +4,6 @@ subtitle: odborová organizace
 email: microsoft@ictunion.cz
 layout: single
 ---
-> **Naše Odborová organizace pracujících v Microsoftu neustále roste a my se připravujeme na další krok: kolektivní vyjednávání. Tento proces bude určovat budoucnost našich pracovních podmínek – a proto chceme, aby byl slyšet i váš hlas.**
->
-> Kolektivní vyjednávání je forma sociálního dialogu mezi odborovou organizací a zaměstnavatelem, jehož **cílem je dosáhnout oboustranně výhodné kolektivní smlouvy.** Taková dohoda stanoví minimální pracovní podmínky pro všechny zaměstnance*kyně – obvykle se týká oblastí, jako je odměňování, postupy při propouštění, organizace práce a další.
->
-> **Chceme znát názory pracovníků*ic Microsoftu – budou základem pro kolektivní vyjednávání.**
-> 
-> Věnujte prosím několik minut vyplnění našeho dotazníku; zaměřuje se na:
-> -	Odměňování
-> -	Jistotu zaměstnání
-> -	Postupy při propouštění
-> -	Zlepšení celkových pracovních podmínek
-> 
-> [Dotazník vyplňte zde](https://cryptpad.fr/form/#/2/form/view/sgak3kU31zaar6MYqcBTF052Mwaw-VrREQA-WXneCOY/)
->
-> **Chcete se dozvědět více?** Zúčastněte se našich online informačních schůzek 28. května a 18. června, které se konají prostřednictvím Teams kanálu [Prague Workers Union.](http://aka.ms/prague-union)
 
 My, z Odborové organizace pracujících v Microsoftu, jsme kolektiv zastupující všechny pracovníky\*ce společnosti Microsoft v České republice. Naším cílem je prosazovat hodnoty a poslání společnosti Microsoft a zároveň se zasazovat o práva a postavení všech pracujících. Naše odborová organizace je součástí sektorových ICT odborů.
 
