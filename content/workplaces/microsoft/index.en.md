@@ -5,7 +5,9 @@ email: microsoft@ictunion.cz
 layout: single
 ---
 
-[I want to stay informed](https://listmonk.ictunion.cz/subscription/form)
+### [I want to stay informed](https://listmonk.ictunion.cz/subscription/form)
+
+### [Join the union](https://ictunion.cz/en/application/)
 
 We, Microsoft Workers Union, are a collective representing all workers of Microsoft in the Czech Republic. Our workers union operates within the ICT Union, aiming to uphold the values and mission of Microsoft while advocating for the rights and well-being of all employees. 
 

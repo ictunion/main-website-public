@@ -5,7 +5,9 @@ email: microsoft@ictunion.cz
 layout: single
 ---
 
-[Chci dostávat informace](https://listmonk.ictunion.cz/subscription/form)
+### [Chci dostávat informace](https://listmonk.ictunion.cz/subscription/form)
+
+### [Staň se členem*kou](https://ictunion.cz/cs/prihlaska/)
 
 My, z Odborové organizace pracujících v Microsoftu, jsme kolektiv zastupující všechny pracovníky\*ce společnosti Microsoft v České republice. Naším cílem je prosazovat hodnoty a poslání společnosti Microsoft a zároveň se zasazovat o práva a postavení všech pracujících. Naše odborová organizace je součástí sektorových ICT odborů.
 
