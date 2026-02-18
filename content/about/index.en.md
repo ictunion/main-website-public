@@ -46,3 +46,7 @@ considered a worker in the ICT sector. Nonetheless, let us list a few job titles
 are considered a part of the sector:
 
 {{< occupations >}}
+
+## Meet us!
+
+{{< people >}}

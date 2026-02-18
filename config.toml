@@ -41,6 +41,13 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
     statements = "Statements"
     career = "Career"
     forMembers = "For Members"
+  [params.about]
+    person_1_name = "Barbora Müllerová"
+    person_1_description = "Chairperson of ICT Union - contact [bara@ictunion.cz](mailto:bara@ictunion.cz)"
+    person_1_photo = "img/bara_photo.webp"
+    person_2_name = "Anna Kupcová"
+    person_2_description = "Union organizer - contact [anna@ictunion.cz](mailto:anna@ictunion.cz), phone [+420 739 547 927](tel:+420739547927)"
+    person_2_photo = "img/anna_photo.webp"
   [params.home]
     participateTitle = "How to participate?"
     membershipTitle = "We provide..."
@@ -83,6 +90,9 @@ copyright = 'This work is licensed under a Creative Commons Attribution 4.0 Inte
         statements = "Prohlášení"
         career = "Career"
         forMembers = "Pro členstvo"
+      [languages.cs.params.about]
+        person_1_description = "Předsedkyně ICT odborů - kontakt [bara@ictunion.cz](mailto:bara@ictunion.cz)"
+        person_2_description = "Odborová organizátorka - kontakt [anna@ictunion.cz](mailto:anna@ictunion.cz), tel. [+420 739 547 927](tel:+420739547927)"
       [languages.cs.params.home]
         participateTitle = "Jak se zapojit?"
         membershipTitle = "Členství ti přinese..."

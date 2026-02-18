@@ -51,3 +51,7 @@ kvalifikuje jako ICT pracovník\*ce. I tak se ale pokusíme vyjmenovat alespoň 
 za součást sektoru považujeme:
 
 {{< occupations >}}
+
+## Potkejte se s námi!
+
+{{< people >}}

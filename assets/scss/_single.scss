@@ -142,6 +142,47 @@
     font-size: 16px;
 }
 
+.about-page-profile {
+    @include style-md;
+    display: flex;
+    gap: 75px;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.about-page-profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.about-page-profile-photo {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 150px;
+    height: 225px;
+}
+
+.about-page-profile-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about-page-profile-title {
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.about-page-profile-description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
 .single-page-header-download {
     color: rgba($light-color, 0.7);
     font-size: 16px;

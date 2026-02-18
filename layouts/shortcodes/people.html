@@ -1,0 +1,24 @@
+<div class="about-page-profile-container">
+    <div class="about-page-profile">  
+        {{ $photo := resources.Get .Site.Params.About.person_1_photo | resources.Fingerprint "sha512" }}
+        <a target="_blank" href="{{ $photo.RelPermalink }}" class="about-page-profile-photo">
+            {{ $resized := $photo.Fit "150x225 Top" }}
+            <img src="{{ $resized.RelPermalink }}" alt="{{ .Site.Param "eventPosterAlt" }}">
+        </a>
+        <div class="about-page-profile-text-container">
+            <h2 class="about-page-profile-title">{{ .Site.Params.About.person_1_name | markdownify }}</h2>
+            <div class="about-page-profile-description">{{ .Site.Params.About.person_1_description | markdownify }}</div>
+        </div>
+    </div>
+    <div class="about-page-profile">  
+        {{ $photo := resources.Get .Site.Params.About.person_2_photo | resources.Fingerprint "sha512" }}
+        <a target="_blank" href="{{ $photo.RelPermalink }}" class="about-page-profile-photo">
+            {{ $resized := $photo.Fit "150x225 Top" }}
+            <img src="{{ $resized.RelPermalink }}" alt="{{ .Site.Param "eventPosterAlt" }}">
+        </a>
+        <div class="about-page-profile-text-container">
+            <h2 class="about-page-profile-title">{{ .Site.Params.About.person_2_name | markdownify }}</h2>
+            <div class="about-page-profile-description">{{ .Site.Params.About.person_2_description | markdownify }}</div>
+        </div>
+    </div>
+</div>
