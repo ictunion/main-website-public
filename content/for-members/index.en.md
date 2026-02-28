@@ -14,7 +14,7 @@ Some of our services need 2FA. To make it work you'll need to download “FreeOT
 
 **Important links:**
 
-- [Keycloak user management](https://keycloak.ictunion.cz/realms/members/account/) -- Update your Keycloak profile
+- [keycloak.ictunion.cz/realms/members/account/](https://keycloak.ictunion.cz/realms/members/account/) -- Update your Keycloak profile
 - [ictunion.cz](https://ictunion.cz) -- Our website, share it with friends.
 - [wiki.ictunion.cz](https://wiki.ictunion.cz) -- Wiki has information for members, guides, books and other interesting materials.
 - [bitwarden.ictunion.cz](https://bitwarden.ictunion.cz) -- Union instance of Bitwarden password manager. You can use it also for personal stuff.
