@@ -34,6 +34,6 @@
           '';
           OSFONTDIR = "${pkgs.ibm-plex}/share/fonts/opentype";
         };
-      defaultPackage = pkgs.callPackage ./. { inherit tex; };
+      packages.default = pkgs.callPackage ./. { inherit tex; };
   });
 }
