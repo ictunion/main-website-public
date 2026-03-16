@@ -181,7 +181,13 @@
 ["Petition Consent"]
   other = "Petition functionality creates cookie for actionnetwork.org"
 
+["Survey Consent"]
+  other = "Survey functionality creates cookie for actionnetwork.org"
+
 ["Petition Accept"]
+  other = "Allow"
+
+["Survey Accept"]
   other = "Allow"
 
 ["Select language"]

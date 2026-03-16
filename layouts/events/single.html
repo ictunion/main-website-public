@@ -34,6 +34,10 @@
           <a class="event-detail-header-register-cta {{ if $past }} disabled {{end}}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/petitions/{{ .Params.PetitionId }}" {{ end }}>
             {{ i18n "sign" }}
           </a>
+        {{ else if .Page.Param "surveyId" }}
+          <a class="event-detail-header-register-cta {{ if $past }} disabled {{end}}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/surveys/{{ .Params.SurveyId }}" {{ end }}>
+            {{ i18n "fill" }}
+          </a>
         {{ end }}
       </div>
 
@@ -61,6 +65,15 @@
               <button role="allow" class="events-cookie-consent-accept-btn">{{ i18n "Petition Accept"}}</button>
             </div>
           </x-petition>
+        </div>
+      {{ else if and (.Page.Param "surveyId") (not $past)  }}
+        <div class="event-detail-petition-container">
+          <x-survey surveyId="{{ .Params.SurveyId }}" class="event-detail-petition-embed">
+            <div class="events-cookie-consent">
+              <p class="events-cookie-consent-text">{{ i18n "Survey Consent" }}</p>
+              <button role="allow" class="events-cookie-consent-accept-btn">{{ i18n "Survey Accept"}}</button>
+            </div>
+          </x-survey>
         </div>
       {{ end }}
     </main>
@@ -149,6 +162,15 @@
           </a>
             <div class="event-detail-qr">
               <x-qr data="https://actionnetwork.org/petitions/{{ .Params.PetitionId }}"></x-qr>
+            </div>
+        </section>
+      {{ else if .Page.Param "surveyId" }}
+        <section class="event-detail-info-box">
+          <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/surveys/{{ .Params.PetitionId }}" {{ end }}>
+            {{ i18n "fill" }}
+          </a>
+            <div class="event-detail-qr">
+              <x-qr data="https://actionnetwork.org/surveys/{{ .Params.SurveyId }}"></x-qr>
             </div>
         </section>
       {{ end }}

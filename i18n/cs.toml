@@ -181,7 +181,13 @@
 ["Petition Consent"]
   other = "Funkcionalita petice vytváří cookie pro actionnetwork.org"
 
+["Survey Consent"]
+  other = "Funkcionalita dotazníku vytváří cookie pro actionnetwork.org"
+
 ["Petition Accept"]
+  other = "Souhlasím"
+
+["Survey Accept"]
   other = "Souhlasím"
 
 ["Select language"]
