@@ -1,5 +1,5 @@
 ---
-title: Five Minutes for Equal Pay.
+title: Five Minutes for Equal Pay
 subtitle: Survey
 publishDate: 2026-03-15
 startDate: 2026-03-15T00:00:00.000Z

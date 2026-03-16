@@ -1,5 +1,6 @@
 ---
-title: 5 minut za rovnou odměnu. O platech se mluví.
+title: 5 minut za rovnou odměnu. O mzdách se mluví
+slug: 5-minut-za-rovnou-odmenu
 subtitle: Dotazník
 publishDate: 2026-03-15
 startDate: 2026-03-15T00:00:00.000Z
