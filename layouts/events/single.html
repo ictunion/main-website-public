@@ -166,7 +166,7 @@
         </section>
       {{ else if .Page.Param "surveyId" }}
         <section class="event-detail-info-box">
-          <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/surveys/{{ .Params.PetitionId }}" {{ end }}>
+          <a class="event-detail-register-cta {{ if $past }} disabled {{ end }}" target="_blank" {{ if not $past }} href="https://actionnetwork.org/surveys/{{ .Params.SurveyId }}" {{ end }}>
             {{ i18n "fill" }}
           </a>
             <div class="event-detail-qr">
