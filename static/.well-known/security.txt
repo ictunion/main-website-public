@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Thank you for letting us know about vulnerability or misconfiguration. Together we are building a better world! Power to the people.
+
+# OpenPGP key
+Encryption: https://ictunion.cz/.well-known/pgp-publickey.txt
+
+Contact: security@ictunion.cz
+Expires: 2028-01-22T00:00:00.000Z
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEs9rvX/YBTFbnsNHS8M0QkjjzbdEFAmoR2/cACgkQ8M0Qkjjz
+bdGjZQ//Weo3bAOmdS0udwOHk7/PJwuuPov3ij3Kg2hsaiFZibr+maa5LnsY62NZ
+rSJeCfstsSTxeXJjj+I1Bj9a0dvdlkQ6Clz+g8O/nCG7SENWPuwiGR0mg7DW3Tx5
+0h9rNRixB/2VW5mjVFhjU+bvpqzipnKcuuDOlbH0HGStvLFzjW+9+V5aT3171aDA
+WiA2wMd1y9Ng7vzYgECF4MibYdE3b2EJ/bh/8WhURvkoncgchuydu7DdF1LT2eGC
+gJksQ8SklXb5m3inC1sYKwK8kUKBHzNRH27Gj6qXGTQkeyZ0GuLbIoMBXL6mh5kt
+pJLbweuQLDz2SNNE+QDtlidN68jGVJKTrxvSJQJeYbQ67VCBJTQbWA/MlMLoSg7e
+HNjwOf7I+HTxpZQueuAI5KhTcBzrM1wTnvgDkSlU55gSI5bSi9ISKmwVlUDwBNd8
+d2XHquW+78q63W1VzTKcWovlGEoDBGcsECguAcPmLMle/HugrgL8Dfvv82cW1+oH
+nR0jHZ98CFKc5LdokNDkjTvtJiNNkeAmYC7hN0MIDIMiX3cKfUnYOOYIC6LupSJW
+XcLOtYE/MCfltrvVS7/y6/sSf4KZY4ZxrJb90o3/Xnp7vAHtyqcLTcSOnFNSKjqt
+/pj2YEaKlWlLP1ZMBHYY00jeHLfC4MpAm+5PW28zhO9KAJxJjI4=
+=oF6q
+-----END PGP SIGNATURE-----
