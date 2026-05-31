@@ -1,5 +1,6 @@
 ---
 title: Today is May Day
+slug: today-is-may-day-2026
 date: 2026-05-01T00:00:00+01:00
 publishDate: 2026-05-01T00:00:00+01:00
 authorInfo: The authors are members of union

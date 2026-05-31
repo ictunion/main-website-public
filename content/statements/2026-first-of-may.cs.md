@@ -1,5 +1,6 @@
 ---
 title: Dnes je první máj
+slug: dnes-je-prvni-maj-2026
 date: 2026-05-01T00:00:00+01:00
 publishDate: 2026-05-01T00:00:00+01:00
 authorInfo: Autoři jsou členové odborové organizace

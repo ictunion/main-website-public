@@ -1,5 +1,6 @@
 ---
 title: Dnes je první máj
+slug: dnes-je-prvni-maj-2025
 date: 2025-05-01T00:00:00+01:00
 publishDate: 2025-05-01T00:00:00+01:00
 authorInfo: Autor je člen odborové organizace
