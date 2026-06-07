@@ -6,7 +6,7 @@ ENV HUGO_VERSION="0.129.0"
 ENV DART_SASS_VERSION="1.77.8"
 
 # Install Hugo
-RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz && \
+RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz -o /tmp/hugo.tar.gz && \
     tar xf /tmp/hugo.tar.gz -C /usr/local/bin/ && \
     rm -f /tmp/hugo.tar.gz
 
