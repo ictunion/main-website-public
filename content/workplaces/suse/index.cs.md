@@ -45,7 +45,7 @@ Ať už se chcete zapojit aktivně, nebo odbory pouze podpořit jako člen, vaš
 
 ## FAQ
 
-Q: Je tohle prvoaprílový vtip?  
+Q: Je tohle prvoaprílový vtip?
 A: **Ne, myslíme to vážně.**
 <details><summary>
 O co v těch odborech vlastně jde?</summary>
@@ -66,8 +66,8 @@ Nebojujeme. V zájmově orientovaném vyjednávání (tedy konstruktivním vyjed
 <details><summary>
 Jaká jsou vaše vyjednávací témata?</summary>
 Odbory jsou tím, čím je vytváříme my všichni zaměstnanci. Nové téma můžete navrhnout i jako nečlen, ale naše šance úspěšně o něm vyjednávat jsou vyšší, pokud je více lidí v odborech, takže zvažte vstup.
-    
-Naše témata (k dubnu 2026) jsou: 
+
+Naše témata (k dubnu 2026) jsou:
 
 - Transparentnost mezd
 - Kancelářské pracovní prostředí
@@ -86,7 +86,8 @@ SUSE Union je Workplace v rámci ICT Union. Tím, že vstoupíme do již existuj
 Pro pořádek: zakládající členové diskutovali i možnost vybudovat odbory úplně od začátku, ale po pečlivém zvážení výhod a nevýhod se rozhodli připojit k ICT Union.</details>
 <details><summary>
 Je členství v odborech placené?</summary>
-Ano. Stejně jako všichni ostatní musí i ICT Union platit své účty. Protože nedostává peníze od sponzora (aby si zachovala nezávislost), pocházejí finance od členů odborů. Standardní členský příspěvek je 1 % čisté mzdy, maximálně však 300 Kč měsíčně. Studenti, důchodci, nezaměstnaní a zaměstnanci na rodičovské dovolené platí pouze 25 Kč měsíčně.</details>
+Ano. Stejně jako všichni ostatní musí i ICT Union platit své účty. Protože nedostává peníze od sponzora (aby si zachovala nezávislost), pocházejí finance od členů odborů. Členské příspěvky jsou více popsány v [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
+</details>
 <details><summary>
 Kde najdu více informací o ICT Union?</summary>
 Přečtěte si <a href=https://ictunion.cz/cs/caste-dotazy>FAQ ICT Union</a></details>
@@ -96,5 +97,5 @@ Přečtěte si <a href=https://ictunion.cz/cs/caste-dotazy>FAQ ICT Union</a></de
 Můžete nás kontaktovat na [suse@ictunion.cz](mailto:suse@ictunion.cz).
 
 
-_Nebudujeme byrokracii. Budujeme důvěryhodný prostor, kde mohou pracovníci mluvit, organizovat se a jednat společně odpovědně._  
+_Nebudujeme byrokracii. Budujeme důvěryhodný prostor, kde mohou pracovníci mluvit, organizovat se a jednat společně odpovědně._
 _Silná firma potřebuje silný hlas lidí, kteří ji svou prací tvoří._

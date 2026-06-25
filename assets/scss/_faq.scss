@@ -73,6 +73,9 @@
     @include has-links;
     line-height: 1.6em;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 
     a {
         font-weight: 600;
@@ -80,8 +83,8 @@
 
     p {
         @include pharagraph;
-        margin: 12px 0;
         text-align: justify;
+        margin: 0;
 
         @include mobile {
             text-align: left;
@@ -119,4 +122,23 @@
     .first & a {
         color: $secondary-color;
     }
+
+    table {
+        border: 3px solid rgba(#ffc832, 0.7);
+        font-size: 0.9em;
+
+        td {
+            padding: 6px 24px;
+            border: 3px solid rgba(#ffc832, 0.7);
+            vertical-align: middle;
+            justify-self: center;
+        }
+
+        th {
+            padding: 6px 24px;
+            vertical-align: middle;
+            border: 3px solid rgba(#ffc832, 0.7);
+        }
+    }
+
 }

@@ -202,15 +202,21 @@ subDescription: |
 
 #### XV. ČLENSKÉ PŘÍSPĚVKY
 
-1. Každý/á člen/ka má povinnost platit členský příspěvek ve výši 1 % z jeho/jího čistého měsíčního výdělku, nebo z jiného příjmu, maximálně však ve výši nastavené Členskou schůzí Organizace.
-2. Osoba samostatně výdělečně činná má povinnost pravidelně, měsíčně, řádně a včas platit členský příspěvek, který činí 1 % ze jejího základu daně z příjmů, nejméně však 200 Kč a nejvýše ve výši nastavené Členskou schůzí Organizace.
-3. Organizace umožňuje členům/kám platit solidární členský příspěvek, který může činit až dvojnásobek maximální výše členského příspěvku nastaveného Členskou schůzí Organizace. Tento příspěvek neumožňuje členům/kám čerpat jakékoliv výhody oproti členstvu platícímu základní členský příspěvek.
-4. Organizace umožňuje členům/kám platit sníženou sazbu členského příspěvku v hodnotě 25 Kč. Snížená sazba členských příspěvků se uplatní pouze v době, kdy člen/ka přerušil/a výkon výdělečné činnosti z vážného důvodu, jako například
-    1. studium,
-    2. péče o osobu blízkou,
-    3. čerpání mateřské nebo rodičovské dovolené,
-    4. delší dobu trvající dočasná pracovní neschopnost, nebo
-    5. insolvence (osobní bankrot).
+1. Každý/á člen/ka má povinnost platit členský příspěvek a to ve výši maximálně 200 % základu členského příspěvku a minimálně
+    1. 100 % základu členského příspěvku pokud jejich měsíční příjem je vyšší nebo rovný referenční průměrnému příjmu,
+    2. 70 % základu členského příspěvku pokud jejich měsíční příjem je nižší než referenční průměrný příjem a vyšší nebo rovný polovině referenčního průměrného příjmu,
+    3. 10 % základu členského příspěvku pokud jejich měsíční příjem je nižší než polovina referenčního průměrného příjmu nebo pokud člen/ka přerušil/a výkon výdělečné činnosti z vážného důvodu, jako například
+        1. studium,
+        2. péče o osobu blízkou,
+        3. čerpání mateřské nebo rodičovské dovolené,
+        4. delší dobu trvající dočasná pracovní neschopnost, nebo
+        5. insolvence (osobní bankrot).
+2. Pro účely výpočtu členského příspěvku se za
+    1. měsíční příjem považuje součet všech nezdaněných mezd, platů, odměn nebo příjmů v případě OSVČ, daného člena/ky za daný měsíc;
+    2. referenční průměrný příjem považuje průměrná hrubá měsíční mzda na přepočtené počty zaměstnanců za 2. kvartál předchozího roku zveřejňována Českým statistickým úřadem;
+    3. základ členského příspěvku považuje 0.7 % referenčního průměrného příjmu zaokrouhleno na násobek 10.
+
+
 
 
 #### XVI. USNESENÍ A ZMĚNY STANOV

@@ -33,9 +33,9 @@ We are the Red Hat Czech Workers Union, and we are stronger together.
 
 Apply for the [ICT Union membership]({{< relref path="register" >}}) If you are a member of the ICT Union and work for Red Hat Czech, you become a member of the Red Hat Czech Workers Union.
 
-#### What are the fees?
+#### What are the membership fees?
 
-A monthly fee is 1% of your monthly salary but 300 CZK at most.
+See the [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
 
 #### Why am I paying fees to the ICT Union and not to the Red Hat Czech Workers Union?
 
@@ -47,8 +47,7 @@ Fee breakdown:
 * 40% to the budget of the ICT Union
 * 40% can be used directly by Red Hat Czech Workers Union.
 
-
-The ICT Union uses the money for organizing various workshops, trainings, and meetings, that are also accessible for the members of the Red Hat Czech Workers Union. The money is also used for organizing other workplaces and companies because a strong union presence in the whole sector is important for the individual struggles in different companies. The money is managed transparently. See the [ICT Union FAQ]({{< relref path="faq#09-union-dues" >}}).
+The ICT Union uses the money for organizing various workshops, trainings, and meetings, that are also accessible for the members of the Red Hat Czech Workers Union. The money is also used for organizing other workplaces and companies because a strong union presence in the whole sector is important for the individual struggles in different companies. The money is managed transparently. See the [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
 
 OSPPP provides us with legal and other support. See [OSPPP website (only in Czech)](https://www.osppp.cz/poradenstvi).
 
@@ -65,5 +64,5 @@ To cancel your membership, contact us at <redhat@ictunion.cz> or stop paying you
 
 #### Who are the union representatives committee, and what do they do?
 
-The workplace executive committee, often referred to as representatives, are three elected members who voluntarily disclose their identity to the company. They are the main link between the union and the company. Their responsibilities include communications between the company and the union, internal union communications, organizing and moderating members' meetings and public discussions, onboarding new members, and more. They also form the core of the negotiation team. 
+The workplace executive committee, often referred to as representatives, are three elected members who voluntarily disclose their identity to the company. They are the main link between the union and the company. Their responsibilities include communications between the company and the union, internal union communications, organizing and moderating members' meetings and public discussions, onboarding new members, and more. They also form the core of the negotiation team.
 

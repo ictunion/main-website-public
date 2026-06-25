@@ -15,9 +15,8 @@ You can fill out the membership application here.
 Once your application is accepted, we will let you know.
 From that moment on, you will start receiving information about union meetings and activities.
 We will also send you information about membership fees.
-The standard membership fee is 1 % of your net income, but no more than 300 CZK per month.
 
-Students, retirees, unemployed, and those on parental leave have their fee reduced to 25 CZK per month.
+Membership fees are explained in [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
 
 The union membership is confidential and protected by [Labor code](https://www.zakonyprolidi.cz/cs/2006-262#f3055507)
 

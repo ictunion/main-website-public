@@ -27,16 +27,16 @@ We are committed to fostering a constructive relationship that boosts employee p
 - **Representation in Disputes or Layoffs**: Union members are supported and represented in cases of disputes or layoffs, ensuring fair treatment.
 - **Protection of Benefits and Conditions**: Union membership serves as a safety net, ensuring that members retain their benefits and enjoy good working conditions.
 - **Knowledge of Your Rightss**: Members are educated about the Czech Labour Code and workplace rights, ensuring they are informed and protected.
-- **Ongoing Labour Education**: Access to continuous education on various labour-related topics enhances members' understanding and workplace skills. 
+- **Ongoing Labour Education**: Access to continuous education on various labour-related topics enhances members' understanding and workplace skills.
 - **Collective Bargaining**: Through Collective Bargaining Agreements (CBAs), the union negotiates key aspects of working conditions, including pay, benefits, hours, and processes. Members actively contribute to shaping CBAs, directly influencing their working conditions.
-- **Networking and Professional Growth**: Union membership offers opportunities to connect with other professionals, share experiences, and foster industry collaboration, promoting continuous development. 
+- **Networking and Professional Growth**: Union membership offers opportunities to connect with other professionals, share experiences, and foster industry collaboration, promoting continuous development.
 
 ### Becoming a Member
 Joining is simple and allows you to be part of our collective effort. To get started, apply for ICT Union [membership]({{< relref "register" >}}). Once you become a member of the ICT Union and work for DHL ITS Prague, you automatically become a member of the DHL ITS Prague Workers Union.
 
 ### Membership Fees
 
-The membership fee is 1% of your monthly salary, capped at 300 CZK. 
+Membership fees are explained in [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
 
 The DHL ITS Prague Workers Union independently manages its membership fees. These funds are used to promote the union, organize members' meetings, and cover other costs related to the union's independent operations.
 
@@ -56,7 +56,7 @@ To ensure every member has a voice, we hold regular meetings where members can s
 
 Every worker’s input is essential to us. By joining the DHL ITS Prague Workers Union, you help amplify the collective voice in discussions and negotiations regarding working conditions at DHL ITS.
 
-### Contact us 
+### Contact us
 We value transparency and accessibility. Our representatives are always available at [dhlitsprg@ictunion.cz](mailto:dhlitsprg@ictunion.cz). We welcome your feedback, questions, and suggestions as we work together to create a supportive and empowering workplace for all. Let’s foster a culture of fairness, transparency, and accountability that reflects DHL’s core values.
 
 We are the DHL ITS Prague Workers Union. Our goal is to unite and strengthen our collective by embracing the diverse strengths of all members, combining individual contributions into a unified, powerful force for positive change.

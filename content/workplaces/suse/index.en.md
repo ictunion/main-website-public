@@ -45,14 +45,14 @@ Whether you want to be actively involved or simply support the union as a member
 
 ## FAQ
 
-Q: Is this an April fools joke?  
+Q: Is this an April fools joke?
 A: No, **we are serious**.
 
 <details><summary>
-What is all this union thing about?</summary>  
+What is all this union thing about?</summary>
 We the employees make SUSE what it is. The union allows us to negotiate as a group. Besides, employers are legally bound to share some information with unions, such as economic development, organizational changes or changes to working conditions. Last but not least, the union provides a platform for connecting people from various teams to share information, especially where it is specific to Czechia.</details>
 <details><summary>
-Why unionize now? Is the company doing badly?</summary>  
+Why unionize now? Is the company doing badly?</summary>
 We believe SUSE is a great place to work. And we want to keep it that way. However, there are some real risks, e.g. the company is for sale, and nobody knows what the new owner may do. Better said, nobody knows our new owner, apparently not even our current owner. We want to prepare now, because when things are already going wrong, it’s usually too late to start unionizing. That was the case when changes to the Prague office were pushed forward without properly addressing feedback from local employees.</details>
 <details><summary>
 Can I get fired for joining the union?  </summary>
@@ -84,7 +84,7 @@ Why do you call it SUSE Union, but then you send me a link to join ICT Union?  <
 SUSE Union is a Workplace within ICT Union. By joining an existing union, we can save some paperwork and bureaucracy that we would otherwise have to do on our own. We can also take advantage of shared infrastructure. ICT Union is specifically designed for multiple employers, and each Workplace is autonomous in all actions regarding their respective employer. For the record, the founding members did discuss the option to build a union from scratch, but after carefully considering the pros and cons, they decided to join ICT Union instead.<details><summary>
 </details>
 Is union membership paid?  </summary>
-Yes. Like everyone else, ICT Union must pay bills. Since it does not get money from a sponsor (to remain independent), the money comes from union members. The standard union due is 1 % of the net salary, capped at 300 CZK/month. Students, retirees, unemployed and employees on parental leave pay only 25 CZK/month.</details>
+Yes. Like everyone else, ICT Union must pay bills. Since it does not get money from a sponsor (to remain independent), the money comes from union members. Membership fees are explained in [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).</details>
 <details><summary>
 Where can I find more information about ICT Union?  </summary>
 Read the <a href=https://ictunion.cz/en/faq>ICT Union FAQ</a>
@@ -94,5 +94,5 @@ Read the <a href=https://ictunion.cz/en/faq>ICT Union FAQ</a>
 
 You can contact as at suse@ictunion.cz.
 
-_We are not building bureaucracy. We are building a trusted space where workers can speak, organize, and act together responsibly.  
+_We are not building bureaucracy. We are building a trusted space where workers can speak, organize, and act together responsibly.
 A strong company needs a strong voice from the people who make it work._

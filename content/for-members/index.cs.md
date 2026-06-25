@@ -4,6 +4,11 @@ url: pro-clenstvo
 type: basic
 ---
 
+## Členské příspěvky
+
+Členské příspěvky jsou více popsány v [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
+
+
 ## Keycloak
 
 Většina služeb odborů je chráněna systémem [Keycloak](https://keycloak.ictunion.cz/realms/members/account/). Každý\*á člen\*ka odborů má automaticky vytvořený účet Keycloak.

@@ -5,15 +5,15 @@ email: infosys@ictunion.cz
 layout: single
 ---
 ## Your voice. Your rights. Your workplace.
-At Infosys, we believe that a strong workplace is built on respect, transparency, and the active involvement of those who make the company run every day—its employees. There is a purpose in representing employees’ interests and ensuring they have a strong, constructive voice in shaping their working conditions. 
+At Infosys, we believe that a strong workplace is built on respect, transparency, and the active involvement of those who make the company run every day—its employees. There is a purpose in representing employees’ interests and ensuring they have a strong, constructive voice in shaping their working conditions.
 
-That’s why we’ve come together to establish the Infosys Workers Union, a platform for open dialogue, shared responsibility, and real impact. Our mission is to advocate for fair compensation, equal opportunities, and a safe, respectful work environment for all employees. 
+That’s why we’ve come together to establish the Infosys Workers Union, a platform for open dialogue, shared responsibility, and real impact. Our mission is to advocate for fair compensation, equal opportunities, and a safe, respectful work environment for all employees.
 
 We wish to see a strong and supportive company culture where people feel valued, heard, and empowered to grow. A company where the employees feel fulfilled and want to build a future. Whether you’re concerned about job security, unclear procedures, or simply want a say in decisions that affect your daily work life, you’re not alone. Our union gives you a seat at the table, backed by the legal and organizational strength of the ICT Union.
 
 ## What We Stand For
 
-#### Fair Conditions for All 
+#### Fair Conditions for All
 
 * Promoting collective bargaining to ensure fair wages, stable benefits, and regular salary reviews that reflect company performance and employee contributions.
 * Supporting transparent criteria for promotions and performance evaluation.
@@ -25,9 +25,9 @@ We wish to see a strong and supportive company culture where people feel valued,
 * Encouraging a healthy work-life balance with realistic workload expectations.
 * Supporting a respectful and supportive atmosphere that promotes mental well-being.
 
-#### Equal Opportunities 
+#### Equal Opportunities
 
-* Encouraging professional growth and leadership opportunities for all employees. 
+* Encouraging professional growth and leadership opportunities for all employees.
 * Promoting fair treatment and career development based on merit and performance.
 * Supporting women to advance in their careers, including mentoring, development programs, and leadership opportunities.
 
@@ -39,26 +39,26 @@ We wish to see a strong and supportive company culture where people feel valued,
 
 #### Engagement and Communication
 
-* Facilitating open communication through regular meetings, surveys, and feedback. 
-* Supporting meaningful employee participation in shaping company culture. 
-* Positioning the union as a constructive partner in dialogue and cooperation. 
+* Facilitating open communication through regular meetings, surveys, and feedback.
+* Supporting meaningful employee participation in shaping company culture.
+* Positioning the union as a constructive partner in dialogue and cooperation.
 
 #### Representation and Collaboration
 
 * Acting as a voice for employees in discussions about workplace policies and changes.
-* Engaging in shared decision-making on topics like benefits, structure, and rules. 
-* Working jointly with management to promote fair, transparent practices and ensure company success. 
+* Engaging in shared decision-making on topics like benefits, structure, and rules.
+* Working jointly with management to promote fair, transparent practices and ensure company success.
 
 ## Join Us
 
 You can apply online through the [ICT Union application form]({{< relref path="register" >}})
 
 #### Membership Fees
-The membership fee is **1% of your monthly gross salary**, capped at **300 CZK.**
+The membership fee is explained in the [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
 
 The Infosys Workers Union independently manages its own membership fees. These contributions are key to staying self-sufficient and are used to support union operations, organize internal meetings and events, and help grow the local union presence at Infosys.
 
-Funds are managed transparently to ensure trust and accountability. Learn more in the [ICT Union FAQ]({{< relref path="faq#09-union-dues" >}}).
+Funds are managed transparently to ensure trust and accountability. Learn more in the [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
 
 We also receive legal and professional support from **OSPPP** (Trade Federation of Workers in Banking and Insurance), which provides experienced backing in negotiations, labor law, and dispute resolution. More about OSPPP can be found [here (in Czech)](https://www.osppp.cz/poradenstvi).
 

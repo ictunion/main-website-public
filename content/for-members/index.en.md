@@ -4,6 +4,10 @@ url: for-members
 type: basic
 ---
 
+## Membership Fees
+
+Membership fees are explained in [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
+
 ## Keycloak
 
 Most of the union services are protected by [Keycloak](https://keycloak.ictunion.cz/realms/members/account/). Every union member has Keycloak account created automatically.

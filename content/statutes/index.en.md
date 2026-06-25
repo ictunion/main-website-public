@@ -204,15 +204,19 @@ The Treasurer is not a member of the Board.
 
 #### XV. MEMBERSHIP FEES
 
-1. Every member must pay a membership fee of 1% of their net monthly earnings or other income, but not more than the amount set by the Organization Members’ Meeting.
-2. A self-employed person must pay a membership fee regularly, monthly, properly and on time, which is 1% of his income tax base, but at least CZK 200 and at most in the amount set by the Organization Members’ Meeting.
-3. The Organization allows members to pay a solidarity membership fee, up to twice the maximum amount of the regular membership fee set by the Organization Members’ Meeting. This contribution does not allow members to draw any benefits compared to members paying a regular membership fee.
-4. The Organization allows members to pay reduced membership fee which is 25 CZK. The reduced fee can only be paid in case the member has ceased gainful employment for a serious reason, such as
-    1. studying,
-    2. care for a close person,
-    3. taking maternity or parental leave,
-    4. long-term temporary incapacity for work,
-    5. insolvency (personal bankruptcy).
+1. Every member must pay a membership fee, the fee must be maximum 200% of the membership fee base and minimum
+    1. 100% membership fee base if their monthly income is higher or equal to the reference monthly income,
+    2. 70% membership fee base if their monthly income is lower than the reference monthly income and over or equal to the half of the reference monthly income,
+    3. 10% membership fee base if their monthly income is lower than half of the reference monthly income, or in case the member has ceased gainful employment for a serious reason, such as
+        1. studying,
+        2. care for a close person,
+        3. taking maternity or parental leave,
+        4. long-term temporary incapacity for work,
+        5. insolvency (personal bankruptcy).
+2. For the calculation of the membership fee
+    1. the monthly income is the sum of all untaxed wages, pays, remuneration nebo incomes in case of independent contractors, of the member in month;
+    2. the reference monthly income is the average gross monthly wage per full-time equivalent employee for the Q2 of the previous year, published by the Czech Statistical Office;
+    3. the membership fee base is 0.7% of the reference monthly income rounded to nearest 10.
 
 #### XVI. RESOLUTIONS AND AMENDING THE STATUTES
 1. Any member of the Organization can submit a resolution or amendment.

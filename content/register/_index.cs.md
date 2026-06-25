@@ -14,9 +14,8 @@ submitMessage: |
 Přihlášku ke členství můžeš vyplnit zde. Jakmile bude tvá přihláška přijata, dáme ti vědět.
 Od té chvíle začneš dostávat informace o odborových setkáních a aktivitách.
 Také ti pošleme informace o **členských příspěvcích.**
-Běžný členský příspěvek je 1 % z čistého příjmu, maximálně však 300 korun měsíčně.
 
-Studenti\*ky, důchodci\*kyně, nezaměstnaní\*é a osoby na rodičovské dovolené mají příspěvek snížený na 25 korun měsíčně.
+Členské příspěvky jsou více popsány v [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
 
 Členství v odborech je důvěrné a tento údaj je chráněn [Zákoníkem práce](https://www.zakonyprolidi.cz/cs/2006-262#f3055507)
 
