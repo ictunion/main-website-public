@@ -7,7 +7,9 @@ authorInfo: The author is employed by union
 type: statements
 draft: false
 ---
-For decades, the 40-hour workweek has been the standard in many countries. But growing evidence shows that working long hours harms our health, reduces productivity, and damages the planet. Working less offers a solution that benefits workers, employers, and society as a whole. So why do we offer 30 vacation days and unlimited sick days to ICT Union employees?
+For decades, the 40-hour workweek has been the standard in many countries. But growing evidence shows that working long hours harms our health, reduces productivity, and damages the planet. Working less offers a solution that benefits workers, employers, and society as a whole. 
+
+**So why do we offer 30 vacation days and unlimited sick days to ICT Union employees?**
 
 ### Increasing workers' well-being and productivity
 
@@ -28,8 +30,6 @@ But what about our consumption outside of work? Other studies suggest that becau
 Paid work is not the only labour workers perform. After returning from work, many face a so-called "second shift" of unpaid reproductive labour - caring for children, relatives, or managing the household. Reducing paid working hours gives people more time and energy for this invisible but essential work, and creates the conditions for it to be shared more equally among all household members.
 
 ### We need to work less to live better
-
-Paid work is not the only labour workers perform. After returning from work, many face a so-called "second shift" of unpaid reproductive labour - caring for children, relatives, or managing the household. Reducing paid working hours gives people more time and energy for this invisible but essential work, and creates the conditions for it to be shared more equally among all household members.
 
 Whether through shorter workweeks or additional vacation days, the direction is clear: we need to work less to live better. More time off doesn't just mean rest - it means healthier workers, stronger companies, and a more sustainable society. Extra vacation time is an investment in our collective well-being and fruitful relationships with our loved ones. 
 
