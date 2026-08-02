@@ -232,4 +232,4 @@ subDescription: |
 
 #### XVII. ZÁVĚREČNÉ USTANOVENÍ
 
-Stanovy v tomto znění byly schváleny Členskou schůzí Organizace dne 22. 11. 2025 s účinností od jejich schválení. Toto nové znění stanov bude doručeno rejstříkovému soudu.
+Stanovy v tomto znění byly schváleny Členskou schůzí Organizace dne 13. 6. 2026 s účinností od jejich schválení. Toto nové znění stanov bude doručeno rejstříkovému soudu.

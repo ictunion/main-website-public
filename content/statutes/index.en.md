@@ -230,4 +230,4 @@ The Treasurer is not a member of the Board.
 
 #### XVII. FINAL PROVISION
 
-These Statutes were approved by the Organization Members’ Meeting on November 22nd, 2025, with effect from their approval.
+These Statutes were approved by the Organization Members’ Meeting on June 13th, 2026, with effect from their approval.
