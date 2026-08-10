@@ -1,8 +1,8 @@
 ---
 title: Grill with the ICT Union and Young Unionist! 
-publishDate: 2025-08-27
-startDate: 2025-08-27T18:00:00.000Z
-date: 2025-08-27T22:00:00.000Z
+publishDate: 2026-08-08
+startDate: 2026-08-27T18:00:00.000Z
+date: 2026-08-27T22:00:00.000Z
 duration: up to you
 place: Přístav 18600
 placeAddress: Rohanský ostrov 8, 186 00 Praha 8-Rohanský ostrov
