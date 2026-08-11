@@ -1,7 +1,6 @@
 ---
-
 title: Grill with the ICT Union and Young Unionists! 
-publishDate: 2026-9-27
+publishDate: 2026-08-08
 startDate: 2026-08-27T18:00:00.000Z
 date: 2026-08-27T22:00:00.000Z
 duration: up to you
