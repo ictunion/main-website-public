@@ -1,5 +1,6 @@
 ---
-title: Microsoft labor union successfully negotiated a collective bargaining agreement!
+title: Microsoft workers union successfully negotiated a collective bargaining agreement!
+slug: microsoft-workers-union-successfully-negotiated-a-collective-bargaining-agreement
 date: 2026-08-19T00:00:00+01:00
 publishDate: 2026-08-19T00:00:00+01:00
 authorInfo: The authors are union representatives at Microsoft
