@@ -1,5 +1,6 @@
 ---
 title: Odborová organizace Microsoft úspěšně uzavřela kolektivní smlouvu!
+slug: odborova-organize-microsoft-uspesne-uzavrela-kolektivni-smlouvu
 date: 2026-08-19T00:00:00+01:00
 publishDate: 2026-08-19T00:00:00+01:00
 authorInfo: Autoři jsou odboroví zástupci v Microsoftu

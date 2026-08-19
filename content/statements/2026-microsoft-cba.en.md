@@ -2,7 +2,7 @@
 title: Microsoft labor union successfully negotiated a collective bargaining agreement!
 date: 2026-08-19T00:00:00+01:00
 publishDate: 2026-08-19T00:00:00+01:00
-authorInfo: Authors are union representatives in the Microsoft
+authorInfo: The authors are union representatives at Microsoft
 type: statements
 draft: false
 ---
