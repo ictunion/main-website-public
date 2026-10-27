@@ -1,5 +1,6 @@
 ---
 title: Pracující z Mews ohlásili odborovou organizaci 
+slug: pracujici-z-mews-ohlasili-odborovou-organizaci
 date: 2026-10-26T00:00:00+01:00
 publishDate: 2026-10-26T00:00:00+01:00
 authorInfo: Autoři jsou členové předsednictva odborové organizace
