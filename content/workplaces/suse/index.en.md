@@ -48,23 +48,27 @@ Whether you want to be actively involved or simply support the union as a member
 Q: Is this an April fools joke?
 A: No, **we are serious**.
 
-<details><summary>
-What is all this union thing about?</summary>
-We the employees make SUSE what it is. The union allows us to negotiate as a group. Besides, employers are legally bound to share some information with unions, such as economic development, organizational changes or changes to working conditions. Last but not least, the union provides a platform for connecting people from various teams to share information, especially where it is specific to Czechia.</details>
-<details><summary>
-Why unionize now? Is the company doing badly?</summary>
-We believe SUSE is a great place to work. And we want to keep it that way. However, there are some real risks, e.g. the company is for sale, and nobody knows what the new owner may do. Better said, nobody knows our new owner, apparently not even our current owner. We want to prepare now, because when things are already going wrong, it’s usually too late to start unionizing. That was the case when changes to the Prague office were pushed forward without properly addressing feedback from local employees.</details>
-<details><summary>
-Can I get fired for joining the union?  </summary>
-No, SUSE does not have the right to fire you for being a union member. The company does not even know who is a union member. In fact, the Czech Labor Code (§ 316, paragraph 4 (e)) forbids the employer any attempts to find out, directly or through a third party.</details>
-<details><summary>
-I can’t dedicate any time to SUSE Union, can I join anyway?  </summary>
-Absolutely! Of course, the union needs some active members, but we also need passive members, because the sheer number of unionized employees improves our collective negotiation power.</details>
-<details><summary>
-Who do you fight?  </summary>
-We do not fight. There is no need to fight in an interest-based negotiation (aka constructive negotiation). We believe that there is usually a win-win solution, and even in case we can’t find it, there definitely is an acceptable compromise. Unless the company decides to fight with us (that is, with me and you), our plan is to be collaborative.</details>
-<details><summary>
-What are your negotiation topics?  </summary>
+{{< faq "What is all this union thing about?" >}}
+We the employees make SUSE what it is. The union allows us to negotiate as a group. Besides, employers are legally bound to share some information with unions, such as economic development, organizational changes or changes to working conditions. Last but not least, the union provides a platform for connecting people from various teams to share information, especially where it is specific to Czechia.
+{{< /faq >}}
+
+{{< faq "Why unionize now? Is the company doing badly?" >}}
+We believe SUSE is a great place to work. And we want to keep it that way. However, there are some real risks, e.g. the company is for sale, and nobody knows what the new owner may do. Better said, nobody knows our new owner, apparently not even our current owner. We want to prepare now, because when things are already going wrong, it’s usually too late to start unionizing. That was the case when changes to the Prague office were pushed forward without properly addressing feedback from local employees.
+{{< /faq >}}
+
+{{< faq "Can I get fired for joining the union?" >}}
+No, SUSE does not have the right to fire you for being a union member. The company does not even know who is a union member. In fact, the Czech Labor Code (§ 316, paragraph 4 (e)) forbids the employer any attempts to find out, directly or through a third party.
+{{< /faq >}}
+
+{{< faq "I can’t dedicate any time to SUSE Union, can I join anyway?" >}}
+Absolutely! Of course, the union needs some active members, but we also need passive members, because the sheer number of unionized employees improves our collective negotiation power.
+{{< /faq >}}
+
+{{< faq "Who do you fight?" >}}
+We do not fight. There is no need to fight in an interest-based negotiation (aka constructive negotiation). We believe that there is usually a win-win solution, and even in case we can’t find it, there definitely is an acceptable compromise. Unless the company decides to fight with us (that is, with me and you), our plan is to be collaborative.
+{{< /faq >}}
+
+{{< faq "What are your negotiation topics?" >}}
 The union is what we, all employees, make it. You can suggest a new topic even as a non-member, but our chances to negotiate it successfully are higher if more people are unionized, so consider joining.
 
 Our topics (as of April 2026) are:
@@ -72,23 +76,28 @@ Our topics (as of April 2026) are:
 - Pay transparency
 - Office workspace
 - Benefits, vacation days, sick days
-- Use of AI at work</details>
-<details><summary>
-Do you care only about union members?  </summary>
-We strive to make SUSE a better place for every employee. We will not promote the interests of the majority at the expense of any minority. It may nevertheless happen if we don’t know about your needs, so please, do talk to us!</details>
-<details><summary>
-Do you duplicate the work of the site manager? Does the site manager work badly?  </summary>
-There may indeed be some overlap between our work and that of the site manager, but we do not compete; we complement each other. We highly appreciate what Alena has been doing for decades, but her scope is limited. The union may increase our combined influence on the company.</details>
-<details><summary>
-Why do you call it SUSE Union, but then you send me a link to join ICT Union?  </summary>
-SUSE Union is a Workplace within ICT Union. By joining an existing union, we can save some paperwork and bureaucracy that we would otherwise have to do on our own. We can also take advantage of shared infrastructure. ICT Union is specifically designed for multiple employers, and each Workplace is autonomous in all actions regarding their respective employer. For the record, the founding members did discuss the option to build a union from scratch, but after carefully considering the pros and cons, they decided to join ICT Union instead.<details><summary>
-</details>
-Is union membership paid?  </summary>
-Yes. Like everyone else, ICT Union must pay bills. Since it does not get money from a sponsor (to remain independent), the money comes from union members. Membership fees are explained in [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).</details>
-<details><summary>
-Where can I find more information about ICT Union?  </summary>
+- Use of AI at work
+{{< /faq >}}
+
+{{< faq "Do you care only about union members?" >}}
+We strive to make SUSE a better place for every employee. We will not promote the interests of the majority at the expense of any minority. It may nevertheless happen if we don’t know about your needs, so please, do talk to us!
+{{< /faq >}}
+
+{{< faq "Do you duplicate the work of the site manager? Does the site manager work badly?" >}}
+There may indeed be some overlap between our work and that of the site manager, but we do not compete; we complement each other. We highly appreciate what Alena has been doing for decades, but her scope is limited. The union may increase our combined influence on the company.
+{{< /faq >}}
+
+{{< faq "Why do you call it SUSE Union, but then you send me a link to join ICT Union?" >}}
+SUSE Union is a Workplace within ICT Union. By joining an existing union, we can save some paperwork and bureaucracy that we would otherwise have to do on our own. We can also take advantage of shared infrastructure. ICT Union is specifically designed for multiple employers, and each Workplace is autonomous in all actions regarding their respective employer. For the record, the founding members did discuss the option to build a union from scratch, but after carefully considering the pros and cons, they decided to join ICT Union instead.
+{{< /faq >}}
+
+{{< faq "Is union membership paid?" >}}
+Yes. Like everyone else, ICT Union must pay bills. Since it does not get money from a sponsor (to remain independent), the money comes from union members. Membership fees are explained in [ICT Union FAQ]({{< relref path="faq#09-union-fees" >}}).
+{{< /faq >}}
+
+{{< faq "Where can I find more information about ICT Union?" >}}
 Read the <a href=https://ictunion.cz/en/faq>ICT Union FAQ</a>
-</details>
+{{< /faq >}}
 
 ## Contact
 
