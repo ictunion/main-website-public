@@ -42,7 +42,7 @@ Do odborů může vstoupit každý zaměstnanec společnosti Mews Systems s.r.o.
 
 ## Ozvěte se nám!
 
-Napište nám na [mews@ictunion.cz](mailto:mews@ictunion.cz), ozvěte se nám na Slacku nebo kontaktujte některého člena Předsednictva pracoviště: Sylvia Tang, Jan Vlnas nebo Marina Khromova.
+Napište nám na [mews@ictunion.cz](mailto:mews@ictunion.cz), ozvěte se nám na Slacku nebo kontaktujte některého člena Předsednictva pracoviště.
 
 ## Často kladené otázky pro Mewsery
 

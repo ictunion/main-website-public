@@ -42,7 +42,7 @@ Any individual contributor employed by Mews Systems s.r.o. can join, whatever yo
 
 ## Talk to us!
 
-Write to us at [mews@ictunion.cz](mailto:mews@ictunion.cz), on Slack, or reach out to a member of the Executive Committee: Sylvia Tang, Jan Vlnas or Marina Khromova.
+Write to us at [mews@ictunion.cz](mailto:mews@ictunion.cz), on Slack, or reach out to a member of the Executive Committee.
 
 ## FAQ for Mewsers
 
